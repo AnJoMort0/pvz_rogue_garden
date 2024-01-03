@@ -6,16 +6,16 @@ double faster = 5;
 
     //template_category
         //zombie_template
-            string description = "blablabla";
-            double hp = 10;
-            double armor = 0;
-            int cr = 1;
-            double speed = normal;
-            double dmg = 1;
-            double aps = 1;
-            string special = "";
-            string almanac = "ladders on sale";
-            string origin = "rogue garden";
+            string description = "blablabla";            //basic description of the zombie and its abilities
+            double hp = 10;                              //hit points (hp) is counted in peas
+            double armor = 0;                            //if relevent, add the hp of potential armor (i.e. Cone), if not "double armor = 0"
+            int cr = 1;                                  //CR stands for Challenge Rating, being the amount of "points" needed to spawn (+CR = +Difficulty)
+            double speed = normal;                       //speeds writen on the top of the file
+            double dmg = 1;                              //damage (dmg) is counted in peas - yes, even the zombies'
+            double aps = 1;                              //aps stands for attacks per second, aka how fast the zombie attacks
+            string special = "";                         //if relevent, add precise descritpion of ability (this won't show up in the actual almanac), if not remove this line
+            string almanac = "ladders on sale";          //alamnac entry, be it copied from one of the games of origin or entirely new
+            string origin = "rogue garden";              //game(s) or mod(s) of origin - add original name of the zombie if the name changes for this (i.e. Monitor Head : "PvZ Battle for Neighbourvill (TV Head)"
 
 //almanac_of_zombies
 

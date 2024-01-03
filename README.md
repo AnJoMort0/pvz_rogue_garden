@@ -6,6 +6,7 @@ Welcome to **PvZ: Rogue Garden**, a Plants vs Zombies Unity fan game that ventur
 
 🌱 **Concept:**
 PvZ: Rogue Garden is a unique blend of the familiar and the new, crafting an exciting rogue-like experience that pays homage to the beloved Plants vs Zombies universe.
+In this innovative take, plants have evolutions, offering strategic choices for players. For instance, a Repeater can evolve into either a Threepeater or a Gatling Pea, allowing for diverse and personalized gameplay. Explore place-on fusions to create new plant variants. For instance, combining an Iceberg Lettuce with a Peashooter results in a chilling Snow Pea. Unleash your creativity and discover synergies between different plant species. Finally,channeling the spirit of the classic Plants vs Zombies, the game features upgrades reminiscent of PvZ1, encouraging players to experiment with combinations. Imagine combining two plants to create a formidable force, akin to the mighty Cob Cannon.
 
 ## Getting Started
 

@@ -6,7 +6,7 @@ double faster = 5;
 
     //template_category
         //zombie_template
-            string description = "blablabla";            //basic description of the zombie and its abilities
+            string description = "blablabla";            //basic description of the zombie and its abilities.
             double hp = 10;                              //hit points (hp) is counted in peas
             double armor = 0;                            //if relevent, add the hp of potential armor (i.e. Cone), if not "double armor = 0"
             int cr = 1;                                  //CR stands for Challenge Rating, being the amount of "points" needed to spawn (+CR = +Difficulty)

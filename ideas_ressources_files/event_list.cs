@@ -11,51 +11,129 @@ double faster = 5;
 
 //almanac_of_events
     //day-night_cycle
+        string description = "The time of day changes between day and night throughout the game. Plants wokring on the 'wrong' shift (i.e. : shrooms during day) may fall asleep and if they are placed outside of 'work time' they'll be asleep.";
+        string origin = "PvZ 1";
+
         //day
-            //full_eclipse
+            string descritpion = "During the day : Sun fall from the sky.";
+
+            //total_eclipse
+                string description = "For intents and porpuses, behaves the same as a New Moon but triggers during the day.";
+                string origin = "PvZ Heroes";
+
+            //radiation_wave
+                string description = "Sun falling from the sky glow a radioactive purple. If clicked before they land, they explode dealing massive damage to zombies and plants in a 3x3 area. Zom-blobs and Genetic Experiments are more likely to spawn.";
+                string origin = "PvZ 2 (far Future - Sun Bombs)";
 
         //night
+            string descritpion = "During the day : Sun don't fall from the sky.";
 
     //moon_phase_cycle
+        string description = "This game features a moon cycle, though only the two extremes are relevent.";
+         string origin = "Rogue Garden";
+
         //full_moon
+            string description = "During fall moon, no plants fall asleep.";
 
             //haunting_moon
+                string description = "For its duration, upgrades all zombies on screen. May trigger during full moons.";
+                string origin = "PvZ Heroes (Bad Moon Rising)";
 
         //new_moon
+            string description = "For its duration, all plants have a higher chance of falling asleep and day plants are weaker.";
 
     //season_cycle
+        string description = "This game features seasons, that are mostly indicated by the UI and a general change in hue.";
+        string origin = "Rogue Garden";
+
         //summer
+            string description = "Druing summer, sun are more likely to fall from the sky.";
 
             //sandstorm
+                string description = "Basics and low CR zombies can appear in small sand hurricanes, moving them fast past your defenses.";
+                string origin = "PvZ 2 (Ancient Egypt - Sandstorm)";
 
             //pool_party
+                string description = "For its duration, zombies are more likely to spawn in the backyard than the frontyard. Zombies that spawn in the backyard have a higher chance of spawning in the pool lanes.";
+
+            //heat_wave
+                string description = "Only triggers during the day. For its duration, all plants have a higher chance of falling asleep and night plants are weaker.";
+                string origin = "PvZ 1 DS Version";
 
         //fall
+            string description = "Fog appears on both sides of the map. This blocks visibility and may be contered with various plants.";
+            string origin = "PvZ 1";
 
-            //fog
+                //dark_storm
+                    string description = "The screen will remain dark until lightning flashes.";
+                    string origin = "PvZ 1";
 
         //winter
+            string description = "During winter, sun fall less often from the sky";
 
             //freezing_breeze
+                string description = "A freezing breeze freezes random plants on your lawn, fire and ice plants are not affected. The ice can be melted away. Frozen plants get hit by straight-shooting profectiles, are ignored by zombies and cannot be shoveled.";
+                string origin = "PvZ 2 (Frostbite Caves)";
 
         //spring
+            string description = "-";
 
             //zombotany
+                string description = "For the duration, only Zombotany Zombies can appear.";
+                string origin = "PvZ 1";
 
             //frontyard_concert
+                string description = "";
+                string origin = "";
 
     //random_events
+        string description = "";
+        string origin = "";
 
         //airstrike
+            string description = "";
+            string origin = "";
+
+        //air_raid
+            string description = "Only Ballon Zombies appear.";
+            string origin = "";
 
         //chicken_run
+            string description = "";
+            string origin = "PvZ 2 Mod - Eclise";
 
         //nut_bowling
+            string description = "";
+            string origin = "";
 
         //rush_hour
+            string description = "";
+            string origin = "";
 
         //pine_clone_bonanza
+            string description = "";
+            string origin = "";
 
         //bobsled_bonanza
+            string description = "";
+            string origin = "";
 
-        //portals
+        //portal_combat
+            string description = "";
+            string origin = "";
+
+        //invisi-ghoul
+            string description = "";
+            string origin = "";
+
+        //big_trouble_little_zombie
+            string description = "";
+            string origin = "";
+
+        //pogo_party
+            string description = "";
+            string origin = "";
+
+        //zen_garden
+            string description = "Fake-crashes the game. Very rare. 'You've been Zen Gardened'.";
+            string origin = "PvZ 1 Limbo Page";

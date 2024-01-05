@@ -23,11 +23,11 @@ I want to be transparent—this project is a learning adventure for me. I have m
 🚀 **Calling All Enthusiasts:**
 If the idea of a rogue-like Plants vs Zombies Unity fan game intrigues you, and you're willing to contribute, share ideas, or provide guidance, your presence is more than welcome! Let's embark on this journey, experiment, and turn this passion project into something extraordinary.
 
-## Tools Used
+🔧 **Tools Used**
 
-🎮 **Game Development:** Unity
-🖌 **Art:** Clip Studio Paint
-🦴 **Animations:** Spriter
+- 🎮 **Game Development:** Unity
+- 🖌 **Art:** Clip Studio Paint
+- 🦴 **Animations:** Spriter
 
 🌿 **Disclaimer (Again):**
 Remember, this is a hobby project, and perfection is not the goal. If you share the enthusiasm and want to learn and create alongside me, your insights and contributions will be invaluable.

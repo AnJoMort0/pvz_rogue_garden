@@ -10,7 +10,7 @@ In this innovative take, plants have evolutions, offering strategic choices for 
 
 ## Getting Started
 
-🎮 **No Prior Experience Needed:**
+🎮 **No Prior Experience:**
 This project is a personal journey into the realms of game design and programming. As a novice with limited experience in Unity and C#, I'll be relying on tutorials and leveraging ChatGPT to bring this idea to life. If you're passionate about game development or just intrigued by the concept, consider joining the project!
 
 ## Disclaimer
@@ -22,6 +22,12 @@ I want to be transparent—this project is a learning adventure for me. I have m
 
 🚀 **Calling All Enthusiasts:**
 If the idea of a rogue-like Plants vs Zombies Unity fan game intrigues you, and you're willing to contribute, share ideas, or provide guidance, your presence is more than welcome! Let's embark on this journey, experiment, and turn this passion project into something extraordinary.
+
+🔧 **Tools Used**
+
+- 🎮 **Game Development:** Unity
+- 🖌 **Art:** Clip Studio Paint
+- 🦴 **Animations:** Spriter
 
 🌿 **Disclaimer (Again):**
 Remember, this is a hobby project, and perfection is not the goal. If you share the enthusiasm and want to learn and create alongside me, your insights and contributions will be invaluable.

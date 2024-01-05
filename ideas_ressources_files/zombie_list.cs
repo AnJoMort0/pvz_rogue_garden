@@ -141,6 +141,7 @@ double faster = 5;
         //pogo_zombie
 
         //snowball_thrower_imp
+            string special = "Only appears during winter.";
             string origin = "PvZ 2 (Hunter Zombie)";
 
         //ice_pirate_zomboie
@@ -172,10 +173,11 @@ double faster = 5;
             string special = "Only appears in spring and summer daytime. Blocks attacks from above : blocks splash dmg, effects and AKEE's bouncing.";
 
         //umbrella_zombie
-            string special = "Only appears during fall. Flies over the first plant he encounters. Blocks attacks from above : doesn't blocks splash dmg, effects or AKEE's bouncing.";
+            string special = "Only appears during fall and winter. Flies over the first plant he encounters. Blocks attacks from above : doesn't blocks splash dmg, effects or AKEE's bouncing.";
             string origin = "PvZ 2 (Parasol Zombie) ; PvZ Heroes and PvZ China (Gentleman Zombie)";
 
         //campimp_porter
+            string special = "Doesn't appear during winter.";
             string origin = "PvZ 2 (Imp Porter)";
             
         //nutcracker_zombie
@@ -270,7 +272,7 @@ double faster = 5;
             double speed = normal;
             double dmg = 1;
             double aps = 1;
-            string special = "Gives +2 hp OR +1 dmg to a nearby zombie after eating a plant.";
+            string special = "Only appears during fall. Gives +2 hp OR +1 dmg to a nearby zombie after eating a plant.";
             string almanac = "Trick or treat? He is haunted by that question - and by an answer that continues to elude him.";
             string origin = "PvZ Heroes";
 
@@ -378,7 +380,7 @@ double faster = 5;
             string origin = "PvZ Heroes ; PvZ 2 China (Bandit Zombie)";
 
         //hot_dog_imp
-            string special = "When he eats, he dashes forward, skipping ahead one lane and damaging the plant in the process.";
+            string special = "Only appears during summer. When he eats, he dashes forward, skipping ahead one lane and damaging the plant in the process.";
 
         //moneky_smuggler_zombie
             string description = "The monkey smuggler sends out his monkey behind the floral wall.";
@@ -413,10 +415,10 @@ double faster = 5;
             string special = "Creates a single-use trap on the tile he dies on. Any plant planted on that tile is stunned.";
 
         //cryo-yeti
-            string special = "Freezes the first plant in his lane. If chilled, becomes 'faster' and gets double aps. Freezing becomes chilling.";
+            string special = "If chilled, becomes 'faster' and gets double aps. Freezing becomes chilling.";
 
         //firefighter_zombie
-            string special = "Destroys incoming fire projectiles in a 3x3 area.";
+            string special = "Blocks incoming fire projectiles in a 3x3 area.";
 
         //drinking_zombie
             string special = "Drinks from his bottle upon reaching half hp. This buffs his speed, dmg and aps.";
@@ -664,6 +666,7 @@ double faster = 5;
         //dolphin_rider_zombie
 
         //surfer_zombie
+            string special = "Only appers during summer and spring. May appear in pool. If on land, carries a surfboard over his head that he smashes into the first plant he encounters and drops upon death. If in the pool, surfs rapidly, ignoring your plants except tall-nut.";
 
         //fisherman_zombie
 
@@ -679,7 +682,7 @@ double faster = 5;
             string special = "Only appears in the pool. Dives into the water and stays submerged for five tiles before going back over the water.";
 
         //walrus_rider_imp
-            string special = "Slides over the water, propelling the imp forward on the first plant it hits.";
+            string special = "Only appears in the pool, during winter. Slides over the water, propelling the imp forward on the first plant it hits.";
 
         //disinfection_zombie
             string special = "Only appears in the pool. Releases toxic chemicals that slowly move along the his lane, lightly damaging all plants."
@@ -768,7 +771,7 @@ double faster = 5;
             string origin = "PvZ 2 China (Riot Police Zombie)";
 
         //riot_police_squadron
-            string special = "Spawns in formation from 3 to 5 zombies. The zombies on the front and back hold their shields in front and behind them respectively. The zombies in the middle hold it above their heads. Thsi protects the formation from attacks from all directiosn except up. They attack with their bastons instead of eating.";
+            string special = "appears in formation from 3 to 5 zombies. The zombies on the front and back hold their shields in front and behind them respectively. The zombies in the middle hold it above their heads. Thsi protects the formation from attacks from all directiosn except up. They attack with their bastons instead of eating.";
             string origin = "PvZ 2 (Camel Zombies) | PvZ 2 China (Riot Police Zombie)";
 
         //detonator_zombie
@@ -873,6 +876,8 @@ double faster = 5;
             string special = "Gains +1 hp for every zombie that dies in his lane while he's alive. Throws a Vimpire upon reaching half hp.";
 
     //event_dependent_zombies
+        //zombotany_zombies
+
         //portal_gatekeeper_zombie
             string description = "While alive, the Portal Gatekeeper Zombie creates portals on the garden that disappear on her death.";
             double hp = 30;

@@ -520,6 +520,9 @@ double faster = 5;
     //museum_zombies
         //awaken_ra_zombie
 
+        //awaken_cleopatra_zombie
+            string origin = "PvZ 2 (Unused Content)";
+
         //dodo_fossil_rider_imp
 
         //turquoise_skull_thief_zombie

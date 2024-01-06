@@ -11,7 +11,7 @@ double faster = 5;
 
 //almanac_of_events
     //day-night_cycle
-        string description = "The time of day changes between day and night throughout the game. Plants wokring on the 'wrong' shift (i.e. : shrooms during day) may fall asleep and if they are placed outside of 'work time' they'll be asleep.";
+        string description = "The time of day changes between day and night throughout the game. Plants working on the 'wrong' shift (i.e.: shrooms during the day) may fall asleep and if they are placed outside of 'work time' they'll be asleep.";
         string origin = "PvZ 1";
 
         //day
@@ -54,14 +54,14 @@ double faster = 5;
                 string origin = "PvZ 2 (Ancient Egypt - Sandstorm)";
 
             //pool_party
-                string description = "For its duration, zombies are more likely to spawn in the backyard than the frontyard. Zombies that spawn in the backyard have a higher chance of spawning in the pool lanes.";
+                string description = "For its duration, zombies are more likely to spawn in the backyard than the front yard. Zombies that spawn in the backyard have a higher chance of spawning in the pool lanes.";
 
             //heat_wave
                 string description = "Only triggers during the day. For its duration, all plants have a higher chance of falling asleep and night plants are weaker.";
                 string origin = "PvZ 1 DS Version";
 
         //fall
-            string description = "Fog appears on both sides of the map. This blocks visibility and may be contered with various plants.";
+            string description = "Fog appears on both sides of the map. This blocks visibility and may be countered with various plants.";
             string origin = "PvZ 1";
 
                 //dark_storm
@@ -72,7 +72,7 @@ double faster = 5;
             string description = "During winter, sun fall less often from the sky";
 
             //freezing_breeze
-                string description = "A freezing breeze freezes random plants on your lawn, fire and ice plants are not affected. The ice can be melted away. Frozen plants get hit by straight-shooting profectiles, are ignored by zombies and cannot be shoveled.";
+                string description = "A freezing breeze freezes random plants on your lawn, fire and ice plants are not affected. The ice can be melted away. Frozen plants get hit by straight-shooting projectiles, are ignored by zombies and cannot be shovelled.";
                 string origin = "PvZ 2 (Frostbite Caves)";
 
         //spring

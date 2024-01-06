@@ -8,14 +8,14 @@ double faster = 5;
         //zombie_template
             string description = "blablabla";            //basic description of the zombie and its abilities
             double hp = 10;                              //hit points (hp) is counted in peas
-            double armor = 0;                            //if relevent, add the hp of potential armor (i.e. Cone), if not "double armor = 0"
+            double armour = 0;                            //if relevant, add the hp of potential armour (i.e. Cone), if not "double armour = 0"
             int cr = 1;                                  //CR stands for Challenge Rating, being the amount of "points" needed to spawn (+CR = +Difficulty)
-            double speed = normal;                       //speeds writen on the top of the file
+            double speed = normal;                       //speeds written on the top of the file
             double dmg = 1;                              //damage (dmg) is counted in peas - yes, even the zombies'
             double aps = 1;                              //aps stands for attacks per second, aka how fast the zombie attacks
-            string special = "";                         //if relevent, add precise descritpion of ability (this won't show up in the actual almanac), if not remove this line
-            string almanac = "ladders on sale";          //alamnac entry, be it copied from one of the games of origin or entirely new
-            string origin = "rogue garden";              //game(s) or mod(s) of origin - add original name of the zombie if the name changes for this (i.e. Monitor Head : "PvZ Battle for Neighbourvill (TV Head)"
+            string special = "";                         //if relevant, add the precise description of ability (this won't show up in the actual almanac), if not remove this line
+            string almanac = "ladders on sale";          //almanac entry, be it copied from one of the original games or an entirely new
+            string origin = "rogue garden";              //game(s) or mod(s) of origin - add the original name of the zombie if the name changes for this (i.e. Monitor Head: "PvZ Battle for Neighbourvill (TV Head)"
 
 //almanac_of_zombies
 
@@ -23,18 +23,18 @@ double faster = 5;
         //browncoat_zombie
             string description = "Regular Garden-variety Zombie";
             double hp = 10;
-            double armor = 0;
+            double armour = 0;
             int cr = 1;
             double speed = normal;
             double dmg = 1;
             double aps = 1;
-            string almanac = "This zombie loves brains. Can't get enough. Brains, brains, brains day in and night out. Old and stinky brains? Rotten brains? Brains clearly past their prime? Doesn't matter : Browncoat Zombie wants'em.";
+            string almanac = "This zombie loves brains. Can't get enough. Brains, brains, brains day in and night out. Old and stinky brains? Rotten brains? Brains clearly past their prime? Doesn't matter: Browncoat Zombie wants'em.";
             string origin = "PvZ 1";
 
         //flag_zombie
-            string description = "Flag Zonbie marks the arrival of a huge pile or 'wave' of zombies.";
+            string description = "Flag Zombie marks the arrival of a huge pile or 'wave' of zombies.";
             double hp = 10;
-            double armor = 0;
+            double armour = 0;
             //int cr = N/A;
             double speed = fast;
             double dmg = 1;
@@ -45,7 +45,7 @@ double faster = 5;
         //conehead_zombie
             string description = "His traffic cone headpiece makes him twice as though as normal zombies";
             double hp = 10;
-            double armor = 19;
+            double armour = 19;
             int cr = 2;
             double speed = normal;
             double dmg = 1;
@@ -58,7 +58,7 @@ double faster = 5;
         //buckethead_zombie
             string description = "His bucket hat makes him extremely resistant to dmg.";
             double hp = 10;
-            double armor = 57;
+            double armour = 57;
             double speed = normal;
             int cr = 4;
             double dmg = 1;
@@ -69,7 +69,7 @@ double faster = 5;
         //brickhead_zombie
              string description = "Brickhead Zombie's brick head provides thorough brickheaded brickheadness.";
             double hp = 10;
-            double armor = 95;
+            double armour = 95;
             int cr = 6;
             double speed = normal;
             double dmg = 1;
@@ -88,7 +88,7 @@ double faster = 5;
             string description = "The zombie's brown parka protects him from the cold.";
             //stats_of_relevent_basics
             string special = "Only appears in winter. Immune to chilling and reduces the freezing effect to chilling.";
-            string almanac = "Though many see the use of thicker clothing as simple survival instinct, Brown Parka Zombie disaproves of this theory. For him, it's all about fashion.";
+            string almanac = "Though many see the use of thicker clothing as a simple survival instinct, Brown Parka Zombie disapproves of this theory. For him, it's all about fashion.";
             string origin = "PvZ 2 (Frostbite Caves basic)";
 
             //variant:zcorp_zombie
@@ -115,7 +115,7 @@ double faster = 5;
                 string spcial = "Only appears in the summer. Throws a Hot Dog Imp upon reaching half hp.";
 
             //variant:brownparka_gargantuar
-                string spceial = "Only appears in winter. Immune to chilling and reduces the freezing effect to chilling. Throws 3 Brownparka Imps upon reaching half hp.";
+                string spceial = "Only appears in winter. Immune to chilling and reduces the freezing effect of chilling. Throws 3 Brownparka Imps upon reaching half hp.";
                 string origin = "PvZ 2 (Sloth Gargantuar)";
 
             //variant:smashing_gargantuar
@@ -157,7 +157,7 @@ double faster = 5;
         //mixed-up_gravedigger_zombie
             string description = "The Mixed-Up Gravedigger creates tombstones all over the map.";
             double hp = 20;
-            double armor = 0;
+            double armour = 0;
             int cr = 5;
             double speed = normal;
             double dmg = 1;
@@ -170,10 +170,10 @@ double faster = 5;
             string special = "Gets +2 hp and +1 dmg for every tombstone he walks through.";
 
         //parasol_zombie
-            string special = "Only appears in spring and summer daytime. Blocks attacks from above : blocks splash dmg, effects and AKEE's bouncing.";
+            string special = "Only appears in spring and summer daytime. Blocks attacks from above: blocks splash dmg, effects and AKEE's bouncing.";
 
         //umbrella_zombie
-            string special = "Only appears during fall and winter. Flies over the first plant he encounters. Blocks attacks from above : doesn't blocks splash dmg, effects or AKEE's bouncing.";
+            string special = "Only appears during fall and winter. He flies over the first plant he encounters. Blocks attacks from above: doesn't block splash dmg, effects or AKEE's bouncing.";
             string origin = "PvZ 2 (Parasol Zombie) ; PvZ Heroes and PvZ China (Gentleman Zombie)";
 
         //campimp_porter
@@ -184,7 +184,7 @@ double faster = 5;
             string special = "Deals gargantuar damage to nuts."
 
         //abracadaver
-            string special = "Lifts up his hat to reveal a Zombie Dove who'll try to fly off with your plants. If the dove dies, the hat falls off, which releases a Zombie Rabbit.";
+            string special = "Lifts his hat to reveal a Zombie Dove who'll try to fly off with your plants. If the dove dies, the hat falls off, which releases a Zombie Rabbit.";
             string origin = "PvZ Heroes ; PvZ 2 (Magician Zombie)";
 
             //zombie_dove
@@ -219,19 +219,19 @@ double faster = 5;
         //chimney_sweep_zombie
             string description = "The Chimney Sweep Zombie aims for your chimney instead of your doors.";
             double hp = 30;
-            double armor = 0;
+            double armour = 0;
             int cr = 4;
             double speed = normal;
             double dmg = 1;
             double aps = 1;
             string special = "Appears on the side of the house with a ladder. Climbs up and moves to either side of the roof by hanging onto the roof's edge. Then acts like normal until he reaches the chimney (making you lose).";
-            string almanac = "Who needs backdoors when you have chimneys. It's a growth industry.";
+            string almanac = "Who needs backdoors when you have chimneys? It's a growth industry.";
             string origin = "PvZ Heroes";
 
         //pied_piper_zombie
             string description = "The Pied Piper stuns the front-most plant on his lane.";
             double hp = 10;
-            double armor = 0;
+            double armour = 0;
             int cr = 3;
             double speed = slow;
             double dmg = 1;
@@ -243,7 +243,7 @@ double faster = 5;
         //unlife_of_the_party
             string description = "The Unlife Of The Party is more robust the more zombies there are.";
             double hp = 10;
-            double armor = 19;
+            double armour = 19;
             int cr = 5;
             double speed = normal;
             double dmg = 1;
@@ -255,7 +255,7 @@ double faster = 5;
         //paparazzi_zombie
             string description = "The Paparazzi Zombie becomes stronger during events";
             double hp = 10;
-            double armor = 0;
+            double armour = 0;
             int cr = 1;
             double speed = normal;
             double dmg = 1;
@@ -267,7 +267,7 @@ double faster = 5;
         //trick-or-treater-zombie
             string description = "The Trick-or-treater Zombie buffs the health or damage of nearby zombies after eating a plant.";
             double hp = 30;
-            double armor = 0;
+            double armour = 0;
             int cr = 3;
             double speed = normal;
             double dmg = 1;
@@ -279,19 +279,19 @@ double faster = 5;
         //gadget_scientist_zombie
             string description = "The Gadget Scientist Zombie summons Space Cadet Zombies onto the garden once he reaches it.";
             double hp = 30;
-            double armor = 0;
+            double armour = 0;
             int cr = 8;
             double speed = fast;
             double dmg = 1;
             double aps = 0.5;
             string special = "Creates 4 Space Cadet Zombies across the 7 lanes, on the rows 4 to 6. Attacks from 2 tiles away.";
-            string almanac = "He whises the Mad Chemist would stop copying his hair style.";
+            string almanac = "He wishes the Mad Chemist would stop copying his hairstyle.";
             string origin = "PvZ Heroes";
 
                 //space_cadet_zombie
                     string description = "Is summoned by the Gadget Scientist Zombie.";
                     double hp = 10;
-                    double armor = 5;
+                    double armour = 5;
                     //int cr = N/A;
                     double speed = normal;
                     double dmg = 1;
@@ -302,19 +302,19 @@ double faster = 5;
         //mad_chemist_zombie
             string description = "The Mad Chemist Zombie places potions on the ground around him to buff other zombies.";
             double hp = 40;
-            double armor = 0;
+            double armour = 0;
             int cr = 8;
             double speed = fast;
             double dmg = 1;
             double aps = 1;
-            string special = "Places potions on his lane and on neighbouring lanes every three tiles. There are three different potions : Purple gives the zombies +10 armor (visualy indicated by purple cloud), orange makes them faster (not stackable) and blue makes them invisible and untouchable for three tiles. These effects do not stack with each other. Cannot use his own potions.";
+            string special = "Places potions on his lane and neighbouring lanes every three tiles. There are three different potions: Purple gives the zombies +10 armour (visually indicated by a purple cloud), orange makes them faster (not stackable) and blue makes them invisible and untouchable for three tiles. These effects do not stack with each other. Cannot use his own potions.";
             string almanac = "He's not so much 'mad' as he is 'mildly annoyed.'";
             string origin = "PvZ Heroes";
 
         //teleportation_zombie
             string description = "The Teleportation Zombie teleports all zombies in his row one tile forwards upon death.";
             double hp = 30;
-            double armor = 0;
+            double armour = 0;
             int cr = 7;
             double speed = slow;
             double dmg = 1;
@@ -324,9 +324,9 @@ double faster = 5;
             string origin = "PvZ Heroes";
 
         //portal_technician_zombie
-            string description = "The Portal Thechnician Zombie turns into a random zombie after dying.";
+            string description = "The Portal Technician Zombie turns into a random zombie after dying.";
             double hp = 20;
-            double armor = 10;
+            double armour = 10;
             int cr = 8;
             double speed = normal;
             double dmg = 1;
@@ -351,10 +351,10 @@ double faster = 5;
             string special = "Releases the 'faster' moving imp inside it when it's destroyed.";
 
         //trash_can_zombie
-            string special = "Once he reaches half hp, he jumps into the trash can. This stops him in place and protects him from all directions. After the trash can is destryed he keeps walking at half hp.";
+            string special = "Once he reaches half hp, he jumps into the trash can. This stops him in place and protects him from all directions. After the trash can is destroyed he keeps walking at half hp.";
 
         //genetic_experiement
-            string special = "Upon reaching the garden, incapsulates himself. He does not until the capsule is destroyed. Whilst in the capsule, gains +2 hp and +1 dmg for evry four zombies that pass him.";
+            string special = "Upon reaching the garden, incapsulates himself. He does not until the capsule is destroyed. Whilst in the capsule, gains +2 hp and +1 dmg for every four zombies that pass him.";
 
         //gargologist_zombie
             string special = "While alive, all gargantuars in her lane get +0.5 aps.";
@@ -369,10 +369,10 @@ double faster = 5;
             string special = "While alive, every zombie in his garden has double aps.";
 
         //headstone_carver
-            string special = "Turns graves he passes into engraved graves. They take are imune to gravebusters and zombies that rise from them have 125% hp.";
+            string special = "Turns graves he passes into engraved graves. They are immune to Gravebusters and zombies that rise from them have 125% hp.";
 
         //imposter
-            string special = "Splits into two Imps on adjancent lanes on death, one of wich has a mustache. While wearing the coat, it deals more damage when eating plants.";
+            string special = "Splits into two Imps on adjacent lanes on death, one of which has a moustache. While wearing the coat, it deals more damage when eating plants.";
             string origin = "PvZ Heroes and Pvz Adventure ; PvZ 2 (Carnie Imp Twins)";
 
         //mini-ninja
@@ -385,7 +385,7 @@ double faster = 5;
         //moneky_smuggler_zombie
             string description = "The monkey smuggler sends out his monkey behind the floral wall.";
             double hp = 22;
-            double armor = 0;
+            double armour = 0;
             int cr = 6;
             double speed = slow;
             double dmg = 1;
@@ -397,7 +397,7 @@ double faster = 5;
             //zombie_monkey
                 string description = "The Zombie Money is released by the Monky Smuggler Zombie to attack your offence.";
                 double hp = 15;
-                double armor = 0;
+                double armour = 0;
                 //int cr = N/A;
                 double speed = fast;
                 double dmg = 1;
@@ -437,11 +437,11 @@ double faster = 5;
             string origin = "PvZ 2 China ; design PvZ Heroes";
 
         //rocket_zombie
-            string special = "While on its rocket, he has triple speed and ignores all plants other. Rocket can be disabled with chilling or freezing.";
+            string special = "While on its rocket, he has triple speed and ignores all plants. Rocket can be disabled with chilling or freezing.";
             string origin = "PvZ Adventure";
 
         //ice_block_zombie
-            string special = "Once the ice block is brocken, all plants in a 3x3 radius are frozen. Flaming profectiles instantly destroy the ice block. Immune to chilling and freezing.";
+            string special = "Once the ice block is broken, all plants in a 3x3 radius are frozen. Flaming projectiles instantly destroy the ice block. Immune to chilling and freezing.";
             string origin = "PvZ Adventure";
 
         //barrel_of_deadbeards
@@ -450,7 +450,7 @@ double faster = 5;
 
                 //captain_deadbeard
                     string special = "Shoots from a 2 tiles away. Sends out a Zombie Parrot.";
-                    string origing = "PvZ Garden Warfare ; PvZ 2 (Pirate Captain Zombie)";
+                    string origin = "PvZ Garden Warfare ; PvZ 2 (Pirate Captain Zombie)";
 
                 //zombie_parrot
                     string special = "Attempts to fly away with your plants.";
@@ -487,10 +487,10 @@ double faster = 5;
             string special = "Gives all zombies in his lane +2 hp for every plant that dies in his lane whilst he's alive.";
 
         //defensive_end_gargantuar
-            string special = "While alive, all plants cost an extra 25 sun. Throws an All-star Super Fan Imp upon reaching half hp.";
+            string special = "While alive, all plants cost an extra 25 sun. Throws an All-Star Super Fan Imp upon reaching half hp.";
 
         //rodeo_gargantuar
-            string special = "Switches plant with plant behind it before smashing it. Throws a Zombie Chicken upon reaching half hp.";
+            string special = "Switches plant with a plant behind it before smashing it. Throws a Zombie Chicken upon reaching half hp.";
 
     //construction_zombies
         //ladder_zombie
@@ -514,7 +514,7 @@ double faster = 5;
             string special = "While alive, stuns the highest damage plant in his lane.";
 
         //waste_barrel_imp
-            string special = "Crushes plants he walks into. Destryed by spike weed.";
+            string special = "Crushes plants he walks into. Destroyed by spike weed.";
 
         
     //museum_zombies
@@ -540,7 +540,7 @@ double faster = 5;
             string special = "Digs underground for 5 tiles before coming back up, creating a pathway for non-gargantuar zombies to evade attacks. Diggers that dig into it come out the end of the tunnel. The tunnel only lasts 3 tiles.";
             string origin = "PvZ 2 China (Lost Guide Zombie)";
 
-    //mechanized_zombies:affected by EMPeach - flying zombies affected by EMPeach fall to the ground.
+    //mechanized_zombies: affected by EMPeach - flying zombies affected by EMPeach fall to the ground.
         //zomboni
 
             //bobsled_team
@@ -558,21 +558,21 @@ double faster = 5;
             string origin = "PvZ Heroes (Space Cowboy)";
 
         //interdimensional_zombie
-            string description = "The Interdemensional Zombie occasionnaly avoids attacks by glitching forward.";
+            string description = "The Interdimensional Zombie occasionally avoids attacks by glitching forward.";
             double hp = 20;
-            double armor = 0;
+            double armour = 0;
             int cr = 4;
             double speed = normal;
             double dmg = 1;
             double aps = 1;
             string special = "Every 3 attack that hits him doesn't inflict damage and causes him to glitch forwards one tile.";
-            string almanac = "In a parallel dimension, this Zombie is a Space Pirate. In another he's a Trash Can Zombie. Turns out, little choices in life can make a big difference.";
+            string almanac = "In a parallel dimension, this Zombie is a Space Pirate. In another, he's a Trash Can Zombie. Turns out, little choices in life can make a big difference.";
             string origin = "PvZ Heroes";
 
         //cyborg_zombie
             string description = "The Cyborg Zombie summons a stronger version of himself upon death.";
             double hp = 30;
-            double armor = 0;
+            double armour = 0;
             int cr = 6;
             double speed = normal;
             double dmg = 1;
@@ -584,7 +584,7 @@ double faster = 5;
                 //vengeful_cyborg_zombie
                     string description = "He is stronger than his summoner in every way.";
                     double hp = 60;
-                    double armor = 0;
+                    double armour = 0;
                     //int cr = N/A;
                     double speed = fast;
                     double dmg = 2;
@@ -628,9 +628,9 @@ double faster = 5;
             string orgin = "PvZ Heroes (Copter Commando)";
 
         //kite_flyer_zombie
-            string description = "Kite Flyer Zombie flyes a kyte above him. He shoots any damage inflicted to the kite right back at the plants.";
+            string description = "Kite Flyer Zombie flies a kyte above him. He shoots any damage inflicted to the kite right back at the plants.";
             double hp = 30;
-            double armor = 0;
+            double armour = 0;
             int cr = 5;
             double speed = normal;
             double dmg = 1;
@@ -642,16 +642,16 @@ double faster = 5;
                 //kite
                     string description = "The Kite Flyer Zombie's kite";
                     double hp = 15;
-                    double armor = 0;
+                    double armour = 0;
                     //int cr = N/A;
                     //double speed = N/A;
                     //double dmg = N/A;
                     //double aps = N/A;
 
         //stupid_cupid_imp
-            string description = "Flies. Deals damage to plants under him, which stuns them for a few sceonds.";
+            string description = "Flies. Deals damage to plants under him, which stuns them for a few seconds.";
             double hp = 14;
-            double armor = 0;
+            double armour = 0;
             int cr = 5;
             double speed = fast;
             double dmg = 1;
@@ -669,7 +669,7 @@ double faster = 5;
         //dolphin_rider_zombie
 
         //surfer_zombie
-            string special = "Only appers during summer and spring. May appear in pool. If on land, carries a surfboard over his head that he smashes into the first plant he encounters and drops upon death. If in the pool, surfs rapidly, ignoring your plants except tall-nut.";
+            string special = "Only appears during summer and spring. May appear in the pool. If on land, carries a surfboard over his head that he smashes into the first plant he encounters and drops upon death. If in the pool, surfs rapidly, ignoring your plants except for tall-nut.";
 
         //fisherman_zombie
 
@@ -688,30 +688,30 @@ double faster = 5;
             string special = "Only appears in the pool, during winter. Slides over the water, propelling the imp forward on the first plant it hits.";
 
         //disinfection_zombie
-            string special = "Only appears in the pool. Releases toxic chemicals that slowly move along the his lane, lightly damaging all plants."
+            string special = "Only appears in the pool. Releases toxic chemicals that slowly move along his lane, lightly damaging all plants."
 
     //zcorp_zombies
         //zcopr_monitor_head
             string description = "ZCorp Monitor Heads are zombies with Cone-grade protection that can attack your plants from a distance.";
             double hp = 10;
-            double armor = 19;
+            double armour = 19;
             int cr = 4;
             double speed = normal;
             double dmg = 1;
             double aps = 0.5;
             string special = "Can shoot plants in his lane from 4 tiles away.";
-            string almanac = "ZCorp Monitor Head is hard-working. So much so that he purpusefully fused his head with his monitor to achieve never-before seen work efficiency.";
+            string almanac = "ZCorp Monitor Head is hard-working. So much so that he purposefully fused his head with his monitor to achieve never-before-seen work efficiency.";
             string origin = "PvZ Battle for Neighborville (TV Head)";
         
         //zcorp_consultant
-            string description = "ZCorp Consultant disrupts your paradigm and tableflips your bluesky/redocean.";
+            string description = "ZCorp Consultant disrupts your paradigm and table flips your bluesky/redocean.";
             double hp = 24;
-            double armor = 0;
+            double armour = 0;
             int cr = 3;
             double speed = fast;
             double dmg = 1;
             double aps = 1;
-            string special = "Hops between adjancent lanes, shoving other zombies in the process.";
+            string special = "Hops between adjacent lanes, shoving other zombies in the process.";
             string almanac = "She works for ZCorp AND consults for them. Great gig if you can get it!";
             string origin = "PvZ 2";
 
@@ -720,7 +720,7 @@ double faster = 5;
         //zcorp_customer_service
             string description = "When he appears, ZCorp Customer Service creates one ZCorp basic on every lane.";
             double hp = 10;
-            double armor = 0;
+            double armour = 0;
             int cr = 8;
             double speed = normal;
             double dmg = 1;
@@ -732,31 +732,31 @@ double faster = 5;
         //zcorp_drone_engineer
             string description = "The ZCorps Drone Enginner's flying drone attacks plants from a distance for him while he avoids being hit.";
             double hp = 10;
-            double armor = 10;
+            double armour = 10;
             int cr = 6;
             double speed = slow;
             double dmg = 1;
             double aps = 1;
-            string special = "Controls a drone from 2 tiles distance. he only moves if he must do so to for the drone to be able to attack.";
+            string special = "Controls a drone from 2 tiles distance. he only moves if he must do so for the drone to be able to attack.";
             string almanac = "He's not entirely sure how to fly this thing. Behaves like a normal zombie if the drone dies.";
             string origin = "PvZ Heroes (Zombot Drone Engineer)";
 
                 //zcorp_drone
                     string description = "It is piloted by the ZCorp Drone Enginner and attacks from a distance.";
                     double hp = 7;
-                    double armor = 0;
+                    double armour = 0;
                     //int cr = N/A;
                     double speed = fast;
                     double dmg = 1;
                     double aps = 0,5;
-                    string special = "It can only be targetted by plants that can attack flying zombies. Attacks from a 3 lane distance. If the ZCorp Drone Engineer dies, the drone joins another ZCorp Drone Engineer. If there are none on the field, it dies.";
-                    string almanac = "The pencil on his helmet is completely useless, but the ZCorp engineer liked the astetics of it.";
+                    string special = "It can only be targetted by plants that can attack flying zombies. Attacks from a 3-lane distance. If the ZCorp Drone Engineer dies, the drone joins another ZCorp Drone Engineer. If there are none on the field, it dies.";
+                    string almanac = "The pencil on his helmet is completely useless, but the ZCorp engineer liked the aesthetics of it.";
                     string origin = "PvZ Heroes (Zombot Drone Engineer)";
 
         //zcorp_middle_manager
             string description = "Gets faster and more resilient with the death of ZCorp zombies.";
             double hp = 10;
-            double armor = 0;
+            double armour = 0;
             int cr = 8;
             double speed = slow;
             double dmg = 1;
@@ -774,7 +774,7 @@ double faster = 5;
             string origin = "PvZ 2 China (Riot Police Zombie)";
 
         //riot_police_squadron
-            string special = "appears in formation from 3 to 5 zombies. The zombies on the front and back hold their shields in front and behind them respectively. The zombies in the middle hold it above their heads. Thsi protects the formation from attacks from all directiosn except up. They attack with their bastons instead of eating.";
+            string special = "appears in formation from 3 to 5 zombies. The zombies on the front and back hold their shields in front and behind them respectively. The zombies in the middle hold it above their heads. This protects the formation from attacks from all directions except up. They attack with their bastons instead of eating.";
             string origin = "PvZ 2 (Camel Zombies) | PvZ 2 China (Riot Police Zombie)";
 
         //detonator_zombie
@@ -789,7 +789,7 @@ double faster = 5;
         //gilet_jaune_zombie
             string description = "The Gilet Jaune Zombie joins the undead protest with a megaphone in hand.  His passionate shouts can rally other zombies to his cause.";
             double hp = 10;
-            double armor = 0;
+            double armour = 0;
             int cr = 5;
             double speed = slow;
             double dmg = 1;
@@ -799,14 +799,14 @@ double faster = 5;
             string origin = "rogue garden";
 
             //rallied_protestor_zombie
-                string description = "The Rallied Protestor Zombie is an incendiary addition to the undead protest, carriying a torch to burn the rival flora.";
+                string description = "The Rallied Protestor Zombie is an incendiary addition to the undead protest, carrying a torch to burn the rival flora.";
                 double hp = 10;
-                double armor = 0;
+                double armour = 0;
                 //int cr = N/A;
                 double speed = Fast;
                 double dmg = 1;
                 double aps = 1;
-                string special = "Burns any plant he in front of he. Fire is extinguished with the Chill or Freeze effects and becomes a regular zombie. Fire projectiles can reignate the torch.";
+                string special = "Burns any plant he in front of he. Fire is extinguished with the Chill or Freeze effects and becomes a regular zombie. Fire projectiles can reignite the torch.";
                 string almanac = "Ah, the Rallied Protestor Zombie, a connoisseur of chaos summoned by the Gilet Jaune Zombie's botanical revolution. With a torch in hand and a fervent spirit, he elegantly waltzes through the garden, turning flora into a spectacle of flames. Mon dieu, the theatrics! Prepare for a fiery soirée.";
                 string origin = "PvZ 2 (Explorer Zombie)";
 
@@ -818,7 +818,7 @@ double faster = 5;
         //wizard_zombie
 
         //wizard_gargantuar
-            string special = "Turns plants he smashes into Zombie Goats. Throws a Imp Dragon upon reaching half hp.";
+            string special = "Turns plants he smashes into Zombie Goats. Throws an Imp Dragon upon reaching half hp.";
 
                 //zombie_goat
 
@@ -830,7 +830,7 @@ double faster = 5;
         //haunting_zombie
             string description = "Haunting Zombie becomes a ghost upon death.";
             double hp = 10;
-            double armor = 0;
+            double armour = 0;
             int cr = 6;
             double speed = normal;
             double dmg = 1;
@@ -842,19 +842,19 @@ double faster = 5;
                 //haunting_ghost
                     string description = "Haunting Ghost ghosts through your plants, damaging them. Can't be killed but can be chilled.";
                     double hp = 9999999999;
-                    double armor = 0;
+                    double armour = 0;
                     //int cr = N/A;
                     double speed = fast;
                     double dmg = 2;
                     double aps = 1;
-                    string special = "Doesn't die but is affacted by chilling. Walks through plants dealing damange to them. Ascends on the first lane.";
+                    string special = "Doesn't die but is affected by chilling. Walks through plants dealing damage to them. Ascends on the first lane.";
                     string almanac = "Is he a Zombie? Is he a ghost? He refuses to be pigeonholded.";
                     string origin = "PvZ Heroes";
             
         //valrkyrie_zombie
             string description = "Valkyrie Zombie gets stronger the more zombies die.";
             double hp = 20;
-            double armor = 19;
+            double armour = 19;
             int cr = 5;
             double speed = normal;
             double dmg = 1;
@@ -882,18 +882,18 @@ double faster = 5;
         //zombotany_zombies
 
         //portal_gatekeeper_zombie
-            string description = "While alive, the Portal Gatekeeper Zombie creates portals on the garden that disappear on her death.";
+            string description = "While alive, the Portal Gatekeeper Zombie creates portals in the garden that disappear on her death.";
             double hp = 30;
-            double armor = 0;
+            double armour = 0;
             //int cr = N/A;
             double speed = slow;
             double dmg = 1;
             double aps = 1;
             string special = "Creates pairs of linked portals. Zombies and projectiles that traverse a portal come out the opposite side of whichever portal they are linked to. All portals disappear on her death.";
             string almanac = "'Stand here and guard this gate with your unlife,' she was told. And that's what she's been doing ever since.";
-            string origin = "PvZ Heroes (Wormwhole Gatekeeper)";
+            string origin = "PvZ Heroes (Wormhole Gatekeeper)";
 
-            //dancing_zombies:only appear in the music event, each event being dedicated to a single zombie.
+            //dancing_zombies: only appear in the music event, each event is dedicated to a single zombie.
                 //jack-in-the-box_zombie
                     string event_name = "Asylum Escape";
 
@@ -901,7 +901,7 @@ double faster = 5;
                     string event_name = "Orchestral jam"
                     string description = "While alive, the Orchestra Conductor Zombie makes all zombies fast.";
                     double hp = 7;
-                    double armor = 0;
+                    double armour = 0;
                     //int cr = N/A;
                     double speed = fast;
                     double dmg = 1;
@@ -922,7 +922,7 @@ double faster = 5;
                     string event_name = "Aerobics Class";
                     string description = "While alive, the Aerobics Instructor Zombie makes all zombies do more damage.";
                     double hp = 20;
-                    double armor = 0;
+                    double armour = 0;
                     //int cr = N/A;
                     double speed = normal;
                     double dmg = 1;
@@ -935,7 +935,7 @@ double faster = 5;
                     string event_name = "Double-Z jam";
                     string description = "While alive, the Binary Stars make all zombies have double attack speed.";
                     double hp = 20;
-                    double armor = 0;
+                    double armour = 0;
                     //int cr = N/A;
                     double speed = normal;
                     double dmg = 1;
@@ -948,12 +948,12 @@ double faster = 5;
                     string event_name = "Yoddle jam";
                     string description = "Line Dancer Zombie yoddles down your lanes to damage all plants.";
                     double hp = 20;
-                    double armor = 0;
+                    double armour = 0;
                     //int cr = N/A;
                     double speed = normal;
                     double dmg = 1;
                     double aps = 1;
-                    string special = "Moves between lanes. Occasionnaly yoddles, damaging every plant in her lane.";
+                    string special = "Moves between lanes. Occasionally yoddles, damaging every plant in her lane.";
                     string almanac = "In her opinion, there's no better song to line dance to than the 'Zombie Shuffle.'";
                     string origin = "PvZ Heroes";
 
@@ -988,5 +988,5 @@ double faster = 5;
 
                     //variant:ducky_conga_leader_zombie
                         string event_name = "Conga jam";
-                        string special = "Only appears in the pool. While alive, ducky browncoats will continuisly spawn on his lane.";
+                        string special = "Only appears in the pool. While alive, ducky browncoats will continuously spawn on his lane.";
                         string origin = "PvZ Adventure";

@@ -803,7 +803,7 @@
                     <object folder="0" file="8" x="-18.160988" y="-2.89841" angle="1.888188"/>
                 </key>
                 <key id="2" time="577">
-                    <object folder="0" file="8" x="-18.160988" y="-2.89841" angle="350.65882" scale_x="0.780693" scale_y="1"/>
+                    <object folder="0" file="8" x="-18.160988" y="-2.89841" angle="350.65882" scale_x="0.780693"/>
                 </key>
                 <key id="3" time="913" spin="0">
                     <object folder="0" file="8" x="-18.160988" y="-2.89841" angle="1.888188"/>

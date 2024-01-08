@@ -87,16 +87,22 @@ double faster = 5;
                 string origin = "";
 
     //random_events
-        string description = "";
-        string origin = "";
+        string description = "These events can happen at any time during the gameplay.";
 
         //airstrike
-            string description = "";
-            string origin = "";
+            string description = "For the duration, all CR goes into Parachutist Zombies and Roof-Climber Zombies";
+            string origin = "PvZ 2 (Lost City)";
 
         //air_raid
-            string description = "Only Ballon Zombies appear.";
-            string origin = "";
+            string description = "For the duration, all CR goes into Ballon Zombies";
+            string origin = "PvZ 1 Minigame";
+
+        //imp_rain
+            string description = "Two Transport Fighters spawn in each garden.";
+            string origin = "PvZ 2 (Far Future)";
+
+        //bungee_ambush
+            string description = "A half a dozen Bungee Zombies and Bungee Plumbers appear in each graden and the roof.";
 
         //chicken_run
             string description = "";

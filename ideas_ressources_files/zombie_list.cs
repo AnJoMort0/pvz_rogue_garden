@@ -15,7 +15,7 @@ double faster = 5;
             double aps = 1;                              //aps stands for attacks per second, aka how fast the zombie attacks
             string special = "";                         //if relevant, add the precise description of ability (this won't show up in the actual almanac), if not remove this line
             string almanac = "ladders on sale";          //almanac entry, be it copied from one of the original games or an entirely new
-            string origin = "rogue garden";              //game(s) or mod(s) of origin - add the original name of the zombie if the name changes for this (i.e. Monitor Head: "PvZ Battle for Neighbourvill (TV Head)"
+            string origin = "rogue garden";              //game(s) or mod(s) of origin - add the original name of the zombie if the name changes for this (i.e. Monitor Head: "PvZ Battle for Neighbourville (TV Head))"
 
 //almanac_of_zombies
 
@@ -173,7 +173,7 @@ double faster = 5;
             string special = "Only appears in spring and summer daytime. Blocks attacks from above: blocks splash dmg, effects and AKEE's bouncing.";
 
         //umbrella_zombie
-            string special = "Only appears during fall and winter. He flies over the first plant he encounters. Blocks attacks from above: doesn't block splash dmg, effects or AKEE's bouncing.";
+            string special = "Only appears during fall and winter. He jumps over the first plant he encounters. Blocks attacks from above: doesn't block splash dmg, effects or AKEE's bouncing.";
             string origin = "PvZ 2 (Parasol Zombie) ; PvZ Heroes and PvZ China (Gentleman Zombie)";
 
         //campimp_porter
@@ -595,6 +595,7 @@ double faster = 5;
         //arcade_zombie
 
             //variant:8-bit_zombie
+                //animted in less fps
 
         //shield_zombie
 
@@ -610,11 +611,12 @@ double faster = 5;
 
     //airborn_zombies
         //ballon_zombie
-            string special = "Appears form the normal spawnpoint but in roof height.";
+            string special = "Flies towards your roof.";
 
         //bungee_zombie
 
-        //bungee_plumber_zombie
+        //bungee_plumber
+            string origin = "PvZ Heroes (Bungee Plumber Jumper)";
 
         //parachutist_zombie
             string origin = "PvZ 2 (Lost Pilot Zombie)";
@@ -658,10 +660,11 @@ double faster = 5;
             double aps = 1;
             string special = "Flies towards your roof. Attacks plants beneath him, which stuns them for a few seconds.";
             string almanac = "What's love got to do with it? Honestly, he has no idea.";
-            string origin = "rogue garden";
+            string origin = "PvZ Heroes";
 
         //transport_fighter
             string special = "Flies towards your roof. Drops a Bug Bot Imp upon reaching 75%, 50% and 25% hp.";
+            string orientation = "PvZ 2 China (transport Ship) ; PvZ 2 (Far Future)";
 
     //aquatic_zombies
         //snorkel_zombie

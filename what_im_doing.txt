@@ -1,4 +1,4 @@
-- Finish tutorial at https://youtu.be/O5MrnPf-cx0?si=LtFFezAd0sbGdIZw&t=1123 to have the base game (and a bit of knowledge to then build upon
+- Finish tutorial at https://youtu.be/O5MrnPf-cx0?si=LtFFezAd0sbGdIZw&t=1123 to have the base game (and a bit of knowledge) to then build upon
 - Make the designs for the basic plants
 - Make the animation sprites for the designed plants
 - Make browncoat design

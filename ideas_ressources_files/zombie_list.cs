@@ -13,7 +13,7 @@ double faster = 5;
             double speed = normal;                       //speeds written on the top of the file
             double dmg = 1;                              //damage (dmg) is counted in peas - yes, even the zombies'
             double aps = 1;                              //aps stands for attacks per second, aka how fast the zombie attacks
-            string special = "";                         //if relevant, add the precise description of ability (this won't show up in the actual almanac), if not remove this line
+            string special = "";                         //if relevant, add the precise description of ability (this won't show up in the actual almanac), if not remove this line. Note : by default, zombies can't spawn on water or on air.
             string almanac = "ladders on sale";          //almanac entry, be it copied from one of the original games or an entirely new
             string origin = "rogue garden";              //game(s) or mod(s) of origin - add the original name of the zombie if the name changes for this (i.e. Monitor Head: "PvZ Battle for Neighbourville (TV Head))"
 
@@ -544,6 +544,7 @@ double faster = 5;
         //zomboni
 
             //bobsled_team
+                string special = "Only appears in winter or in Zomboni ice trail.";
 
         //catapult_zombie
 

@@ -102,10 +102,10 @@ double faster = 5;
             string origin = "PvZ 2 (Far Future)";
 
         //bungee_ambush
-            string description = "A half a dozen Bungee Zombies and Bungee Plumbers appear in each graden and the roof.";
+            string description = "A half a dozen Bungee Zombies and Bungee Plumbers appear in each graden and in the roof.";
 
         //chicken_run
-            string description = "";
+            string description = "Spawns a dozen chickens in each garden, spread on 3 to 4 lanes.";
             string origin = "PvZ 2 Mod - Eclise";
 
         //nut_bowling
@@ -113,32 +113,32 @@ double faster = 5;
             string origin = "";
 
         //rush_hour
-            string description = "";
-            string origin = "";
+            string description = "For the duration, all CR goes into ZCorp Zombies and basics are replaced with teh ZCorp variant basics.";
+            string origin = "Rogue Garden";
 
         //pine_clone_bonanza
-            string description = "";
-            string origin = "";
+            string description = "All plants are temporarily turned into pineclones.";
+            string origin = "PvZ Heroes ; Rogue Garden";
 
         //bobsled_bonanza
-            string description = "";
-            string origin = "";
+            string description = "All CR goes into Zombonis and Bobsleds.";
+            string origin = "PvZ 1 Minigame";
 
         //portal_combat
-            string description = "";
-            string origin = "";
+            string description = "Spawns a Portal Gatekeeper Zombie taht cannot die for the duration of the event.";
+            string origin = "PvZ 1 Minigame ; PvZ Heroes";
 
         //invisi-ghoul
-            string description = "";
-            string origin = "";
+            string description = "For the duration, all zombies are invisible, unless lit by Plantern.";
+            string origin = "PvZ 1 Minigame";
 
         //big_trouble_little_zombie
-            string description = "";
-            string origin = "";
+            string description = "For the duration, new zombies are smaller : running faster and eating faster but having less health and dealing less damage.";
+            string origin = "PvZ 1 Minigame";
 
         //pogo_party
-            string description = "";
-            string origin = "";
+            string description = "For the duration, all CR goes into Pogo Zombies.";
+            string origin = "PvZ 1 Minigame";
 
         //zen_garden
             string description = "Fake-crashes the game. Very rare. 'You've been Zen Gardened'.";

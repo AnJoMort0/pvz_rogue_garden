@@ -90,3 +90,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   plant_drag: {fileID: 2416456796943323164, guid: b45417406cabb08439929487b10422c3, type: 3}
   plant_game: {fileID: 2416456796943323164, guid: ffb00ad632e5b4644aae95c59bab62dc, type: 3}
+  canvas: {fileID: 0}

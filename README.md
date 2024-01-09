@@ -35,4 +35,4 @@ If the idea of a rogue-like Plants vs Zombies Unity fan game intrigues you, and 
 🌿 **Disclaimer (Again):**
 Remember, this is a hobby project, and perfection is not the goal. If you share the enthusiasm and want to learn and create alongside me, your insights and contributions will be invaluable.
 
-Join in, have fun, and let's cultivate the Rogue Garden together! 🌻✨
+Join in, have fun, and let's cultivate the Rogue Garden together! 🌻☀

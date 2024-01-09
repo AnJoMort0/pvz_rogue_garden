@@ -18,7 +18,7 @@ This project is a personal journey into the realms of game design and programmin
 ⚠️ **Learning Journey:**
 I want to be transparent—this project is a learning adventure for me. I have minimal experience in game design, programming (outside of HTML, Javascript, and Java basics), and art. With your support and collaboration, we'll navigate through the challenges, learn, and grow together.
 
-¯\_(ツ)_/¯ **I Don't Know What I'm Doing**
+¯\\_(ツ)_/¯ **I Don't Know What I'm Doing**
 All files I've used for the game development are on this page, constantly updated, including the Unity project. I don't even know if anyone can do anything with it. Anyway ⚠️ the PackageCache file under Library is missing because its files are too large for GitHub, so if you copy the whole repository, you may need to generate your own.
 
 ## Join the Adventure!

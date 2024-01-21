@@ -455,6 +455,18 @@ double faster = 5;
                 //zombie_parrot
                     string special = "Attempts to fly away with your plants.";
                     string origing = "PvZ Garden Warfare ; PvZ 2 (Pirate Captain Zombie)";
+            
+        //pidgeon_feeder_zombie
+            string special = "While alive, spawns and respawns pidgeons on a 3x3 area around him similiarily to the disco zombie.";
+            string origin = "PvZ 3";
+
+                //pidgeon_zombie
+                    string special = "Flies at roof height, clogging up your skies but land to eat.";
+
+        //disco_zombie
+            string special = "Unlike Dancer Zombie, he can spawn anywhen. While alive, spawns Disco Backup Dancers in the tiles above, below and besides him.";
+
+                //backup_disco_zombie
 
     //sportive_zombies
         //pole_vaulting_zombie
@@ -914,7 +926,7 @@ double faster = 5;
                     string almanac = "What he lacks in size, he makes up for in volume.";
                     string origin = "PvZ Heroes";
 
-                //disco_dancer_zombie
+                //dancer_zombie
                     string event_name = "Thriller";
 
                     //backup_dancer_zombie

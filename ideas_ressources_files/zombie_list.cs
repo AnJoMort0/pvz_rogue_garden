@@ -80,21 +80,21 @@ double faster = 5;
             //variant:ducky_tube_zombie
             string description = "The ducky tube allows this zombie to float on water.";
             //stats_of_relevent_basics
-            string special = "Only appears in the pool.";
+            string special = "Only spawns in the pool.";
             string almanac = "It takes a certain kind of zombie to be a Ducky Tuber. Not every zombie can handle it. Some crack. They can't take it. They walk away and give up on brains forever.";
             string origin = "PvZ 1";
 
             //variant:brown_parka_zombie
             string description = "The zombie's brown parka protects him from the cold.";
             //stats_of_relevent_basics
-            string special = "Only appears in winter. Immune to chilling and reduces the freezing effect to chilling.";
+            string special = "Only spawns in winter. Immune to chilling and reduces the freezing effect to chilling.";
             string almanac = "Though many see the use of thicker clothing as a simple survival instinct, Brown Parka Zombie disapproves of this theory. For him, it's all about fashion.";
             string origin = "PvZ 2 (Frostbite Caves basic)";
 
             //variant:zcorp_zombie
             string description = "A typical ZCorp Incorporated employee.";
             //stats_of_relevent_basics
-            string special = "Only appears during the 'Rush Hour' ambush.";
+            string special = "Only spawns during the 'Rush Hour' ambush.";
             string almanac = "He was issued the standard ZCorp coffee mug at orientation.";
             string origin = "PvZ 2";
 
@@ -102,27 +102,27 @@ double faster = 5;
         //imp
 
             //variant:brownparka_imp
-                string spceial = "Only appears in winter. Immune to chilling and reduces the freezing effect to chilling.";
+                string spceial = "Only spawns in winter. Immune to chilling and reduces the freezing effect to chilling.";
                 string origin = "PvZ 2 (Yeti Imp)";
 
             //variant:fishy_imp
-                string special = "Only appears in the pool.";
+                string special = "Only spawns in the pool.";
 
         //gargantuar
             string special = "Throws an Imp upon reaching half hp.";
 
             //variant:king_of_the_grill
-                string spcial = "Only appears in the summer. Throws a Hot Dog Imp upon reaching half hp.";
+                string spcial = "Only spawns in the summer. Throws a Hot Dog Imp upon reaching half hp.";
 
             //variant:brownparka_gargantuar
-                string spceial = "Only appears in winter. Immune to chilling and reduces the freezing effect of chilling. Throws 3 Brownparka Imps upon reaching half hp.";
+                string spceial = "Only spawns in winter. Immune to chilling and reduces the freezing effect of chilling. Throws 3 Brownparka Imps upon reaching half hp.";
                 string origin = "PvZ 2 (Sloth Gargantuar)";
 
             //variant:smashing_gargantuar
                 string description = "Attacks faster than a regular gargantuar. Throws an Imp upon reaching half hp.";
 
             //variant:deep_sea_gargantuar
-                string special = "Only appears in the pool. Throws a Fishy Imp upon reaching half hp.";
+                string special = "Only spawns in the pool. Throws a Fishy Imp upon reaching half hp.";
 
             //variant:hippity_hop_gargantuar
                 string special = "Throws a Mystery Egg upon reaching half hp.";
@@ -141,11 +141,11 @@ double faster = 5;
         //pogo_zombie
 
         //snowball_thrower_imp
-            string special = "Only appears during winter.";
+            string special = "Only spawns during winter.";
             string origin = "PvZ 2 (Hunter Zombie)";
 
         //ice_pirate_zomboie
-            string origin = "When she appears, freezes the first plant in her lane.";
+            string origin = "When she spawns, freezes the first plant in her lane.";
 
         //chicken_wrangler
 
@@ -162,7 +162,7 @@ double faster = 5;
             double speed = normal;
             double dmg = 1;
             double aps = 1;
-            string special = "Creates tombstones on random tiles of the lawn. If the tile is occupied, no tombstone appears.";
+            string special = "Creates tombstones on random tiles of the lawn. If the tile is occupied, no tombstone is created.";
             string almanac = "Digging graves is hard work, but seeing customers rise out of them makes it all worth it.";
             string origin = "PvZ Heroes ; PvZ 2 (Tomb Raiser Zombie)";
 
@@ -170,14 +170,14 @@ double faster = 5;
             string special = "Gets +2 hp and +1 dmg for every tombstone he walks through.";
 
         //parasol_zombie
-            string special = "Only appears in spring and summer daytime. Blocks attacks from above: blocks splash dmg, effects and AKEE's bouncing.";
+            string special = "Only spawns in spring and summer daytime. Blocks attacks from above: blocks splash dmg, effects and AKEE's bouncing.";
 
         //umbrella_zombie
-            string special = "Only appears during fall and winter. He jumps over the first plant he encounters. Blocks attacks from above: doesn't block splash dmg, effects or AKEE's bouncing.";
+            string special = "Only spawns during fall and winter. He jumps over the first plant he encounters. Blocks attacks from above: doesn't block splash dmg, effects or AKEE's bouncing.";
             string origin = "PvZ 2 (Parasol Zombie) ; PvZ Heroes and PvZ China (Gentleman Zombie)";
 
         //campimp_porter
-            string special = "Doesn't appear during winter.";
+            string special = "Doesn't spawn during winter.";
             string origin = "PvZ 2 (Imp Porter)";
             
         //nutcracker_zombie
@@ -197,7 +197,7 @@ double faster = 5;
             string special = "When a plant is placed on a neighbouring lane, moves to it.";
 
         //zombie's_best_friend
-            string special = "Never appears by itself, only besides non-gargantuar zombies."
+            string special = "Never spawns by itself, only besides non-gargantuar zombies."
 
         //cat_lady_zombie
             string special = "Releases a fraidy cat on her lane and on the two neighbouring lanes upon death.";
@@ -224,7 +224,7 @@ double faster = 5;
             double speed = normal;
             double dmg = 1;
             double aps = 1;
-            string special = "Appears on the side of the house with a ladder. Climbs up and moves to either side of the roof by hanging onto the roof's edge. Then acts like normal until he reaches the chimney (making you lose).";
+            string special = "spawns on the side of the house with a ladder. Climbs up and moves to either side of the roof by hanging onto the roof's edge. Then acts like normal until he reaches the chimney (making you lose).";
             string almanac = "Who needs backdoors when you have chimneys? It's a growth industry.";
             string origin = "PvZ Heroes";
 
@@ -272,7 +272,7 @@ double faster = 5;
             double speed = normal;
             double dmg = 1;
             double aps = 1;
-            string special = "Only appears during fall. Gives +2 hp OR +1 dmg to a nearby zombie after eating a plant.";
+            string special = "Only spawns during fall. Gives +2 hp OR +1 dmg to a nearby zombie after eating a plant.";
             string almanac = "Trick or treat? He is haunted by that question - and by an answer that continues to elude him.";
             string origin = "PvZ Heroes";
 
@@ -345,7 +345,7 @@ double faster = 5;
             string special = "Ignores plants and leaves a blob trail behind him that deals dot and disappears after a few seconds.";
 
         //squirrel_herder_zombie
-            string special = "Destroys the first nut or berry in her lane when she appears";
+            string special = "Destroys the first nut or berry in her lane when she spawns";
 
         //hamster_ball_imp
             string special = "Releases the 'faster' moving imp inside it when it's destroyed.";
@@ -380,7 +380,7 @@ double faster = 5;
             string origin = "PvZ Heroes ; PvZ 2 China (Bandit Zombie)";
 
         //hot_dog_imp
-            string special = "Only appears during summer. When he eats, he dashes forward, skipping ahead one lane and damaging the plant in the process.";
+            string special = "Only spawns during summer. When he eats, he dashes forward, skipping ahead one lane and damaging the plant in the process.";
 
         //moneky_smuggler_zombie
             string description = "The monkey smuggler sends out his monkey behind the floral wall.";
@@ -429,7 +429,7 @@ double faster = 5;
             string origin = "PvZ 2 China";
 
         //ballerina_zombie
-            string special = "Always appears in 'back-up dancer formation'.";
+            string special = "Always spawns in 'back-up dancer formation'.";
             string origin = "PvZ 2 China";
 
         //firework_zombie
@@ -464,9 +464,15 @@ double faster = 5;
                     string special = "Flies at roof height, clogging up your skies but land to eat.";
 
         //disco_zombie
-            string special = "Unlike Dancer Zombie, he can spawn anywhen. While alive, spawns Disco Backup Dancers in the tiles above, below and besides him.";
+            string special = "Unlike Dancer Zombie, he can spawn anywhen. While alive, creates Disco Backup Dancers in the tiles above, below and besides him.";
 
                 //backup_disco_zombie
+
+        //line_dancer_zombie
+            string description = "Line Dancer Zombie yoddles down your lanes to damage all plants.";
+            string special = "Moves between lanes. Occasionally yoddles, damaging every plant in her lane.";
+            string almanac = "In her opinion, there's no better song to line dance to than the 'Zombie Shuffle.'";
+            string origin = "PvZ Heroes";
 
     //sportive_zombies
         //pole_vaulting_zombie
@@ -546,7 +552,7 @@ double faster = 5;
             string special = "Gives all zombies in his lane +2 hp and +1 dmg when he dies.";
 
         //cursed_gargolith
-            string special = "Only appears from engraved gravestones. Throws an Imp upon reaching half hp.";
+            string special = "Only spawns from engraved gravestones, but has high chances to spawn. Throws an Imp upon reaching half hp.";
 
         //archeology_guide_zombie
             string special = "Digs underground for 5 tiles before coming back up, creating a pathway for non-gargantuar zombies to evade attacks. Diggers that dig into it come out the end of the tunnel. The tunnel only lasts 3 tiles.";
@@ -556,7 +562,7 @@ double faster = 5;
         //zomboni
 
             //bobsled_team
-                string special = "Only appears in winter or in Zomboni ice trail.";
+                string special = "Only spawns in winter or in Zomboni ice trail.";
 
         //catapult_zombie
 
@@ -590,7 +596,7 @@ double faster = 5;
             double speed = normal;
             double dmg = 1;
             double aps = 1;
-            string special = "Once dead, a Vengeful Cyborg Zombie appears in his lane.";
+            string special = "Once dead, a Vengeful Cyborg Zombie spawns in his lane.";
             string almanac = "He'll be back.";
             string origin = "PvZ Heroes";
 
@@ -685,26 +691,26 @@ double faster = 5;
         //dolphin_rider_zombie
 
         //surfer_zombie
-            string special = "Only appears during summer and spring. May appear in the pool. If on land, carries a surfboard over his head that he smashes into the first plant he encounters and drops upon death. If in the pool, surfs rapidly, ignoring your plants except for tall-nut.";
+            string special = "Only spawns during summer and spring. May spawn in the pool. If on land, carries a surfboard over his head that he smashes into the first plant he encounters and drops upon death. If in the pool, surfs rapidly, ignoring your plants except for tall-nut.";
 
         //fisherman_zombie
 
         //octo_zombie
 
         //synchronized_swimmer_zombie
-            string special = "Only appears in the pool. Always appears in groups of three, covering all three pool lanes.";
+            string special = "Only spawns in the pool. Always spawns in groups of three, covering all three pool lanes.";
 
         //imp_commander
-            string special = "Only appears in the pool. While alive, every zombie in his lane gets +0.5 aps.";
+            string special = "Only spawns in the pool. While alive, every zombie in his lane gets +0.5 aps.";
 
         //zombie_high_diver
-            string special = "Only appears in the pool. Dives into the water and stays submerged for five tiles before going back over the water.";
+            string special = "Only spawns in the pool. Dives into the water and stays submerged for five tiles before going back over the water.";
 
         //walrus_rider_imp
-            string special = "Only appears in the pool, during winter. Slides over the water, propelling the imp forward on the first plant it hits.";
+            string special = "Only spawns in the pool, during winter. Slides over the water, propelling the imp forward on the first plant it hits.";
 
         //disinfection_zombie
-            string special = "Only appears in the pool. Releases toxic chemicals that slowly move along his lane, lightly damaging all plants."
+            string special = "Only spawns in the pool. Releases toxic chemicals that slowly move along his lane, lightly damaging all plants."
 
     //zcorp_zombies
         //zcopr_monitor_head
@@ -734,7 +740,7 @@ double faster = 5;
         //zcorp_chair_racer
 
         //zcorp_customer_service
-            string description = "When he appears, ZCorp Customer Service creates one ZCorp basic on every lane.";
+            string description = "When he spawns, ZCorp Customer Service creates one ZCorp basic on every lane.";
             double hp = 10;
             double armour = 0;
             int cr = 8;
@@ -790,7 +796,7 @@ double faster = 5;
             string origin = "PvZ 2 China (Riot Police Zombie)";
 
         //riot_police_squadron
-            string special = "appears in formation from 3 to 5 zombies. The zombies on the front and back hold their shields in front and behind them respectively. The zombies in the middle hold it above their heads. This protects the formation from attacks from all directions except up. They attack with their bastons instead of eating.";
+            string special = "spawns in formation from 3 to 5 zombies. The zombies on the front and back hold their shields in front and behind them respectively. The zombies in the middle hold it above their heads. This protects the formation from attacks from all directions except up. They attack with their bastons instead of eating.";
             string origin = "PvZ 2 (Camel Zombies) | PvZ 2 China (Riot Police Zombie)";
 
         //detonator_zombie
@@ -909,100 +915,88 @@ double faster = 5;
             string almanac = "'Stand here and guard this gate with your unlife,' she was told. And that's what she's been doing ever since.";
             string origin = "PvZ Heroes (Wormhole Gatekeeper)";
 
-            //dancing_zombies: only appear in the music event, each event is dedicated to a single zombie.
-                //jack-in-the-box_zombie
-                    string event_name = "Asylum Escape";
+        //dancing_zombies: only spawn in the music event, each event is dedicated to a single zombie.
+            //jack-in-the-box_zombie
+                string event_name = "Asylum Escape";
 
-                //orchestra_conductor_zombie
-                    string event_name = "Orchestral jam"
-                    string description = "While alive, the Orchestra Conductor Zombie makes all zombies fast.";
-                    double hp = 7;
-                    double armour = 0;
-                    //int cr = N/A;
-                    double speed = fast;
-                    double dmg = 1;
-                    double aps = 1;
-                    string special = "While alive, makes all zombies 'fast.'";
-                    string almanac = "What he lacks in size, he makes up for in volume.";
-                    string origin = "PvZ Heroes";
+            //orchestra_conductor_zombie
+                string event_name = "Orchestral jam";
+                string description = "While alive, the Orchesta Conductor Zombie makes all zombies do more damage.";
+                double hp = 20;
+                double armour = 0;
+                //int cr = N/A;
+                double speed = normal;
+                double dmg = 1;
+                double aps = 1;
+                string special = "While alive, all zombies do +1 dmg.";
+                string almanac = "He isn't in it for the music. He just likes waving sticks.";
+                string origin = "PvZ Heroes";
 
-                //dancer_zombie
-                    string event_name = "Thriller";
+            //dancer_zombie
+                string event_name = "Thriller";
+                string special = "Behaves exactly like Disco Zombie";
 
-                    //backup_dancer_zombie
+                //backup_dancer_zombie
 
-                //pianist_zombie
-                    string event_name = "Swing jam";
+            //pianist_zombie
+                string event_name = "Swing jam";
 
-                //aerobics_instructor_zombie
-                    string event_name = "Aerobics Class";
-                    string description = "While alive, the Aerobics Instructor Zombie makes all zombies do more damage.";
-                    double hp = 20;
-                    double armour = 0;
-                    //int cr = N/A;
-                    double speed = normal;
-                    double dmg = 1;
-                    double aps = 1;
-                    string special = "While alive, all zombies do +1 dmg.";
-                    string almanac = "Aerobics really bring the dead to life.";
-                    string origin = "PvZ Heroes";
+            //aerobics_instructor_zombie
+                string event_name = "Aerobics Class";
+                string description = "While alive, the Aerobics Instructor Zombie makes all zombies fast.";
+                double hp = 20;
+                double armour = 0;
+                //int cr = N/A;
+                double speed = slow;
+                double dmg = 1;
+                double aps = 1;
+                string special = "While alive, makes all zombies 'fast.'";
+                string almanac = "Aerobics really bring the dead to life.";
+                string origin = "PvZ Heroes";
 
-                //binary_stars
-                    string event_name = "Double-Z jam";
-                    string description = "While alive, the Binary Stars make all zombies have double attack speed.";
-                    double hp = 20;
-                    double armour = 0;
-                    //int cr = N/A;
-                    double speed = normal;
-                    double dmg = 1;
-                    double aps = 1;
-                    string special = "While alive, all zombies have double dps.";
-                    string almanac = "He's a Gemini and so is she. Which explains so much, right?";
-                    string origin = "PvZ Heroes";
+            //binary_stars
+                string event_name = "Double-Z jam";
+                string description = "While alive, the Binary Stars make all zombies have double attack speed.";
+                double hp = 20;
+                double armour = 0;
+                //int cr = N/A;
+                double speed = normal;
+                double dmg = 1;
+                double aps = 1;
+                string special = "While alive, all zombies have double dps.";
+                string almanac = "He's a Gemini and so is she. Which explains so much, right?";
+                string origin = "PvZ Heroes";
 
-                //line_dancer_zombie
-                    string event_name = "Yoddle jam";
-                    string description = "Line Dancer Zombie yoddles down your lanes to damage all plants.";
-                    double hp = 20;
-                    double armour = 0;
-                    //int cr = N/A;
-                    double speed = normal;
-                    double dmg = 1;
-                    double aps = 1;
-                    string special = "Moves between lanes. Occasionally yoddles, damaging every plant in her lane.";
-                    string almanac = "In her opinion, there's no better song to line dance to than the 'Zombie Shuffle.'";
-                    string origin = "PvZ Heroes";
+            //punk_zombie
+                string event_name = "Punk jam";
 
-                //punk_zombie
-                    string event_name = "Punk jam";
+            //glitter_zombie
+                string event_name = "Pop jam";
 
-                //glitter_zombie
-                    string event_name = "Pop jam";
+            //mc_zom-b
+                string event_name = "Rap jam";
 
-                //mc_zom-b
-                    string event_name = "Rap jam";
+            //breakdancer_zombie
+                string event_name = "Rap jam";
 
-                //breakdancer_zombie
-                    string event_name = "Rap jam";
+            //hair_metal_gargantuar
+                string event_name = "Metal jam";
+                string description  = "Attacks shoot sound waves to damage plants from affar.";
+                string special = "Throws a Hair Metal Imp upon reaching half hp.";
 
-                //hair_metal_gargantuar
+                //hair_metal_imp
                     string event_name = "Metal jam";
-                    string description  = "Attacks shoot sound waves to damage plants from affar.";
-                    string special = "Throws a Hair Metal Imp upon reaching half hp.";
+                    string description = "Moves faster than a normal imp.";
 
-                    //hair_metal_imp
-                        string event_name = "Metal jam";
-                        string description = "Moves faster than a normal imp.";
+            //boombox_zombie
+                string event_name = "Boombox jam";
 
-                //boombox_zombie
-                    string event_name = "Boombox jam";
+            //conga_leader_zombie
+                string event_name = "Conga line";
+                string special = "While alive, browncoat (or variant) will continuisly spawn on his lane.";
+                string origin = "PvZ Adventure";
 
-                //conga_leader_zombie
-                    string event_name = "Conga jam";
-                    string special = "While alive, browncoat (or variant) will continuisly spawn on his lane.";
+                //variant:ducky_conga_leader_zombie
+                    string event_name = "Conga line";
+                    string special = "Only spawns in the pool. While alive, ducky browncoats will continuously spawn on his lane.";
                     string origin = "PvZ Adventure";
-
-                    //variant:ducky_conga_leader_zombie
-                        string event_name = "Conga jam";
-                        string special = "Only appears in the pool. While alive, ducky browncoats will continuously spawn on his lane.";
-                        string origin = "PvZ Adventure";

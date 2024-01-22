@@ -82,9 +82,57 @@ double faster = 5;
                 string description = "For the duration, only Zombotany Zombies can appear.";
                 string origin = "PvZ 1";
 
-            //frontyard_concert
-                string description = "";
-                string origin = "";
+            //zombie_concert
+                string description = "This event affects only one garden at a time and never the air. When triggered, any of the 'concerts' below will happen.";
+
+                    //asylum_escape
+                        string description = "For the duration, spawns various Jack-in-the-box Zombies spread over the 7 lanes of a garden.
+                        string origin = "PvZ 1";
+
+                    //orchestral_jam
+                        string description = "Spawns an Orchestra Conductor Zombie in one of the gardens that is unkillable for the duration of the event.";
+                        string origin = "PvZ Heroes";
+
+                    //thriller
+                        string description = "Spawns a Dancer Zombie in one of the the gardens that is unkillable for the duration of the event. Creates a 4x5 block of Backup Dancer Zombies, centered on the Dancer Zombie, behind him.";
+                        string origin = "";
+
+                    //swing_jam
+                        string description = "Spawns a Piano Zombie in one of the gardens that is unkillable for the duration of the event.";
+                        string origin = "PvZ 2";
+
+                    //aerobics_class
+                        string description = "Spawns an Aerobics Instructor Zombie in one of the gardens that is unkillable for the duration of the event.";
+                        string origin = "PvZ Heroes";
+
+                    //double-z_jam
+                        string description = "Spawns a Binary Stars in one of the gardens that is unkillable for the duration of the event.";
+                        string origin = "PvZ Heroes";
+
+                    //punk_jam
+                        string description = "For the duration, spawns various Punk Zombies spread over the 7 lanes of a garden.";
+                        string origin = "PvZ 2";
+
+                    //pop_jam
+                        string description = "Spawns a glitter zombie in every lane of a garden.";
+                        string origin = "PvZ 2";
+
+                    //rap_jam
+                        string description = "For the duration, spawns various Mc-ZomBs and Breakdancer Zombies spread over the 7 lanes of a garden.";
+                        string origin = "PvZ 2";
+
+                    //metal_jam
+                        string description = "Spawns a Hair Metal Gargantuar in one of the gardens that is unkillable for the duration of the event.";
+                        string origin = "PvZ 2";
+
+                    //boombox_jam
+                        string description = "Spawns a Boombox Zombie in one of the gardens that is unkillable for the duration of the event.";
+                        string origin = "PvZ 2";
+
+                    //conga_line
+                        string description = "Spawns a (Duckytube) Conga Leader Zombie in one of the gardens that is unkillable for the duration of the event.";
+                        string origin = "PvZ Adventure";
+
 
     //random_events
         string description = "These events can happen at any time during the gameplay.";

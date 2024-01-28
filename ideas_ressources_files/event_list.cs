@@ -94,8 +94,8 @@ double faster = 5;
                         string origin = "PvZ Heroes";
 
                     //thriller
-                        string description = "Spawns a Dancer Zombie in one of the the gardens that is unkillable for the duration of the event. Creates a 4x5 block of Backup Dancer Zombies, centered on the Dancer Zombie, behind him.";
-                        string origin = "";
+                        string description = "Spawns a Dancer Zombie in one of the the gardens that is unkillable for the duration of the event. Creates a 4x5 block of Backup Dancer Zombies behind teh Dancer Zombie, centered on the him.";
+                        string origin = "PvZ 1 ; Michael Jackson - Thriller";
 
                     //swing_jam
                         string description = "Spawns a Piano Zombie in one of the gardens that is unkillable for the duration of the event.";
@@ -132,7 +132,6 @@ double faster = 5;
                     //conga_line
                         string description = "Spawns a (Duckytube) Conga Leader Zombie in one of the gardens that is unkillable for the duration of the event.";
                         string origin = "PvZ Adventure";
-
 
     //random_events
         string description = "These events can happen at any time during the gameplay.";

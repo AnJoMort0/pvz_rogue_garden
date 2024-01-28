@@ -331,7 +331,7 @@ double faster = 5;
             double speed = normal;
             double dmg = 1;
             double aps = 1;
-            string special = "After dying, creates a random, non-imp and non-gargantuar, zombie in his place.";
+            string special = "After dying, creates a random zombie in his place.";
             string almanac = "Soon everyone will own their own portal. But for now, he enjoys being an early adopter.";
             string origin = "PvZ Heroes";
 
@@ -539,12 +539,12 @@ double faster = 5;
         //awaken_ra_zombie
 
         //awaken_cleopatra_zombie
-            string origin = "PvZ 2 (Unused Content)";
+            string origin = "PvZ 2 China";
 
         //dodo_fossil_rider_imp
 
         //turquoise_skull_thief_zombie
-            string origin = "PvZ 2 (Turquoise Skull Zombie)";
+            string origin = "PvZ 2";
 
         //zombie_medusa
 
@@ -699,18 +699,23 @@ double faster = 5;
 
         //synchronized_swimmer_zombie
             string special = "Only spawns in the pool. Always spawns in groups of three, covering all three pool lanes.";
+            string origin = "PvZ Heroes";
 
         //imp_commander
             string special = "Only spawns in the pool. While alive, every zombie in his lane gets +0.5 aps.";
+            string origin = "PvZ Heroes";
 
         //zombie_high_diver
             string special = "Only spawns in the pool. Dives into the water and stays submerged for five tiles before going back over the water.";
+            string origin = "PvZ Heroes";
 
         //walrus_rider_imp
             string special = "Only spawns in the pool, during winter. Slides over the water, propelling the imp forward on the first plant it hits.";
+            string origin = "PvZ Heroes";
 
         //disinfection_zombie
-            string special = "Only spawns in the pool. Releases toxic chemicals that slowly move along his lane, lightly damaging all plants."
+            string special = "Only spawns in the pool. Releases toxic chemicals that slowly move along his lane, lightly damaging all plants.";
+            string origin = "PvZ 2 China";
 
     //zcorp_zombies
         //zcopr_monitor_head
@@ -759,8 +764,8 @@ double faster = 5;
             double speed = slow;
             double dmg = 1;
             double aps = 1;
-            string special = "Controls a drone from 2 tiles distance. he only moves if he must do so for the drone to be able to attack.";
-            string almanac = "He's not entirely sure how to fly this thing. Behaves like a normal zombie if the drone dies.";
+            string special = "Controls a drone from 2 tiles distance. He only moves if he must do so for the drone to be able to attack. Behaves like a normal zombie if the drone dies.";
+            string almanac = "He's not entirely sure how to fly this thing.";
             string origin = "PvZ Heroes (Zombot Drone Engineer)";
 
                 //zcorp_drone
@@ -809,7 +814,7 @@ double faster = 5;
             string special = "Heals himself 10hp when he smashes a plant. Throws an Imp upon reaching half hp.";
 
         //gilet_jaune_zombie
-            string description = "The Gilet Jaune Zombie joins the undead protest with a megaphone in hand.  His passionate shouts can rally other zombies to his cause.";
+            string description = "The Gilet Jaune Zombie joins the undead protest with a megaphone in hand. His passionate shouts can rally other zombies to his cause.";
             double hp = 10;
             double armour = 0;
             int cr = 5;
@@ -818,7 +823,7 @@ double faster = 5;
             double aps = 1;
             string special = "The Gilet Jaune Zombie is armed with a megaphone that he uses to shout slogans against the plants. This shout not only disorients nearby plants but can also turn nearby basics into 'Rallied Protestor Zombies.'";
             string almanac = "Once a common citizen, now a shuffler of the streets, the Gilet Jaune Zombie marches against anything in his path. To defend against the Gilet Jaune Zombie consider using plants with resistance to public dissatisfaction.";
-            string origin = "rogue garden";
+            string origin = "Rogue Garden";
 
             //rallied_protestor_zombie
                 string description = "The Rallied Protestor Zombie is an incendiary addition to the undead protest, carrying a torch to burn the rival flora.";
@@ -969,6 +974,7 @@ double faster = 5;
 
             //punk_zombie
                 string event_name = "Punk jam";
+                string special = "Pushes plants it hits backwards. Doesn't affect Infi-nut with its push-bakc and therefore cannot damage or traverse it.";
 
             //glitter_zombie
                 string event_name = "Pop jam";

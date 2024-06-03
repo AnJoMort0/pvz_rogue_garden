@@ -56,7 +56,7 @@ double faster = 5;
         //screendoor_zombie
 
         //buckethead_zombie
-            string description = "His bucket hat makes him extremely resistant to dmg.";
+            string description = "His bucket hat makes him extremely resistant to damage.";
             double hp = 10;
             double armour = 57;
             double speed = normal;
@@ -128,7 +128,7 @@ double faster = 5;
                 string special = "Throws a Mystery Egg upon reaching half hp.";
 
                     //mystery_egg
-                        string special = "Turns into a random CR 3 or less zombie or imp afetr a few seconds.";
+                        string special = "Turns into a random CR 3 or less zombie or imp after a few seconds.";
 
             //variant:surprise_gargantuar
                 string special = "Moves to a random lane upon reaching half hp. Throws an Imp in the lane he leaves and one in the lane he lands on."
@@ -152,7 +152,7 @@ double faster = 5;
             //zombie_chicken
 
         //fire_rooster_zombie
-            string special = "When a plant is placed on this lane, shoots a fireball down the lane before moving to a neighbouring lane.";
+            string special = "When a plant is placed on this lane, moves to a neighboring lane then shoots a fireball before continuing forwards.";
 
         //mixed-up_gravedigger_zombie
             string description = "The Mixed-Up Gravedigger creates tombstones all over the map.";
@@ -191,13 +191,13 @@ double faster = 5;
                 string origin = "PvZ 2";
 
             //zombie_rabbit
-                string origin = "PvZ Heroes ; PvZ 2 (Weasel)";
+                string origin = "PvZ Heroes (Abracadaver); PvZ 2 (Weasel)";
         
         //dog_walker_zombie
             string special = "When a plant is placed on a neighbouring lane, moves to it.";
 
         //zombie's_best_friend
-            string special = "Never spawns by itself, only besides non-gargantuar zombies."
+            string special = "Never spawns by itself, only besides zombies or imps."
 
         //cat_lady_zombie
             string special = "Releases a fraidy cat on her lane and on the two neighbouring lanes upon death.";
@@ -224,21 +224,24 @@ double faster = 5;
             double speed = normal;
             double dmg = 1;
             double aps = 1;
-            string special = "spawns on the side of the house with a ladder. Climbs up and moves to either side of the roof by hanging onto the roof's edge. Then acts like normal until he reaches the chimney (making you lose).";
+            string special = "Spawns on the side of the house with a ladder. Climbs up and moves to either side of the roof by hanging onto the roof's edge. Then acts like normal until he reaches the chimney (making you lose).";
             string almanac = "Who needs backdoors when you have chimneys? It's a growth industry.";
             string origin = "PvZ Heroes";
 
         //pied_piper_zombie
-            string description = "The Pied Piper stuns the front-most plant on his lane.";
+            string description = "The Pied Piper sends out rats to block the front-most plant in his lane.";
             double hp = 10;
             double armour = 0;
             int cr = 3;
             double speed = slow;
             double dmg = 1;
             double aps = 1;
-            string special = "Whatever plant is in front of him, is stunned.";
+            string special = "Sends Rat.Zombies down his lane.";
             string almanac = "He was told that playing the pipe would summon raccoons. But whatevs.";
             string origin = "PvZ Heroes";
+
+                //rat_zombie
+                    string special = "Cannot be hit by plants. Stuns the first plant they encounter until it dies, then goes on to the next plant. Dies if their Pied Piper dies.";
 
         //unlife_of_the_party
             string description = "The Unlife Of The Party is more robust the more zombies there are.";
@@ -260,7 +263,7 @@ double faster = 5;
             double speed = normal;
             double dmg = 1;
             double aps = 1;
-            string special = "During events : HP = 30, speed = fast, dmg = 2, aps = 1 and gains a 1 tile ranged attack with the camera.";
+            string special = "During events : HP = 30, speed = fast, dmg = 2, aps = 1 and gains a 1 tile ranged attack with the camera flash.";
             string almanac = "Why is everyone always screaming and running away in his photos?";
             string origin = "PvZ Heroes";
 
@@ -307,9 +310,9 @@ double faster = 5;
             double speed = fast;
             double dmg = 1;
             double aps = 1;
-            string special = "Places potions on his lane and neighbouring lanes every three tiles. There are three different potions: Purple gives the zombies +10 armour (visually indicated by a purple cloud), orange makes them faster (not stackable) and blue makes them invisible and untouchable for three tiles. These effects do not stack with each other. Cannot use his own potions.";
+            string special = "Places potions on his lane and neighbouring lanes every three tiles. There are three different potions: Purple gives the zombies +10 armour (visually indicated by a purple cloud), orange makes them faster (not stackable) and blue makes them invisible and untouchable for three tiles. These effects do not stack with each other. Isn't affected by potions.";
             string almanac = "He's not so much 'mad' as he is 'mildly annoyed.'";
-            string origin = "PvZ Heroes";
+            string origin = "PvZ Heroes ; PvZ 2 and Pv2 China (Dark Ages potions)";
 
         //teleportation_zombie
             string description = "The Teleportation Zombie teleports all zombies in his row one tile forwards upon death.";
@@ -339,7 +342,7 @@ double faster = 5;
             string special = "Once he reaches a plant, he explodes it and himself. Chilling and freezing disable the bomb.";
 
         //space_ninja_zombie
-            string description = "He deals massive gargantuar worthy damage but has low health.";
+            string description = "He attacks all plants in a an area for little damage everytime he attacks.";
 
         //zom-blob
             string special = "Ignores plants and leaves a blob trail behind him that deals dot and disappears after a few seconds.";
@@ -354,7 +357,7 @@ double faster = 5;
             string special = "Once he reaches half hp, he jumps into the trash can. This stops him in place and protects him from all directions. After the trash can is destroyed he keeps walking at half hp.";
 
         //genetic_experiement
-            string special = "Upon reaching the garden, incapsulates himself. He does not until the capsule is destroyed. Whilst in the capsule, gains +2 hp and +1 dmg for every four zombies that pass him.";
+            string special = "Upon reaching the garden, incapsulates himself. He does leave not until the capsule is destroyed. Whilst in the capsule, gains +2 hp and +1 dmg for every four zombies that pass him.";
 
         //gargologist_zombie
             string special = "While alive, all gargantuars in her lane get +0.5 aps.";
@@ -369,7 +372,7 @@ double faster = 5;
             string special = "While alive, every zombie in his garden has double aps.";
 
         //headstone_carver
-            string special = "Turns graves he passes into engraved graves. They are immune to Gravebusters and zombies that rise from them have 125% hp.";
+            string special = "Turns graves he passes into engraved graves. They are uneffected by plant attacks, only defeatable by gravebuster and zombies that rise from them have 125% hp.";
 
         //imposter
             string special = "Splits into two Imps on adjacent lanes on death, one of which has a moustache. While wearing the coat, it deals more damage when eating plants.";

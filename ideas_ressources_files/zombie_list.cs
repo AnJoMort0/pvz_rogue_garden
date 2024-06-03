@@ -372,7 +372,7 @@ double faster = 5;
             string special = "While alive, every zombie in his garden has double aps.";
 
         //headstone_carver
-            string special = "Turns graves he passes into engraved graves. They are uneffected by plant attacks, only defeatable by gravebuster and zombies that rise from them have 125% hp.";
+            string special = "Turns gravestones he passes into engraved gravestones. They are uneffected by plant attacks, only defeatable by gravebuster and zombies that rise from them have 125% hp.";
 
         //imposter
             string special = "Splits into two Imps on adjacent lanes on death, one of which has a moustache. While wearing the coat, it deals more damage when eating plants.";
@@ -528,7 +528,7 @@ double faster = 5;
         //electrician_zombie
             string special = "Zombies behind him on his lane are faster.";
 
-        //kitchen_skin_zombie
+        //kitchen_sink_zombie
             string description = "This zombie has essentially got the power of a garantuar, though he prefers eating over smashing.";
 
         //landscaper_zombie
@@ -555,7 +555,7 @@ double faster = 5;
             string special = "Gives all zombies in his lane +2 hp and +1 dmg when he dies.";
 
         //cursed_gargolith
-            string special = "Only spawns from engraved gravestones, but has high chances to spawn. Throws an Imp upon reaching half hp.";
+            string special = "Only spawns from engraved gravestones, but has high chances to spawn. Throws a gravestone upon reaching half hp.";
 
         //archeology_guide_zombie
             string special = "Digs underground for 5 tiles before coming back up, creating a pathway for non-gargantuar zombies to evade attacks. Diggers that dig into it come out the end of the tunnel. The tunnel only lasts 3 tiles.";
@@ -587,7 +587,7 @@ double faster = 5;
             double speed = normal;
             double dmg = 1;
             double aps = 1;
-            string special = "Every 3 attack that hits him doesn't inflict damage and causes him to glitch forwards one tile.";
+            string special = "Every third attack that hits him doesn't inflict damage and causes him to glitch forwards one tile.";
             string almanac = "In a parallel dimension, this Zombie is a Space Pirate. In another, he's a Trash Can Zombie. Turns out, little choices in life can make a big difference.";
             string origin = "PvZ Heroes";
 
@@ -659,7 +659,7 @@ double faster = 5;
             double speed = normal;
             double dmg = 1;
             double aps = 1;
-            string special = "The kite flies on roof height above the Kite Flyer Zombie. Whatever damage the kite takes is shot back at the plants on the ground.";
+            string special = "CR 4 during fall. The kite flies on roof height above the Kite Flyer Zombie. Whatever damage the kite takes is shot back at the plants on the ground.";
             string almanac = "The naysayers were right. Flying a kite in a lightning storm WAS a real bright idea.";
             string origin = "PvZ Heroes";
 
@@ -673,20 +673,21 @@ double faster = 5;
                     //double aps = N/A;
 
         //stupid_cupid_imp
-            string description = "Flies. Deals damage to plants under him, which stuns them for a few seconds.";
+            string description = "Flies and attacks to plants under him, which stuns them for a few seconds.";
             double hp = 14;
             double armour = 0;
             int cr = 5;
             double speed = fast;
             double dmg = 1;
             double aps = 1;
-            string special = "Flies towards your roof. Attacks plants beneath him, which stuns them for a few seconds.";
+            string special = "Flies towards your roof. Deals damage to plants beneath him, which stuns them for a few seconds.";
             string almanac = "What's love got to do with it? Honestly, he has no idea.";
             string origin = "PvZ Heroes";
 
         //transport_fighter
             string special = "Flies towards your roof. Drops a Bug Bot Imp upon reaching 75%, 50% and 25% hp.";
-            string orientation = "PvZ 2 China (transport Ship) ; PvZ 2 (Far Future)";
+            string origin = "PvZ 2 China (Transport Ship) ; PvZ 2 (Far Future imp rain)";
+            //fighter plane visual
 
     //aquatic_zombies
         //snorkel_zombie
@@ -709,7 +710,7 @@ double faster = 5;
             string origin = "PvZ Heroes";
 
         //zombie_high_diver
-            string special = "Only spawns in the pool. Dives into the water and stays submerged for five tiles before going back over the water.";
+            string special = "Spawns in the roof like the chimney swipper. Dives into one of the pool lanes, stays submerged for 1 to 3 tiles and advances away from the house.";
             string origin = "PvZ Heroes";
 
         //walrus_rider_imp
@@ -798,13 +799,14 @@ double faster = 5;
     //police_and_military
         //foot_soldier_zombie
             string special = "Upon reaching the 4th row, he lauches himself upwards to the second to last lane of the roof, dealing heavy damage to the plant he lands on in the process.";
+            string origin = "PvZ Garden Warfare"
 
         //riot_police_bomber_zombie
             string special = "Throws smoke bombs forwards to stun plants. Hits plants with his stick instead of eating.";
             string origin = "PvZ 2 China (Riot Police Zombie)";
 
         //riot_police_squadron
-            string special = "spawns in formation from 3 to 5 zombies. The zombies on the front and back hold their shields in front and behind them respectively. The zombies in the middle hold it above their heads. This protects the formation from attacks from all directions except up. They attack with their bastons instead of eating.";
+            string special = "Spawns in formation from 3 to 5 zombies. The zombies on the front and back hold their shields in front and behind them respectively. The zombies in the middle hold it above their heads. This protects the formation from attacks from all directions except down. They attack with their bastons instead of eating.";
             string origin = "PvZ 2 (Camel Zombies) | PvZ 2 China (Riot Police Zombie)";
 
         //detonator_zombie
@@ -814,7 +816,7 @@ double faster = 5;
             string origin = "PvZ Heroes ; PvZ 2 (Healer Zombie)";
 
         //nurse_gargantuar
-            string special = "Heals himself 10hp when he smashes a plant. Throws an Imp upon reaching half hp.";
+            string special = "Heals himself 10hp when he smashes a plant. Throws an Imp upon reaching half hp. If a boss event is ongoing, heals the boss instead.";
 
         //gilet_jaune_zombie
             string description = "The Gilet Jaune Zombie joins the undead protest with a megaphone in hand. His passionate shouts can rally other zombies to his cause.";
@@ -824,7 +826,7 @@ double faster = 5;
             double speed = slow;
             double dmg = 1;
             double aps = 1;
-            string special = "The Gilet Jaune Zombie is armed with a megaphone that he uses to shout slogans against the plants. This shout not only disorients nearby plants but can also turn nearby basics into 'Rallied Protestor Zombies.'";
+            string special = "The Gilet Jaune Zombie shouts slogans against the plants. This shout stuns plants in a 3x3 area and turns  basics into 'Rallied Protestor Zombies.'";
             string almanac = "Once a common citizen, now a shuffler of the streets, the Gilet Jaune Zombie marches against anything in his path. To defend against the Gilet Jaune Zombie consider using plants with resistance to public dissatisfaction.";
             string origin = "Rogue Garden";
 
@@ -849,6 +851,7 @@ double faster = 5;
 
         //wizard_gargantuar
             string special = "Turns plants he smashes into Zombie Goats. Throws an Imp Dragon upon reaching half hp.";
+            string origin = "PvZ Heroes";
 
                 //zombie_goat
 
@@ -856,6 +859,7 @@ double faster = 5;
 
         //vimpire
             string special = "Gains a movement speed and aps buff upon eating a plant. Dies if he bites garlic.";
+            string origin = "PvZ Heroes";
 
         //haunting_zombie
             string description = "Haunting Zombie becomes a ghost upon death.";
@@ -881,7 +885,7 @@ double faster = 5;
                     string almanac = "Is he a Zombie? Is he a ghost? He refuses to be pigeonholded.";
                     string origin = "PvZ Heroes";
             
-        //valrkyrie_zombie
+        //valkyrie_zombie
             string description = "Valkyrie Zombie gets stronger the more zombies die.";
             double hp = 20;
             double armour = 19;
@@ -895,18 +899,23 @@ double faster = 5;
         
         //shieldcrusher_viking_zombie
             string special = "Deals gargantuar damage to wall plants.";
+            string origin = "PvZ Heroes";
 
         //intergalactic_warlord_zombie
             string special = "While alive, all zombies in his garden have +4 hp and +1 dmg.";
+            string origin = "PvZ Heroes";
 
         //unthawed_viking_zombie
             string special = "Freezes the first plant on the water lanes.";
+            string origin = "PvZ Heroes";
 
         //blowgun_imp
             string special = "Attacks plants from 4 tiles away.";
+            string origin = "PvZ Heroes";
 
         //frankentuar
             string special = "Gains +1 hp for every zombie that dies in his lane while he's alive. Throws a Vimpire upon reaching half hp.";
+            string origin = "PvZ Heroes";
 
     //event_dependent_zombies
         //zombotany_zombies
@@ -971,7 +980,7 @@ double faster = 5;
                 double speed = normal;
                 double dmg = 1;
                 double aps = 1;
-                string special = "While alive, all zombies have double dps.";
+                string special = "While alive, all zombies have double aps.";
                 string almanac = "He's a Gemini and so is she. Which explains so much, right?";
                 string origin = "PvZ Heroes";
 
@@ -1002,7 +1011,7 @@ double faster = 5;
 
             //conga_leader_zombie
                 string event_name = "Conga line";
-                string special = "While alive, browncoat (or variant) will continuisly spawn on his lane.";
+                string special = "While alive, browncoats (and his variants) will continuisly spawn on his lane.";
                 string origin = "PvZ Adventure";
 
                 //variant:ducky_conga_leader_zombie

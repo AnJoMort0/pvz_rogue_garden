@@ -9,6 +9,10 @@ double faster = 5;
             string description = "";
             string origin = "";
 
+    //shallow_water
+            string descitpion = "Shallow water that covers a grass tile in the lawn. Both land and water plants can be placed on it and both land and water zombies can traverse it. Moist Moss can prevent it from disappearing after the event that spawned it ends. If a full lane is covered with shallow water tiles, both land and water zombies can spawn in said lane.";
+            string origin = "Rogue Garden";
+
 //almanac_of_events
     //day-night_cycle
         string description = "The time of day changes between day and night throughout the game. Plants working on the 'wrong' shift (i.e.: shrooms during the day) may fall asleep and if they are placed outside of 'work time' they'll be asleep.";
@@ -18,12 +22,12 @@ double faster = 5;
             string descritpion = "During the day : Sun fall from the sky.";
 
             //total_eclipse
-                string description = "For intents and porpuses, behaves the same as a New Moon but triggers during the day.";
+                string description = "For all intents and porpuses, behaves the same as a New Moon but triggers during the day.";
                 string origin = "PvZ Heroes";
 
             //radiation_wave
                 string description = "Sun falling from the sky glow a radioactive purple. If clicked before they land, they explode dealing massive damage to zombies and plants in a 3x3 area. Zom-blobs and Genetic Experiments are more likely to spawn.";
-                string origin = "PvZ 2 (far Future - Sun Bombs)";
+                string origin = "PvZ 2 (Far Future - Sun Bombs)";
 
         //night
             string descritpion = "During the day : Sun don't fall from the sky.";
@@ -33,7 +37,7 @@ double faster = 5;
          string origin = "Rogue Garden";
 
         //full_moon
-            string description = "During fall moon, no plants fall asleep.";
+            string description = "During full moon, no plants fall asleep.";
 
             //haunting_moon
                 string description = "For its duration, upgrades all zombies on screen. May trigger during full moons.";
@@ -60,16 +64,25 @@ double faster = 5;
                 string description = "Only triggers during the day. For its duration, all plants have a higher chance of falling asleep and night plants are weaker.";
                 string origin = "PvZ 1 DS Version";
 
+                //drought
+                    string descitpion = "The pool dries, turning all its tiles into shallow water. May trigger during heat waves.";
+
         //fall
             string description = "Fog appears on both sides of the map. This blocks visibility and may be countered with various plants.";
             string origin = "PvZ 1";
 
-                //dark_storm
-                    string description = "The screen will remain dark until lightning flashes.";
-                    string origin = "PvZ 1";
+            //dark_storm
+                string description = "The screen will remain dark until lightning flashes.";
+                string origin = "PvZ 1";
+
+            //rain_storm
+                string descritpion = "A large rain cloud covers the yard. Grass tiles are randomly covered in 'Shallow Water' and only go away a few seconds after the event ends.";
+                    
+                //pool_flood
+                    string description = "The lanes next to the pool are covered in shallow water. After a few seconds the next lanes get flooded too. The reverse effect happens after the event ends. May trigger during rain storms.";
 
         //winter
-            string description = "During winter, sun fall less often from the sky";
+            string description = "During winter, sun fall less often from the sky. Brownparka variants of basics, imps and gargantuars will spawn.";
 
             //freezing_breeze
                 string description = "A freezing breeze freezes random plants on your lawn, fire and ice plants are not affected. The ice can be melted away. Frozen plants get hit by straight-shooting projectiles, are ignored by zombies and cannot be shovelled.";
@@ -83,18 +96,18 @@ double faster = 5;
                 string origin = "PvZ 1";
 
             //zombie_concert
-                string description = "This event affects only one garden at a time and never the air. When triggered, any of the 'concerts' below will happen.";
+                string description = "This event affects only one garden at a time and never the air. When triggered, any of the 'concerts' below will happen. Paparazzi zombies are more likely to spawn.";
 
                     //asylum_escape
-                        string description = "For the duration, spawns various Jack-in-the-box Zombies spread over the 7 lanes of a garden.
+                        string description = "For the duration, spawns various Jack-in-the-box Zombies spread over the 7 lanes of a garden.";
                         string origin = "PvZ 1";
 
                     //orchestral_jam
-                        string description = "Spawns an Orchestra Conductor Zombie in one of the gardens that is unkillable for the duration of the event.";
+                        string description = "Spawns an Orchestra Conductor Zombie in one of the gardens that is unkillable for the duration of the event. Zombies playing instruments are more likely to appear.";
                         string origin = "PvZ Heroes";
 
                     //thriller
-                        string description = "Spawns a Dancer Zombie in one of the the gardens that is unkillable for the duration of the event. Creates a 4x5 block of Backup Dancer Zombies behind teh Dancer Zombie, centered on the him.";
+                        string description = "Spawns a Dancer Zombie in one of the the gardens that is unkillable for the duration of the event. Creates a 4x5 block of Backup Dancer Zombies behind the Dancer Zombie, centered on the him.";
                         string origin = "PvZ 1 ; Michael Jackson - Thriller";
 
                     //swing_jam
@@ -136,9 +149,66 @@ double faster = 5;
     //random_events
         string description = "These events can happen at any time during the gameplay.";
 
+        //boss_events            
+            //Zombots
+                //Mark III
+                
+                //Sphinx-inator
+                    //Museum Zombies
+
+                //Catastro-liope
+                    //Carnival Zombies
+
+                //Desk-a-tron
+                    //ZCorp Zombies
+
+                //Multi-stage Masher
+                    //Concert
+
+                //Water-based
+                    //Sharktronic
+
+                //Air-based
+                    //Dark Dragon
+                        //Fantasy Roleplaying Club
+
+                    //Aerostatic Blimp
+
+                    //Battle Cruiser
+
+            //Heroes
+                //The Smash
+                    //Sportive Zombies
+
+                //Rustbolt
+                    //Construction Zombies
+
+                //Professor Brainstorm
+                    //Scientific Zombies
+                
+                //Z-Mech
+                    //Mechanized Zombies
+
+                //Immorticia
+                    //Fantasy Roleplaying Club
+
+                //Impfinity (!) might work better as zombie
+
+                //Electric Boogaloo
+
+                //Brain Freeze
+
+                //Water-based
+                    //Neptuna
+
+                //Air-based
+                    //Huge Giganticus
+
+                    //Super Brainz
+
         //airstrike
             string description = "For the duration, all CR goes into Parachutist Zombies and Roof-Climber Zombies";
-            string origin = "PvZ 2 (Lost City)";
+            string origin = "PvZ 2 (Lost City lost pilot ambush)";
 
         //air_raid
             string description = "For the duration, all CR goes into Ballon Zombies";
@@ -146,7 +216,7 @@ double faster = 5;
 
         //imp_rain
             string description = "Two Transport Fighters spawn in each garden.";
-            string origin = "PvZ 2 (Far Future)";
+            string origin = "PvZ 2 (Far Future neutron imp ambush)";
 
         //bungee_ambush
             string description = "A half a dozen Bungee Zombies and Bungee Plumbers appear in each graden and in the roof.";
@@ -160,7 +230,7 @@ double faster = 5;
             string origin = "";
 
         //rush_hour
-            string description = "For the duration, all CR goes into ZCorp Zombies and basics are replaced with teh ZCorp variant basics.";
+            string description = "For the duration, all CR goes into ZCorp Zombies and basics are replaced with the ZCorp variant basics.";
             string origin = "Rogue Garden";
 
         //pine_clone_bonanza
@@ -172,7 +242,7 @@ double faster = 5;
             string origin = "PvZ 1 Minigame";
 
         //portal_combat
-            string description = "Spawns a Portal Gatekeeper Zombie taht cannot die for the duration of the event.";
+            string description = "Spawns a Portal Gatekeeper Zombie that cannot die for the duration of the event.";
             string origin = "PvZ 1 Minigame ; PvZ Heroes";
 
         //invisi-ghoul

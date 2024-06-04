@@ -6,7 +6,7 @@ double faster = 5;
 
 //How to calculate CR
 //Note : CR is an arbitrary value that will likely change with play-testing
-//Start at the conehead's CR of 2 -> The conehead is special because it is 3x as toughas a browncoat but only 2x less likely to spawn
+//Start at the conehead's CR of 2 -> The conehead is special because it is 3x as tough as a browncoat but only 2x less likely to spawn
 //Starting from its stats :
 //          - Add or remove 1-2 CR depending on the speed difference (compared to the Conehead's "normal" speed)
 //                  i.e. : "faster" = +2 CR
@@ -26,11 +26,11 @@ double faster = 5;
             string description = "blablabla";            //basic description of the zombie and its abilities (if available, you can easily take it straight from its game of origin)
             double hp = 10;                              //hit points (hp) is counted in peas
             double armour = 0;                           //if relevant, add the hp of potential armour (i.e. Cone), if not "double armour = 0"
-            int cr = 1;                                  //CR stands for Challenge Rating, being the amount of "points" needed to spawn (+CR = Appears later/less often) and therefore should be base on how threatening the zombie is. Check the top of the file to know how I calculate CR.
+            int cr = 1;                                  //CR stands for Challenge Rating, being the amount of "points" needed to spawn (+CR = Spawns later/less often) and therefore should be base on how threatening the zombie is. Check the top of the file to know how I calculate CR.
             double speed = normal;                       //speeds written on the top of the file
             double dmg = 1;                              //damage (dmg) is counted in peas - yes, even the zombies'
             double aps = 1;                              //aps stands for attacks per second, aka how fast the zombie attacks
-            string special = "";                         //if relevant, add a precise description of the ability/ies (this won't   show up in the actual almanac, it is instead used for coding), if not remove this line. Note : by default, zombies can't spawn on water or on air at all, so add precisions such as "Can spawn or only spawns in water" for the pool and "Flies towards the roof" (Flying zombies fly at "roof height", so if a peashooter is placed on the roof it'll be able to shoot the flying zombies)
+            string special = "";                         //if relevant, add a precise description of the ability/ies (this won't   show up in the actual almanac, it is instead used for coding), if not remove this line. Note : by default, zombies can't spawn on water or on air at all, so add precisions such as "Can spawn" or "only spawns in water" for the pool and "Flies towards the roof" (Flying zombies fly at "roof height", so if a peashooter is placed on the roof it'll be able to shoot the flying zombies)
             string almanac = "ladders on sale";          //almanac entry, be it copied from one of the original games or entirely/partially new
             string origin = "Rogue Garden";              //game(s) or mod(s) of origin - add the original name of the zombie if the name changes for this (i.e. Monitor Head: string origin = "PvZ Battle for Neighbourville (TV Head)") as well as the origing of its gimmicks (i.e. Mad Chemist Zombie : string origin = "PvZ Heroes ; PvZ 2 (Dark Ages Potion)")
 
@@ -84,7 +84,7 @@ double faster = 5;
             string origin = "PvZ 1";
         
         //brickhead_zombie
-             string description = "Brickhead Zombie's brick head provides thorough brickheaded brickheadness.";
+            string description = "Brickhead Zombie's brick head provides thorough brickheaded brickheadness.";
             double hp = 10;
             double armour = 95;
             int cr = 6;
@@ -152,7 +152,7 @@ double faster = 5;
 
         //zombie_yeti
     
-    //modern_zombies
+    //miscellaneous_zombies
         //newspaper_zombie
 
         //pogo_zombie
@@ -161,7 +161,7 @@ double faster = 5;
             string special = "Only spawns during winter.";
             string origin = "PvZ 2 (Hunter Zombie)";
 
-        //ice_pirate_zomboie
+        //ice_pirate_zombie
             string origin = "When she spawns, freezes the first plant in her lane.";
 
         //chicken_wrangler
@@ -196,19 +196,6 @@ double faster = 5;
         //campimp_porter
             string special = "Doesn't spawn during winter.";
             string origin = "PvZ 2 (Imp Porter)";
-            
-        //nutcracker_zombie
-            string special = "Deals gargantuar damage to nuts."
-
-        //abracadaver
-            string special = "Lifts his hat to reveal a Zombie Dove who'll try to fly off with your plants. If the dove dies, the hat falls off, which releases a Zombie Rabbit.";
-            string origin = "PvZ Heroes ; PvZ 2 (Magician Zombie)";
-
-            //zombie_dove
-                string origin = "PvZ 2";
-
-            //zombie_rabbit
-                string origin = "PvZ Heroes (Abracadaver); PvZ 2 (Weasel)";
         
         //dog_walker_zombie
             string special = "When a plant is placed on a neighbouring lane, moves to it.";
@@ -245,21 +232,6 @@ double faster = 5;
             string almanac = "Who needs backdoors when you have chimneys? It's a growth industry.";
             string origin = "PvZ Heroes";
 
-        //pied_piper_zombie
-            string description = "The Pied Piper sends out rats to block the front-most plant in his lane.";
-            double hp = 10;
-            double armour = 0;
-            int cr = 3;
-            double speed = slow;
-            double dmg = 1;
-            double aps = 1;
-            string special = "Sends Rat.Zombies down his lane.";
-            string almanac = "He was told that playing the pipe would summon raccoons. But whatevs.";
-            string origin = "PvZ Heroes";
-
-                //rat_zombie
-                    string special = "Cannot be hit by plants. Stuns the first plant they encounter until it dies, then goes on to the next plant. Dies if their Pied Piper dies.";
-
         //unlife_of_the_party
             string description = "The Unlife Of The Party is more robust the more zombies there are.";
             double hp = 10;
@@ -280,7 +252,7 @@ double faster = 5;
             double speed = normal;
             double dmg = 1;
             double aps = 1;
-            string special = "During events : HP = 30, speed = fast, dmg = 2, aps = 1 and gains a 1 tile ranged attack with the camera flash.";
+            string special = "More likely to appear during concert and boss events. During events : HP = 30, speed = fast, dmg = 2, aps = 1 and gains a 1 tile ranged attack with the camera flash.";
             string almanac = "Why is everyone always screaming and running away in his photos?";
             string origin = "PvZ Heroes";
 
@@ -362,7 +334,7 @@ double faster = 5;
             string description = "He attacks all plants in a an area for little damage everytime he attacks.";
 
         //zom-blob
-            string special = "Ignores plants and leaves a blob trail behind him that deals dot and disappears after a few seconds.";
+            string special = "More likely to spawn during Radiation Wave event. Ignores plants and leaves a blob trail behind him that deals dot and disappears after a few seconds.";
 
         //squirrel_herder_zombie
             string special = "Destroys the first nut or berry in her lane when she spawns";
@@ -374,7 +346,7 @@ double faster = 5;
             string special = "Once he reaches half hp, he jumps into the trash can. This stops him in place and protects him from all directions. After the trash can is destroyed he keeps walking at half hp.";
 
         //genetic_experiement
-            string special = "Upon reaching the garden, incapsulates himself. He does leave not until the capsule is destroyed. Whilst in the capsule, gains +2 hp and +1 dmg for every four zombies that pass him.";
+            string special = "More likely to spawn during the Radiation Wave event. Upon reaching the garden, incapsulates himself. He does leave not until the capsule is destroyed. Whilst in the capsule, gains +2 hp and +1 dmg for every four zombies that pass him.";
 
         //gargologist_zombie
             string special = "While alive, all gargantuars in her lane get +0.5 aps.";
@@ -390,10 +362,6 @@ double faster = 5;
 
         //headstone_carver
             string special = "Turns gravestones he passes into engraved gravestones. They are uneffected by plant attacks, only defeatable by gravebuster and zombies that rise from them have 125% hp.";
-
-        //imposter
-            string special = "Splits into two Imps on adjacent lanes on death, one of which has a moustache. While wearing the coat, it deals more damage when eating plants.";
-            string origin = "PvZ Heroes and Pvz Adventure ; PvZ 2 (Carnie Imp Twins)";
 
         //mini-ninja
             string special = "After taking damage for the first time, he turns invisible for 4 tiles before reapearing.";
@@ -440,16 +408,12 @@ double faster = 5;
         //firefighter_zombie
             string special = "Blocks incoming fire projectiles in a 3x3 area.";
 
-        //drinking_zombie
-            string special = "Drinks from his bottle upon reaching half hp. This buffs his speed, dmg and aps.";
-            string origin = "PvZ 2 China";
-
         //perfume_zombie
             string special = "Throws perfume bottles at plants that release poisonous perfume that stuns and damages them.";
             string origin = "PvZ 2 China";
 
         //ballerina_zombie
-            string special = "Always spawns in 'back-up dancer formation'.";
+            string special = "More likely to spawn during Aerobics Class concert event. Always spawns in 'back-up dancer formation'.";
             string origin = "PvZ 2 China";
 
         //firework_zombie
@@ -493,6 +457,46 @@ double faster = 5;
             string special = "Moves between lanes. Occasionally yoddles, damaging every plant in her lane.";
             string almanac = "In her opinion, there's no better song to line dance to than the 'Zombie Shuffle.'";
             string origin = "PvZ Heroes";
+
+    //carnival_zombies
+        //nutcracker_zombie
+            string special = "Deals gargantuar damage to nuts."
+
+        //abracadaver
+            string special = "Lifts his hat to reveal a Zombie Dove who'll try to fly off with your plants. If the dove dies, the hat falls off, which releases a Zombie Rabbit.";
+            string origin = "PvZ Heroes ; PvZ 2 (Magician Zombie)";
+
+            //zombie_dove
+                string origin = "PvZ 2";
+
+            //zombie_rabbit
+                string origin = "PvZ Heroes (Abracadaver); PvZ 2 (Weasel)";
+
+        //pied_piper_zombie
+            string description = "The Pied Piper sends out rats to block the front-most plant in his lane.";
+            double hp = 10;
+            double armour = 0;
+            int cr = 3;
+            double speed = slow;
+            double dmg = 1;
+            double aps = 1;
+            string special = "More lileky to spawn during Orchestral Jam concert event. Sends Rat.Zombies down his lane.";
+            string almanac = "He was told that playing the pipe would summon raccoons. But whatevs.";
+            string origin = "PvZ Heroes";
+
+                //rat_zombie
+                    string special = "Cannot be hit by plants. Stuns the first plant they encounter until it dies, then goes on to the next plant. Dies if their Pied Piper dies.";
+
+        //stiltwalker_zombie
+            string special = "Walks over plants on his wooden stilts. The zombie itself walks at roof height and the stilts are weak to fire attacks.";
+
+        //drinking_zombie
+            string special = "Drinks from his bottle upon reaching half hp. This buffs his speed, dmg and aps.";
+            string origin = "PvZ 2 China";
+
+        //imposter
+            string special = "Splits into two Imps on adjacent lanes on death, one of which has a moustache. While wearing the coat, it deals more damage when eating plants.";
+            string origin = "PvZ Heroes and Pvz Adventure ; PvZ 2 (Carnie Imp Twins)";
 
     //sportive_zombies
         //pole_vaulting_zombie
@@ -663,8 +667,6 @@ double faster = 5;
         //roof_climber_zombie
             string origin = "PvZ Heroes (Mountain Climber) ; PvZ 2 (Swashbuckler / Relic Hunter)";
 
-        //stiltwalker_zombie
-
         //copter_commandimp
             string orgin = "PvZ Heroes (Copter Commando)";
 
@@ -676,7 +678,7 @@ double faster = 5;
             double speed = normal;
             double dmg = 1;
             double aps = 1;
-            string special = "CR 4 during fall. The kite flies on roof height above the Kite Flyer Zombie. Whatever damage the kite takes is shot back at the plants on the ground.";
+            string special = "More likely to appear during Fall. The kite flies on roof height above the Kite Flyer Zombie. Whatever damage the kite takes is shot back at the plants on the ground.";
             string almanac = "The naysayers were right. Flying a kite in a lightning storm WAS a real bright idea.";
             string origin = "PvZ Heroes";
 
@@ -712,14 +714,14 @@ double faster = 5;
         //dolphin_rider_zombie
 
         //surfer_zombie
-            string special = "Only spawns during summer and spring. May spawn in the pool. If on land, carries a surfboard over his head that he smashes into the first plant he encounters and drops upon death. If in the pool, surfs rapidly, ignoring your plants except for tall-nut.";
+            string special = "Only spawns during summer and spring. May spawn in the pool. If on land, carries a surfboard over his head that he smashes into the first plant he encounters and drops upon death. If in the pool, surfs rapidly, ignoring your plants except for tall-nut. Behaves like it would do in the pool when on shallow water lanes.";
 
         //fisherman_zombie
 
         //octo_zombie
 
         //synchronized_swimmer_zombie
-            string special = "Only spawns in the pool. Always spawns in groups of three, covering all three pool lanes.";
+            string special = "Only spawns in the pool. More likely to spawn during Aerobics Class concert event. Always spawns in groups of three, covering all three pool lanes.";
             string origin = "PvZ Heroes";
 
         //imp_commander

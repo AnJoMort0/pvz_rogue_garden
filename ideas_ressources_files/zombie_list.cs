@@ -4,16 +4,33 @@ double normal = 3;
 double fast = 4;
 double faster = 5;
 
+//How to calculate CR
+//Note : CR is an arbitrary value that will likely change with play-testing
+//Start at the conehead's CR of 2 -> The conehead is special because it is 3x as toughas a browncoat but only 2x less likely to spawn
+//Starting from its stats :
+//          - Add or remove 1-2 CR depending on the speed difference (compared to the Conehead's "normal" speed)
+//                  i.e. : "faster" = +2 CR
+//          - Add or remove CR depending on the total HP + Armor difference (compared to the Conehead's 10 HP) divided by 10
+//                  i.e. : 20 HP + 10 Armor = 20 HP difference = +2 CR
+//Note : Since armor cannot be healed and can sometimes be removed or ignored (i.e. Magnet vs Buckethead, Fumeshroom vs Screendoor) a high HP zombie is more challenging than a high Armor one, so adapt if necessary
+//          - Add or remove CR depending on the difference in dmg and aps (compared to the Conehead's 1 dmg and 1 aps)
+//                  i.e. : 2 dmg + 0.5 aps = +1 CR - 1 CR = No change
+//                       : 2 dmg + 1 aps   = +1 CR
+//          - If the zombie has special abilities change the staring point (instead of CR = 2)
+//                  i.e. : weak ability / early-game challenge  = 3-4 CR base
+//                       : mid-game challenge                   = 5-7 CR base
+//                       : strong ability / late-game challenge = 8+  CR base
+
     //template_category
-        //zombie_template
+        //template_zombie                                //think of including the words "Imp", "Zombie" or "Gargantuar" to the zombie's name if it doesn't already include a reference to its zombie status (i.e. Abracader, ZCorp zombies in general)
             string description = "blablabla";            //basic description of the zombie and its abilities (if available, you can easily take it straight from its game of origin)
             double hp = 10;                              //hit points (hp) is counted in peas
-            double armour = 0;                            //if relevant, add the hp of potential armour (i.e. Cone), if not "double armour = 0"
-            int cr = 1;                                  //CR stands for Challenge Rating, being the amount of "points" needed to spawn (+CR = +Difficulty)
+            double armour = 0;                           //if relevant, add the hp of potential armour (i.e. Cone), if not "double armour = 0"
+            int cr = 1;                                  //CR stands for Challenge Rating, being the amount of "points" needed to spawn (+CR = Appears later/less often) and therefore should be base on how threatening the zombie is. Check the top of the file to know how I calculate CR.
             double speed = normal;                       //speeds written on the top of the file
             double dmg = 1;                              //damage (dmg) is counted in peas - yes, even the zombies'
             double aps = 1;                              //aps stands for attacks per second, aka how fast the zombie attacks
-            string special = "";                         //if relevant, add a precise description of the ability/ies (this won't show up in the actual almanac, it is instead used for coding), if not remove this line. Note : by default, zombies can't spawn on water or on air at all, so add precisions such as "Can spawn or only spawns in water" for the pool and "Flies towards the roof" (Flying zombies fly at "roof height", so if a peashooter is placed on the roof it'll be able to shoot the flying zombies)
+            string special = "";                         //if relevant, add a precise description of the ability/ies (this won't   show up in the actual almanac, it is instead used for coding), if not remove this line. Note : by default, zombies can't spawn on water or on air at all, so add precisions such as "Can spawn or only spawns in water" for the pool and "Flies towards the roof" (Flying zombies fly at "roof height", so if a peashooter is placed on the roof it'll be able to shoot the flying zombies)
             string almanac = "ladders on sale";          //almanac entry, be it copied from one of the original games or entirely/partially new
             string origin = "Rogue Garden";              //game(s) or mod(s) of origin - add the original name of the zombie if the name changes for this (i.e. Monitor Head: string origin = "PvZ Battle for Neighbourville (TV Head)") as well as the origing of its gimmicks (i.e. Mad Chemist Zombie : string origin = "PvZ Heroes ; PvZ 2 (Dark Ages Potion)")
 

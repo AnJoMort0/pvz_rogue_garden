@@ -6,16 +6,16 @@ double faster = 5;
 
     //template_category
         //zombie_template
-            string description = "blablabla";            //basic description of the zombie and its abilities
+            string description = "blablabla";            //basic description of the zombie and its abilities (if available, you can easily take it straight from its game of origin)
             double hp = 10;                              //hit points (hp) is counted in peas
             double armour = 0;                            //if relevant, add the hp of potential armour (i.e. Cone), if not "double armour = 0"
             int cr = 1;                                  //CR stands for Challenge Rating, being the amount of "points" needed to spawn (+CR = +Difficulty)
             double speed = normal;                       //speeds written on the top of the file
             double dmg = 1;                              //damage (dmg) is counted in peas - yes, even the zombies'
             double aps = 1;                              //aps stands for attacks per second, aka how fast the zombie attacks
-            string special = "";                         //if relevant, add the precise description of ability (this won't show up in the actual almanac), if not remove this line. Note : by default, zombies can't spawn on water or on air.
-            string almanac = "ladders on sale";          //almanac entry, be it copied from one of the original games or an entirely new
-            string origin = "rogue garden";              //game(s) or mod(s) of origin - add the original name of the zombie if the name changes for this (i.e. Monitor Head: "PvZ Battle for Neighbourville (TV Head))"
+            string special = "";                         //if relevant, add a precise description of the ability/ies (this won't show up in the actual almanac, it is instead used for coding), if not remove this line. Note : by default, zombies can't spawn on water or on air at all, so add precisions such as "Can spawn or only spawns in water" for the pool and "Flies towards the roof" (Flying zombies fly at "roof height", so if a peashooter is placed on the roof it'll be able to shoot the flying zombies)
+            string almanac = "ladders on sale";          //almanac entry, be it copied from one of the original games or entirely/partially new
+            string origin = "Rogue Garden";              //game(s) or mod(s) of origin - add the original name of the zombie if the name changes for this (i.e. Monitor Head: string origin = "PvZ Battle for Neighbourville (TV Head)") as well as the origing of its gimmicks (i.e. Mad Chemist Zombie : string origin = "PvZ Heroes ; PvZ 2 (Dark Ages Potion)")
 
 //almanac_of_zombies
 
@@ -94,7 +94,7 @@ double faster = 5;
             //variant:zcorp_zombie
             string description = "A typical ZCorp Incorporated employee.";
             //stats_of_relevent_basics
-            string special = "Only spawns during the 'Rush Hour' ambush.";
+            string special = "Only spawns during the 'Rush Hour' ambush or when spawned by the ZCorp Costumer Service and Conga Leader Zombie.";
             string almanac = "He was issued the standard ZCorp coffee mug at orientation.";
             string origin = "PvZ 2";
 

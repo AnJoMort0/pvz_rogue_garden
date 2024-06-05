@@ -27,7 +27,7 @@ double faster = 5;
             //phase_3
 
     //shallow_water
-            string descitpion = "Shallow water that covers a grass tile in the lawn. Both land and water plants can be placed on it and both land and water zombies can traverse it. Moist Moss can prevent it from disappearing after the event that spawned it ends. If a full lane is covered with shallow water tiles, both land and water zombies can spawn in said lane.If ran over by a Zomboni, it behaves the same except water plants cannot be placed and bobsleds can spawn.";
+            string descitpion = "Shallow water that covers a grass tile in the lawn. Both land and water plants can be placed on it and both land and water zombies can traverse it. Moist Moss can prevent it from disappearing after the event that spawned it ends. If a full lane is covered with shallow water tiles, both land and water zombies can spawn in said lane. If ran over by a Zomboni, it behaves the same except water plants cannot be placed and bobsleds can spawn.";
             string origin = "Rogue Garden";
 
 //almanac_of_events
@@ -175,7 +175,7 @@ double faster = 5;
                     string descitpion = "The Zombot Mark III is a colossal robot reminicent of its original apearance and its Mark II edition in the time-travel adventure. Its hulking height leaves it standing even higher than the roof. It can only be damage when hit at the head.";
                     string almanac = "He may have exploded once and even twice, but he always believes that third time's the charm.";
                     string origin = "PvZ 1 ; PvZ 2 China (Mark II) ; PvZ Heroes (Zom-Blob and Gargantuar's Feast)";
-                    string summon = "He summons zombies near himself, by placing them with his giant mechanical hand. He prefers placing few tougher zombies and mostly creates zombies originating from PvZ 1. Can place bob";
+                    string summon = "He summons zombies near himself, by placing them with his giant mechanical hand. He prefers placing few tougher zombies and mostly creates zombies originating from PvZ 1. Can place bobsled teams.";
                     //phase_1
                         string attack_1 = "Bungee Release : He holds his hand out over the garden, or the roof, and releases five bungee jumpers or bungee plumbers, whose ropes are attached to his fingers.";
                         string attack_2 = "Zombot Stomp : Stomps a 2x3 to 3x3 area near him with his foot.";

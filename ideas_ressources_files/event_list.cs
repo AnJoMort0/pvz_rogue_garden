@@ -9,8 +9,25 @@ double faster = 5;
             string description = "";
             string origin = "";
 
+        //template_boss
+            string descitpion = "";
+            string almanac = "";
+            string origin = "";
+            string summon = "";
+            string attack_1 = "";
+
+        //template_zombot
+            string descitpion = "";
+            string almanac = "";
+            string origin = "";
+            string summon = "";
+            //phase_1
+                string attack_1 = "";
+            //phase_2
+            //phase_3
+
     //shallow_water
-            string descitpion = "Shallow water that covers a grass tile in the lawn. Both land and water plants can be placed on it and both land and water zombies can traverse it. Moist Moss can prevent it from disappearing after the event that spawned it ends. If a full lane is covered with shallow water tiles, both land and water zombies can spawn in said lane.";
+            string descitpion = "Shallow water that covers a grass tile in the lawn. Both land and water plants can be placed on it and both land and water zombies can traverse it. Moist Moss can prevent it from disappearing after the event that spawned it ends. If a full lane is covered with shallow water tiles, both land and water zombies can spawn in said lane.If ran over by a Zomboni, it behaves the same except water plants cannot be placed and bobsleds can spawn.";
             string origin = "Rogue Garden";
 
 //almanac_of_events
@@ -149,9 +166,26 @@ double faster = 5;
     //random_events
         string description = "These events can happen at any time during the gameplay.";
 
-        //boss_events            
+        //boss_events
+            string descritpion = "A boss appears on the outer edge of one of the gardens, outside of the plantable grid.";
+
             //Zombots
+                string descitpion = "Giant robots built and controlled by Dr. Edgar Zomboss. They all have three phases at 3/3, 2/3 and 1/3 of their heath, where they get progressively more difficult before being defeated. Zombies in the garden he appears in stop spawning normally and instead get summoned by the boss.";
                 //Mark III
+                    string descitpion = "The Zombot Mark III is a colossal robot reminicent of its original apearance and its Mark II edition in the time-travel adventure. Its hulking height leaves it standing even higher than the roof. It can only be damage when hit at the head.";
+                    string almanac = "He may have exploded once and even twice, but he always believes that third time's the charm.";
+                    string origin = "PvZ 1 ; PvZ 2 China (Mark II) ; PvZ Heroes (Zom-Blob and Gargantuar's Feast)";
+                    string summon = "He summons zombies near himself, by placing them with his giant mechanical hand. He prefers placing few tougher zombies and mostly creates zombies originating from PvZ 1. Can place bob";
+                    //phase_1
+                        string attack_1 = "Bungee Release : He holds his hand out over the garden, or the roof, and releases five bungee jumpers or bungee plumbers, whose ropes are attached to his fingers.";
+                        string attack_2 = "Zombot Stomp : Stomps a 2x3 to 3x3 area near him with his foot.";
+                    //phase_2
+                        string attack_3 = "Fire Ball : He lowers his head to the gardens level, making himself vulnerable, in order to release a giant ball of fire that slides down the lane, buring plants and even the mowers. Can be countered with Ice-shroom. Disappears if aimed at the pool.";
+                        string attack_4 = "Ice Ball : He lowers his head to the gardens level, making himself vulnerable, in order to release a giant ball of ice that slides down the lane, freezing plants and even the mowers and leaving a trail of ice for bobsleds behind. Can be countered with Jalapeño. Freezes the pool's surface if aimed at it, making it behave like frozen shallow water.";
+                        string attack_5 = "Ball of Blob : He lowers his head to the gardens level, making himself vulnerable, in order to release a giant ball similar to the Zom-Blob that slides down the lane, crushing plants and leaving a trail of blob behind. and cannot be countered. Gives Disinfection zombie's effect, if aimed at the pool.";
+                    //phase_3
+                        string attack_6 = "Camper Throw : Throws a camping van at the garden or the roof, crushing plants in a 2x4 area and occasionally spawing a Campimp Porter, unless aimed at the pool.";
+                        string attack_7 = "Gargantuar's Feast : He lowers his head to ring a small golden bell. 3 gargantuars of any type spawn in its garden, spread acroos the 7 lanes."
                 
                 //Sphinx-inator
                     //Museum Zombies
@@ -192,7 +226,7 @@ double faster = 5;
                 //Immorticia
                     //Fantasy Roleplaying Club
 
-                //Impfinity (!) might work better as zombie
+                //Impfinity
 
                 //Electric Boogaloo
 

@@ -169,76 +169,88 @@ double faster = 5;
         //boss_events
             string descritpion = "A boss appears on the outer edge of one of the gardens, outside of the plantable grid.";
 
-            //Zombots
+            //zombots
                 string descitpion = "Giant robots built and controlled by Dr. Edgar Zomboss. They all have three phases at 3/3, 2/3 and 1/3 of their heath, where they get progressively more difficult before being defeated. Zombies in the garden he appears in stop spawning normally and instead get summoned by the boss.";
-                //Mark III
+                //mark_iii
                     string descitpion = "The Zombot Mark III is a colossal robot reminicent of its original apearance and its Mark II edition in the time-travel adventure. Its hulking height leaves it standing even higher than the roof. It can only be damage when hit at the head.";
                     string almanac = "He may have exploded once and even twice, but he always believes that third time's the charm.";
                     string origin = "PvZ 1 ; PvZ 2 China (Mark II) ; PvZ Heroes (Zom-Blob and Gargantuar's Feast)";
                     string summon = "He summons zombies near himself, by placing them with his giant mechanical hand. He prefers placing few tougher zombies and mostly creates zombies originating from PvZ 1. Can place bobsled teams.";
                     //phase_1
-                        string attack_1 = "Bungee Release : He holds his hand out over the garden, or the roof, and releases five bungee jumpers or bungee plumbers, whose ropes are attached to his fingers.";
-                        string attack_2 = "Zombot Stomp : Stomps a 2x3 to 3x3 area near him with his foot.";
+                        string attack_1 = "Bungee Release : The Zombot holds its hand out over the garden, or the roof, and releases five bungee jumpers or bungee plumbers, whose ropes are attached to its fingers.";
+                        string attack_2 = "Zombot Stomp : The Zombot stomps a 2x3 to 3x3 area near him with its foot.";
                     //phase_2
-                        string attack_3 = "Fire Ball : He lowers his head to the gardens level, making himself vulnerable, in order to release a giant ball of fire that slides down the lane, buring plants and even the mowers. Can be countered with Ice-shroom. Disappears if aimed at the pool.";
-                        string attack_4 = "Ice Ball : He lowers his head to the gardens level, making himself vulnerable, in order to release a giant ball of ice that slides down the lane, freezing plants and even the mowers and leaving a trail of ice for bobsleds behind. Can be countered with Jalapeño. Freezes the pool's surface if aimed at it, making it behave like frozen shallow water.";
-                        string attack_5 = "Ball of Blob : He lowers his head to the gardens level, making himself vulnerable, in order to release a giant ball similar to the Zom-Blob that slides down the lane, crushing plants and leaving a trail of blob behind. and cannot be countered. Gives Disinfection zombie's effect, if aimed at the pool.";
+                        string attack_3 = "Fire Ball : The Zombot lowers its head to the gardens level, making Zomboss vulnerable, in order to release a giant ball of fire that slides down the lane, buring plants and even the mowers. Can be countered with Ice-shroom. Disappears if aimed at the pool.";
+                        string attack_4 = "Ice Ball : The Zombot lowers its head to the gardens level, making Zomboss vulnerable, in order to release a giant ball of ice that slides down the lane, freezing plants and even the mowers and leaving a trail of ice for bobsleds behind. Can be countered with Jalapeño. Freezes the pool's surface if aimed at it, making it behave like frozen shallow water.";
+                        string attack_5 = "Ball of Blob : The Zombot lowers its head to the gardens level, making Zomboss vulnerable, in order to release a giant ball similar to the Zom-Blob that slides down the lane, crushing plants and leaving a trail of blob behind. and cannot be countered. Gives Disinfection zombie's effect, if aimed at the pool.";
                     //phase_3
-                        string attack_6 = "Camper Throw : Throws a camping van at the garden or the roof, crushing plants in a 2x4 area and occasionally spawing a Campimp Porter, unless aimed at the pool.";
-                        string attack_7 = "Gargantuar's Feast : He lowers his head to ring a small golden bell. 3 gargantuars of any type spawn in its garden, spread acroos the 7 lanes."
+                        string attack_6 = "Camper Throw : The Zombot throws a camping van at the garden or the roof, crushing plants in a 2x4 area and occasionally spawing a Campimp Porter, unless aimed at the pool.";
+                        string attack_7 = "Gargantuar's Feast : The Zombot lowers its head, making Zomboss, who rings a small golden bell, vulnerable. 3 gargantuars of any type spawn in its garden, spread acroos the 7 lanes."
                 
-                //Sphinx-inator
-                    //Museum Zombies
+                //dug-up_sphinx-inator
+                    string descitpion = "The Zombot Sphinx-inator is a large robot, resembling a pharaoh's face. It occupies only a small area on the map but can move around with its spider-like legs.";
+                    string almanac = "Finding his old creation in the Museum of Neighbourghville was, to be sure, a suprise for Dr. Zomboss, but a more than welcome one.";
+                    string origin = "PvZ 2";
+                    string summon = "Opens its mouth to release zombies. Prefers spawning groups of basics and zombies from the Museum category, as well as Headstone Carver Zombie and Mixed-up Gravedigger Zombies.";
+                    //phase_1
+                        string attack_1 = "Missile Lauch : The Zombot suddenly stops. Its pupil dialetes then reveales a missile that shoots towards a targeted tile on the lawn. If it hits a plant, it destroys it and sometimes places a gravestone where it lands.";
+                        string attack_2 = "Swing : The Zombot swings its metalic claws at the plants, destroying plants in a 1x3 area in front of itself.";
+                        string attack_3 = "Jump : The Zombot jumps to a different place, avoiding land attacks while in movement, but becoming temporarily vulnerable to plants on the roof.";
+                    //phase_2
+                        string attack_3 = "Sun Strike : The Zombot suddenly stops. Its eye turns blue as it steals sun from the map. After catching 3 to 5 it releases a beam of fire down its lane, vaporizing all plants. If it fails to gather all sun, it releases a smaller beam that simply damages the plants.";
+                        string attack_4 = "Dash : The Zombot rears back, charges up and then dashes down the garden, crushing plants it touches.";
+                    //phase_3
+                        string attack_5 = "";
 
-                //Catastro-liope
+                //catastro-liope
                     //Carnival Zombies
 
-                //Desk-a-tron
+                //desk-a-tron
                     //ZCorp Zombies
 
-                //Multi-stage Masher
+                //multi-stage_masher
                     //Concert
 
-                //Water-based
-                    //Sharktronic
+                //water-based
+                    //sharktronic
 
-                //Air-based
-                    //Dark Dragon
+                //air-based
+                    //dark_dragon
                         //Fantasy Roleplaying Club
 
-                    //Aerostatic Blimp
+                    //aerostatic_blimp
 
-                    //Battle Cruiser
+                    //battle_cruiser
 
-            //Heroes
-                //The Smash
+            //heroes
+                //the_smash
                     //Sportive Zombies
 
-                //Rustbolt
+                //rustbolt
                     //Construction Zombies
 
-                //Professor Brainstorm
+                //professor_brainstorm
                     //Scientific Zombies
                 
-                //Z-Mech
+                //z-mech
                     //Mechanized Zombies
 
-                //Immorticia
+                //immorticia
                     //Fantasy Roleplaying Club
 
-                //Impfinity
+                //impfinity
 
-                //Electric Boogaloo
+                //electric_boogaloo
 
-                //Brain Freeze
+                //brain_freeze
 
-                //Water-based
-                    //Neptuna
+                //water-based
+                    //neptuna
 
-                //Air-based
-                    //Huge Giganticus
+                //air-based
+                    //huge_giganticus
 
-                    //Super Brainz
+                    //super_brainz
 
         //airstrike
             string description = "For the duration, all CR goes into Parachutist Zombies and Roof-Climber Zombies";

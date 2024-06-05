@@ -268,73 +268,8 @@ double faster = 5;
             string almanac = "Trick or treat? He is haunted by that question - and by an answer that continues to elude him.";
             string origin = "PvZ Heroes";
 
-        //gadget_scientist_zombie
-            string description = "The Gadget Scientist Zombie summons Space Cadet Zombies onto the garden once he reaches it.";
-            double hp = 30;
-            double armour = 0;
-            int cr = 8;
-            double speed = fast;
-            double dmg = 1;
-            double aps = 0.5;
-            string special = "Creates 4 Space Cadet Zombies across the 7 lanes, on the rows 4 to 6. Attacks from 2 tiles away.";
-            string almanac = "He wishes the Mad Chemist would stop copying his hairstyle.";
-            string origin = "PvZ Heroes";
-
-                //space_cadet_zombie
-                    string description = "Is summoned by the Gadget Scientist Zombie.";
-                    double hp = 10;
-                    double armour = 5;
-                    //int cr = N/A;
-                    double speed = normal;
-                    double dmg = 1;
-                    double aps = 1;
-                    string almanac = "His body is in space but his head is in the clouds.";
-                    string origin = "PvZ Heroes";
-
-        //mad_chemist_zombie
-            string description = "The Mad Chemist Zombie places potions on the ground around him to buff other zombies.";
-            double hp = 40;
-            double armour = 0;
-            int cr = 8;
-            double speed = fast;
-            double dmg = 1;
-            double aps = 1;
-            string special = "Places potions on his lane and neighbouring lanes every three tiles. There are three different potions: Purple gives the zombies +10 armour (visually indicated by a purple cloud), orange makes them faster (not stackable) and blue makes them invisible and untouchable for three tiles. These effects do not stack with each other. Isn't affected by potions.";
-            string almanac = "He's not so much 'mad' as he is 'mildly annoyed.'";
-            string origin = "PvZ Heroes ; PvZ 2 and Pv2 China (Dark Ages potions)";
-
-        //teleportation_zombie
-            string description = "The Teleportation Zombie teleports all zombies in his row one tile forwards upon death.";
-            double hp = 30;
-            double armour = 0;
-            int cr = 7;
-            double speed = slow;
-            double dmg = 1;
-            double aps = 1;
-            string special = "Teleports all zombies in his row one tile forwards upon death.";
-            string almanac = "The phone cord stretches to another dimension.";
-            string origin = "PvZ Heroes";
-
-        //portal_technician_zombie
-            string description = "The Portal Technician Zombie turns into a random zombie after dying.";
-            double hp = 20;
-            double armour = 10;
-            int cr = 8;
-            double speed = normal;
-            double dmg = 1;
-            double aps = 1;
-            string special = "After dying, creates a random zombie in his place.";
-            string almanac = "Soon everyone will own their own portal. But for now, he enjoys being an early adopter.";
-            string origin = "PvZ Heroes";
-
         //exploding_imp
             string special = "Once he reaches a plant, he explodes it and himself. Chilling and freezing disable the bomb.";
-
-        //space_ninja_zombie
-            string description = "He attacks all plants in a an area for little damage everytime he attacks.";
-
-        //zom-blob
-            string special = "More likely to spawn during Radiation Wave event. Ignores plants and leaves a blob trail behind him that deals dot and disappears after a few seconds.";
 
         //squirrel_herder_zombie
             string special = "Destroys the first nut or berry in her lane when she spawns";
@@ -344,9 +279,6 @@ double faster = 5;
 
         //trash_can_zombie
             string special = "Once he reaches half hp, he jumps into the trash can. This stops him in place and protects him from all directions. After the trash can is destroyed he keeps walking at half hp.";
-
-        //genetic_experiement
-            string special = "More likely to spawn during the Radiation Wave event. Upon reaching the garden, incapsulates himself. He does leave not until the capsule is destroyed. Whilst in the capsule, gains +2 hp and +1 dmg for every four zombies that pass him.";
 
         //gargologist_zombie
             string special = "While alive, all gargantuars in her lane get +0.5 aps.";
@@ -582,7 +514,7 @@ double faster = 5;
             string special = "Digs underground for 5 tiles before coming back up, creating a pathway for non-gargantuar zombies to evade attacks. Diggers that dig into it come out the end of the tunnel. The tunnel only lasts 3 tiles.";
             string origin = "PvZ 2 China (Lost Guide Zombie)";
 
-    //mechanized_zombies: affected by EMPeach - flying zombies affected by EMPeach fall to the ground.
+    //mechanized_zombies: affected by EMPeach - flying zombies affected by EMPeach fall to the ground
         //zomboni
 
             //bobsled_team
@@ -599,6 +531,9 @@ double faster = 5;
         //space_cowimp
             string special = "Flies towards your roof. Moves to a neighbouring lane when he eats a plant.";
             string origin = "PvZ Heroes (Space Cowboy)";
+
+        //hover_goat-3000
+            string special = "Flies towards your roof. Gives zombies directly under itself +1 dmg and heals them over time.";
 
         //interdimensional_zombie
             string description = "The Interdimensional Zombie occasionally avoids attacks by glitching forward.";
@@ -736,9 +671,78 @@ double faster = 5;
             string special = "Only spawns in the pool, during winter. Slides over the water, propelling the imp forward on the first plant it hits.";
             string origin = "PvZ Heroes";
 
+    //scientific_zombies
         //disinfection_zombie
             string special = "Only spawns in the pool. Releases toxic chemicals that slowly move along his lane, lightly damaging all plants.";
             string origin = "PvZ 2 China";
+
+         //gadget_scientist_zombie
+            string description = "The Gadget Scientist Zombie summons Space Cadet Zombies onto the garden once he reaches it.";
+            double hp = 30;
+            double armour = 0;
+            int cr = 8;
+            double speed = fast;
+            double dmg = 1;
+            double aps = 0.5;
+            string special = "Creates 4 Space Cadet Zombies across the 7 lanes, on the rows 4 to 6. Attacks from 2 tiles away.";
+            string almanac = "He wishes the Mad Chemist would stop copying his hairstyle.";
+            string origin = "PvZ Heroes";
+
+                //space_cadet_zombie
+                    string description = "Is summoned by the Gadget Scientist Zombie.";
+                    double hp = 10;
+                    double armour = 5;
+                    //int cr = N/A;
+                    double speed = normal;
+                    double dmg = 1;
+                    double aps = 1;
+                    string almanac = "His body is in space but his head is in the clouds.";
+                    string origin = "PvZ Heroes";
+
+        //mad_chemist_zombie
+            string description = "The Mad Chemist Zombie places potions on the ground around him to buff other zombies.";
+            double hp = 40;
+            double armour = 0;
+            int cr = 8;
+            double speed = fast;
+            double dmg = 1;
+            double aps = 1;
+            string special = "Places potions on his lane and neighbouring lanes every three tiles. There are three different potions: Purple gives the zombies +10 armour (visually indicated by a purple cloud), orange makes them faster (not stackable) and blue makes them invisible and untouchable for three tiles. These effects do not stack with each other. Isn't affected by potions.";
+            string almanac = "He's not so much 'mad' as he is 'mildly annoyed.'";
+            string origin = "PvZ Heroes ; PvZ 2 and Pv2 China (Dark Ages potions)";
+
+        //teleportation_zombie
+            string description = "The Teleportation Zombie teleports all zombies in his row one tile forwards upon death.";
+            double hp = 30;
+            double armour = 0;
+            int cr = 7;
+            double speed = slow;
+            double dmg = 1;
+            double aps = 1;
+            string special = "Teleports all zombies in his row one tile forwards upon death.";
+            string almanac = "The phone cord stretches to another dimension.";
+            string origin = "PvZ Heroes";
+
+        //portal_technician_zombie
+            string description = "The Portal Technician Zombie turns into a random zombie after dying.";
+            double hp = 20;
+            double armour = 10;
+            int cr = 8;
+            double speed = normal;
+            double dmg = 1;
+            double aps = 1;
+            string special = "After dying, creates a random zombie in his place.";
+            string almanac = "Soon everyone will own their own portal. But for now, he enjoys being an early adopter.";
+            string origin = "PvZ Heroes";
+
+        //space_ninja_zombie
+            string description = "He attacks all plants in a an area for little damage everytime he attacks.";
+
+        //zom-blob
+            string special = "More likely to spawn during Radiation Wave event. Ignores plants and leaves a blob trail behind him that deals dot and disappears after a few seconds.";
+
+        //genetic_experiement
+            string special = "More likely to spawn during the Radiation Wave event. Upon reaching the garden, incapsulates himself. He does leave not until the capsule is destroyed. Whilst in the capsule, gains +2 hp and +1 dmg for every four zombies that pass him.";
 
     //zcorp_zombies
         //zcopr_monitor_head

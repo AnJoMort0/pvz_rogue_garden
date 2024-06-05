@@ -80,6 +80,7 @@ double faster = 5;
             int cr = 4;
             double dmg = 1;
             double aps = 1;
+            string special = "Bucket can be removed by Magnetshroom";
             string almanac = "Buckethead Zombie always wore a bucket. Part of it was to assert uniqueness in an uncaring world. Mostly he just forgot it was there in the first place.";
             string origin = "PvZ 1";
         
@@ -117,6 +118,15 @@ double faster = 5;
 
     //default_zombies
         //imp
+            string description = "A small zombie that shuffles through your defenses. Often thrown into it.";
+            double hp = 5;
+            double armour = 0;
+            int cr = 1;
+            double speed = fast;
+            double dmg = 0.5;
+            double aps = 2;
+            string almanac = "What he lacks in reach he more than makes up for with his bad attitude, or Zombattitude as he likes to call it. Don't encourage him.";
+            string origin = "PvZ 2";
 
             //variant:brownparka_imp
                 string spceial = "Only spawns in winter. Immune to chilling and reduces the freezing effect to chilling.";
@@ -252,7 +262,7 @@ double faster = 5;
             double speed = normal;
             double dmg = 1;
             double aps = 1;
-            string special = "More likely to appear during concert and boss events. During events : HP = 30, speed = fast, dmg = 2, aps = 1 and gains a 1 tile ranged attack with the camera flash.";
+            string special = "Camera can be removed by Magnetshroom. More likely to appear during concert and boss events. During events : HP = 30, speed = fast, dmg = 2, aps = 1 and gains a 1 tile ranged attack with the camera flash.";
             string almanac = "Why is everyone always screaming and running away in his photos?";
             string origin = "PvZ Heroes";
 
@@ -279,9 +289,6 @@ double faster = 5;
 
         //trash_can_zombie
             string special = "Once he reaches half hp, he jumps into the trash can. This stops him in place and protects him from all directions. After the trash can is destroyed he keeps walking at half hp.";
-
-        //gargologist_zombie
-            string special = "While alive, all gargantuars in her lane get +0.5 aps.";
 
         //turkey_rider_imp
             string special = "Gives all zombies on his garden +1 hp when he dies.";
@@ -426,6 +433,22 @@ double faster = 5;
             string special = "Drinks from his bottle upon reaching half hp. This buffs his speed, dmg and aps.";
             string origin = "PvZ 2 China";
 
+        //carnie_cannon
+            string special = "Stays at the back of the garden and occasionnaly shoots out Carnie Imps. If not defeated after a certain time, explodes, shooting 4 to 6 Carnie Imps much further into the garden than it normally would.";
+            string origin = "PvZ 2";
+
+                //carnie_imp
+                    string description = "Often launched from carnie cannons.";
+                    double hp = 5;
+                    double armour = 10;
+                    //int cr = n/a;
+                    double speed = fast;
+                    double dmg = 0.5;
+                    double aps = 2;
+                    string special = "Helmet can be removed by Magnetshroom.";
+                    string almanac = "At the same time, though, you wouldn't want to bet your life on these guys only coming out of cannons.";
+                    string origin = "PvZ 2";
+
         //imposter
             string special = "Splits into two Imps on adjacent lanes on death, one of which has a moustache. While wearing the coat, it deals more damage when eating plants.";
             string origin = "PvZ Heroes and Pvz Adventure ; PvZ 2 (Carnie Imp Twins)";
@@ -438,9 +461,6 @@ double faster = 5;
         //all-star_zombie
 
             //all-star_super_fan_imp
-
-        //imp_cannon
-            string origin = "PvZ 2 ; design PvZ Heroes (Loose Canon)";
 
         //tennis_champ_zombie
             string special = "Has 5 dmg until eating her first plant.";
@@ -488,13 +508,13 @@ double faster = 5;
             string special = "While alive, stuns the highest damage plant in his lane.";
 
         //waste_barrel_imp
-            string special = "Crushes plants he walks into. Destroyed by spike weed.";
+            string special = "Can spawn in the pool. Crushes plants he walks into. Destroyed by spike weed and tangled kelp.";
 
         
     //museum_zombies
-        //awaken_ra_zombie
+        //awakened_ra_zombie
 
-        //awaken_cleopatra_zombie
+        //awakened_cleopatra_zombie
             string origin = "PvZ 2 China";
 
         //dodo_fossil_rider_imp
@@ -503,6 +523,13 @@ double faster = 5;
             string origin = "PvZ 2";
 
         //zombie_medusa
+            string special = "Turns basics in front of it into zombie statues that she then pushes, crushing plants as she does so but being heavily slowed down.";
+
+                //zombie_statue
+                    string special = "Works essentially like a gravestone, also being affected by gravebuster. Cannot be pushed past gravestones. If it reaches 0 HP it'll turn into a Sculpted Zombie, unless killed by a gravebuster.";
+
+                //buckethead_variant:sculpted_zombie
+                    string special = "Imune to Magnetshroom and Zombie Medusa's effect even after loosing all armor.";
 
         //primeval_yeti
             string special = "Gives all zombies in his lane +2 hp and +1 dmg when he dies.";
@@ -675,6 +702,9 @@ double faster = 5;
         //disinfection_zombie
             string special = "Only spawns in the pool. Releases toxic chemicals that slowly move along his lane, lightly damaging all plants.";
             string origin = "PvZ 2 China";
+        
+        //gargologist_zombie
+            string special = "While alive, all gargantuars in her lane get +0.5 aps.";
 
          //gadget_scientist_zombie
             string description = "The Gadget Scientist Zombie summons Space Cadet Zombies onto the garden once he reaches it.";
@@ -684,7 +714,7 @@ double faster = 5;
             double speed = fast;
             double dmg = 1;
             double aps = 0.5;
-            string special = "Creates 4 Space Cadet Zombies across the 7 lanes, on the rows 4 to 6. Attacks from 2 tiles away.";
+            string special = "Gun can be removed by Magnetshroom. Creates 4 Space Cadet Zombies across the 7 lanes, on the rows 4 to 6. Attacks from 2 tiles away.";
             string almanac = "He wishes the Mad Chemist would stop copying his hairstyle.";
             string origin = "PvZ Heroes";
 
@@ -791,7 +821,7 @@ double faster = 5;
             double speed = slow;
             double dmg = 1;
             double aps = 1;
-            string special = "Controls a drone from 2 tiles distance. He only moves if he must do so for the drone to be able to attack. Behaves like a normal zombie if the drone dies.";
+            string special = "Remote can be removed by Magnetshroom. Controls a drone from 2 tiles distance. He only moves if he must do so for the drone to be able to attack. Behaves like a normal zombie if the drone dies.";
             string almanac = "He's not entirely sure how to fly this thing.";
             string origin = "PvZ Heroes (Zombot Drone Engineer)";
 
@@ -803,7 +833,7 @@ double faster = 5;
                     double speed = fast;
                     double dmg = 1;
                     double aps = 0,5;
-                    string special = "It can only be targetted by plants that can attack flying zombies. Attacks from a 3-lane distance. If the ZCorp Drone Engineer dies, the drone joins another ZCorp Drone Engineer. If there are none on the field, it dies.";
+                    string special = "It can only be targetted by plants that can attack flying zombies. Attacks from a 3-lane distance. If the ZCorp Drone Engineer dies or looses his remote, the drone joins another ZCorp Drone Engineer. If there are none on the field, it dies.";
                     string almanac = "The pencil on his helmet is completely useless, but the ZCorp engineer liked the aesthetics of it.";
                     string origin = "PvZ Heroes (Zombot Drone Engineer)";
 

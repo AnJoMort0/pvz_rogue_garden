@@ -188,25 +188,48 @@ double faster = 5;
                         string attack_7 = "Gargantuar's Feast : The Zombot lowers its head, making Zomboss, who rings a small golden bell, vulnerable. 3 gargantuars of any type spawn in its garden, spread acroos the 7 lanes."
                 
                 //dug-up_sphinx-inator
-                    string descitpion = "The Zombot Sphinx-inator is a large robot, resembling a pharaoh's face. It occupies only a small area on the map but can move around with its spider-like legs.";
+                    string descitpion = "The Zombot Sphinx-inator is a large ancient robot, that was stolen from the museum and, until now, impossible to find. It occupies only a small area on the map but can move around with its spider-like legs.";
                     string almanac = "Finding his old creation in the Museum of Neighbourghville was, to be sure, a suprise for Dr. Zomboss, but a more than welcome one.";
                     string origin = "PvZ 2";
                     string summon = "Opens its mouth to release zombies. Prefers spawning groups of basics and zombies from the Museum category, as well as Headstone Carver Zombie and Mixed-up Gravedigger Zombies.";
                     //phase_1
-                        string attack_1 = "Missile Lauch : The Zombot suddenly stops. Its pupil dialetes then reveales a missile that shoots towards a targeted tile on the lawn. If it hits a plant, it destroys it and sometimes places a gravestone where it lands.";
-                        string attack_2 = "Swing : The Zombot swings its metalic claws at the plants, destroying plants in a 1x3 area in front of itself.";
-                        string attack_3 = "Jump : The Zombot jumps to a different place, avoiding land attacks while in movement, but becoming temporarily vulnerable to plants on the roof.";
+                        string attack_1 = "Gravestone Lauch : The Zombot suddenly stops. Its pupil dialetes then reveales a missile that shoots towards a targeted tile on the lawn. If it hits a plant, it destroys it and sometimes places a gravestone where it lands.";
+                        string attack_2 = "Swing : The Zombot swings its metalic claws at the plants, destroying plants in a 1x3 area in front of itself. If it hits a Zombie Statue, brings it to 0 HP.";
+                        string attack_3 = "Jump : The Zombot jumps to a different place instead of walking, avoiding land attacks while in movement.";
                     //phase_2
-                        string attack_3 = "Sun Strike : The Zombot suddenly stops. Its eye turns blue as it steals sun from the map. After catching 3 to 5 it releases a beam of fire down its lane, vaporizing all plants. If it fails to gather all sun, it releases a smaller beam that simply damages the plants.";
-                        string attack_4 = "Dash : The Zombot rears back, charges up and then dashes down the garden, crushing plants it touches.";
+                        string attack_3 = "Sun Strike : The Zombot suddenly stops. Its eye turns blue as it steals sun from the map. After catching 3 to 5 it releases a beam of fire down its lane, vaporizing all plants. If it fails to gather all required sun, it releases a smaller beam that simply damages the plants.";
                     //phase_3
-                        string attack_5 = "";
+                        string attack_4 = "Dash : The Zombot rears back, charges up and then dashes down the garden, crushing plants it touches. If it hits a Zombie Statue, brings it to 0 HP.";
+                        string attack_5 = "Medusa Stare : The Zombot suddenly stops. Its pupil turns green and dilates unitl covering its whole eye. Once charged up, it will throw its beam at zombies in a 1x3 area in front of itself, creating a barrier of statues and more zombies for the Zombie Medusas to push. If any of its phsysical attacks hit a Zombie Statue.";
 
                 //catastro-liope
-                    //Carnival Zombies
+                    string descitpion = "The mystery-filled circus-wagon of terrors and delights. It occupies only a small area on the map but can move around with its wagon wheel legs.";
+                    string almanac = "'Despite the decline of circuses in recent years, I refuse to give up on a form of entertainment with so much history and plant-destroying potential,' cackles Dr. Zomboss, all while tapping out a jaunty little tune on his keyboard.";
+                    string origin = "PvZ 2";
+                    string summon = "Opens its mouth to release zombies. Prefers spawning zombies from the Carnival category.";
+                    //phase_1
+                        string attack_1 = "Imp Lauch : The Zombot's eye opens to reveal a cannon that shoots 1 to 3 Carnie Imps, multiplied by the phase it's in, at random tiles on the lawn.";
+                        string attack_2 = "Swing : The Zombot swings its metalic claws at the plants, destroying plants in a 1x3 area in front of itself.";
+                        string attack_3 = "Jump : The Zombot jumps to a different place instead of walking, avoiding land attacks while in movement.";
+                    //phase_2
+                        string attack_3 = "Animal Release : The Zombot opens its side-cage, releasing Zombie Doves, Rabits and Rats down the three lanes in occupies.";
+                    //phase_3
+                        string attack_4 = "Dash : The Zombot rears back, charges up and then dashes down the garden, crushing plants it touches.";
 
                 //desk-a-tron
-                    //ZCorp Zombies
+                    string descitpion = "Dr. Zomboss's corporate desk, but on legs. It occupies only a small area on the map but can move around with its office adequate legs.";
+                    string almanac = "After consultation, Dr. Edgar Zomboss finally decided to show who the Boss really is. He put on his coat, sat at his desk and told his managers to the rest.";
+                    string origin = "Rogue Garden";
+                    string summon = "Zomboss rings the bell on his shelf to call zombies in. Prefers spawning zombies from the ZCorp category and only spawns ZCorp variant basics.";
+                    //phase_1
+                        string attack_1 = "Costumer Service Please : Zomboss calls costumer service, summoning up to 5 ZCorp Costumer Sevice accros the garden.";
+                        string attack_2 = "Swing : The Zombot swings its metalic claws at the plants, destroying plants in a 1x3 area in front of itself.";
+                        string attack_3 = "Jump : The Zombot jumps to a different place instead of walking, avoiding land attacks while in movement.";
+                    //phase_2
+                        string attack_3 = "Work Emergency : Causes a Rush Hour event and spawns a ZCorp Consultant in each lane.";
+                    //phase_3
+                        string attack_4 = "Mass Firing : The Zombot rears back, charges up and then dashes down the garden, crushing plants and ZCorp basics it touches.";
+                        string attack_5 = "Promotion : Turns all non-armored ZCorp basics into ZCorp Middle Managers";
 
                 //multi-stage_masher
                     //Concert

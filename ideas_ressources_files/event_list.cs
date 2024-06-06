@@ -171,6 +171,7 @@ double faster = 5;
 
             //zombots
                 string descitpion = "Giant robots built and controlled by Dr. Edgar Zomboss. They all have three phases at 3/3, 2/3 and 1/3 of their heath, where they get progressively more difficult before being defeated. Zombies in the garden he appears in stop spawning normally and instead get summoned by the boss.";
+                
                 //mark_iii
                     string descitpion = "The Zombot Mark III is a colossal robot reminicent of its original apearance and its Mark II edition in the time-travel adventure. Its hulking height leaves it standing even higher than the roof. It can only be damage when hit at the head.";
                     string almanac = "He may have exploded once and even twice, but he always believes that third time's the charm.";
@@ -235,9 +236,11 @@ double faster = 5;
                     //Concert
 
                 //water-based
+                    
                     //sharktronic
 
                 //air-based
+                    
                     //dark_dragon
                         //Fantasy Roleplaying Club
 
@@ -246,6 +249,7 @@ double faster = 5;
                     //battle_cruiser
 
             //heroes
+                
                 //the_smash
                     //Sportive Zombies
 
@@ -299,7 +303,7 @@ double faster = 5;
             string origin = "";
 
         //rush_hour
-            string description = "For the duration, all CR goes into ZCorp Zombies and basics are replaced with the ZCorp variant basics.";
+            string description = "For the duration, all CR goes into ZCorp Zombies and basics, imps and gargantuars are replaced with their ZCorp variants.";
             string origin = "Rogue Garden";
 
         //pine_clone_bonanza

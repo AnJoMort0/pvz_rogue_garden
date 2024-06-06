@@ -6,20 +6,20 @@ double faster = 5;
 
 //How to calculate CR
 //Note : CR is an arbitrary value that will likely change with play-testing
-//Start at the conehead's CR of 2 -> The conehead is special because it is 3x as tough as a browncoat but only 2x less likely to spawn
+//Start at the conehead's CR of 2 -> The conehead is special because it is 3x as tough as a browncoat but only 2x less likely to spawn. If making an imp or a gargantuar, start with their CR instead and reaply the rules.
 //Starting from its stats :
 //          - Add or remove 1-2 CR depending on the speed difference (compared to the Conehead's "normal" speed)
-//                  i.e. : "faster" = +2 CR
+//                  i.e. : "faster" = 2 speeds higher = +2 CR
 //          - Add or remove CR depending on the total HP + Armor difference (compared to the Conehead's 10 HP) divided by 10
 //                  i.e. : 20 HP + 10 Armor = 20 HP difference = +2 CR
 //Note : Since armor cannot be healed and can sometimes be removed or ignored (i.e. Magnet vs Buckethead, Fumeshroom vs Screendoor) a high HP zombie is more challenging than a high Armor one, so adapt if necessary
 //          - Add or remove CR depending on the difference in dmg and aps (compared to the Conehead's 1 dmg and 1 aps)
-//                  i.e. : 2 dmg + 0.5 aps = +1 CR - 1 CR = No change
-//                       : 2 dmg + 1 aps   = +1 CR
-//          - If the zombie has special abilities change the staring point (instead of CR = 2)
-//                  i.e. : weak ability / early-game challenge  = 3-4 CR base
-//                       : mid-game challenge                   = 5-7 CR base
-//                       : strong ability / late-game challenge = 8+  CR base
+//                  i.e. : 2 dmg + 0.5 aps = 2x dmg + /2 aps = +1 CR - 1 CR = No change
+//                       : 2 dmg + 1 aps   = 2x dmg + 1x aps = +1 CR
+//          - If the zombie has special abilities change the staring point (instead of Conehead's 2 CR)
+//                  i.e. : weak ability / early-game challenge          = 3-4 CR base
+//                       : niche but strong ability/ mid-game challenge = 5-7 CR base
+//                       : strong ability / late-game challenge         = 8+  CR base
 
     //template_category
         //template_zombie                                //think of including the words "Imp", "Zombie" or "Gargantuar" to the zombie's name if it doesn't already include a reference to its zombie status (i.e. Abracader, ZCorp zombies in general)
@@ -30,13 +30,14 @@ double faster = 5;
             double speed = normal;                       //speeds written on the top of the file
             double dmg = 1;                              //damage (dmg) is counted in peas - yes, even the zombies'
             double aps = 1;                              //aps stands for attacks per second, aka how fast the zombie attacks
-            string special = "";                         //if relevant, add a precise description of the ability/ies (this won't   show up in the actual almanac, it is instead used for coding), if not remove this line. Note : by default, zombies can't spawn on water or on air at all, so add precisions such as "Can spawn" or "only spawns in water" for the pool and "Flies towards the roof" (Flying zombies fly at "roof height", so if a peashooter is placed on the roof it'll be able to shoot the flying zombies)
+            string special = "";                         //if relevant, add a precise description of the ability/ies (this won't   show up in the actual almanac, it is instead used for coding), if not remove this line. Note : by default, zombies can't spawn on water or on air at all, so add precisions such as "Can spawn" or "only spawns in water" for the pool and "Flies towards the roof" (Flying zombies fly at "roof height", so if a peashooter is placed on the roof it'll be able to shoot the flying zombies) when necessary.
             string almanac = "ladders on sale";          //almanac entry, be it copied from one of the original games or entirely/partially new
-            string origin = "Rogue Garden";              //game(s) or mod(s) of origin - add the original name of the zombie if the name changes for this (i.e. Monitor Head: string origin = "PvZ Battle for Neighbourville (TV Head)") as well as the origing of its gimmicks (i.e. Mad Chemist Zombie : string origin = "PvZ Heroes ; PvZ 2 (Dark Ages Potion)")
+            string origin = "Rogue Garden";              //game(s) or mod(s) of origin - add the original name of the zombie if the name changes for this (i.e. Monitor Head: string origin = "PvZ Battle for Neighbourville (TV Head)") as well as the origing of its gimmicks (i.e. Mad Chemist Zombie: string origin = "PvZ Heroes ; PvZ 2 (Dark Ages Potions)")
 
 //almanac_of_zombies
 
     //basics
+        
         //browncoat_zombie
             string description = "Regular Garden-variety Zombie";
             double hp = 10;
@@ -95,21 +96,21 @@ double faster = 5;
             string almanac = "After consultation with various storybook wolves, it was determined that straw helmets and wood helmets were not up to snuff, and that brick helmets had to be seriously considered.";
             string origin = "PvZ 2";
         
-            //variant:ducky_tube_zombie
+            //variant_basic:ducky_tube_zombie
             string description = "The ducky tube allows this zombie to float on water.";
             //stats_of_relevent_basics
             string special = "Only spawns in the pool.";
             string almanac = "It takes a certain kind of zombie to be a Ducky Tuber. Not every zombie can handle it. Some crack. They can't take it. They walk away and give up on brains forever.";
             string origin = "PvZ 1";
 
-            //variant:brown_parka_zombie
+            //variant_basic:brown_parka_zombie
             string description = "The zombie's brown parka protects him from the cold.";
             //stats_of_relevent_basics
             string special = "Only spawns in winter. Immune to chilling and reduces the freezing effect to chilling.";
             string almanac = "Though many see the use of thicker clothing as a simple survival instinct, Brown Parka Zombie disapproves of this theory. For him, it's all about fashion.";
             string origin = "PvZ 2 (Frostbite Caves basic)";
 
-            //variant:zcorp_zombie
+            //variant_basic:zcorp_zombie
             string description = "A typical ZCorp Incorporated employee.";
             //stats_of_relevent_basics
             string special = "Only spawns during the 'Rush Hour' ambush or when spawned by the ZCorp Costumer Service and Conga Leader Zombie.";
@@ -117,6 +118,7 @@ double faster = 5;
             string origin = "PvZ 2";
 
     //default_zombies
+        
         //imp
             string description = "A small zombie that shuffles through your defenses. Often thrown into it.";
             double hp = 5;
@@ -128,44 +130,83 @@ double faster = 5;
             string almanac = "What he lacks in reach he more than makes up for with his bad attitude, or Zombattitude as he likes to call it. Don't encourage him.";
             string origin = "PvZ 2";
 
-            //variant:brownparka_imp
+            //variant_imp:fishy_imp
+                string description = "It's just an imp, but with a winter jacket.";
+                //stats_of_imp
+                string special = "Only spawns in the pool.";
+                string almanac = "Throws the *best* pool parties.";
+                string origin = "PvZ Heroes";
+
+            //variant_imp:brownparka_imp
+                string description = "It's just an imp, but with a winter jacket.";
+                //stats_of_imp
                 string spceial = "Only spawns in winter. Immune to chilling and reduces the freezing effect to chilling.";
+                string almanac = "Brownparka Imp recently took up knitting. He started with a scarf, moved to mittens and eventually knitted an entire parka out of cloth he ripped off of Brownparka Gargantuar's brownparka.";
                 string origin = "PvZ 2 (Yeti Imp)";
 
-            //variant:fishy_imp
-                string special = "Only spawns in the pool.";
+            //variant_imp:head_office_imp
+                string description = "Even imps have to work in this economy.";
+                //stats_of_imp
+                string special = "Only spawns during the 'Rush Hour' ambush or when spawned by the ZCorp Costumer Service.";
+                string almanac = "Head Office Imp's door is always open. It is, however, highly inadvisable to take him up on that offer.";
+                string origin = "PvZ 2";
 
         //gargantuar
             string special = "Throws an Imp upon reaching half hp.";
 
-            //variant:king_of_the_grill
-                string spcial = "Only spawns in the summer. Throws a Hot Dog Imp upon reaching half hp.";
-
-            //variant:brownparka_gargantuar
+            //variant_gargantuar:deep_sea_gargantuar
+                string special = "Only spawns in the pool. Throws a Fishy Imp upon reaching half hp.";
+            
+            //variant_gargantuar:brownparka_gargantuar
                 string spceial = "Only spawns in winter. Immune to chilling and reduces the freezing effect of chilling. Throws 3 Brownparka Imps upon reaching half hp.";
                 string origin = "PvZ 2 (Sloth Gargantuar)";
 
-            //variant:smashing_gargantuar
-                string description = "Attacks faster than a regular gargantuar. Throws an Imp upon reaching half hp.";
-
-            //variant:deep_sea_gargantuar
-                string special = "Only spawns in the pool. Throws a Fishy Imp upon reaching half hp.";
-
-            //variant:hippity_hop_gargantuar
-                string special = "Throws a Mystery Egg upon reaching half hp.";
-
-                    //mystery_egg
-                        string special = "Turns into a random CR 3 or less zombie or imp after a few seconds.";
-
-            //variant:surprise_gargantuar
-                string special = "Moves to a random lane upon reaching half hp. Throws an Imp in the lane he leaves and one in the lane he lands on."
-
-        //zombie_yeti
+            //variant_gargantuar:gargantuar_legal
+                string special = "Only spawns during the 'Rush Hour' ambush. Throws a Head Office Imp upon reachinh half hp.";        
     
     //miscellaneous_zombies
+        
+        //zombie_yeti
+
         //newspaper_zombie
 
         //pogo_zombie
+
+        //imp-throwing_imp
+            string special = "Creates a random imp on another random lane when hit.";
+
+        //gargantuar-imp
+            string special = "Creates a random gargantuar on another random upon reaching half hp.";
+
+        //gargantuar-throwing_gargantuar
+            string special = "Creates a random gargantuar on another random lane upon reaching half hp.";
+
+        //variant_gargantuar:king_of_the_grill_gargantuar
+                string spcial = "Only spawns in the summer. Throws a Hot Dog Imp upon reaching half hp."; 
+
+        //hot_dog_imp
+            string description = "Much like hot dogs, Hot Dog Imp will slide trough your defenses.";
+            double hp = 7;
+            double armour = 0;
+            int cr = 2;
+            double speed = fast;
+            double dmg = 0.5;
+            double aps = 2;
+            string special = "Only spawns during summer. When he eats, he dashes forward, skipping ahead one lane and damaging the plant in the process."; 
+            string almanac = "He was THIS close to wearing the chicken costume, but darn it, Team Mascot Imp called it first.";
+            string origin = "PvZ 2"; 
+
+        //smashing_gargantuar
+            string description = "Attacks faster than a regular gargantuar."; 
+
+        //hippity_hop_gargantuar
+            string special = "Throws a Mystery Egg upon reaching half hp.";
+
+                //mystery_egg
+                    string special = "Turns into a random CR 3 or less zombie or imp after a few seconds.";
+
+        //surprise_gargantuar
+            string special = "Moves to a random lane upon reaching half hp. Throws an Imp in the lane he leaves and one in the lane he lands on."
 
         //snowball_thrower_imp
             string special = "Only spawns during winter.";
@@ -306,9 +347,6 @@ double faster = 5;
             string special = "After taking damage for the first time, he turns invisible for 4 tiles before reapearing.";
             string origin = "PvZ Heroes ; PvZ 2 China (Bandit Zombie)";
 
-        //hot_dog_imp
-            string special = "Only spawns during summer. When he eats, he dashes forward, skipping ahead one lane and damaging the plant in the process.";
-
         //moneky_smuggler_zombie
             string description = "The monkey smuggler sends out his monkey behind the floral wall.";
             double hp = 22;
@@ -334,9 +372,6 @@ double faster = 5;
         
         //smelly_zombie
             string special = "Deals extra dmg to non-wall plants.";
-
-        //imp-throwing_imp
-            string special = "Creates a random imp on a random lane of his garden when hit.";
         
         //trapper_zombie
             string special = "Creates a single-use trap on the tile he dies on. Any plant planted on that tile is stunned.";
@@ -396,8 +431,95 @@ double faster = 5;
             string special = "Moves between lanes. Occasionally yoddles, damaging every plant in her lane.";
             string almanac = "In her opinion, there's no better song to line dance to than the 'Zombie Shuffle.'";
             string origin = "PvZ Heroes";
+ 
+        //airborn_zombies
+            
+            //ballon_zombie
+                string special = "Flies towards your roof.";
+
+            //bungee_zombie
+
+            //bungee_plumber
+                string origin = "PvZ Heroes (Bungee Plumber Jumper)";
+
+            //parachutist_zombie
+                string origin = "PvZ 2 (Lost Pilot Zombie)";
+
+            //roof_climber_zombie
+                string origin = "PvZ Heroes (Mountain Climber) ; PvZ 2 (Swashbuckler / Relic Hunter)";
+
+            //copter_commandimp
+                string orgin = "PvZ Heroes (Copter Commando)";
+
+            //kite_flyer_zombie
+                string description = "Kite Flyer Zombie flies a kyte above him. He shoots any damage inflicted to the kite right back at the plants.";
+                double hp = 30;
+                double armour = 0;
+                int cr = 5;
+                double speed = normal;
+                double dmg = 1;
+                double aps = 1;
+                string special = "More likely to appear during Fall. The kite flies on roof height above the Kite Flyer Zombie. Whatever damage the kite takes is shot back at the plants on the ground.";
+                string almanac = "The naysayers were right. Flying a kite in a lightning storm WAS a real bright idea.";
+                string origin = "PvZ Heroes";
+
+                    //kite
+                        string description = "The Kite Flyer Zombie's kite";
+                        double hp = 15;
+                        double armour = 0;
+                        //int cr = N/A;
+                        //double speed = N/A;
+                        //double dmg = N/A;
+                        //double aps = N/A;
+
+            //stupid_cupid_imp
+                string description = "Flies and attacks to plants under him, which stuns them for a few seconds.";
+                double hp = 14;
+                double armour = 0;
+                int cr = 5;
+                double speed = fast;
+                double dmg = 1;
+                double aps = 1;
+                string special = "Flies towards your roof. Deals damage to plants beneath him, which stuns them for a few seconds.";
+                string almanac = "What's love got to do with it? Honestly, he has no idea.";
+                string origin = "PvZ Heroes";
+
+            //transport_fighter
+                string special = "Flies towards your roof. Drops a Bug Bot Imp upon reaching 75%, 50% and 25% hp.";
+                string origin = "PvZ 2 China (Transport Ship) ; PvZ 2 (Far Future imp rain)";
+                //fighter plane visual
+
+        //aquatic_zombies
+            
+            //snorkel_zombie
+
+            //dolphin_rider_zombie
+
+            //surfer_zombie
+                string special = "Only spawns during summer and spring. May spawn in the pool. If on land, carries a surfboard over his head that he smashes into the first plant he encounters and drops upon death. If in the pool, surfs rapidly, ignoring your plants except for tall-nut. Behaves like it would do in the pool when on shallow water lanes.";
+
+            //fisherman_zombie
+
+            //octo_zombie
+
+            //synchronized_swimmer_zombie
+                string special = "Only spawns in the pool. More likely to spawn during Aerobics Class concert event. Always spawns in groups of three, covering all three pool lanes.";
+                string origin = "PvZ Heroes";
+
+            //imp_commander
+                string special = "Only spawns in the pool. While alive, every zombie in his lane gets +0.5 aps.";
+                string origin = "PvZ Heroes";
+
+            //zombie_high_diver
+                string special = "Spawns in the roof like the chimney swipper. Dives into one of the pool lanes, stays submerged for 1 to 3 tiles and advances away from the house.";
+                string origin = "PvZ Heroes";
+
+            //walrus_rider_imp
+                string special = "Only spawns in the pool, during winter. Slides over the water, propelling the imp forward on the first plant it hits.";
+                string origin = "PvZ Heroes";
 
     //carnival_zombies
+        
         //nutcracker_zombie
             string special = "Deals gargantuar damage to nuts."
 
@@ -454,6 +576,7 @@ double faster = 5;
             string origin = "PvZ Heroes and Pvz Adventure ; PvZ 2 (Carnie Imp Twins)";
 
     //sportive_zombies
+        
         //pole_vaulting_zombie
 
         //football_zombie
@@ -480,6 +603,12 @@ double faster = 5;
         //zombie_coach
             string special = "Gives all zombies in his lane +2 hp for every plant that dies in his lane whilst he's alive.";
 
+        //bobsled_team
+            string special = "Only spawns in winter or in Zomboni ice trail.";
+
+        //mecha-football_zombie
+            string special = "Affected by E.M.Peach. Pushes plants back for as long as there is space behind it.";
+
         //defensive_end_gargantuar
             string special = "While alive, all plants cost an extra 25 sun. Throws an All-Star Super Fan Imp upon reaching half hp.";
 
@@ -487,6 +616,7 @@ double faster = 5;
             string special = "Switches plant with a plant behind it before smashing it. Throws a Zombie Chicken upon reaching half hp.";
 
     //construction_zombies
+        
         //ladder_zombie
 
         //supply-barrel_roller_zombie
@@ -512,6 +642,7 @@ double faster = 5;
 
         
     //museum_zombies
+        
         //awakened_ra_zombie
 
         //awakened_cleopatra_zombie
@@ -528,8 +659,8 @@ double faster = 5;
                 //zombie_statue
                     string special = "Works essentially like a gravestone, also being affected by gravebuster. Cannot be pushed past gravestones. If it reaches 0 HP it'll turn into a Sculpted Zombie, unless killed by a gravebuster.";
 
-                //buckethead_variant:sculpted_zombie
-                    string special = "Imune to Magnetshroom and Zombie Medusa's effect even after loosing all armor.";
+                //sculpted_zombie
+                    string special = "Imune to Zombie Medusa's effect even after loosing all armor.";
 
         //primeval_yeti
             string special = "Gives all zombies in his lane +2 hp and +1 dmg when he dies.";
@@ -542,10 +673,8 @@ double faster = 5;
             string origin = "PvZ 2 China (Lost Guide Zombie)";
 
     //mechanized_zombies: affected by EMPeach - flying zombies affected by EMPeach fall to the ground
+        
         //zomboni
-
-            //bobsled_team
-                string special = "Only spawns in winter or in Zomboni ice trail.";
 
         //catapult_zombie
 
@@ -608,97 +737,11 @@ double faster = 5;
 
         //robo-cone_zombie
 
-        //mecha-football_zombie
-            string special = "Pushes plants back for as long as there is space behind it.";
-
         //gargantuar_prime
-            string special = "Throws Bug Bot Imp upon reaching half hp.";
-
-    //airborn_zombies
-        //ballon_zombie
-            string special = "Flies towards your roof.";
-
-        //bungee_zombie
-
-        //bungee_plumber
-            string origin = "PvZ Heroes (Bungee Plumber Jumper)";
-
-        //parachutist_zombie
-            string origin = "PvZ 2 (Lost Pilot Zombie)";
-
-        //roof_climber_zombie
-            string origin = "PvZ Heroes (Mountain Climber) ; PvZ 2 (Swashbuckler / Relic Hunter)";
-
-        //copter_commandimp
-            string orgin = "PvZ Heroes (Copter Commando)";
-
-        //kite_flyer_zombie
-            string description = "Kite Flyer Zombie flies a kyte above him. He shoots any damage inflicted to the kite right back at the plants.";
-            double hp = 30;
-            double armour = 0;
-            int cr = 5;
-            double speed = normal;
-            double dmg = 1;
-            double aps = 1;
-            string special = "More likely to appear during Fall. The kite flies on roof height above the Kite Flyer Zombie. Whatever damage the kite takes is shot back at the plants on the ground.";
-            string almanac = "The naysayers were right. Flying a kite in a lightning storm WAS a real bright idea.";
-            string origin = "PvZ Heroes";
-
-                //kite
-                    string description = "The Kite Flyer Zombie's kite";
-                    double hp = 15;
-                    double armour = 0;
-                    //int cr = N/A;
-                    //double speed = N/A;
-                    //double dmg = N/A;
-                    //double aps = N/A;
-
-        //stupid_cupid_imp
-            string description = "Flies and attacks to plants under him, which stuns them for a few seconds.";
-            double hp = 14;
-            double armour = 0;
-            int cr = 5;
-            double speed = fast;
-            double dmg = 1;
-            double aps = 1;
-            string special = "Flies towards your roof. Deals damage to plants beneath him, which stuns them for a few seconds.";
-            string almanac = "What's love got to do with it? Honestly, he has no idea.";
-            string origin = "PvZ Heroes";
-
-        //transport_fighter
-            string special = "Flies towards your roof. Drops a Bug Bot Imp upon reaching 75%, 50% and 25% hp.";
-            string origin = "PvZ 2 China (Transport Ship) ; PvZ 2 (Far Future imp rain)";
-            //fighter plane visual
-
-    //aquatic_zombies
-        //snorkel_zombie
-
-        //dolphin_rider_zombie
-
-        //surfer_zombie
-            string special = "Only spawns during summer and spring. May spawn in the pool. If on land, carries a surfboard over his head that he smashes into the first plant he encounters and drops upon death. If in the pool, surfs rapidly, ignoring your plants except for tall-nut. Behaves like it would do in the pool when on shallow water lanes.";
-
-        //fisherman_zombie
-
-        //octo_zombie
-
-        //synchronized_swimmer_zombie
-            string special = "Only spawns in the pool. More likely to spawn during Aerobics Class concert event. Always spawns in groups of three, covering all three pool lanes.";
-            string origin = "PvZ Heroes";
-
-        //imp_commander
-            string special = "Only spawns in the pool. While alive, every zombie in his lane gets +0.5 aps.";
-            string origin = "PvZ Heroes";
-
-        //zombie_high_diver
-            string special = "Spawns in the roof like the chimney swipper. Dives into one of the pool lanes, stays submerged for 1 to 3 tiles and advances away from the house.";
-            string origin = "PvZ Heroes";
-
-        //walrus_rider_imp
-            string special = "Only spawns in the pool, during winter. Slides over the water, propelling the imp forward on the first plant it hits.";
-            string origin = "PvZ Heroes";
+            string special = "Shoots his laser at plants in the back of the garden. Attacks twice per attack. Throws Bug Bot Imp upon reaching half hp.";
 
     //scientific_zombies
+        
         //disinfection_zombie
             string special = "Only spawns in the pool. Releases toxic chemicals that slowly move along his lane, lightly damaging all plants.";
             string origin = "PvZ 2 China";
@@ -775,6 +818,7 @@ double faster = 5;
             string special = "More likely to spawn during the Radiation Wave event. Upon reaching the garden, incapsulates himself. He does leave not until the capsule is destroyed. Whilst in the capsule, gains +2 hp and +1 dmg for every four zombies that pass him.";
 
     //zcorp_zombies
+        
         //zcopr_monitor_head
             string description = "ZCorp Monitor Heads are zombies with Cone-grade protection that can attack your plants from a distance.";
             double hp = 10;
@@ -809,7 +853,7 @@ double faster = 5;
             double speed = normal;
             double dmg = 1;
             double aps = 1;
-            string special = "Creates one random ZCorp variant basic (only up to screendoor) in every lane.";
+            string special = "Creates one random ZCorp variant basic (only up to screendoor) or imp in every lane.";
             string almanac = "Hang on - he's got to take this.";
             string origin = "PvZ Heroes (Cell Phone Zombie)";
 
@@ -850,6 +894,7 @@ double faster = 5;
             string origin = "PvZ Heroes (Zombie Middle Manager)";
 
     //police_and_military
+        
         //foot_soldier_zombie
             string special = "Upon reaching the 4th row, he lauches himself upwards to the second to last lane of the roof, dealing heavy damage to the plant he lands on in the process.";
             string origin = "PvZ Garden Warfare"
@@ -896,6 +941,7 @@ double faster = 5;
                 string origin = "PvZ 2 (Explorer Zombie)";
 
     //fantasy_roleplaying_club
+        
         //imp_dragon
 
         //jester_zombie
@@ -971,6 +1017,7 @@ double faster = 5;
             string origin = "PvZ Heroes";
 
     //event_dependent_zombies
+        
         //zombotany_zombies
 
         //portal_gatekeeper_zombie
@@ -986,6 +1033,7 @@ double faster = 5;
             string origin = "PvZ Heroes (Wormhole Gatekeeper)";
 
         //dancing_zombies: only spawn in the music event, each event is dedicated to a single zombie.
+            
             //jack-in-the-box_zombie
                 string event_name = "Asylum Escape";
 

@@ -149,20 +149,40 @@ double faster = 5;
                 //stats_of_imp
                 string special = "Only spawns during the 'Rush Hour' ambush or when spawned by the ZCorp Costumer Service.";
                 string almanac = "Head Office Imp's door is always open. It is, however, highly inadvisable to take him up on that offer.";
-                string origin = "PvZ 2";
+                string origin = "PvZ 2 (Head Office Impgatuar)";
 
         //gargantuar
+            
+            double hp = 180;
+            double armour = 0;
+            int cr = 20;
+            double speed = fast;
+            double dmg = 9999999999;
+            double aps = 0.5;
             string special = "Throws an Imp upon reaching half hp.";
+            string almanac = "When Gargantuar walks, the Earth trembles. When he moans, other zombies fall silent. He is the zombie other zombies dream they could be. But he still can't find a girlfriend.";
+            string origin = "PvZ 1";
 
             //variant_gargantuar:deep_sea_gargantuar
+                string description = "From the deep sea, straight to your pool.";
+                //stats_of_gargantuar
                 string special = "Only spawns in the pool. Throws a Fishy Imp upon reaching half hp.";
+                string almanac = "Has every single issue of Deep Sea Quarterly, but rarely has time to read them.";
+                string origin = "PvZ 2 ; PvZ Heroes";
             
             //variant_gargantuar:brownparka_gargantuar
+                string description = "Other than a jacket, it also has three imps instead of one.";
+                //stats_of_gargantuar
                 string spceial = "Only spawns in winter. Immune to chilling and reduces the freezing effect of chilling. Throws 3 Brownparka Imps upon reaching half hp.";
+                string almanac = "He very much hates those Imps on his back. The darn things are itchy. They're always stealing parts of his parka. But at this point, he'd probably miss them if they ever cleared up.";
                 string origin = "PvZ 2 (Sloth Gargantuar)";
 
             //variant_gargantuar:gargantuar_legal
-                string special = "Only spawns during the 'Rush Hour' ambush. Throws a Head Office Imp upon reachinh half hp.";        
+                string description = "Only the best and the beast in the business.";
+                //stats_of_gargantuar
+                string special = "Only spawns during the 'Rush Hour' ambush. Throws a Head Office Imp upon reachinh half hp.";
+                string almanac = "Gargantuar Legal delivers cease-and-desists the old-fashioned way: with a baseball bat.";
+                string origin = "PvZ 2 (Gargimp Legal)";
     
     //miscellaneous_zombies
         
@@ -175,7 +195,7 @@ double faster = 5;
         //imp-throwing_imp
             string special = "Creates a random imp on another random lane when hit.";
 
-        //gargantuar-imp
+        //gargantuar-throwing_imp
             string special = "Creates a random gargantuar on another random upon reaching half hp.";
 
         //gargantuar-throwing_gargantuar
@@ -518,6 +538,74 @@ double faster = 5;
                 string special = "Only spawns in the pool, during winter. Slides over the water, propelling the imp forward on the first plant it hits.";
                 string origin = "PvZ Heroes";
 
+        //mechanized_zombies: affected by EMPeach - flying zombies affected by EMPeach fall to the ground
+        
+            //zomboni
+
+            //catapult_zombie
+
+            //neutron_imp
+                string special = "Flies towards your roof.";
+
+            //celestial_custodian_zombie
+                string special = "Flies towards the roof. Inflicts double damage to plants with 0 aps.";
+
+            //space_cowimp
+                string special = "Flies towards your roof. Moves to a neighbouring lane when he eats a plant.";
+                string origin = "PvZ Heroes (Space Cowboy)";
+
+            //hover_goat-3000
+                string special = "Flies towards your roof. Gives zombies directly under itself +1 dmg and heals them over time.";
+
+            //interdimensional_zombie
+                string description = "The Interdimensional Zombie occasionally avoids attacks by glitching forward.";
+                double hp = 20;
+                double armour = 0;
+                int cr = 4;
+                double speed = normal;
+                double dmg = 1;
+                double aps = 1;
+                string special = "Every third attack that hits him doesn't inflict damage and causes him to glitch forwards one tile.";
+                string almanac = "In a parallel dimension, this Zombie is a Space Pirate. In another, he's a Trash Can Zombie. Turns out, little choices in life can make a big difference.";
+                string origin = "PvZ Heroes";
+
+            //cyborg_zombie
+                string description = "The Cyborg Zombie summons a stronger version of himself upon death.";
+                double hp = 30;
+                double armour = 0;
+                int cr = 6;
+                double speed = normal;
+                double dmg = 1;
+                double aps = 1;
+                string special = "Once dead, a Vengeful Cyborg Zombie spawns in his lane.";
+                string almanac = "He'll be back.";
+                string origin = "PvZ Heroes";
+
+                    //vengeful_cyborg_zombie
+                        string description = "He is stronger than his summoner in every way.";
+                        double hp = 60;
+                        double armour = 0;
+                        //int cr = N/A;
+                        double speed = fast;
+                        double dmg = 2;
+                        double aps = 2;
+                        string almanac = "He's back";
+                        string origin = "PvZ Heroes";
+
+        //arcade_zombie
+
+            //variant:8-bit_zombie
+                //animted in less fps
+
+        //shield_zombie
+
+        //bug_bot_imp
+
+        //robo-cone_zombie
+
+        //gargantuar_prime
+            string special = "Shoots his laser at plants in the back of the garden. Attacks twice per attack. Throws Bug Bot Imp upon reaching half hp.";
+
     //carnival_zombies
         
         //nutcracker_zombie
@@ -671,74 +759,6 @@ double faster = 5;
         //archeology_guide_zombie
             string special = "Digs underground for 5 tiles before coming back up, creating a pathway for non-gargantuar zombies to evade attacks. Diggers that dig into it come out the end of the tunnel. The tunnel only lasts 3 tiles.";
             string origin = "PvZ 2 China (Lost Guide Zombie)";
-
-    //mechanized_zombies: affected by EMPeach - flying zombies affected by EMPeach fall to the ground
-        
-        //zomboni
-
-        //catapult_zombie
-
-        //neutron_imp
-            string special = "Flies towards your roof.";
-
-        //celestial_custodian_zombie
-            string special = "Flies towards the roof. Inflicts double damage to plants with 0 aps.";
-
-        //space_cowimp
-            string special = "Flies towards your roof. Moves to a neighbouring lane when he eats a plant.";
-            string origin = "PvZ Heroes (Space Cowboy)";
-
-        //hover_goat-3000
-            string special = "Flies towards your roof. Gives zombies directly under itself +1 dmg and heals them over time.";
-
-        //interdimensional_zombie
-            string description = "The Interdimensional Zombie occasionally avoids attacks by glitching forward.";
-            double hp = 20;
-            double armour = 0;
-            int cr = 4;
-            double speed = normal;
-            double dmg = 1;
-            double aps = 1;
-            string special = "Every third attack that hits him doesn't inflict damage and causes him to glitch forwards one tile.";
-            string almanac = "In a parallel dimension, this Zombie is a Space Pirate. In another, he's a Trash Can Zombie. Turns out, little choices in life can make a big difference.";
-            string origin = "PvZ Heroes";
-
-        //cyborg_zombie
-            string description = "The Cyborg Zombie summons a stronger version of himself upon death.";
-            double hp = 30;
-            double armour = 0;
-            int cr = 6;
-            double speed = normal;
-            double dmg = 1;
-            double aps = 1;
-            string special = "Once dead, a Vengeful Cyborg Zombie spawns in his lane.";
-            string almanac = "He'll be back.";
-            string origin = "PvZ Heroes";
-
-                //vengeful_cyborg_zombie
-                    string description = "He is stronger than his summoner in every way.";
-                    double hp = 60;
-                    double armour = 0;
-                    //int cr = N/A;
-                    double speed = fast;
-                    double dmg = 2;
-                    double aps = 2;
-                    string almanac = "He's back";
-                    string origin = "PvZ Heroes";
-
-        //arcade_zombie
-
-            //variant:8-bit_zombie
-                //animted in less fps
-
-        //shield_zombie
-
-        //bug_bot_imp
-
-        //robo-cone_zombie
-
-        //gargantuar_prime
-            string special = "Shoots his laser at plants in the back of the garden. Attacks twice per attack. Throws Bug Bot Imp upon reaching half hp.";
 
     //scientific_zombies
         

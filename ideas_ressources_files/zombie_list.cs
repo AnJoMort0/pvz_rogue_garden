@@ -189,8 +189,35 @@ double faster = 5;
         //zombie_yeti
 
         //newspaper_zombie
+            string description = "His newspaper provides limited defence, but great entertainment.";
+            double hp = 12;
+            double armour = 12;
+            int cr = 4;
+            double speed = normal;
+            double dmg = 1;
+            double aps = 1;
+            string special = "Becomes angry if the newspaper breaks, which increases his stats.";
+            string almanac = "Newspaper Zombie was *this* close to finishing his sudoku puzzle. No wonder he's freaking out.";
+            string origin = "PvZ 1";
+
+            //newspaper_zombie_angry
+                double hp = 12;
+                double armour = 0;
+                double speed = fast;
+                double dmg = 2;
+                double aps = 2;
 
         //pogo_zombie
+            string description = "Pogo Zombie hops to bypass your defenses.";
+            double hp = 20;
+            double armour = 0;
+            int cr = 5;
+            double speed = fast; //normal after loosing pogostick
+            double dmg = 1;
+            double aps = 1;
+            string special = "Pogo stick can be removed by Magnet-shroom. Jumps over all plants instead of eating them, except Tall-nut which makes him loose his pogo stick if he jumps into it.";
+            string almanac = "Sproing ! Sproing ! Sproing !That's the sound of a powerful and effective zombie doing what he does best.";
+            string origin = "PvZ 1";
 
         //imp-throwing_imp
             string special = "Creates a random imp on another random lane when hit.";
@@ -515,6 +542,18 @@ double faster = 5;
 
             //dolphin_rider_zombie
 
+            //seahorse_rider_zombie
+            string description = "Rides a seahorse to jumps over your defenses.";
+            double hp = 20;
+            double armour = 0;
+            int cr = 6;
+            double speed = fast;
+            double dmg = 1;
+            double aps = 1;
+            string special = "Onyl spawns in the pool. Jumps over all plants instead of eating them, except Tall-nut which makes him loose his seahorse and drowing if he jumps into it.";
+            string almanac = "His small skirt risks making him exposed, which gives him headaches.";
+            string origin = "PvZ Endless Edition";
+
             //surfer_zombie
                 string special = "Only spawns during summer and spring. May spawn in the pool. If on land, carries a surfboard over his head that he smashes into the first plant he encounters and drops upon death. If in the pool, surfs rapidly, ignoring your plants except for tall-nut. Behaves like it would do in the pool when on shallow water lanes.";
 
@@ -567,7 +606,7 @@ double faster = 5;
                 double aps = 1;
                 string special = "Every third attack that hits him doesn't inflict damage and causes him to glitch forwards one tile.";
                 string almanac = "In a parallel dimension, this Zombie is a Space Pirate. In another, he's a Trash Can Zombie. Turns out, little choices in life can make a big difference.";
-                string origin = "PvZ Heroes";
+                string origin = "PvZ Heroes ; PvZ It's Versus Time (Glitched Zombie)";
 
             //cyborg_zombie
                 string description = "The Cyborg Zombie summons a stronger version of himself upon death.";
@@ -1132,10 +1171,31 @@ double faster = 5;
 
             //conga_leader_zombie
                 string event_name = "Conga line";
-                string special = "While alive, browncoats (and his variants) will continuisly spawn on his lane.";
+                string descitpion = "He's a born leader, and a born dancer.";
+                double hp = 10;
+                double armour = 0;
+                //int cr = n/a;
+                double speed = normal;
+                double dmg = 1;
+                double aps = 1;
+                string special = "While alive, Browncoats (and his variants) and Conga Drummer Zombies will continuisly spawn on his lane.";
+                string almanac = "Conga Line Leader's pretty sure he took a wrong turn a few miles back, but ain't no way he's going to admit it. That's the key to leadership.";
                 string origin = "PvZ Adventure";
 
                 //variant:ducky_conga_leader_zombie
                     string event_name = "Conga line";
+                    //stats of Conga Leader Zombie
                     string special = "Only spawns in the pool. While alive, ducky browncoats will continuously spawn on his lane.";
                     string origin = "PvZ Adventure";
+
+                //conga_drummer_zombie
+                    string description = "Conga Drummer Zombie thrusts music at neighbouring plants to damage them.";
+                    double hp = 15;
+                    double armour = 0;
+                    //int cr = n/a;
+                    double speed = normal;
+                    double dmg = 1;
+                    double aps = 0.55;
+                    string special = "Only spawns in the Orchestral Jam concert event or when summoned by Conga Leader Zombie. Attacks neighbouring lanes with her drum instead of the lane in front.";
+                    string almanac = "Important Note: The fruit on her hat is made of plastic.";
+                    string origin = "PvZ Heroes";

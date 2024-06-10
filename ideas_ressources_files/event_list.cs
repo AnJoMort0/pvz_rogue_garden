@@ -120,7 +120,7 @@ double faster = 5;
                         string origin = "PvZ 1";
 
                     //orchestral_jam
-                        string description = "Spawns an Orchestra Conductor Zombie in one of the gardens that is unkillable for the duration of the event. Zombies playing instruments are more likely to appear.";
+                        string description = "Spawns an Orchestra Conductor Zombie in one of the gardens that is unkillable for the duration of the event. Zombies playing instruments are more likely to spawn.";
                         string origin = "PvZ Heroes";
 
                     //thriller

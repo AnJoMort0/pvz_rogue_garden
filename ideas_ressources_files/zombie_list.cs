@@ -10,9 +10,9 @@ double faster = 5;
 //Starting from its stats :
 //          - Add or remove 1-2 CR depending on the speed difference (compared to the Conehead's "normal" speed)
 //                  i.e. : "faster" = 2 speeds higher = +2 CR
-//          - Add or remove CR depending on the total HP + Armor difference (compared to the Conehead's 10 HP) divided by 10
-//                  i.e. : 20 HP + 10 Armor = 20 HP difference = +2 CR
-//Note : Since armor cannot be healed and can sometimes be removed or ignored (i.e. Magnet vs Buckethead, Fumeshroom vs Screendoor) a high HP zombie is more challenging than a high Armor one, so adapt if necessary
+//          - Add or remove CR depending on the total hp + Armor difference (compared to the Conehead's 10 hp) divided by 10
+//                  i.e. : 20 hp + 10 Armor = 20 hp difference = +2 CR
+//Note : Since armor cannot be healed and can sometimes be removed or ignored (i.e. Magnet vs Buckethead, Fumeshroom vs Screendoor) a high hp zombie is more challenging than a high Armor one, so adapt if necessary
 //          - Add or remove CR depending on the difference in dmg and aps (compared to the Conehead's 1 dmg and 1 aps)
 //                  i.e. : 2 dmg + 0.5 aps = 2x dmg + /2 aps = +1 CR - 1 CR = No change
 //                       : 2 dmg + 1 aps   = 2x dmg + 1x aps = +1 CR
@@ -152,7 +152,7 @@ double faster = 5;
                 string origin = "PvZ 2 (Head Office Impgatuar)";
 
         //gargantuar
-            
+            string description = "Gargantuar is a gigantic zombie. He lobs an Imp at your garden after taking some damage.";
             double hp = 180;
             double armour = 0;
             int cr = 20;
@@ -192,7 +192,7 @@ double faster = 5;
             string description = "His newspaper provides limited defence, but great entertainment.";
             double hp = 12;
             double armour = 12;
-            int cr = 4;
+            int cr = 3;
             double speed = normal;
             double dmg = 1;
             double aps = 1;
@@ -204,7 +204,7 @@ double faster = 5;
                 double hp = 12;
                 double armour = 0;
                 double speed = fast;
-                double dmg = 2;
+                double dmg = 1;
                 double aps = 2;
 
         //pogo_zombie
@@ -218,15 +218,6 @@ double faster = 5;
             string special = "Pogo stick can be removed by Magnet-shroom. Jumps over all plants instead of eating them, except Tall-nut which makes him loose his pogo stick if he jumps into it.";
             string almanac = "Sproing ! Sproing ! Sproing !That's the sound of a powerful and effective zombie doing what he does best.";
             string origin = "PvZ 1";
-
-        //imp-throwing_imp
-            string special = "Creates a random imp on another random lane when hit.";
-
-        //gargantuar-throwing_imp
-            string special = "Creates a random gargantuar on another random upon reaching half hp.";
-
-        //gargantuar-throwing_gargantuar
-            string special = "Creates a random gargantuar on another random lane upon reaching half hp.";
 
         //variant_gargantuar:king_of_the_grill_gargantuar
                 string spcial = "Only spawns in the summer. Throws a Hot Dog Imp upon reaching half hp."; 
@@ -255,8 +246,25 @@ double faster = 5;
         //surprise_gargantuar
             string special = "Moves to a random lane upon reaching half hp. Throws an Imp in the lane he leaves and one in the lane he lands on."
 
+       //imp-throwing_imp
+            string special = "Creates a random imp on another random lane when hit.";
+
+        //gargantuar-throwing_imp
+            string special = "Creates a random gargantuar on another random upon reaching half hp.";
+
+        //gargantuar-throwing_gargantuar
+            string special = "Creates a random gargantuar on another random lane upon reaching half hp.";
+
         //snowball_thrower_imp
-            string special = "Only spawns during winter.";
+            string description = "An imp that can throw snow balls at range to cool down plants until they freeze into blocks.";
+            double hp = 10;
+            double armour = 0;
+            int cr = 4;
+            double speed = fast;
+            double dmg = 0;
+            double aps = 0.5;
+            string special = "Only spawns during winter. Attacks from 4 tiles away. Projectiles hits plants until freezing instead of damaging.";
+            string almanac = "Snow is wonderful, it can create snow statues, bobsled trails, and even shootable snow balls. Take that Snow Pea.";
             string origin = "PvZ 2 (Hunter Zombie)";
 
         //ice_pirate_zombie
@@ -350,7 +358,7 @@ double faster = 5;
             double speed = normal;
             double dmg = 1;
             double aps = 1;
-            string special = "Camera can be removed by Magnetshroom. More likely to appear during concert and boss events. During events : HP = 30, speed = fast, dmg = 2, aps = 1 and gains a 1 tile ranged attack with the camera flash.";
+            string special = "Camera can be removed by Magnetshroom. More likely to appear during concert and boss events. During events : hp = 30, speed = fast, dmg = 2, aps = 1 and gains a 1 tile ranged attack with the camera flash.";
             string almanac = "Why is everyone always screaming and running away in his photos?";
             string origin = "PvZ Heroes";
 
@@ -478,6 +486,51 @@ double faster = 5;
             string special = "Moves between lanes. Occasionally yoddles, damaging every plant in her lane.";
             string almanac = "In her opinion, there's no better song to line dance to than the 'Zombie Shuffle.'";
             string origin = "PvZ Heroes";
+
+        //foot_soldier_zombie
+            string special = "Upon reaching the 4th row, he lauches himself upwards to the second to last lane of the roof, dealing heavy damage to the plant he lands on in the process.";
+            string origin = "PvZ Garden Warfare"
+
+        //riot_police_bomber_zombie
+            string special = "Throws smoke bombs forwards to stun plants. Hits plants with his stick instead of eating.";
+            string origin = "PvZ 2 China (Riot Police Zombie)";
+
+        //riot_police_squadron
+            string special = "Spawns in formation from 3 to 5 zombies. The zombies on the front and back hold their shields in front and behind them respectively. The zombies in the middle hold it above their heads. This protects the formation from attacks from all directions except down. They attack with their bastons instead of eating.";
+            string origin = "PvZ 2 (Camel Zombies) | PvZ 2 China (Riot Police Zombie)";
+
+        //detonator_zombie
+            string origin = "PvZ 2 (Prospector Zombie)";
+
+        //medic_zombie
+            string origin = "PvZ Heroes ; PvZ 2 (Healer Zombie)";
+
+        //nurse_gargantuar
+            string special = "Heals himself 10 hp when he smashes a plant. Throws an Imp upon reaching half hp. If a boss event is ongoing, heals the boss instead.";
+
+        //gilet_jaune_zombie
+            string description = "The Gilet Jaune Zombie joins the undead protest with a megaphone in hand. His passionate shouts can rally other zombies to his cause.";
+            double hp = 10;
+            double armour = 0;
+            int cr = 5;
+            double speed = slow;
+            double dmg = 1;
+            double aps = 1;
+            string special = "The Gilet Jaune Zombie shouts slogans against the plants. This shout stuns plants in a 3x3 area and turns  basics into 'Rallied Protestor Zombies.'";
+            string almanac = "Once a common citizen, now a shuffler of the streets, the Gilet Jaune Zombie marches against anything in his path. To defend against the Gilet Jaune Zombie consider using plants with resistance to public dissatisfaction.";
+            string origin = "Rogue Garden";
+
+            //rallied_protestor_zombie
+                string description = "The Rallied Protestor Zombie is an incendiary addition to the undead protest, carrying a torch to burn the rival flora.";
+                double hp = 10;
+                double armour = 0;
+                //int cr = N/A;
+                double speed = Fast;
+                double dmg = 1;
+                double aps = 1;
+                string special = "Burns any plant he in front of he. Fire is extinguished with the Chill or Freeze effects and becomes a regular zombie. Fire projectiles can reignite the torch.";
+                string almanac = "Ah, the Rallied Protestor Zombie, a connoisseur of chaos summoned by the Gilet Jaune Zombie's botanical revolution. With a torch in hand and a fervent spirit, he elegantly waltzes through the garden, turning flora into a spectacle of flames. Mon dieu, the theatrics! Prepare for a fiery soirée.";
+                string origin = "PvZ 2 (Explorer Zombie)";
  
         //airborn_zombies
             
@@ -784,7 +837,7 @@ double faster = 5;
             string special = "Turns basics in front of it into zombie statues that she then pushes, crushing plants as she does so but being heavily slowed down.";
 
                 //zombie_statue
-                    string special = "Works essentially like a gravestone, also being affected by gravebuster. Cannot be pushed past gravestones. If it reaches 0 HP it'll turn into a Sculpted Zombie, unless killed by a gravebuster.";
+                    string special = "Works essentially like a gravestone, also being affected by gravebuster. Cannot be pushed past gravestones. If it reaches 0hp it'll turn into a Sculpted Zombie, unless killed by a gravebuster.";
 
                 //sculpted_zombie
                     string special = "Imune to Zombie Medusa's effect even after loosing all armor.";
@@ -951,54 +1004,7 @@ double faster = 5;
             string special = "Gains +1 hp and +0.25 aps for every ZCorp zombie that dies in his lane.";
             string almanac = "Like most managers, bringing pain to his employees gives him strength.";
             string origin = "PvZ Heroes (Zombie Middle Manager)";
-
-    //police_and_military
         
-        //foot_soldier_zombie
-            string special = "Upon reaching the 4th row, he lauches himself upwards to the second to last lane of the roof, dealing heavy damage to the plant he lands on in the process.";
-            string origin = "PvZ Garden Warfare"
-
-        //riot_police_bomber_zombie
-            string special = "Throws smoke bombs forwards to stun plants. Hits plants with his stick instead of eating.";
-            string origin = "PvZ 2 China (Riot Police Zombie)";
-
-        //riot_police_squadron
-            string special = "Spawns in formation from 3 to 5 zombies. The zombies on the front and back hold their shields in front and behind them respectively. The zombies in the middle hold it above their heads. This protects the formation from attacks from all directions except down. They attack with their bastons instead of eating.";
-            string origin = "PvZ 2 (Camel Zombies) | PvZ 2 China (Riot Police Zombie)";
-
-        //detonator_zombie
-            string origin = "PvZ 2 (Prospector Zombie)";
-
-        //medic_zombie
-            string origin = "PvZ Heroes ; PvZ 2 (Healer Zombie)";
-
-        //nurse_gargantuar
-            string special = "Heals himself 10hp when he smashes a plant. Throws an Imp upon reaching half hp. If a boss event is ongoing, heals the boss instead.";
-
-        //gilet_jaune_zombie
-            string description = "The Gilet Jaune Zombie joins the undead protest with a megaphone in hand. His passionate shouts can rally other zombies to his cause.";
-            double hp = 10;
-            double armour = 0;
-            int cr = 5;
-            double speed = slow;
-            double dmg = 1;
-            double aps = 1;
-            string special = "The Gilet Jaune Zombie shouts slogans against the plants. This shout stuns plants in a 3x3 area and turns  basics into 'Rallied Protestor Zombies.'";
-            string almanac = "Once a common citizen, now a shuffler of the streets, the Gilet Jaune Zombie marches against anything in his path. To defend against the Gilet Jaune Zombie consider using plants with resistance to public dissatisfaction.";
-            string origin = "Rogue Garden";
-
-            //rallied_protestor_zombie
-                string description = "The Rallied Protestor Zombie is an incendiary addition to the undead protest, carrying a torch to burn the rival flora.";
-                double hp = 10;
-                double armour = 0;
-                //int cr = N/A;
-                double speed = Fast;
-                double dmg = 1;
-                double aps = 1;
-                string special = "Burns any plant he in front of he. Fire is extinguished with the Chill or Freeze effects and becomes a regular zombie. Fire projectiles can reignite the torch.";
-                string almanac = "Ah, the Rallied Protestor Zombie, a connoisseur of chaos summoned by the Gilet Jaune Zombie's botanical revolution. With a torch in hand and a fervent spirit, he elegantly waltzes through the garden, turning flora into a spectacle of flames. Mon dieu, the theatrics! Prepare for a fiery soirée.";
-                string origin = "PvZ 2 (Explorer Zombie)";
-
     //fantasy_roleplaying_club
         
         //imp_dragon
@@ -1047,11 +1053,11 @@ double faster = 5;
             string description = "Valkyrie Zombie gets stronger the more zombies die.";
             double hp = 20;
             double armour = 19;
-            int cr = 5;
+            int cr = 6;
             double speed = normal;
-            double dmg = 1;
+            double dmg = 0;
             double aps = 1;
-            string special = "Gets +1 damage for every zombie that dies whilst she's alive.";
+            string special = "Gets +1 damage for every zombie in her lane that dies whilst she's alive.";
             string almanac = "It's not easy hitting those high notes when all you can sing is, 'Braaaaains.'";
             string origin = "PvZ Heroes";
         

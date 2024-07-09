@@ -277,6 +277,18 @@ double faster = 5;
         //fire_rooster_zombie
             string special = "When a plant is placed on this lane, moves to a neighboring lane then shoots a fireball before continuing forwards.";
 
+        //stealth_imp
+            string description = "A small zombie that wanders through your defences, untraceable.";
+            double hp = 5;
+            double armour = 0;
+            int cr = 1;
+            double speed = fast;
+            double dmg = 0.5;
+            double aps = 2;
+            string special = "Only spawns at night. Remains invisible and sneaks past plants for as long as he has his night-vision goggles on. He takes out his night-vision goggles when in range of a plantern and they are removed by magnet-shroom.";
+            string almanac = "Gadget Scientist Zombie is behind the mysterious technology that allows these night-vision goggles to make Stealth imp invisible.";
+            string origin = "PvZ 3";
+
         //mixed-up_gravedigger_zombie
             string description = "The Mixed-Up Gravedigger creates tombstones all over the map.";
             double hp = 20;

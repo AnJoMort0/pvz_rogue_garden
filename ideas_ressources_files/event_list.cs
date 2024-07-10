@@ -47,7 +47,7 @@ double faster = 5;
                 string origin = "PvZ 2 (Far Future - Sun Bombs)";
 
         //night
-            string descritpion = "During the day : Sun don't fall from the sky.";
+            string descritpion = "During the night : Sun don't fall from the sky.";
 
     //moon_phase_cycle
         string description = "This game features a moon cycle, though only the two extremes are relevent.";
@@ -124,7 +124,7 @@ double faster = 5;
                         string origin = "PvZ Heroes";
 
                     //thriller
-                        string description = "Spawns a Dancer Zombie in one of the the gardens that is unkillable for the duration of the event. Creates a 4x5 block of Backup Dancer Zombies behind the Dancer Zombie, centered on the him.";
+                        string description = "Spawns a Dancer Zombie in one of the the gardens that is unkillable for the duration of the event. Creates a 4x5 block of Backup Dancer Zombies behind the Dancer Zombie, centered on him.";
                         string origin = "PvZ 1 ; Michael Jackson - Thriller";
 
                     //swing_jam
@@ -170,7 +170,7 @@ double faster = 5;
             string descritpion = "A boss appears on the outer edge of one of the gardens, outside of the plantable grid.";
 
             //zombots
-                string descitpion = "Giant robots built and controlled by Dr. Edgar Zomboss. They all have three phases at 3/3, 2/3 and 1/3 of their heath, where they get progressively more difficult before being defeated. Zombies in the garden he appears in stop spawning normally and instead get summoned by the boss.";
+                string descitpion = "Giant robots built and controlled by Dr. Edgar Zomboss. They all have three phases at 3/3, 2/3 and 1/3 of their health, where they get progressively more difficult before being defeated. Zombies in the garden he appears in stop spawning normally and instead get summoned by the boss.";
                 
                 //mark_iii
                     string descitpion = "The Zombot Mark III is a colossal robot reminicent of its original apearance and its Mark II edition in the time-travel adventure. Its hulking height leaves it standing even higher than the roof. It can only be damage when hit at the head.";
@@ -178,12 +178,12 @@ double faster = 5;
                     string origin = "PvZ 1 ; PvZ 2 China (Mark II) ; PvZ Heroes (Zom-Blob and Gargantuar's Feast)";
                     string summon = "He summons zombies near himself, by placing them with his giant mechanical hand. He prefers placing few tougher zombies and mostly creates zombies originating from PvZ 1. Can place bobsled teams.";
                     //phase_1
-                        string attack_1 = "Bungee Release : The Zombot holds its hand out over the garden, or the roof, and releases five bungee jumpers or bungee plumbers, whose ropes are attached to its fingers.";
-                        string attack_2 = "Zombot Stomp : The Zombot stomps a 2x3 to 3x3 area near him with its foot.";
+                        string attack_1 = "Fire Ball : The Zombot lowers its head to the gardens level, making Zomboss vulnerable, in order to release a giant ball of fire that slides down the lane, buring plants and even the mowers. Can be countered with Ice-shroom and damaged by ice projectiles. Disappears if aimed at the pool.";
+                        string attack_2 = "Ice Ball : The Zombot lowers its head to the gardens level, making Zomboss vulnerable, in order to release a giant ball of ice that slides down the lane, freezing plants and even the mowers and leaving a trail of ice for bobsleds behind. Can be countered with Jalapeño and damaged by fire projectiles. Freezes the pool's surface if aimed at it, making it behave like frozen shallow water.";
                     //phase_2
-                        string attack_3 = "Fire Ball : The Zombot lowers its head to the gardens level, making Zomboss vulnerable, in order to release a giant ball of fire that slides down the lane, buring plants and even the mowers. Can be countered with Ice-shroom. Disappears if aimed at the pool.";
-                        string attack_4 = "Ice Ball : The Zombot lowers its head to the gardens level, making Zomboss vulnerable, in order to release a giant ball of ice that slides down the lane, freezing plants and even the mowers and leaving a trail of ice for bobsleds behind. Can be countered with Jalapeño. Freezes the pool's surface if aimed at it, making it behave like frozen shallow water.";
-                        string attack_5 = "Ball of Blob : The Zombot lowers its head to the gardens level, making Zomboss vulnerable, in order to release a giant ball similar to the Zom-Blob that slides down the lane, crushing plants and leaving a trail of blob behind. and cannot be countered. Gives Disinfection zombie's effect, if aimed at the pool.";
+                        string attack_3 = "Bungee Release : The Zombot holds its hand out over the garden, or the roof, and releases five bungee jumpers or bungee plumbers, whose ropes are attached to its fingers.";
+                        string attack_4 = "Zombot Stomp : The Zombot stomps a 2x3 to 3x3 area near him with its foot.";
+                        string attack_5 = "Ball of Blob : The Zombot lowers its head to the gardens level, making Zomboss vulnerable, in order to release a giant ball similar to the Zom-Blob that slides down the lane, crushing plants and leaving a trail of blob behind, and cannot be countered. Gives Disinfection zombie's effect, if aimed at the pool.";
                     //phase_3
                         string attack_6 = "Camper Throw : The Zombot throws a camping van at the garden or the roof, crushing plants in a 2x4 area and occasionally spawing a Campimp Porter, unless aimed at the pool.";
                         string attack_7 = "Gargantuar's Feast : The Zombot lowers its head, making Zomboss, who rings a small golden bell, vulnerable. 3 gargantuars of any type spawn in its garden, spread acroos the 7 lanes."
@@ -201,7 +201,7 @@ double faster = 5;
                         string attack_3 = "Sun Strike : The Zombot suddenly stops. Its eye turns blue as it steals sun from the map. After catching 3 to 5 it releases a beam of fire down its lane, vaporizing all plants. If it fails to gather all required sun, it releases a smaller beam that simply damages the plants.";
                     //phase_3
                         string attack_4 = "Dash : The Zombot rears back, charges up and then dashes down the garden, crushing plants it touches. If it hits a Zombie Statue, brings it to 0 HP.";
-                        string attack_5 = "Medusa Stare : The Zombot suddenly stops. Its pupil turns green and dilates unitl covering its whole eye. Once charged up, it will throw its beam at zombies in a 1x3 area in front of itself, creating a barrier of statues and more zombies for the Zombie Medusas to push. If any of its phsysical attacks hit a Zombie Statue.";
+                        string attack_5 = "Medusa Stare : The Zombot suddenly stops. Its pupil turns green and dilates until covering its whole eye. Once charged up, it will throw its beam at zombies in a 1x3 area in front of itself, creating a barrier of statues and more zombies for the Zombie Medusas to push.";
 
                 //catastro-liope
                     string descitpion = "The mystery-filled circus-wagon of terrors and delights. It occupies only a small area on the map but can move around with its wagon wheel legs.";
@@ -298,10 +298,6 @@ double faster = 5;
             string description = "Spawns a dozen chickens in each garden, spread on 3 to 4 lanes.";
             string origin = "PvZ 2 Mod - Eclise";
 
-        //nut_bowling
-            string description = "";
-            string origin = "";
-
         //rush_hour
             string description = "For the duration, all CR goes into ZCorp Zombies and basics, imps and gargantuars are replaced with their ZCorp variants.";
             string origin = "Rogue Garden";
@@ -327,7 +323,7 @@ double faster = 5;
             string origin = "PvZ 1 Minigame";
 
         //pogo_party
-            string description = "For the duration, all CR goes into Pogo Zombies.";
+            string description = "For the duration, all CR goes into Pogo Zombies and Seahorse Rider Zombies.";
             string origin = "PvZ 1 Minigame";
 
         //zen_garden

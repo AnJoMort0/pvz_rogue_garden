@@ -219,8 +219,17 @@ double faster = 5;
             string almanac = "Sproing ! Sproing ! Sproing !That's the sound of a powerful and effective zombie doing what he does best.";
             string origin = "PvZ 1";
 
-        //variant_gargantuar:king_of_the_grill_gargantuar
-                string spcial = "Only spawns in the summer. Throws a Hot Dog Imp upon reaching half hp."; 
+        //king_of_the_grill_gargantuar
+                string description = "There's never enoug hot dogs for this King of the Grill.";
+                double hp = 180;
+                double armour = 0;
+                int cr = 25;
+                double speed = fast;
+                double dmg = 9999999999;
+                double aps = 0.5;
+                string spcial = "Only spawns in the summer. Spawns a Hot Dog Imp in his garden every time he kills a plant.";
+                string almanac = "Chillin' beside the ol' backyard grill, cookin' up some brains, hangin' with his zombies... that's the good unlife.";
+                string origin = "PvZ Heroes";
 
         //hot_dog_imp
             string description = "Much like hot dogs, Hot Dog Imp will slide trough your defenses.";
@@ -244,7 +253,16 @@ double faster = 5;
                     string special = "Turns into a random CR 3 or less zombie or imp after a few seconds.";
 
         //surprise_gargantuar
+            string description = "You might be annoyed that he looks the same, but it wouldn't be a surprise that way.";
+            double hp = 180;
+            double armour = 0;
+            int cr = 22;
+            double speed = fast;
+            double dmg = 9999999999;
+            double aps = 0.5;
             string special = "Moves to a random lane upon reaching half hp. Throws an Imp in the lane he leaves and one in the lane he lands on."
+            string almanac = "";
+            string origin = "";
 
        //imp-throwing_imp
             string special = "Creates a random imp on another random lane when hit.";
@@ -281,7 +299,7 @@ double faster = 5;
             string description = "A small zombie that wanders through your defences, untraceable.";
             double hp = 5;
             double armour = 0;
-            int cr = 1;
+            int cr = 3;
             double speed = fast;
             double dmg = 0.5;
             double aps = 2;

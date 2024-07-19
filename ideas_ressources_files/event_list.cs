@@ -189,8 +189,8 @@ double faster = 5;
                         string attack_7 = "Gargantuar's Feast : The Zombot lowers its head, making Zomboss, who rings a small golden bell, vulnerable. 3 gargantuars of any type spawn in its garden, spread acroos the 7 lanes."
                 
                 //dug-up_sphinx-inator
-                    string descitpion = "The Zombot Sphinx-inator is a large ancient robot, that was stolen from the museum and, until now, impossible to find. It occupies only a small area on the map but can move around with its spider-like legs.";
-                    string almanac = "Finding his old creation in the Museum of Neighbourghville was, to be sure, a suprise for Dr. Zomboss, but a more than welcome one.";
+                    string descitpion = "The Zombot Sphinx-inator is a large ancient robot, that was stolen from the Neighbourghville Museum and, until now, impossible to find. It occupies only a small area on the map but can move around with its spider-like legs.";
+                    string almanac = "Finding his precious old creation in the Neighbourghville Museum was, to be sure, a suprise for Dr. Edgar Zomboss, but a more than welcome one.";
                     string origin = "PvZ 2";
                     string summon = "Opens its mouth to release zombies. Prefers spawning groups of basics and zombies from the Museum category, as well as Headstone Carver Zombie and Mixed-up Gravedigger Zombies.";
                     //phase_1
@@ -246,7 +246,7 @@ double faster = 5;
 
                     //aerostatic_blimp
 
-                    //battle_cruiser
+                    //battle_cruiser_5000
 
             //heroes
                 

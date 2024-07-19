@@ -24,7 +24,7 @@ double faster = 5;
 //                       > strong ability / late-game challenge         = 8+  CR base
 
     //template_category
-        //template_zombie                                //think of including the words "Imp", "Zombie" or "Gargantuar" to the zombie's name if it doesn't already include a reference to its zombie status (i.e. Abracader, ZCorp zombies in general)
+        //template_zombie                                //think of including the words "Imp", "Zombie" or "Gargantuar" to the zombie's name if it doesn't already include a reference to its zombie status (i.e. Abracader, ZCorp zombies in general). You can also include "variant_X:---" for special variants of basics, imps and gargantuars, and "elite_X:---" for elite versions of the zombies for ultra late-game.
             string description = "blablabla";            //basic description of the zombie and its abilities (if available, you can easily take it straight from its game of origin)
             double hp = 10;                              //hit points (hp) is counted in peas
             double armour = 0;                           //if relevant, add the hp of potential armour (i.e. Cone), if not "double armour = 0"
@@ -115,6 +115,13 @@ double faster = 5;
                 string almanac = "It takes a certain kind of zombie to be a Ducky Tuber. Not every zombie can handle it. Some crack. They can't take it. They walk away and give up on brains forever.";
                 string origin = "PvZ 1";
 
+            //variant_basic:balloon_zombie
+                string description = "A regular airborn zombie.";
+                //stats_of_relevent_basics
+                string special = "Flies towards your roof. When the balloon pops, the zombie drops down onto the garden. He takes 3 dmg on landing.";
+                string almanac = "The original Balloon Zombie was quite disappointed to see that the basics picked up on his technique.";
+                string origin = "PvZ 1";
+
             //variant_basic:brown_parka_zombie
                 string description = "The zombie's brown parka protects him from the cold.";
                 //stats_of_relevent_basics
@@ -149,6 +156,13 @@ double faster = 5;
                 string almanac = "Throws the *best* pool parties.";
                 string origin = "PvZ Heroes";
 
+            //variant_imp:paper_plane_imp
+                string description = "It's just an imp, but on a paper plane.";
+                //stats_of_imp
+                string special = "Flies towards your roof.";
+                string almanac = "Paper Plane Imp realized the cons of the old balloon and made a new spike-proof mode of aerial movement.";
+                string origin = "Rogue Garden";
+
             //variant_imp:brownparka_imp
                 string description = "It's just an imp, but with a winter jacket.";
                 //stats_of_imp
@@ -173,7 +187,7 @@ double faster = 5;
             double aps = 0.5;
             string special = "Throws an Imp upon reaching half hp.";
             string almanac = "When Gargantuar walks, the Earth trembles. When he moans, other zombies fall silent. He is the zombie other zombies dream they could be. But he still can't find a girlfriend.";
-            string origin = "PvZ 1";
+            string origin = "PvZ 2";
 
             //variant_gargantuar:deep_sea_gargantuar
                 string description = "From the deep sea, straight to your pool.";
@@ -185,7 +199,7 @@ double faster = 5;
             //variant_gargantuar:brownparka_gargantuar
                 string description = "Other than a jacket, it also has three imps instead of one.";
                 //stats_of_gargantuar
-                string spceial = "Only spawns in winter. Immune to chilling and reduces the freezing effect of chilling. Throws 3 Brownparka Imps upon reaching half hp.";
+                string spceial = "Only spawns in winter. Immune to chilling and reduces the freezing effect of chilling. Throws 3 Brownparka Imps, at 75%, 50% and 25% hp.";
                 string almanac = "He very much hates those Imps on his back. The darn things are itchy. They're always stealing parts of his parka. But at this point, he'd probably miss them if they ever cleared up.";
                 string origin = "PvZ 2 (Sloth Gargantuar)";
 
@@ -218,6 +232,8 @@ double faster = 5;
                 double speed = fast;
                 double dmg = 1;
                 double aps = 4;
+
+        //elite_newspaper_zombie:sunday_edition_zombie
 
         //pogo_zombie
             string description = "Pogo Zombie hops to bypass your defenses.";
@@ -259,12 +275,14 @@ double faster = 5;
             string description = "Attacks faster than a regular gargantuar but doesn't throw an Imp.";
             double hp = 190;
             double armour = 0;
-            int cr = 20;
+            int cr = 24;
             double speed = fast;
             double dmg = 9999999999;
             double aps = 1;
             string almanac = "When he phones home, it means something completely different.";
             string origin = "PvZ Heroes";
+
+        //elite_smashing_gargantuar:giga_gargantuar
 
         //hippity_hop_gargantuar
             string description = "Throws mystery eggs instead of imps, so be careful.";
@@ -330,11 +348,11 @@ double faster = 5;
             string almanac = "You wouldn't believe how many brains a chunk of space ice goes for on a black market. Let's just say, she's rolling in gray matter.";
             string origin = "PvZ Heroes";
 
-        //chicken_wrangler
+        //chicken_wrangler_zombie
 
             //zombie_chicken
 
-        //fire_rooster_wrangler
+        //elite_chicken_wrangler_zombie:fire_rooster_wrangler_zombie
 
         //fire_rooster_zombie
             string special = "When a plant is placed on this lane, moves to a neighboring lane then shoots a fireball before continuing forwards.";
@@ -841,9 +859,6 @@ double faster = 5;
                 string origin = "PvZ 2 (Explorer Zombie)";
  
         //airborn_zombies
-            
-            //ballon_zombie
-                string special = "Flies towards your roof.";
 
             //bungee_zombie
 
@@ -1069,6 +1084,8 @@ double faster = 5;
 
         //football_zombie
 
+        //elite_football_zombie:giga_football_zombie
+
         //all-star_zombie
 
             //all-star_super_fan_imp
@@ -1139,15 +1156,16 @@ double faster = 5;
         //dodo_fossil_rider_imp
 
         //turquoise_skull_thief_zombie
+            string almanac = "Every one of them brags about having stolen the real skull, but none realize they took it from the Neighbourghville Museum's gift shop.";
             string origin = "PvZ 2";
 
         //zombie_medusa
             string special = "Turns basics in front of it into zombie statues that she then pushes, crushing plants as she does so but being heavily slowed down.";
 
-                //zombie_statue
-                    string special = "Works essentially like a gravestone, also being affected by gravebuster. Cannot be pushed past gravestones. If it reaches 0hp it'll turn into a Sculpted Zombie, unless killed by a gravebuster.";
+            //zombie_statue
+                string special = "Works essentially like a gravestone, also being affected by gravebuster. Cannot be pushed past gravestones. If it reaches 0hp it'll turn into a Sculpted Zombie, unless killed by a gravebuster.";
 
-                //sculpted_zombie
+                //elite_basic:sculpted_zombie
                     string special = "Imune to Zombie Medusa's effect even after loosing all armor.";
 
         //primeval_yeti

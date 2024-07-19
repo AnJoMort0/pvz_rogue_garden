@@ -326,7 +326,7 @@ double faster = 5;
             double speed = normal;
             double dmg = 2;
             double aps = 2;
-            string special = "When she spawns, she freezes the first plant in her lane. If spawing on an ice trail, freezes the first the plant in the neighbouring lanes as well.";
+            string special = "When she spawns, she adds two levels of freeze to the first plant in her lane. If spawing on an ice trail created by a Zomboni, freezes the first the plant in her lane and adds two levels of freeze to the first plant on the neighbouring lanes as well.";
             string almanac = "You wouldn't believe how many brains a chunk of space ice goes for on a black market. Let's just say, she's rolling in gray matter.";
             string origin = "PvZ Heroes";
 
@@ -675,41 +675,97 @@ double faster = 5;
             double speed = normal;
             double dmg = 1;
             double aps = 2;
-            string special = "Deals passive damage to non-wall plants in a cross area around him.";
+            string special = "Deals passive damage to non-wall plants in a cross shaped area centered on him.";
             string almanac = "Casual acquaintances don't understand where his pets are. They don't realize that stinkflies can be such tender little friends.";
             string origin = "PvZ Heroes";
         
         //trapper_zombie
             string description = "He lays a trap, what else would a trapper do ?";
+            double hp = 20;
+            double armour = 0;
+            int cr = 5;
+            double speed = normal;
+            double dmg = 1;
+            double aps = 2;
             string special = "Creates a single-use trap on the tile he dies on. Any plant planted on that tile is stunned.";
+            string almanac = "Purveyor of only the finest banana peel coats.";
+            string origin = "PvZ Heroes";
 
         //cryo-yeti
             string special = "If chilled, becomes 'faster' and gets double aps. Immune to freezing and chilling.";
 
         //firefighter_zombie
-            string special = "Blocks incoming fire projectiles in a 3x3 area.";
+            string special = "Blocks incoming fire projectiles in a 3x3 area centered on him.";
+            double hp = 10;
+            double armor = 25;
+            int cr = 6;
+            double speed = normal;
+            double dmg = 1;
+            double aps = 2;
+            string almanac = "He's a little too eager to rescue kittens from trees.";
+            string origin = "PvZ Heroes";
 
         //perfume_zombie
+            string description = "Throws a poisonous perfume bottle at the plants so they can't attack and are hurt."
+            double hp = 30;
+            double armor = 0;
+            int cr = 11;
+            double speed = normal;
+            double dmg = 1;
+            double aps = 0.5;
             string special = "Throws perfume bottles at plants that release poisonous perfume that stuns and damages them.";
+            string almanac = "Perfume Zombie's perfume is popular among the aristocrats.Smells, hmm... tasty !";
             string origin = "PvZ 2 China";
 
         //ballerina_zombie
-            string special = "More likely to spawn during Aerobics Class concert event. Always spawns in 'back-up dancer formation'.";
+            string description = "A group of four agile dancing zombies."
+            string hp = 20;
+            string armor = 0;
+            int cr = 8;
+            double speed = fast;
+            double dmg = 1;
+            double aps = 2;
+            string special = "More likely to spawn during Aerobics Class concert event. Always spawns in 'back-up dancer formation' and can randomly switch lanes.";
+            string almanac = "'Spin, jump, close my eyes'. Ballerina Zombie likes this song the most.";
             string origin = "PvZ 2 China";
 
         //firework_zombie
+            string almanac = "Launches fireworks at your plants."
+            double hp = 35;
+            double armor = 0;
+            int cr = 12;
+            double speed = normal;
+            double dmg = 1;
+            double aps = 2;
             string special = "Launches fireworks at random tiles that burn the plant there and create fire trails on them.";
+            string almanac = "Want to clear some mushrooms? Fire works.";
             string origin = "PvZ 2 China ; design PvZ Heroes";
 
         //rocket_zombie
-            string special = "While on its rocket, he has triple speed and ignores all plants. Rocket can be disabled with chilling or freezing.";
+            string descitpion = "He rockets his way past your defences.";
+            double hp = 35;
+            double armor = 0;
+            int cr = 10;
+            double speed = slow;
+            double dmg = 1;
+            double aps = 2;
+            string special = "While with its rocket, he becomes 'faster' and ignores all plants. Rocket can be disabled with chilling or freezing.";
+            string almanac = "Rocket Zombie ain't got time for this. He ain't got time for that. He does, however, have time for differential calculus.";
             string origin = "PvZ Adventure";
 
         //ice_block_zombie
+            string descitpion = "He's pretty cold right now, and he'll make your plants cold too.";
+            double hp 10;
+            double armor = 25;
+            int cr = 6;
+            double speed = nomral;
+            double dmg = 1;
+            double aps = 2;
             string special = "Once the ice block is broken, all plants in a 3x3 radius are frozen. Flaming projectiles instantly destroy the ice block. Immune to chilling and freezing.";
+            string almanac = "The story how he was frozen along with a fish is completely bogus. Lies from beginning to end.";
             string origin = "PvZ Adventure";
 
-        //barrel_of_deadbeards
+        //barrel_of_deadbeard
             string special = "On destruction, damages all plants in a 3x3 radius and spawns a Captain Deadbeard in its place.";
             string origin = "PvZ Garden Warfare";
 
@@ -1404,7 +1460,7 @@ double faster = 5;
 
             //punk_zombie
                 string event_name = "Punk jam";
-                string special = "Pushes plants it hits backwards. Doesn't affect Infi-nut with its push-back and therefore cannot damage or traverse it.";
+                string special = "Head can be reomved by Magnet-shroom and is disappears faster than other objects. Pushes plants it hits backwards. Doesn't affect Infi-nut with its push-back and therefore cannot damage or traverse it.";
 
             //glitter_zombie
                 string event_name = "Pop jam";

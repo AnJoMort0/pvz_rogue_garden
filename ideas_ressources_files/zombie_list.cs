@@ -773,7 +773,7 @@ double faster = 5;
 
         //ice_block_zombie
             string descitpion = "He's pretty cold right now, and he'll make your plants cold too.";
-            double hp 10;
+            double hp = 10;
             double armor = 25;
             int cr = 6;
             double speed = nomral;
@@ -784,15 +784,38 @@ double faster = 5;
             string origin = "PvZ Adventure";
 
         //barrel_of_deadbeard
+            string descitpion = "A barrel that explodes into a powerful pirate captain.";
+            double hp = 20;
+            double armor = 0;
+            int cr = 15;
+            double speed = slow;
+            double dmg = 0;
+            double aps = 0;
             string special = "On destruction, damages all plants in a 3x3 radius and spawns a Captain Deadbeard in its place.";
+            string almanac = "No monkeys, just Zombies.";
             string origin = "PvZ Garden Warfare";
 
                 //captain_deadbeard
+                    string description = "Sends out his trusty parrot while he attacks with his laser gun.";
+                    double hp = 32;
+                    double armor = 0;
+                    //int cr = n/a
+                    double speed = normal;
+                    double dmg = 2;
+                    double aps = 2;
                     string special = "Shoots from a 2 tiles away. Sends out a Zombie Parrot.";
+                    string almanac = "Yo ho ho! It's a pirate's unlife for him!";
                     string origin = "PvZ Garden Warfare ; PvZ 2 (Pirate Captain Zombie)";
 
                     //zombie_parrot
-                        string special = "Attempts to fly away with your plants.";
+                        string descitpion = "Attempts to fly away with your plants.";
+                        double hp = 12;
+                        double armor = 0;
+                        double speed = fast;
+                        double dmg = 0;
+                        double aps = 0;
+                        string special = "Once he reaches a plant, he stays on it for a bit before taking off with it.";
+                        string almanac = "He's a third generation aviation revolutionary. He wants to serve his pirate brethren like his father and his grandmother, Salty Anne, before him.";
                         string origing = "PvZ Garden Warfare ; PvZ 2 (Pirate Captain Zombie)";
             
         //pigeon_feeder_zombie

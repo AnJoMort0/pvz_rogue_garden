@@ -10,14 +10,14 @@ double faster = 5;
             string origin = "";
 
         //template_boss
-            string descitpion = "";
+            string description = "";
             string almanac = "";
             string origin = "";
             string summon = "";
             string attack_1 = "";
 
         //template_zombot
-            string descitpion = "";
+            string description = "";
             string almanac = "";
             string origin = "";
             string summon = "";
@@ -27,7 +27,7 @@ double faster = 5;
             //phase_3
 
     //shallow_water
-            string descitpion = "Shallow water that covers a grass tile in the lawn. Both land and water plants can be placed on it and both land and water zombies can traverse it. Moist Moss can prevent it from disappearing after the event that spawned it ends. If a full lane is covered with shallow water tiles, both land and water zombies can spawn in said lane. If ran over by a Zomboni, it behaves the same except water plants cannot be placed and bobsleds can spawn.";
+            string description = "Shallow water that covers a grass tile in the lawn. Both land and water plants can be placed on it and both land and water zombies can traverse it. Moist Moss can prevent it from disappearing after the event that spawned it ends. If a full lane is covered with shallow water tiles, both land and water zombies can spawn in said lane. If ran over by a Zomboni, it behaves the same except water plants cannot be placed and bobsleds can spawn.";
             string origin = "Rogue Garden";
 
 //almanac_of_events
@@ -36,10 +36,16 @@ double faster = 5;
         string origin = "PvZ 1";
 
         //huge_wave
-            string descitpion = "Huge Waves of zombies are just like regular waves of zombies but they have more CR than the wave they replace would usually have. They happen between 1 and 5 times per day and night.";
+            string description = "Huge Waves of zombies are just like regular waves of zombies but they have more CR than the wave they replace would usually have. They happen between 1 and 5 times per day and night.";
 
         //final_wave
-            string descitpion = "Final Waves end days and nights. They are similar to Huge Waves but happens in both gardens and has even more CR. The next wave only spawns once the Final Wave has been fully cleared."
+            string descritpion = "Final Waves end days and nights. They are similar to Huge Waves but happens in both gardens and has even more CR. The next wave only spawns once the Final Wave has been fully cleared.";
+
+            //grave_ambush
+                string descripion = "Zombies or Imps emerge from random gravestones on the gardens and non-Imp and non-Gargantuar Zombies, including Cursed Gargoliths, spawn from engraved gravestones on the gardens during Final Waves.";
+
+            //pool_ambush
+                string descripion = "Aquatic Zombies or Imps covered in Kelp emerge from random tiles of the pool during Final Waves.";
 
         //day
             string descritpion = "During the day : Sun fall from the sky.";
@@ -88,7 +94,7 @@ double faster = 5;
                 string origin = "PvZ 1 DS Version";
 
                 //drought
-                    string descitpion = "The pool dries, turning all its tiles into shallow water. May trigger during heat waves.";
+                    string description = "The pool dries, turning all its tiles into shallow water. May trigger during heat waves.";
 
         //fall
             string description = "Fog appears on both sides of the map. This blocks visibility and may be countered with various plants.";
@@ -176,10 +182,10 @@ double faster = 5;
             string descritpion = "A boss appears on the outer edge of one of the gardens, outside of the plantable grid.";
 
             //zombots
-                string descitpion = "Giant robots built and controlled by Dr. Edgar Zomboss. They all have three phases at 3/3, 2/3 and 1/3 of their health, that get progressively more difficult before being defeated. Zombies in the garden he appears in stop spawning normally and instead get summoned by the boss.";
+                string description = "Giant robots built and controlled by Dr. Edgar Zomboss. They all have three phases at 3/3, 2/3 and 1/3 of their health, that get progressively more difficult before being defeated. Zombies in the garden he appears in stop spawning normally and instead get summoned by the boss.";
                 
                 //mark_iii
-                    string descitpion = "The Zombot Mark III is a colossal robot reminicent of its original apearance and its Mark II edition in the time-travel adventure. Its hulking height leaves it standing even higher than the roof. It can only be damage when hit at the head.";
+                    string description = "The Zombot Mark III is a colossal robot reminicent of its original apearance and its Mark II edition in the time-travel adventure. Its hulking height leaves it standing even higher than the roof. It can only be damage when hit at the head.";
                     string almanac = "He may have exploded once and even twice, but he always believes that third time's the charm.";
                     string origin = "PvZ 1 ; PvZ 2 China (Mark II) ; PvZ Heroes (Zom-Blob and Gargantuar's Feast)";
                     string summon = "He summons zombies near himself, by placing them with his giant mechanical hand. He prefers placing few tougher zombies and mostly creates zombies originating from PvZ 1. Can place bobsled teams.";
@@ -195,7 +201,7 @@ double faster = 5;
                         string attack_7 = "Gargantuar's Feast : The Zombot lowers its head, making Zomboss, who rings a small golden bell, vulnerable. 3 gargantuars of any type spawn in its garden, spread acroos the 7 lanes."
                 
                 //dug-up_sphinx-inator
-                    string descitpion = "The Zombot Sphinx-inator is a large ancient robot, that was stolen from the Neighbourghville Museum and, until now, impossible to find. It occupies only a small area on the map but can move around with its spider-like legs.";
+                    string description = "The Zombot Sphinx-inator is a large ancient robot, that was stolen from the Neighbourghville Museum and, until now, impossible to find. It occupies only a small area on the map but can move around with its spider-like legs.";
                     string almanac = "Finding his precious old creation in the Neighbourghville Museum was, to be sure, a suprise for Dr. Edgar Zomboss, but a more than welcome one.";
                     string origin = "PvZ 2";
                     string summon = "Opens its mouth to release zombies. Prefers spawning groups of basics and zombies from the Museum category, as well as Headstone Carver Zombie and Mixed-up Gravedigger Zombies.";
@@ -210,7 +216,7 @@ double faster = 5;
                         string attack_5 = "Medusa Stare : The Zombot suddenly stops. Its pupil turns green and dilates until covering its whole eye. Once charged up, it will throw its beam at zombies in a 1x3 area in front of itself, creating a barrier of statues and more zombies for the Zombie Medusas to push.";
 
                 //catastro-liope
-                    string descitpion = "The mystery-filled circus-wagon of terrors and delights. It occupies only a small area on the map but can move around with its wagon wheel legs.";
+                    string description = "The mystery-filled circus-wagon of terrors and delights. It occupies only a small area on the map but can move around with its wagon wheel legs.";
                     string almanac = "'Despite the decline of circuses in recent years, I refuse to give up on a form of entertainment with so much history and plant-destroying potential,' cackles Dr. Zomboss, all while tapping out a jaunty little tune on his keyboard.";
                     string origin = "PvZ 2";
                     string summon = "Opens its mouth to release zombies. Prefers spawning zombies from the Carnival category.";
@@ -224,7 +230,7 @@ double faster = 5;
                         string attack_4 = "Dash : The Zombot rears back, charges up and then dashes down the garden, crushing plants it touches.";
 
                 //desk-a-tron
-                    string descitpion = "Dr. Zomboss's corporate desk, but on legs. It occupies only a small area on the map but can move around with its office adequate legs.";
+                    string description = "Dr. Zomboss's corporate desk, but on legs. It occupies only a small area on the map but can move around with its office adequate legs.";
                     string almanac = "After consultation, Dr. Edgar Zomboss finally decided to show who the Boss really is. He put on his coat, sat at his desk and told his managers to the rest.";
                     string origin = "Rogue Garden";
                     string summon = "Zomboss rings the bell on his shelf to call zombies in. Prefers spawning zombies from the ZCorp category and only spawns ZCorp variant basics.";
@@ -303,7 +309,7 @@ double faster = 5;
                     //super_brainz
 
         //eminent_domain
-            string descitpion = "A Construction Cone Zombie spawns in a random lane. If there are no empty tiles in that lane, remove the front-most plant and don't allow that tile to be placed on until the CCZ reaches it. It then stops zombies spawning naturally in that lane and instead spawns every construction zombie in the following order each wave: a Digger Zombie, an Excavator Zombie, a Supply Barrel Roller Zombie, a Ladder Zombie, a Paint Bucket Zombie, an Electrician Zombie, a Kitchen Sink Zombie, a Waste Barrel Imp, a Landscaper Zombie, a Gardener Zombie. Zombies can then naturally spawn in that lane once again.";
+            string description = "A Construction Cone Zombie spawns in a random lane. If there are no empty tiles in that lane, remove the front-most plant and don't allow that tile to be placed on until the CCZ reaches it. It then stops zombies spawning naturally in that lane and instead spawns every construction zombie in the following order each wave: a Digger Zombie, an Excavator Zombie, a Supply Barrel Roller Zombie, a Ladder Zombie, a Paint Bucket Zombie, an Electrician Zombie, a Kitchen Sink Zombie, a Waste Barrel Imp, a Landscaper Zombie, a Gardener Zombie. Zombies can then naturally spawn in that lane once again.";
             string origin = "Rogue Garden";
 
         //football_game

@@ -35,6 +35,12 @@ double faster = 5;
         string description = "The time of day changes between day and night throughout the game. Plants working on the 'wrong' shift (i.e.: shrooms during the day) may fall asleep and if they are placed outside of 'work time' they'll be asleep.";
         string origin = "PvZ 1";
 
+        //huge_wave
+            string descitpion = "Huge Waves of zombies are just like regular waves of zombies but they have more CR than the wave they replace would usually have. They happen between 1 and 5 times per day and night.";
+
+        //final_wave
+            string descitpion = "Final Waves end days and nights. They are similar to Huge Waves but happens in both gardens and has even more CR. The next wave only spawns once the Final Wave has been fully cleared."
+
         //day
             string descritpion = "During the day : Sun fall from the sky.";
 
@@ -49,19 +55,19 @@ double faster = 5;
         //night
             string descritpion = "During the night : Sun don't fall from the sky.";
 
-    //moon_phase_cycle
-        string description = "This game features a moon cycle, though only the two extremes are relevent.";
-         string origin = "Rogue Garden";
+            //moon_phase_cycle
+                string description = "This game features a moon cycle, though only the two extremes are relevent.";
+                string origin = "Rogue Garden";
 
-        //full_moon
-            string description = "During full moon, no plants fall asleep.";
+                //full_moon
+                    string description = "During full moon, no plants fall asleep.";
 
-            //haunting_moon
-                string description = "For its duration, upgrades all zombies on screen. May trigger during full moons.";
-                string origin = "PvZ Heroes (Bad Moon Rising)";
+                    //haunting_moon
+                        string description = "For its duration, upgrades all zombies on screen. May trigger during full moons.";
+                        string origin = "PvZ Heroes (Bad Moon Rising)";
 
-        //new_moon
-            string description = "For its duration, all plants have a higher chance of falling asleep and day plants are weaker.";
+                //new_moon
+                    string description = "For its duration, all plants have a higher chance of falling asleep and day plants are weaker.";
 
     //season_cycle
         string description = "This game features seasons, that are mostly indicated by the UI and a general change in hue. Whenever a new season starts, 3 Neutron Imps spawn in each garden.";
@@ -170,7 +176,7 @@ double faster = 5;
             string descritpion = "A boss appears on the outer edge of one of the gardens, outside of the plantable grid.";
 
             //zombots
-                string descitpion = "Giant robots built and controlled by Dr. Edgar Zomboss. They all have three phases at 3/3, 2/3 and 1/3 of their health, where they get progressively more difficult before being defeated. Zombies in the garden he appears in stop spawning normally and instead get summoned by the boss.";
+                string descitpion = "Giant robots built and controlled by Dr. Edgar Zomboss. They all have three phases at 3/3, 2/3 and 1/3 of their health, that get progressively more difficult before being defeated. Zombies in the garden he appears in stop spawning normally and instead get summoned by the boss.";
                 
                 //mark_iii
                     string descitpion = "The Zombot Mark III is a colossal robot reminicent of its original apearance and its Mark II edition in the time-travel adventure. Its hulking height leaves it standing even higher than the roof. It can only be damage when hit at the head.";
@@ -195,7 +201,7 @@ double faster = 5;
                     string summon = "Opens its mouth to release zombies. Prefers spawning groups of basics and zombies from the Museum category, as well as Headstone Carver Zombie and Mixed-up Gravedigger Zombies.";
                     //phase_1
                         string attack_1 = "Gravestone Lauch : The Zombot suddenly stops. Its pupil dialetes then reveales a missile that shoots towards a targeted tile on the lawn. If it hits a plant, it destroys it and sometimes places a gravestone where it lands.";
-                        string attack_2 = "Swing : The Zombot swings its metalic claws at the plants, destroying plants in a 1x3 area in front of itself. If it hits a Zombie Statue, brings it to 0 HP.";
+                        string attack_2 = "Claws : The Zombot swings its metalic claws at the plants, destroying plants in a 1x3 area in front of itself. If it hits a Zombie Statue, brings it to 0 HP.";
                         string attack_3 = "Jump : The Zombot jumps to a different place instead of walking, avoiding land attacks while in movement.";
                     //phase_2
                         string attack_3 = "Sun Strike : The Zombot suddenly stops. Its eye turns blue as it steals sun from the map. After catching 3 to 5 it releases a beam of fire down its lane, vaporizing all plants. If it fails to gather all required sun, it releases a smaller beam that simply damages the plants.";
@@ -233,7 +239,22 @@ double faster = 5;
                         string attack_5 = "Promotion : Turns all non-armored ZCorp basics into ZCorp Middle Managers";
 
                 //multi-stage_masher
-                    //Concert
+                    string description = "The Multi-Stage Masher is a huge concert stage that covers the whole road, leaving it vulnerable from every wave.";
+                    string almanac = "In another world, in another time, Dr. Zomboss would receive the bounty of enthusiastic applause that is his due. Not here and now, though. Nope.":
+                    string origin = "PvZ 2 ; PvZ Heroes (Monster Mash)";
+                    string summon = "Beats him speakers to summon zombies from the ground in front of the stage. He prefers spawning many low-health zombies spread across the 7 lanes. Likes spawning Disco Zombies, Cosmic Dancing Zombies, and instrument playing zombies.";
+                        //phase_1
+                            string attack_1 = "Medley : Zomboss switches into a costume reminiscent of either an Orchestra Conductor Zombie, a Pianist Zombie, an Aerobics Instructor Zombie, the Binary Stars, or a Boom Box Zombie and gives their effect to the garden until he uses this attack again.";
+                            string attack_2 = "Monster Mash : Creates 4 Disco Zombies, one lane away from each-other.";
+                            string attack_3 = "Speaker Launch : A target appears on a random tile in the three last rows of the garden. A speaker lands on that tile after a few seconds, destroying whatever plant was on that tile. Behaves exactly like a gravestone, except they passively damage plants up to 3 tiles in front of it, except ground plants and Phat Beets.";
+                        //phase_2
+                            string attack_4 = "Booming Tunes : Make the speakers on launch a heavy wave of music forwards. they deal 6 damage to the first plant they reach.";
+                            string attack_5 = "Asylum Keys : Zomboss switches into a costume reminiscent of the Jack-in-the-box Zombie and triggers an Asylum Escape Event.";
+                            string attack_6 = "Rap Battle : Zomboss switches into his rappper outfit and triggers a Rap Jam event.";
+                            string attack_7 = "Punk! : Zomboss switches into his Punk outfit and triggers a Punk Jam event.";
+                        //phase_3
+                            string attack_8 = "Column Like You See 'Em : Zombot switches into his glitter outfit and creates a Glitter Zombie followed by a Conga Leader followed by a Line Dancer in every lane. The Glitter Zombies and Line Dancers drown if they walk into the pool.";
+                            string attack_9 = "Heavy Hair Metal : Zombot switches into his hair metal outfit and triggers a Hair Metal Jam event.";
 
                 //water-based
                     
@@ -271,6 +292,8 @@ double faster = 5;
 
                 //brain_freeze
 
+                //gw's_football_zombie
+
                 //water-based
                     //neptuna
 
@@ -279,6 +302,18 @@ double faster = 5;
 
                     //super_brainz
 
+        //eminent_domain
+            string descitpion = "A Construction Cone Zombie spawns in a random lane. If there are no empty tiles in that lane, remove the front-most plant and don't allow that tile to be placed on until the CCZ reaches it. It then stops zombies spawning naturally in that lane and instead spawns every construction zombie in the following order each wave: a Digger Zombie, an Excavator Zombie, a Supply Barrel Roller Zombie, a Ladder Zombie, a Paint Bucket Zombie, an Electrician Zombie, a Kitchen Sink Zombie, a Waste Barrel Imp, a Landscaper Zombie, a Gardener Zombie. Zombies can then naturally spawn in that lane once again.";
+            string origin = "Rogue Garden";
+
+        //football_game
+            string description = "For the duration, all CR goes into Football Zombies, Giga-Football Zombies, Quarterback Zombies, All-Star Zombies, Football Catapult Zombies, Defensive End Gargantuar, Mecha Football Zombie, Zombie Coaches, Team-Mascot Imps, and Brain Vendor Zombies, ";
+            string origin = "Rogue Garden";
+
+        //street_carnival
+            string description = "For the duration, all CR goes into zombies from the Carnival category.";
+            string origin = "PvZ 2 (Carnie Thymed Events)";
+        
         //airstrike
             string description = "For the duration, all CR goes into Parachutist Zombies and Roof-Climber Zombies";
             string origin = "PvZ 2 (Lost City lost pilot ambush)";
@@ -319,7 +354,7 @@ double faster = 5;
             string origin = "PvZ 1 Minigame";
 
         //big_trouble_little_zombie
-            string description = "For the duration, new zombies are smaller : running faster and eating faster but having less health and dealing less damage.";
+            string description = "For the duration, new zombies are smaller : running faster and eating faster but having less health and dealing less damage. They get insta-killed by Shrinking Violet";
             string origin = "PvZ 1 Minigame";
 
         //pogo_party

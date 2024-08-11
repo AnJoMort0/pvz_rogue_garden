@@ -52,7 +52,7 @@ double faster = 5;
             string origin = "PvZ 1";
 
         //flag_zombie
-            string description = "Flag Zombie announces the arrival of many things, notably huge waves of zombies.";
+            string description = "Flag Zombie announces the arrival of many things, notably Huge Waves of zombies.";
             double hp = 10;
             double armour = 0;
             //int cr = N/A;
@@ -61,6 +61,7 @@ double faster = 5;
             double aps = 2;
             string almanac = "Make no mistake, Flag Zombie loves brains. But somewhere down the line he also picked up a fascination with flags. Maybe it's because the flags always have brains on them. Hard to say.";
             string origin = "PvZ 1";
+            //for every respective event variant, please reffer to "flagz_list.cs"
 
         //conehead_zombie
             string description = "His traffic cone headpiece makes him twice as though as normal zombies.";
@@ -212,7 +213,14 @@ double faster = 5;
     
     //miscellaneous_zombies
         
+        //cosmic_browncoat_zombie
+            string special = "Spawns a browncoat or browncoat variant on his lane once he reaches the garden.";
+        
         //zombie_yeti
+            string special = "Once it walkes past 4 columns or once 2 waves have passed (whichever one comes first) he walks backwards and out of the garden. If he gets killed, drops a yeti lunch box."; //rewards from yeti lunch box to be defined later
+
+        //comsic_yeti
+            string special = "Once it walkes past 4 columns or once 2 waves have passed (whichever one comes first) he walks backwards and out of the garden. If he gets killed, spawns 3 Yeti zombies.";
 
         //newspaper_zombie
             string description = "His newspaper provides limited defence, but great entertainment.";
@@ -314,6 +322,9 @@ double faster = 5;
             string special = "Moves to a random lane upon reaching half hp. Throws a random imp, except Gargantuar-throwing Imps, in the lane he leaves and another in the lane he lands on."
             string almanac = "Surprise! It's a brains-eating monster at your party!";
             string origin = "PvZ Heroes";
+
+        //cosmic_imp
+            string special = "When killed, disapates into 5 random imps in a cross formation centered on kimself. Doesn't create Gargantuar-throwing Imps.";
 
         //imp-throwing_imp
             string special = "Creates a random imp on another random lane when hit. Doesn't create Gargantuar-throwing Imps.";
@@ -476,7 +487,7 @@ double faster = 5;
             double speed = slow;
             double dmg = 1;
             double aps = 2;
-            string special = "Moves to a neighbouring lane and gains a movement speed and aps buff every 3 rows.";
+            string special = "Moves to a neighbouring lane and gains a movement speed and aps buff every 3 columns.";
             string almanac = "He can quit any time he wants.";
             string origin = "PvZ Heroes";
 
@@ -828,6 +839,9 @@ double faster = 5;
 
                 //backup_disco_zombie
 
+        //elite_disco_zombie:cosmic_dancing_zombie
+            string special = "While alive, reates random instrument playing zombies above, below and besides him.";
+
         //line_dancer_zombie
             string description = "Line Dancer Zombie yoddles down your lanes to damage all plants.";
             string special = "Moves between lanes. Occasionally yoddles, damaging every plant in her lane.";
@@ -835,7 +849,7 @@ double faster = 5;
             string origin = "PvZ Heroes";
 
         //foot_soldier_zombie
-            string special = "Upon reaching the 4th row, he lauches himself upwards to the second to last lane of the roof, dealing heavy damage to the plant he lands on in the process.";
+            string special = "Upon reaching the 4th column, he lauches himself upwards to the second to last lane of the roof, dealing heavy damage to the plant he lands on in the process.";
             string origin = "PvZ Garden Warfare"
 
         //riot_police_bomber_zombie
@@ -952,11 +966,11 @@ double faster = 5;
                 string special = "Only spawns during summer and spring. May spawn in the pool. If on land, carries a surfboard over his head that he smashes into the first plant he encounters and drops upon death. If in the pool, surfs rapidly, ignoring your plants except for tall-nut. Behaves like it would do in the pool when on shallow water lanes.";
 
             //fisherzombie
-                string special = "Doesn't spawn during winter. Stays in the last row of the pool and hooks the front-most plant in his lane and pulls it forwards one tile. Doesn't affect Infi-nut.";
+                string special = "Doesn't spawn during winter. Stays in the last column of the pool and hooks the front-most plant in his lane and pulls it forwards one tile. Doesn't affect Infi-nut.";
                 string origin = "PvZ 2 (Fisherman Zombie)";
 
             //elite_fisherzombie:fisher_bucket_zombie
-                string special = "Can spawn in the pool, except during winter. If in the pool, stays in the last row and hooks the front-most plant in his lane and pulls it forwards one tile. Doesn't affect Infi-nut. If on land, once it reaches the garden, if it still has his bucket, lobs it forwads dealing 6 damage where he lands and an extra 1 damage to all plants in a 1x3 area behind it with the splattering fish. If it flies over an unoccupied Magnetshroom, gets pulled in and doesn't attack. Bucket can be removed by Magnetshroom.";
+                string special = "Can spawn in the pool, except during winter. If in the pool, stays in the last column and hooks the front-most plant in his lane and pulls it forwards one tile. Doesn't affect Infi-nut. If on land, once it reaches the garden, if it still has his bucket, lobs it forwads dealing 6 damage where he lands and an extra 1 damage to all plants in a 1x3 area behind it with the splattering fish. If it flies over an unoccupied Magnetshroom, gets pulled in and doesn't attack. Bucket can be removed by Magnetshroom.";
                 string origin = "PvZ 2 (Fisherman Zombie) ; PvZ Heroes (Buckethead Zombie)";
 
             //octo_zombie
@@ -1027,19 +1041,19 @@ double faster = 5;
                         string almanac = "He's back";
                         string origin = "PvZ Heroes";
 
-        //arcade_zombie
+            //arcade_zombie
 
-            //variant:8-bit_zombie
-                //animated in less fps
+                //variant:8-bit_zombie
+                    //animated in less fps
 
-        //shield_zombie
+            //shield_zombie
 
-        //bug_bot_imp
+            //bug_bot_imp
 
-        //robo-cone_zombie
+            //robo-cone_zombie
 
-        //gargantuar_prime
-            string special = "Shoots his laser at plants in the back of the garden. Attacks twice per attack. Throws Bug Bot Imp upon reaching half hp.";
+            //gargantuar_prime
+                string special = "Shoots his laser at plants in the back of the garden. Attacks twice per attack. Throws Bug Bot Imp upon reaching half hp.";
 
     //carnival_zombies
         
@@ -1100,6 +1114,9 @@ double faster = 5;
 
     //sportive_zombies
         
+        //cosmic_sports_star
+            string special = "Once he reaches the garden, summons a random non-garg and non-mechanic zombie from the Sportive category in his lane and the neighbourghing lanes.";
+        
         //pole_vaulting_zombie
 
         //catapult_zombie
@@ -1114,6 +1131,7 @@ double faster = 5;
 
         //quarterback_zombie
             string special = "Helmet does not provide extra HP but instead reduces damage taken by all attacks by 1 and can be removed by Magnetshroom. Upon spawning, throws a football that bounces twice before disappearing then rushes at 'faster' speed until he reaches a plant.";
+            string origin = "PvZ Heroes (All-Star Zombie)";
         
         //elite_quarterback_zombie:all-star_zombie
             string special = "Helmet does not provide extra HP but instead reduces damage taken by all attacks by 2 and can be removed by Magnetshroom. Upon spawning, summons an All-star Super Fan Imp on his lane. Once it reaches the garden, rushes forwards at 'faster' speed, throws it forwards and deals gargantuar damage to the first plant it encounters.";
@@ -1170,15 +1188,20 @@ double faster = 5;
         //digger_zombie
 
         //excavator_zombie
-
+        
         //electrician_zombie
             string special = "Zombies behind him on his lane are faster.";
 
         //kitchen_sink_zombie
             string description = "This zombie has essentially got the power of a gargantuar, though he prefers eating over smashing.";
+            string special = "Throws a pipe forwards before every attack.";
 
         //landscaper_zombie
             string special = "While alive, stuns the highest damage plant in his lane.";
+              
+        //gardener_zombie
+            string special = "Once it reaches the garden, 'shovels' the front-most attacking plant in his lane (deosn't count as destroying it*) and replaces it with a Plant Pot that cannot be shoveled or be planted on for 3 waves.";  //*relevent for plants like Explodo-nut and Puni-Shroom
+            string descitpion = "PvZ Heroes (Biodome Botanist Zombie)";
 
         //waste_barrel_imp
             string special = "Can spawn in the pool. Crushes plants he walks into. Destroyed by spike weed and tangled kelp.";
@@ -1218,8 +1241,8 @@ double faster = 5;
 
     //scientific_zombies
         
-        //biodome_botanist_zombie
-            string special = "Once it reaches the garden, 'shovels' the front-most attacking plant in his lane (deosn't count as destroying it*) and replaces it with a Plant Pot that cannot be shoveled or be planted on for 3 waves.";  //*relevent for plants like Explodo-nut and Puni-Shroom
+        //cosmic_scientist
+            string special = "Once it reaches the garden, throws a potion on the lanes above and below him that each spawn a non-flying zombie from the Scientific category";
 
         //disinfection_zombie
             string special = "Only spawns in the pool. Releases toxic chemicals that slowly move along his lane, lightly damaging all plants.";
@@ -1243,7 +1266,7 @@ double faster = 5;
             double speed = fast;
             double dmg = 2;
             double aps = 1;
-            string special = "Gun can be removed by Magnetshroom. Creates 4 Space Cadet Zombies across the 7 lanes, on the rows 4 to 6. Attacks from 2 tiles away.";
+            string special = "Gun can be removed by Magnetshroom. Creates 4 Space Cadet Zombies across the 7 lanes, on the columns 4 to 6. Attacks from 2 tiles away.";
             string almanac = "He wishes the Mad Chemist would stop copying his hairstyle.";
             string origin = "PvZ Heroes";
 
@@ -1271,14 +1294,14 @@ double faster = 5;
             string origin = "PvZ Heroes ; PvZ 2 and Pv2 China (Dark Ages potions)";
 
         //teleportation_zombie
-            string description = "The Teleportation Zombie teleports all zombies in his row one tile forwards upon death.";
+            string description = "The Teleportation Zombie teleports all zombies in his column one tile forwards upon death.";
             double hp = 30;
             double armour = 0;
             int cr = 9;
             double speed = slow;
             double dmg = 1;
             double aps = 2;
-            string special = "Teleports all zombies in his row one tile forwards upon death.";
+            string special = "Teleports all zombies in his column one tile forwards upon death.";
             string almanac = "The phone cord stretches to another dimension.";
             string origin = "PvZ Heroes";
 
@@ -1381,6 +1404,10 @@ double faster = 5;
         
     //fantasy_roleplaying_club
         
+        //cosmic_roleplayer_zombie
+            string special = "Once it reaches the garden, turns into a random zombie from the Fantasy Roleplaying Club category.";
+            //zombie knight for design
+        
         //imp_dragon
 
         //jester_zombie
@@ -1394,6 +1421,8 @@ double faster = 5;
                 //zombie_goat
 
         //zombie_king
+
+                //zombie_knight
 
         //vimpire
             string special = "Gains a movement speed and aps buff upon eating a plant. Dies if he bites garlic.";

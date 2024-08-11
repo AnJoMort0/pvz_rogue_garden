@@ -457,8 +457,6 @@ double faster = 5;
                 string almanac = "What's a black cat's favorite color? Purrrrr-ple.";
                 string origin = "PvZ Heroes";
 
-        //biodome_botanist_zombie
-
         //overstuffed_zombie
             string descitpion = "He's so fat that eating heals him.";
             double hp = 40;
@@ -930,10 +928,7 @@ double faster = 5;
                 string almanac = "What's love got to do with it? Honestly, he has no idea.";
                 string origin = "PvZ Heroes";
 
-            //transport_fighter
-                string special = "Flies towards your roof. Drops a Bug Bot Imp upon reaching 75%, 50% and 25% hp.";
-                string origin = "PvZ 2 China (Transport Ship) ; PvZ 2 (Far Future imp rain)";
-                //fighter plane visual
+            //
 
         //aquatic_zombies
             
@@ -956,7 +951,13 @@ double faster = 5;
             //surfer_zombie
                 string special = "Only spawns during summer and spring. May spawn in the pool. If on land, carries a surfboard over his head that he smashes into the first plant he encounters and drops upon death. If in the pool, surfs rapidly, ignoring your plants except for tall-nut. Behaves like it would do in the pool when on shallow water lanes.";
 
-            //fisherman_zombie
+            //fisherzombie
+                string special = "Doesn't spawn during winter. Stays in the last row of the pool and hooks the front-most plant in his lane and pulls it forwards one tile. Doesn't affect Infi-nut.";
+                string origin = "PvZ 2 (Fisherman Zombie)";
+
+            //elite_fisherzombie:fisher_bucket_zombie
+                string special = "Can spawn in the pool, except during winter. If in the pool, stays in the last row and hooks the front-most plant in his lane and pulls it forwards one tile. Doesn't affect Infi-nut. If on land, once it reaches the garden, if it still has his bucket, lobs it forwads dealing 6 damage where he lands and an extra 1 damage to all plants in a 1x3 area behind it with the splattering fish. If it flies over an unoccupied Magnetshroom, gets pulled in and doesn't attack. Bucket can be removed by Magnetshroom.";
+                string origin = "PvZ 2 (Fisherman Zombie) ; PvZ Heroes (Buckethead Zombie)";
 
             //octo_zombie
 
@@ -979,11 +980,7 @@ double faster = 5;
         //mechanized_zombies: affected by EMPeach - flying zombies affected by EMPeach fall to the ground
         
             //zomboni
-
-            //catapult_zombie
-
-            //neutron_imp
-                string special = "Flies towards your roof.";
+                string special = "Creates an ice trail behind him that plants, except plant pots, cannot be planted on and Bobsleds can spawn on. Overrides Paint Bucket Zombie's Paint Trail.";
 
             //celestial_custodian_zombie
                 string special = "Flies towards the roof. Inflicts double damage to plants with 0 aps, inlcuding stunned plants.";
@@ -1105,11 +1102,21 @@ double faster = 5;
         
         //pole_vaulting_zombie
 
+        //catapult_zombie
+            string special = "Affected by E.M.Peach.";
+
+        //elite_catapult_zombie:football_catapult_zombie
+            string special = "Affected by E.M.Peach.";
+
         //football_zombie
 
         //elite_football_zombie:giga_football_zombie
 
-        //all-star_zombie
+        //quarterback_zombie
+            string special = "Helmet does not provide extra HP but instead reduces damage taken by all attacks by 1 and can be removed by Magnetshroom. Upon spawning, throws a football that bounces twice before disappearing then rushes at 'faster' speed until he reaches a plant.";
+        
+        //elite_quarterback_zombie:all-star_zombie
+            string special = "Helmet does not provide extra HP but instead reduces damage taken by all attacks by 2 and can be removed by Magnetshroom. Upon spawning, summons an All-star Super Fan Imp on his lane. Once it reaches the garden, rushes forwards at 'faster' speed, throws it forwards and deals gargantuar damage to the first plant it encounters.";
 
             //all-star_super_fan_imp
 
@@ -1145,6 +1152,14 @@ double faster = 5;
 
     //construction_zombies
         
+        //construction_cone_zombie
+            string special = "Once it reaches an empty tile, if it still has its cone, places it down turning the tile into a construction site that cannot be planted on. The construction finishes once 10 zombies have walked past it. Construction Zombies count twice.";
+            string origin = "PvZ 1 (Conehead Beta Design)";
+
+        //paint_bucket_zombie
+            string special = "Doesn't spawn during winter. Once he reaches the garden, drops his bucket and drags it creating a trail of red paint the boosts the speed of zombies on it. It overrides Zomboni Ice Trails.";
+            string origin = "PvZ 1 (Buckethead Beta Design)"
+
         //ladder_zombie
 
         //supply-barrel_roller_zombie
@@ -1203,9 +1218,19 @@ double faster = 5;
 
     //scientific_zombies
         
+        //biodome_botanist_zombie
+            string special = "Once it reaches the garden, 'shovels' the front-most attacking plant in his lane (deosn't count as destroying it*) and replaces it with a Plant Pot that cannot be shoveled or be planted on for 3 waves.";  //*relevent for plants like Explodo-nut and Puni-Shroom
+
         //disinfection_zombie
             string special = "Only spawns in the pool. Releases toxic chemicals that slowly move along his lane, lightly damaging all plants.";
             string origin = "PvZ 2 China";
+        
+         //zombie_drop-off_rocket
+            string special = "Flies towards your roof. Drops a Bug Bot Imp upon reaching 75%, 50% and 25% hp. Once it reaches the roof, stops and drops off a Moonwalker.";
+            string origin = "PvZ 2 China (Transport Ship) ; PvZ 2 (Far Future imp rain)";
+
+            //moonwalker
+                string special = "Dropped off by a Zombie Drop-off Rocket on the roof. Places down a flag at the edge of the roof that lasts 2 to 3 waves and makes all new zombies in that lane spawn with an additional 3 HP.";
         
         //gargologist_zombie
             string special = "While alive, all gargantuars in her lane get +0.5 aps.";
@@ -1434,6 +1459,9 @@ double faster = 5;
         
         //zombotany_zombies
 
+        //neutron_imp
+            string special = "Flies towards your roof. Affected by E.M.Peach. Attacks from 1 tile away.";
+
         //portal_gatekeeper_zombie
             string description = "While alive, the Portal Gatekeeper Zombie creates portals in the garden that disappear on her death.";
             double hp = 30;
@@ -1450,6 +1478,15 @@ double faster = 5;
             
             //jack-in-the-box_zombie
                 string event_name = "Asylum Escape";
+                string special = "Eventually explodes in a 3x3 area. Jack-in-the-box can be removed by Magnetshroom.";
+            
+            //cuckoo_zombie
+                string event_name = "Asylum Escape";
+                string special = "Attacks from a two tile distance.";
+
+            //trickster_zombie
+                string event_name = "Asylum Escape";
+                string special = "Uses a punch-box to launch itself forwards. Attacks with a rubber chicken instead of bitting.";
 
             //orchestra_conductor_zombie
                 string event_name = "Orchestral jam";

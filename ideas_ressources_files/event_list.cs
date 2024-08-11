@@ -64,7 +64,7 @@ double faster = 5;
             string description = "For its duration, all plants have a higher chance of falling asleep and day plants are weaker.";
 
     //season_cycle
-        string description = "This game features seasons, that are mostly indicated by the UI and a general change in hue.";
+        string description = "This game features seasons, that are mostly indicated by the UI and a general change in hue. Whenever a new season starts, 3 Neutron Imps spawn in each garden.";
         string origin = "Rogue Garden";
 
         //summer
@@ -116,7 +116,7 @@ double faster = 5;
                 string description = "This event affects only one garden at a time and never the air. When triggered, any of the 'concerts' below will happen. Paparazzi zombies are more likely to spawn.";
 
                     //asylum_escape
-                        string description = "For the duration, spawns various Jack-in-the-box Zombies spread over the 7 lanes of a garden.";
+                        string description = "For the duration, zombies don't spawn normally. Spawns various Jack-in-the-box Zombies, Cuckoo Zombies and Trickster Zombies spread over the 7 lanes of a garden.";
                         string origin = "PvZ 1";
 
                     //orchestral_jam
@@ -140,7 +140,7 @@ double faster = 5;
                         string origin = "PvZ Heroes";
 
                     //punk_jam
-                        string description = "For the duration, spawns various Punk Zombies spread over the 7 lanes of a garden.";
+                        string description = "For the duration, zombies don't spawn normally. Spawns various Punk Zombies spread over the 7 lanes of a garden each wave.";
                         string origin = "PvZ 2";
 
                     //pop_jam
@@ -148,11 +148,11 @@ double faster = 5;
                         string origin = "PvZ 2";
 
                     //rap_jam
-                        string description = "For the duration, spawns various Mc-ZomBs and Breakdancer Zombies spread over the 7 lanes of a garden.";
+                        string description = "For the duration, zombies don't spawn normally. Spawns various Mc-ZomBs and Breakdancer Zombies spread over the 7 lanes of a garden each wave.";
                         string origin = "PvZ 2";
 
                     //metal_jam
-                        string description = "Spawns a Hair Metal Gargantuar in one of the gardens that is unkillable for the duration of the event.";
+                        string description = "For the duration, zombies don't spawn normally. Spawns 1 to 3 Hair Metal Gargantuars and 30 to 10 Hair Metal Imps respectivelly each wave.";
                         string origin = "PvZ 2";
 
                     //boombox_jam

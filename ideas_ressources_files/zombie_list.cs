@@ -1,8 +1,24 @@
-double slower = 1;
-double slow = 2;
-double normal = 3;
-double fast = 4;
-double faster = 5;
+
+//This is the full list of zombies, which will have an almanac in the game. There will be adjustements with play-testing and many of these will take a long to actually join the game. Any ideas are welcome as long as you follow the guidelines according to the comented template. You are welcome to propose changes and give feedback.
+
+    //template_category
+        //template_zombie                                //think of including the words "Imp", "Zombie" or "Gargantuar" to the zombie's name if it doesn't already include a reference to its zombie status (i.e. Abracader, ZCorp zombies in general). You can also include "variant_X:---" for special variants of basics, imps and gargantuars, and "elite_X:---" for elite versions of the zombies for ultra late-game.
+            string description = "blablabla";            //basic description of the zombie and its abilities (if available, you can easily take it straight from its game of origin)
+            double hp = 10;                              //hit points (hp) is counted in peas
+            double armour = 0;                           //if relevant, add the hp of potential armour (i.e. Cone), if not "double armour = 0"
+            int cr = 1;                                  //CR stands for Challenge Rating, being the amount of "points" needed to spawn (+CR = Spawns later/less often) and therefore should be base on how threatening the zombie is. Check the guide under this template for how to calculate it.
+            double speed = normal;                       //speeds written after template
+            double dmg = 1;                              //damage (dmg) is counted in peas - yes, even the zombies'
+            double aps = 2;                              //aps stands for attacks per second, aka how fast the zombie attacks
+            string special = "";                         //if relevant, add a precise description of the ability/ies (this won't   show up in the actual almanac, it is instead used for coding), if not remove this line. This is also where you include Magnet-shroom weakness. Note : by default, zombies can't spawn on water or on air at all, so add precisions such as "Can spawn" or "only spawns in water" for the pool and "Flies towards the roof" (Flying zombies fly at "roof height", so if a peashooter is placed on the roof it'll be able to shoot the flying zombies) when necessary.
+            string almanac = "ladders on sale";          //almanac entry, be it copied from one of the original games or entirely/partially new
+            string origin = "Rogue Garden";              //game(s) or mod(s) of origin - add the original name of the zombie if the name changes for this (i.e. Monitor Head: string origin = "PvZ Battle for Neighbourville (TV Head)") as well as the origing of its gimmicks (i.e. Mad Chemist Zombie: string origin = "PvZ Heroes ; PvZ 2 (Dark Ages Potions)")
+
+    double slower = 1;
+    double slow = 2;
+    double normal = 3;
+    double fast = 4;
+    double faster = 5;
 
 //How to calculate CR
 //  Note : CR is an arbitrary value that will likely change with play-testing
@@ -22,19 +38,6 @@ double faster = 5;
 //                       > weak ability / early-game challenge          = 3-4 CR base
 //                       > niche but strong ability/ mid-game challenge = 5-7 CR base
 //                       > strong ability / late-game challenge         = 8+  CR base
-
-    //template_category
-        //template_zombie                                //think of including the words "Imp", "Zombie" or "Gargantuar" to the zombie's name if it doesn't already include a reference to its zombie status (i.e. Abracader, ZCorp zombies in general). You can also include "variant_X:---" for special variants of basics, imps and gargantuars, and "elite_X:---" for elite versions of the zombies for ultra late-game.
-            string description = "blablabla";            //basic description of the zombie and its abilities (if available, you can easily take it straight from its game of origin)
-            double hp = 10;                              //hit points (hp) is counted in peas
-            double armour = 0;                           //if relevant, add the hp of potential armour (i.e. Cone), if not "double armour = 0"
-            int cr = 1;                                  //CR stands for Challenge Rating, being the amount of "points" needed to spawn (+CR = Spawns later/less often) and therefore should be base on how threatening the zombie is. Check the top of the file to know how I calculate CR.
-            double speed = normal;                       //speeds written on the top of the file
-            double dmg = 1;                              //damage (dmg) is counted in peas - yes, even the zombies'
-            double aps = 2;                              //aps stands for attacks per second, aka how fast the zombie attacks
-            string special = "";                         //if relevant, add a precise description of the ability/ies (this won't   show up in the actual almanac, it is instead used for coding), if not remove this line. Note : by default, zombies can't spawn on water or on air at all, so add precisions such as "Can spawn" or "only spawns in water" for the pool and "Flies towards the roof" (Flying zombies fly at "roof height", so if a peashooter is placed on the roof it'll be able to shoot the flying zombies) when necessary.
-            string almanac = "ladders on sale";          //almanac entry, be it copied from one of the original games or entirely/partially new
-            string origin = "Rogue Garden";              //game(s) or mod(s) of origin - add the original name of the zombie if the name changes for this (i.e. Monitor Head: string origin = "PvZ Battle for Neighbourville (TV Head)") as well as the origing of its gimmicks (i.e. Mad Chemist Zombie: string origin = "PvZ Heroes ; PvZ 2 (Dark Ages Potions)")
 
 //almanac_of_zombies
 
@@ -248,10 +251,10 @@ double faster = 5;
             double hp = 20;
             double armour = 0;
             int cr = 5;
-            double speed = fast; //normal after loosing pogostick
+            double speed = normal;
             double dmg = 1;
             double aps = 2;
-            string special = "Pogo stick can be removed by magnet-shroom. Jumps over all plants instead of eating them, except Tall-nut which makes him loose his pogo stick if he jumps into it.";
+            string special = "Pogo stick can be removed by magnet-shroom. Jumps at 'fast' speed. Jumps over all plants instead of eating them, except Tall-nut which makes him loose his pogo stick if he jumps into it.";
             string almanac = "Sproing ! Sproing ! Sproing !That's the sound of a powerful and effective zombie doing what he does best.";
             string origin = "PvZ 1";
 
@@ -667,7 +670,7 @@ double faster = 5;
             double speed = fast;
             double dmg = 0.5;
             double aps = 3;
-            string special = "Only spawns at night. Remains invisible and sneaks past plants for as long as he has his night-vision goggles on. He takes out his night-vision goggles when in range of plantern and fire plants and they can be removed by magnet-shroom.";
+            string special = "Only spawns at night. Remains invisible and sneaks past plants for as long as he has his night-vision goggles on. He takes out his night-vision goggles when in range of light producers and fire plants and they can be removed by magnet-shroom.";
             string almanac = "Gadget Scientist Zombie is behind the mysterious technology that allows these night-vision goggles to make Stealth imp invisible.";
             string origin = "PvZ 3";
 
@@ -1487,6 +1490,7 @@ double faster = 5;
     //event_dependent_zombies
         
         //zombotany_zombies
+            //please refer to the zombotany_list.cs
 
         //neutron_imp
             string special = "Flies towards your roof. Affected by E.M.Peach. Attacks from 1 tile away.";

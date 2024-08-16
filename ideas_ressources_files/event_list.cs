@@ -4,17 +4,12 @@ double normal = 3;
 double fast = 4;
 double faster = 5;
 
+//This is the full list of events, which will have an almanac in the game. Things such as the day-night cycle, seasons, random events, ambushes and even bosses. There will be adjustements with play-testing and many of these will take a long to actually join the game. Any ideas are welcome as long as you follow the guidelines according to the comented template. You are welcome to propose changes and give feedback. Shallow water is a nice mechanic that is also included at the top of this list because we did not know where to put it.
+
     //template_category
         //template_event
             string description = "";
             string origin = "";
-
-        //template_boss
-            string description = "";
-            string almanac = "";
-            string origin = "";
-            string summon = "";
-            string attack_1 = "";
 
         //template_zombot
             string description = "";
@@ -42,10 +37,10 @@ double faster = 5;
             string descritpion = "Final Waves end days and nights. They are similar to Huge Waves but happens in both gardens and has even more CR. The next wave only spawns once the Final Wave has been fully cleared.";
 
             //grave_ambush
-                string descripion = "Zombies or Imps emerge from random gravestones on the gardens and non-Imp and non-Gargantuar Zombies, including Cursed Gargoliths, spawn from engraved gravestones on the gardens during Final Waves.";
+                string description = "Zombies or Imps emerge from random gravestones on the gardens and non-Imp and non-Gargantuar Zombies, including Cursed Gargoliths, spawn from engraved gravestones on the gardens during Final Waves.";
 
             //pool_ambush
-                string descripion = "Aquatic Zombies or Imps covered in Kelp emerge from random tiles of the pool during Final Waves.";
+                string description = "Aquatic Zombies or Imps covered in Kelp emerge from random tiles of the pool during Final Waves.";
 
         //day
             string descritpion = "During the day : Sun fall from the sky.";
@@ -325,7 +320,7 @@ double faster = 5;
             string origin = "PvZ 2 (Lost City lost pilot ambush)";
 
         //air_raid
-            string description = "For the duration, all CR goes into Ballon Zombies";
+            string description = "For the duration, all CR goes into Balloon Zombies";
             string origin = "PvZ 1 Minigame";
 
         //imp_rain
@@ -356,7 +351,7 @@ double faster = 5;
             string origin = "PvZ 1 Minigame ; PvZ Heroes";
 
         //invisi-ghoul
-            string description = "For the duration, all zombies are invisible, unless lit by Plantern.";
+            string description = "For the duration, all zombies are invisible, unless lit by a light producer.";
             string origin = "PvZ 1 Minigame";
 
         //big_trouble_little_zombie

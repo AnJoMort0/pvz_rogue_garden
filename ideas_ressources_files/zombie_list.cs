@@ -217,13 +217,13 @@
     //miscellaneous_zombies
         
         //cosmic_browncoat_zombie
-            string special = "Spawns a browncoat or browncoat variant on his lane once he reaches the garden.";
+            string special = "Spawns a browncoat or browncoat variant on the neighbourghing lanes once he reaches the garden.";
         
         //zombie_yeti
-            string special = "Once it walkes past 4 columns or once 2 waves have passed (whichever one comes first) he walks backwards and out of the garden. If he gets killed, drops a yeti lunch box."; //rewards from yeti lunch box to be defined later
+            string special = "Once it walkes past 4 columns or once 2 waves have passed (whichever one comes first) he walks backwards and out of the garden. If he gets killed, drops a yeti lunch box."; //rewards from yeti lunch box to be defined
 
         //comsic_yeti
-            string special = "Once it walkes past 4 columns or once 2 waves have passed (whichever one comes first) he walks backwards and out of the garden. If he gets killed, spawns 3 Yeti zombies.";
+            string special = "Once it walkes past 4 columns or once 2 waves have passed (whichever one comes first) he walks backwards and out of the garden. If he gets killed, spawns 2 Yeti zombies.";
 
         //newspaper_zombie
             string description = "His newspaper provides limited defence, but great entertainment.";
@@ -1229,8 +1229,17 @@
             //zombie_statue
                 string special = "Works essentially like a gravestone, also being affected by gravebuster. Cannot be pushed past gravestones. If it reaches 0hp it'll turn into a Sculpted Zombie, unless killed by a gravebuster.";
 
-                //elite_basic:sculpted_zombie
+                //variant_brickhead:bust_head_zombie
+                    string descitpion = "A bust head means this sculpted zombie can take a serious beating.";
+                    double hp = 10;
+                    double armour = 95;
+                    int cr = 8;
+                    double speed = normal;
+                    double dmg = 1;
+                    double aps = 2;
                     string special = "Imune to Zombie Medusa's effect even after loosing all armor.";
+                    string almanac = "Bust Head Zombie belongs in the Neighbourghville Museum with a big sign that says, 'WARNING: THIS IS A ZOMBIE!'";
+                    string origin = "PvZ 2";
 
         //primeval_yeti
             string special = "Gives all zombies in his lane +2 hp and +1 dmg when he dies.";

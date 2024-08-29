@@ -1330,7 +1330,7 @@
             string origin = "PvZ Heroes";
 
         //space_ninja_zombie
-            string description = "He attacks all plants in a an area for little damage everytime he attacks.";
+            string description = "He attacks all plants in a 3x3 area for 0.5 damage everytime he attacks.";
 
         //zom-blob
             string special = "More likely to spawn during Radiation Wave event. Ignores plants and leaves a blob trail behind him that deals dot and disappears after a few seconds.";
@@ -1433,8 +1433,31 @@
                 //zombie_goat
 
         //zombie_king
+            string special = "Turns basics into Zombie Knights";
 
                 //zombie_knight
+                    string descitpion = "His king appointed helm proves amazing protection from damage.";
+                    double hp = 10;
+                    double armour = 75;
+                    //int cr = n/a;
+                    double speed = normal;
+                    double dmg = 1;
+                    double aps = 2;
+                    string special = "Helmet can be removed by Magnet-Shroom.";
+                    string almanac = "Knight Zombie was just as surprised as anyone when Zombie King promoted him. He'd never say this out loud, but he's not sure he deserves the position. He's not sure he has what it takes to wear the armor. But like they say, 'Fake it 'til you make it.'";
+                    string origin = "PvZ 2";
+
+        //knight_of_the_living_dead
+            string descitpion = "The Knight of the Living Dead is more living than dead due to his armor.";
+            double hp = 10;
+            double armour = 75;
+            int cr = 10;
+            double speed = normal;
+            double dmg = 1;
+            double aps = 2;
+            string special = "Shield blocks straight shooting attacks from the front. As long as he has his helmet, takes 2 less damage from non-fire damage but takes double fire damage. Helmet can be removed by Magnet-Shroom.";
+            string almanac = "He's both secretary and treasurer for the Zombie Knights of the Square Table.";
+            string origin = "PvZ Heroes";
 
         //vimpire
             string special = "Gains a movement speed and aps buff upon eating a plant. Dies if he bites garlic.";

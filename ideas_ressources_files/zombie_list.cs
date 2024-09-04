@@ -363,10 +363,12 @@
             string origin = "PvZ Heroes";
 
         //chicken_wrangler_zombie
+            string special = "Upon reaching a plant, being hit for a certain amount of damage or dieing, releases up to three Zombie Chickens on his lane and on each neighbourghing lane.";
 
             //zombie_chicken
 
         //elite_chicken_wrangler_zombie:fire_rooster_wrangler_zombie
+            string special = "Upon reaching a plant, being hit for a certain amount of damage or dieing, releases a Fire Rooster Zombie on his lane and on each neighbourghing lane.";
 
         //fire_rooster_zombie
             string special = "When a plant is placed on this lane, moves to a neighboring lane then shoots a fireball before continuing forwards.";
@@ -846,8 +848,8 @@
             string special = "While alive, reates random instrument playing zombies above, below and besides him.";
 
         //line_dancer_zombie
-            string description = "Line Dancer Zombie yoddles down your lanes to damage all plants.";
-            string special = "Moves between lanes. Occasionally yoddles, damaging every plant in her lane.";
+            string description = "Line Dancer Zombie sings down your lanes to damage all plants.";
+            string special = "Moves between lanes. Occasionally sings, damaging every plant in her lane.";
             string almanac = "In her opinion, there's no better song to line dance to than the 'Zombie Shuffle.'";
             string origin = "PvZ Heroes";
 
@@ -867,6 +869,7 @@
             string origin = "PvZ 2 (Prospector Zombie)";
 
         //medic_zombie
+            string special = "Every few seconds, heals all zombies in an 'plus' formation centered on himself for 2hp. Armor can't be healed. Heals riot police zombies for double hp.";
             string origin = "PvZ Heroes ; PvZ 2 (Healer Zombie)";
 
         //nurse_gargantuar
@@ -899,17 +902,22 @@
         //airborn_zombies
 
             //bungee_zombie
+                string special = "Before appearing, a target is placed on the tile it will land on. After a wave, he jumps down, waits for a few seconds during which it can be hit then steals the plant on that tile. If there is a pumpkin-like plant on that tile, it will prioritize the plant inside. It is blocked by Umbrella Leaf.";
 
-            //bungee_plumber
+            //bungee_plumber_zombie
+                string special = "Before appearing, a copper pipe falls on the tile it will land on, dealing one damage to the plant on that tile and activating instants like potato mines. If there is a pumpkin-like plant on that tile, it will prioritize the plant inside. It is blocked by Umbrella Leaf. After a wave, the he jumps down to pick up the pipe, damaging the plant he lands on for 5 damage. If there is a pumpkin-like plant on that tile, it will prioritize the plant inside. It is blocked by Umbrella Leaf, but deals 2 damage to it.";
                 string origin = "PvZ Heroes (Bungee Plumber Jumper)";
 
             //parachutist_zombie
+                string special = "Falls down and gets stuck midair for 1 to 2 waves before falling onto the garden and acting like a normal zombie. It is blocked by Umbrella Leaf once it falls.";
                 string origin = "PvZ 2 (Lost Pilot Zombie)";
 
             //roof_climber_zombie
+                string special = "Throws his hook at the roof's gutter then swings into the garden. It is blocked by Umbrella Leaf.";
                 string origin = "PvZ Heroes (Mountain Climber) ; PvZ 2 (Swashbuckler / Relic Hunter)";
 
             //copter_commandimp
+                string special = "Flies towards your roof. Attacks from 2 tiles away.";
                 string orgin = "PvZ Heroes (Copter Commando)";
 
             //kite_flyer_zombie
@@ -945,13 +953,16 @@
                 string almanac = "What's love got to do with it? Honestly, he has no idea.";
                 string origin = "PvZ Heroes";
 
-            //
-
         //aquatic_zombies
             
             //snorkel_zombie
+                string special = "Only spawns in the pool. Dives underwater and only comes out to eat. He can be targeted and hit by lobbers while underwater.";
+
+                //elite_snorkel_zombie:zombie_deep_diver
+                    string special = "Only spawns in the pool. Dives underwater and only comes out to eat. Skips the first 1 to 3 plants he encounters and instead swims under them. He can't be targeted and hit by lobbers while underwater.";
 
             //dolphin_rider_zombie
+                string special = "Only spawns in the pool. Swims on 'faster' speed while riding his dolphin. Jumps over the first plant he encounters and loses his dolphin. Can't jump over a tall-nut.";
 
             //seahorse_rider_zombie
                 string description = "Rides a seahorse to jump over your defenses.";
@@ -969,12 +980,12 @@
                 string special = "Only spawns during summer and spring. May spawn in the pool. If on land, carries a surfboard over his head that he smashes into the first plant he encounters and drops upon death. If in the pool, surfs rapidly, ignoring your plants except for tall-nut. Behaves like it would do in the pool when on shallow water lanes.";
 
             //fisherzombie
-                string special = "Doesn't spawn during winter. Stays in the last column of the pool and hooks the front-most plant in his lane and pulls it forwards one tile. Doesn't affect Infi-nut.";
+                string special = "Doesn't spawn during winter. Only spawns in the pool. Stays in the last column of the pool and hooks the front-most plant in his lane and pulls it forwards one tile. Doesn't affect Infi-nut.";
                 string origin = "PvZ 2 (Fisherman Zombie)";
 
-            //elite_fisherzombie:fisher_bucket_zombie
-                string special = "Can spawn in the pool, except during winter. If in the pool, stays in the last column and hooks the front-most plant in his lane and pulls it forwards one tile. Doesn't affect Infi-nut. If on land, once it reaches the garden, if it still has his bucket, lobs it forwads dealing 6 damage where he lands and an extra 1 damage to all plants in a 1x3 area behind it with the splattering fish. If it flies over an unoccupied Magnetshroom, gets pulled in and doesn't attack. Bucket can be removed by Magnetshroom.";
-                string origin = "PvZ 2 (Fisherman Zombie) ; PvZ Heroes (Buckethead Zombie)";
+                //elite_fisherzombie:fisher_bucket_zombie
+                    string special = "Can spawn in the pool, except during winter. If in the pool, stays in the last column and hooks the front-most plant in his lane and pulls it forwards one tile. Doesn't affect Infi-nut. If on land, once it reaches the garden, if it still has his bucket, lobs it forwads dealing 6 damage where he lands and an extra 1 damage to all plants in a 1x3 area behind it with the splattering fish. If it flies over an unoccupied Magnetshroom, gets pulled in and doesn't attack. Bucket can be removed by Magnetshroom.";
+                    string origin = "PvZ 2 (Fisherman Zombie) ; PvZ Heroes (Buckethead Zombie)";
 
             //octo_zombie
 

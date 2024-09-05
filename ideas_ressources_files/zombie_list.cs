@@ -988,6 +988,7 @@
                     string origin = "PvZ 2 (Fisherman Zombie) ; PvZ Heroes (Buckethead Zombie)";
 
             //octo_zombie
+                string special = "Throws octopus at plants in the garden, prioritizing his lane. The octopus acts as a thombstone but is weak to Hot Potato instead of Grave Buster.";
 
             //synchronized_swimmer_zombie
                 string special = "Only spawns in the pool. More likely to spawn during Aerobics Class concert event. Always spawns in groups of three, covering all three pool lanes.";
@@ -1056,6 +1057,7 @@
                         string origin = "PvZ Heroes";
 
             //arcade_zombie
+                string special = "Pushes an arcade machine that slows itself down but takes hits from the front and spawns 8-Bit Zombies. Can't push the arcade machine past gravestones.";
 
                 //variant:8-bit_zombie
                     //animated in less fps

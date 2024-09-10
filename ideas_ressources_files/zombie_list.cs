@@ -828,7 +828,7 @@
                         double speed = fast;
                         double dmg = 0;
                         double aps = 0;
-                        string special = "Once he reaches a plant, he stays on it for a bit before taking off with it.";
+                        string special = "Flies towards the front-most plant of a random lane. Once it reaches it, it grabs onto it and stands for a few seconds before flying off with it. Once it flies off or is blown away by a plant, it reappears on the back of its Abracadaver's lane and goes back into the hat. It is instantly killed by butter and if it tries to grab onto a Spring Bean, it will activate and headbutt the Zombie Parrot, killing it.";
                         string almanac = "He's a third generation aviation revolutionary. He wants to serve his pirate brethren like his father and his grandmother, Salty Anne, before him.";
                         string origing = "PvZ Garden Warfare ; PvZ 2 (Pirate Captain Zombie)";
             
@@ -845,7 +845,7 @@
                 //backup_disco_zombie
 
         //elite_disco_zombie:cosmic_dancing_zombie
-            string special = "While alive, reates random instrument playing zombies above, below and besides him.";
+            string special = "While alive, creates random instrument playing zombies above, below and besides him.";
 
         //line_dancer_zombie
             string description = "Line Dancer Zombie sings down your lanes to damage all plants.";
@@ -1081,6 +1081,7 @@
             string origin = "PvZ Heroes ; PvZ 2 (Magician Zombie)";
 
             //zombie_dove
+                string special = "Flies towards the front-most plant of a random lane. Once it reaches it, it grabs onto it and stands for a few seconds before flying off with it. Once it flies off or is blown away by a plant, it reappears on the back of its Abracadaver's lane and goes back into the hat. It is instantly killed by butter and if it tries to grab onto a Spring Bean, it will activate and headbutt the Zombie Dove, killing it.";
                 string origin = "PvZ 2";
 
             //zombie_rabbit
@@ -1434,16 +1435,20 @@
             //zombie knight for design
         
         //imp_dragon
+            string special = "Immune to fire damage.";
 
         //jester_zombie
+            string special = "Reflects projectiles forwards in front of itself. While spinning, moves at 'fast' speed.";
 
         //wizard_zombie
+            string special = "Turns plants into sheep that zombies can pass through. Plants stay in that form until the Zombie Wizard that turned them dies.";
 
         //wizard_gargantuar
             string special = "Turns plants he smashes into Zombie Goats. Throws an Imp Dragon upon reaching half hp.";
             string origin = "PvZ Heroes";
 
                 //zombie_goat
+                    string special = "When another Zombie Goat within a 1x3 tile area reaches half-hp, gains +1 dmg and +2 hp.";
 
         //zombie_king
             string special = "Turns basics into Zombie Knights";
@@ -1525,7 +1530,7 @@
             string origin = "PvZ Heroes";
 
         //blowgun_imp
-            string special = "Attacks plants from 4 tiles away.";
+            string special = "Attacks plants from 2 tiles away. The dart damages the first two plants it encounters.";
             string origin = "PvZ Heroes";
 
         //frankentuar
@@ -1587,6 +1592,7 @@
 
             //pianist_zombie
                 string event_name = "Swing jam";
+                string special = "Plays a song that makes all basics change between tiles. Crushes plants it touches and dies to spikeweed.";
 
             //aerobics_instructor_zombie
                 string event_name = "Aerobics Class";
@@ -1620,12 +1626,16 @@
 
             //glitter_zombie
                 string event_name = "Pop jam";
+                string event_name = "Makes zombies behind itself imune to damage and status effects. Crushs ground plants it passes through.";
 
             //mc_zom-b
                 string event_name = "Rap jam";
+                double dmg = 3;
+                string special = "Attacks in a 3x3 area centered on himself.";
 
             //breakdancer_zombie
                 string event_name = "Rap jam";
+                string event_name = "Pushes other zombies forwards 1 or 2 tiles when it reaches them it plays its music, stunning all plants in its garden. Plants planted after the song has started aren't immediately stunned.";
 
             //hair_metal_gargantuar
                 string event_name = "Metal jam";
@@ -1638,6 +1648,7 @@
 
             //boombox_zombie
                 string event_name = "Boombox jam";
+                string special = "Once it walks past a few rows, it makes ";
 
             //conga_leader_zombie
                 string event_name = "Conga line";

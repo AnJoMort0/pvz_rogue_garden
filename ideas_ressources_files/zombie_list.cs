@@ -604,6 +604,10 @@
             string almanac = "Sadly the Trash Can Zombie isn't here to pick up litter, or offer helpful tips on how to recycle your vegetable peelings or glass. If you've been closely studying this book, you will have realized by now that this zombie wants to eat your brains. He just uses the trash can to protect himself, not tidy up. What a shame. That said Trash Can Zombie is all about recycling waste. In this case he's eager for you to recycle the 'waste' brains sloshing about in your skull into something better: his dinner.";
             string origin = "PvZ 1 Console Edition ; PvZ Heroes"
 
+            //elite:trash_can_zombie:theatre_zombie
+                string special = "Holds holds a skull in front of him to block incoming projectiles. Once he reaches 0 hp, the skull floats for a few seconds, to perform a shakespearian monolgue, blocking projectiles from all directions and forcing pults in that lane to target it.";
+                string origin = "PvZ 3 (Actor Zombie)";
+
         //turkey_rider_imp
             string description = "Gives all zombies strenghtening leftovers when he dies.";
             double hp = 17;
@@ -898,6 +902,20 @@
                 string special = "Burns any plant he in front of he. Fire is extinguished with the Chill or Freeze effects and becomes a regular zombie. Fire projectiles can reignite the torch.";
                 string almanac = "Ah, the Rallied Protestor Zombie, a connoisseur of chaos summoned by the Gilet Jaune Zombie's botanical revolution. With a torch in hand and a fervent spirit, he elegantly waltzes through the garden, turning flora into a spectacle of flames. Mon dieu, the theatrics! Prepare for a fiery soirée.";
                 string origin = "PvZ 2 (Explorer Zombie)";
+
+        //tuba_zombie
+            string special = "Plays an instrument. Once it reaches the middle of a tile, it stops then blows to push all zombies on that tile forwards 1-2 tile.";
+            string origin = "Rogue Garden";
+
+        //keytar_zombie
+            string special = "Plays an instrument. Every few seconds, makes all basics and imps switch lanes.";
+            string origin = "PvZ 3 ; PvZ Heroes (Disc-naut)";
+
+        //undead_flamenco_dancers
+            string special = "Plays an instrument. Two zombies, share HP but eat separately. Plays castanets to turn basics in a 3x3 area into Flamenco Backup Dancers that walk along the Undead Flamenco Dancers. Throws hat that deals damage equal to amount of Flamenco Backup Dancers in 3x3 area.";
+            string origin = "PvZ Heroes (Flamenco Zombie); Rogue Garden";
+            
+            //flamenco_backup_dancers
  
         //airborn_zombies
 
@@ -1095,7 +1113,7 @@
             double speed = slow;
             double dmg = 1;
             double aps = 2;
-            string special = "More lileky to spawn during Orchestral Jam concert event. Sends Rat Zombies down his lane.";
+            string special = "Plays an instrument. Sends Rat Zombies down his lane.";
             string almanac = "He was told that playing the pipe would summon raccoons. But whatevs.";
             string origin = "PvZ Heroes";
 
@@ -1268,7 +1286,16 @@
     //scientific_zombies
         
         //cosmic_scientist
-            string special = "Once it reaches the garden, throws a potion on the lanes above and below him that each spawn a non-flying zombie from the Scientific category";
+            string special = "Once it reaches the garden, throws a potion on the lanes above and below him that each spawn a  zombie from the Scientific category.";
+
+        //cardboard_robot_zombie
+            double hp = 14;
+            double armour = 0;
+            int cr = 2;
+            double speed = normal;
+            double dmg = 1;
+            double aps = 2;
+            string special = "Attacks from 1 tiles away.";
 
         //disinfection_zombie
             string special = "Only spawns in the pool. Releases toxic chemicals that slowly move along his lane, lightly damaging all plants.";
@@ -1285,14 +1312,14 @@
             string special = "While alive, all gargantuars in her lane get +0.5 aps.";
 
         //gadget_scientist_zombie
-            string description = "The Gadget Scientist Zombie summons Space Cadet Zombies onto the garden once he reaches it.";
+            string description = "The Gadget Scientist Zombie summons Space Cadet Zombies onto the garden.";
             double hp = 30;
             double armour = 0;
             int cr = 8;
             double speed = fast;
             double dmg = 2;
             double aps = 1;
-            string special = "Gun can be removed by Magnetshroom. Creates 4 Space Cadet Zombies across the 7 lanes, on the columns 4 to 6. Attacks from 2 tiles away.";
+            string special = "Gun can be removed by Magnetshroom. Creates 4 Space Cadet Zombies across the 7 lanes, on the columns 4 to 6, once he reaches the garden. Attacks from 2 tiles away.";
             string almanac = "He wishes the Mad Chemist would stop copying his hairstyle.";
             string origin = "PvZ Heroes";
 
@@ -1450,20 +1477,24 @@
                 //zombie_goat
                     string special = "When another Zombie Goat within a 1x3 tile area reaches half-hp, gains +1 dmg and +2 hp.";
 
-        //zombie_king
-            string special = "Turns basics into Zombie Knights";
+        //royal_horn_imp
+            string special = "Plays an instrument. Once it reaches the garden, stops and blows his horn, summoning a Zombie King on his tile but being crushed in the process.";
+            string origin = "PvZ 2 (Zombie King)";
+        
+            //zombie_king
+                string special = "Turns basics into Zombie Knights";
 
-                //zombie_knight
-                    string descitpion = "His king appointed helm proves amazing protection from damage.";
-                    double hp = 10;
-                    double armour = 75;
-                    //int cr = n/a;
-                    double speed = normal;
-                    double dmg = 1;
-                    double aps = 2;
-                    string special = "Helmet can be removed by Magnet-Shroom.";
-                    string almanac = "Knight Zombie was just as surprised as anyone when Zombie King promoted him. He'd never say this out loud, but he's not sure he deserves the position. He's not sure he has what it takes to wear the armor. But like they say, 'Fake it 'til you make it.'";
-                    string origin = "PvZ 2";
+                    //zombie_knight
+                        string descitpion = "His king appointed helm proves amazing protection from damage.";
+                        double hp = 10;
+                        double armour = 75;
+                        //int cr = n/a;
+                        double speed = normal;
+                        double dmg = 1;
+                        double aps = 2;
+                        string special = "Helmet can be removed by Magnet-Shroom.";
+                        string almanac = "Knight Zombie was just as surprised as anyone when Zombie King promoted him. He'd never say this out loud, but he's not sure he deserves the position. He's not sure he has what it takes to wear the armor. But like they say, 'Fake it 'til you make it.'";
+                        string origin = "PvZ 2";
 
         //knight_of_the_living_dead
             string descitpion = "The Knight of the Living Dead is more living than dead due to his armor.";
@@ -1616,7 +1647,7 @@
                 double speed = normal;
                 double dmg = 1;
                 double aps = 2;
-                string special = "While alive, all zombies have double aps.";
+                string special = "Two zombies, share HP but eat separately. While alive, all zombies have double aps.";
                 string almanac = "He's a Gemini and so is she. Which explains so much, right?";
                 string origin = "PvZ Heroes";
 
@@ -1677,6 +1708,6 @@
                     double speed = normal;
                     double dmg = 1;
                     double aps = 1;
-                    string special = "Only spawns in the Orchestral Jam concert event or when summoned by Conga Leader Zombie. Attacks neighbouring lanes with her drum instead of the lane in front.";
+                    string special = "Plays an instrument. Summoned by Conga Leader Zombie. Attacks neighbouring lanes with her drum instead of the lane in front.";
                     string almanac = "Important Note: The fruit on her hat is made of plastic.";
                     string origin = "PvZ Heroes";

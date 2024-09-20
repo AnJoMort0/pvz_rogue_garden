@@ -1,5 +1,6 @@
 
 //This is the full list of flag zombie variants for all the various events.
+
 //A few waves before any event, a respective flag zombie appears. Ambush events and Bosses aren't anounced.
 //These flag zombies vary in style and stats.
 //Whenever a Flag Zombie dies, he drops his flag (or whatever he's holding) and it flies to the bottom of the screen as a little pop-up icon to make sure players don't miss the flag zombies amidst the masses.

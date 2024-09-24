@@ -327,7 +327,7 @@
             string origin = "PvZ Heroes";
 
         //cosmic_imp
-            string special = "When killed, disapates into 5 random imps in a cross formation centered on kimself. Doesn't create Gargantuar-throwing Imps.";
+            string special = "When killed, disapates into 5 random imps in a cross formation centered on himself. Can't create Gargantuar-throwing Imps.";
 
         //imp-throwing_imp
             string special = "Creates a random imp on another random lane when hit. Doesn't create Gargantuar-throwing Imps.";
@@ -410,7 +410,7 @@
             string origin = "PvZ 2";
 
         //umbrella_zombie
-            string descitpion = "His parasol umbrella protection from lobbed projectiles.";
+            string descitpion = "His umbrella provides protection from lobbed projectiles.";
             double hp = 20;
             double armour = 0;
             int cr = 5;
@@ -633,7 +633,7 @@
             string origin = "PvZ Heroes";
 
         //coffee_zombie
-            string description = "Increases the attack speed of his fellow zombies.";
+            string description = "Caffeinates his fellow zombies.";
             double hp = 25;
             double armour = 0;
             int cr = 12;
@@ -835,6 +835,30 @@
                         string special = "Flies towards the front-most plant of a random lane. Once it reaches it, it grabs onto it and stands for a few seconds before flying off with it. Once it flies off or is blown away by a plant, it reappears on the back of its Abracadaver's lane and goes back into the hat. It is instantly killed by butter and if it tries to grab onto a Spring Bean, it will activate and headbutt the Zombie Parrot, killing it.";
                         string almanac = "He's a third generation aviation revolutionary. He wants to serve his pirate brethren like his father and his grandmother, Salty Anne, before him.";
                         string origing = "PvZ Garden Warfare ; PvZ 2 (Pirate Captain Zombie)";
+
+        //elite_barrel_of_deadbeard:barrel_of_flameface
+            string descitpion = "A barrel that explodes into a fiery pirate captain.";
+            double hp = 25;
+            double armor = 0;
+            int cr = 19;
+            double speed = slow;
+            double dmg = 0;
+            double aps = 0;
+            string special = "On destruction, damages all plants in a 3x3 radius and spawns a Captain Flameface in its place.";
+            string almanac = "No flames, just Flameface.";
+            string origin = "PvZ Garden Warfare ; PvZ Heroes";
+                
+                //captain_flameface
+                    string description = "Sends out his firey companion while he attacks with his fire gun.";
+                    double hp = 45;
+                    double armor = 0;
+                    //int cr = n/a
+                    double speed = normal;
+                    double dmg = 2;
+                    double aps = 2;
+                    string special = "Shoots from a 1 tiles away, attack pierces through the first plant and also damages the next one. Spawns a Fire Rooster Zombie, and respawns at the back of his lane when it dies.";
+                    string almanac = "Yo ho ho! It's a pirate's unlife for him!";
+                    string origin = "PvZ Garden Warfare ; PvZ 2 (Pirate Captain Zombie)";
             
         //pigeon_feeder_zombie
             string special = "While alive, spawns and respawns pigeons on a 3x3 area around him similiarily to the disco zombie.";
@@ -1277,7 +1301,10 @@
             string special = "Gives all zombies in his lane +2 hp and +1 dmg when he dies.";
 
         //cursed_gargolith
-            string special = "Only spawns from engraved gravestones, but has high chances to spawn. Throws a gravestone upon reaching half hp.";
+            string special = "Only spawns from engraved gravestones, but has high chances to spawn. Throws an Impstone upon reaching half hp.";
+
+            //impstone
+                string special = "A gravestone that spawns a CR 2 or less imp on every Huge and Final Wave.";
 
         //archeology_guide_zombie
             string special = "After a few seconds on the garden, opens a whole on the garden, digs forwards 3 tiles, then comes back up, creating a 5 tile long tunnel for non-gargantuar zombies to evade attacks and pass into your defenses. Diggers that dig into it come out the end of the tunnel. Each tile of the tunnel only lasts 10 seconds before disapearing. If he creates the tunnel on a shallow water tile, the tunnel collapses and the zombies inside die.";

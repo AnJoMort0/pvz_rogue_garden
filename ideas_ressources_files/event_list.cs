@@ -270,8 +270,9 @@ double faster = 5;
 
                     //battle_cruiser_5000
 
-            //heroes
-                
+            //heroe_bosses
+                string descitpion = "Heroe Bosses are incredibly powerful zombies with special abilites. They all have a superpower unique to themselves and share multiple miscelaneous powers inspired by their categories tricks. Zombies keep spawning naturally tough they have higher chances of spawning from a specific category. Upon reaching 75%, 50%, and 25% health, the Heroe Bosses create a 30-50 armor shield on themselves and activate one of three superpowers they have. These superpowers can also be the same for multiple Heroe Bosses.";
+
                 //the_smash
                     //Sportive Zombies
 

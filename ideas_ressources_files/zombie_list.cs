@@ -2,7 +2,7 @@
 //This is the full list of zombies, which will have an almanac in the game. There will be adjustements with play-testing and many of these will take a long to actually join the game. Any ideas are welcome as long as you follow the guidelines according to the comented template. You are welcome to propose changes and give feedback.
 
     //template_category
-        //template_zombie                                //think of including the words "Imp", "Zombie" or "Gargantuar" to the zombie's name if it doesn't already include a reference to its zombie status (i.e. Abracadaver, ZCorp). You can also include "variant_X:---" for special variants of basics, imps and gargantuars, and "elite_X:---" for elite versions of the zombies for ultra late-game.
+        //template_zombie                                //think of including the words "Imp", "Zombie" or "Gargantuar" to the zombie's name if it doesn't already include a reference to its zombie status (i.e. Abracadaver, ZCorp). You can also include "variant_X:---" for special variants of zombies, and "elite_X:---" for elite versions of the zombies for ultra late-game.
             string description = "blablabla";            //basic description of the zombie and its abilities (if available, you can easily take it straight from its game of origin)
             double hp = 10;                              //hit points (hp) is counted in peas
             double armour = 0;                           //if relevant, add the hp of potential armour (i.e. Cone), if not "double armour = 0"
@@ -1280,16 +1280,16 @@
             string origin = "PvZ 2";
 
         //zombie_medusa
-            string special = "Turns basics in front of it into zombie statues that she then pushes, crushing plants as she does so but being heavily slowed down.";
+            string special = "Turns basics in front of it into zombie statues that she then pushes, crushing plants as she does so but being heavily slowed down. Can only have one zombie statue per tile.";
 
             //zombie_statue
-                string special = "Works essentially like a gravestone, also being affected by gravebuster. Cannot be pushed past gravestones. If it reaches 0hp it'll turn into a Sculpted Zombie, unless killed by a gravebuster.";
+                string special = "Works essentially like a gravestone, also being affected by gravebuster. Cannot be pushed past gravestones and other alike things. If it reaches 0hp it'll turn into a Sculpted Zombie, unless killed by a gravebuster.";
 
-                //variant_brickhead:bust_head_zombie
+                //variant_kinght:bust_head_zombie
                     string descitpion = "A bust head means this sculpted zombie can take a serious beating.";
                     double hp = 10;
-                    double armour = 95;
-                    int cr = 8;
+                    double armour = 75;
+                    //int cr = n/a;
                     double speed = normal;
                     double dmg = 1;
                     double aps = 2;
@@ -1479,7 +1479,7 @@
             double dmg = 0.5;
             double aps = 1;
             string special = "Gains +1 hp and +0.5 aps for every ZCorp basic that dies in his lane.";
-            string almanac = "Like most managers, bringing pain to his employees gives him strength.";
+            string almanac = "Leike most managers, bringing pain to his employees gives him strngth.";
             string origin = "PvZ Heroes (Zombie Middle Manager)";
         
     //fantasy_roleplaying_club
@@ -1492,6 +1492,7 @@
             string special = "Immune to fire damage.";
 
         //jester_zombie
+            double speed = normal;
             string special = "Reflects projectiles forwards in front of itself. While spinning, moves at 'fast' speed.";
 
         //wizard_zombie

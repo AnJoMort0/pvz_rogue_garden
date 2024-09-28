@@ -21,6 +21,24 @@ double faster = 5;
             //phase_2
             //phase_3
 
+        //template_heroe_boss
+            string descitpion = "";
+            string almanac = "";
+            string origin = "";
+            string zombies = "";
+            //attacks
+                string signature_super = "";
+                string attack_1 = "";
+                string attack_2 = "";
+                string attack_3 = "";
+                string attack_4 = "";
+                string attack_5 = "";
+                string attack_6 = "";
+            //shields
+                string super_a = "";
+                string super_b = "";
+                string super_c = "";
+
     //shallow_water
             string description = "Shallow water that covers a grass tile in the lawn. Both land and water plants can be placed on it and both land and water zombies can traverse it. Moist Moss can prevent it from disappearing after the event that spawned it ends. If a full lane is covered with shallow water tiles, both land and water zombies can spawn in said lane. If ran over by a Zomboni, it behaves the same except water plants cannot be placed and bobsleds can spawn.";
             string origin = "Rogue Garden";
@@ -227,7 +245,7 @@ double faster = 5;
                 //desk-a-tron
                     string description = "Dr. Zomboss's corporate desk, but on legs. It occupies only a small area on the map but can move around with its office adequate legs.";
                     string almanac = "After consultation, Dr. Edgar Zomboss finally decided to show who the Boss really is. He put on his coat, sat at his desk and told his managers to the rest.";
-                    string origin = "Rogue Garden";
+                    string origin = "Rogue Garden ; PvZ Heroes (Maniacal Laught)";
                     string summon = "Zomboss rings the bell on his shelf to call zombies in. Prefers spawning zombies from the ZCorp category and only spawns ZCorp variant basics.";
                     //phase_1
                         string attack_1 = "Costumer Service Please : Zomboss calls costumer service, summoning up to 5 ZCorp Costumer Sevice accros the garden.";
@@ -235,9 +253,10 @@ double faster = 5;
                         string attack_3 = "Jump : The Zombot jumps to a different place instead of walking, avoiding land attacks while in movement.";
                     //phase_2
                         string attack_3 = "Work Emergency : Causes a Rush Hour event and spawns a ZCorp Consultant in each lane.";
+                        string attack_4 = "Maniacle Laugh : A random ZCorp Middle Manager gains 15 hp.";
                     //phase_3
-                        string attack_4 = "Mass Firing : The Zombot rears back, charges up and then dashes down the garden, crushing plants and ZCorp basics it touches.";
-                        string attack_5 = "Promotion : Turns all non-armored ZCorp basics into ZCorp Middle Managers";
+                        string attack_5 = "Mass Firing : The Zombot rears back, charges up and then dashes down the garden, crushing plants and ZCorp basics it touches.";
+                        string attack_6 = "Promotion : Turns all non-armored ZCorp basics into ZCorp Middle Managers";
 
                 //multi-stage_masher
                     string description = "The Multi-Stage Masher is a huge concert stage that covers the whole road, leaving it vulnerable from every wave.";
@@ -271,16 +290,61 @@ double faster = 5;
                     //battle_cruiser_5000
 
             //heroe_bosses
-                string descitpion = "Heroe Bosses are incredibly powerful zombies with special abilites. They all have a superpower unique to themselves and share multiple miscelaneous powers inspired by their categories tricks. Zombies keep spawning naturally tough they have higher chances of spawning from a specific category. Upon reaching 75%, 50%, and 25% health, the Heroe Bosses create a 30-50 armor shield on themselves and activate one of three superpowers they have. These superpowers can also be the same for multiple Heroe Bosses.";
+                string descitpion = "Heroe Bosses are incredibly powerful zombies with special abilites. They all have a signature superpower and six powers based on their original categories in PvZ Heroes and sometimes their attacks in Garden Warfare. Zombies keep spawning naturally tough they have higher chances of spawning from a specific category. Upon reaching 75%, 50%, and 25% health, the Heroe Bosses create a 30-50 armor shield on themselves and activate one of three superpowers they have.";
 
                 //the_smash
-                    //Sportive Zombies
+                    string descitpion = "";
+                    string almanac = "The Smash enjoys...SMASHING!";
+                    string origin = "PvZ Heroes";
+                    string zombies = "Zombies from the Sportive Category are more likely to spawn.";
+                    //attacks
+                        string sîgnature_super = "Slammin' Smackdown : Destroy a random plant with 4 damage or less.";
+                        string attack_1 = "Extinction Event : Deals 3 damage to a random plant. All copies of that plant take 2 damage.";
+                        string attack_2 = "Vitamin Z : Turns random basics into Arm Wrestler Zombies.";
+                        string attack_3 = "Locust Swarm : Puts a Locust Swarm in a random 3x3 area. It can be cleared by blover. All plants in the area take 0.5 damage per second.";
+                        string attack_4 = "Knockout : Stuns all plants with 1 or less damage in a lane.";
+                        string attack_5 = "Rolling Stones : Sends a large boulder down one of the lanes dealing 4 damage to all plants and zombies.";
+                        string attack_6 = "Going Viral : 4-8 zombies take loose 2 hp but becomes 'friendzied' - Gains +0.5aps when he kills a plant.";
+                    //shields
+                        string super_a = "Heroic Health : Heals himself for 12 hp.";
+                        string super_b = "Possessed : 4-8 random zombies gain 4 armor if they already have any and becomes 'frienzied' - Gains +0.5aps when he kills a plant.";
+                        string super_c = "Galvanise : 4-8 random zombies gain 10 hp and 2 dmg.";
 
                 //rustbolt
-                    //Construction Zombies
+                    string descitpion = "";
+                    string almanac = "He enjoys keeping his bolts tight and his screws loose.";
+                    string origin = "PvZ Heroes";
+                    string zombies = "Zombies from the Construction category are more likely to spawn.";
+                    //attacks
+                        string signature_super = "Shrink Ray : Shrinks a random plant. Halfing all its stats.";
+                        string attack_1 = "Going Viral : 4-8 zombies take loose 2 hp but becomes 'friendzied' - Gains +0.5aps when he kills a plant.";
+                        string attack_2 = "Escape Through Time : Replaces the lowest hp zombie with a random zombie from the Museum category.";
+                        string attack_3 = "Terrify : Switches the places of 8 plants in a random 2x7 area.";
+                        string attack_4 = "Cryo-brain : Increases the CR pool by 1 until the end of the boss battle.";
+                        string attack_5 = "Triplication : Replaces a wave with just three zombies, an Imp, a Zombie and a Gargantuar.";
+                        string attack_6 = "Hail-a-copter : Spawns 2 Copter Comandimps.";
+                    //shields
+                        string super_a = "Heroic Health : Heals himself for 12 hp.";
+                        string super_b = "Cut Down to Size : Temporarily stuns the highest damage plant in the garden.";
+                        string super_c = "Rock Wall : Creates a 1x3 line of Tombstones in front of the highest CR zombie in the garden.";
 
                 //professor_brainstorm
-                    //Scientific Zombies
+                    string descitpion = "";
+                    string almanac = "His countless years of research revealed that E=MCraaazy!";
+                    string origin = "PvZ Heroes";
+                    string zombies = "Zombies from the Scientific category are more likely to spawn.";
+                    //attacks
+                        string signature_super = "Eureka : Spawns three random zombies.";
+                        string attack_1 = "";
+                        string attack_2 = "";
+                        string attack_3 = "";
+                        string attack_4 = "";
+                        string attack_5 = "";
+                        string attack_6 = "";
+                    //shields
+                        string super_a = "Summoning : Spawns a random 5 CR zombie";
+                        string super_b = "Telepathy : Instantly does two attacks.";
+                        string super_c = "Dance Off : Spawns 2 Backup Dancers in each lane.";
                 
                 //z-mech
                     //Mechanized Zombies
@@ -289,12 +353,58 @@ double faster = 5;
                     //Fantasy Roleplaying Club
 
                 //impfinity
+                    string descitpion = "";
+                    string almanac = "He believes good things come in small packages. And in threes.";
+                    string origin = "PvZ Heroes";
+                    string zombies = "Imps are more likely to spawn.";
+                    //attacks
+                        string signature_super = "Triple Treath : Spawns three Impfinity Clones in the garden.";
+                        string attack_1 = "Cakesplosion : Spawns a Cake Bomb Imp on a random tile.";
+                        string attack_2 = "Final Mission : Sacrifices a 6 CR or more zombie to shoot a rocket into the roof, dealing heavy damage in a plus shaped area.";
+                        string attack_3 = "The Chickening : Triggers a Chicken Run ambush.";
+                        string attack_4 = "Smoke Bomb : Spawns a smoke bomb on a tile and teleports all zombies on it 3 tiles forwards.";
+                        string attack_5 = "Barrel of Barrels : Spawns a Supply Barrel Roller and Waste Barrel Imp.";
+                        string attack_6 = "Frosty Mustache : Freezes a random plant and places an Impostor on that tile.";
+                    //shields
+                        string super_a = "In-Crypted : Replaces 2 zombies with Engraved Gravestones and 1 imp with an Impstone.";
+                        string super_b = "Brute Strenght : 4-8 zombies gain 5 damage.";
+                        string super_c = "Super Stench : Creates 2 Waste Barrel Imps and 5 Smelly Zombies spread across the seven lanes.";
 
                 //electric_boogaloo
+                    string descitpion = "";
+                    string almanac = "They say that disco is dead, but he's down with the dead.";
+                    string origin = "PvZ Heroes";
+                    string zombies = "(Cosmic) Disco Zombies and instrument-playing zombies are more likely to spawn.";
+                    //attacks
+                        string signature_super = "Stayin' Alive : Deals 3 damage to a plant and heals himself for 3 hp.";
+                        string attack_1 = "Cakesplosion : Spawns a Cake Bomb Imp on a random tile.";
+                        string attack_2 = "Final Mission : Sacrifices a 6 CR or more zombie to shoot a rocket into the roof, dealing heavy damage in a plus shaped area.";
+                        string attack_3 = "Sugary Treat : Spawns a Trick or Treater Zombie.";
+                        string attack_4 = "Vitamin Z : Turns random basics into Arm Wrestler Zombies.";
+                        string attack_5 = "Secret Agent : Kills a zombie that has an elite version and spawns its elite version on the next wave.";
+                        string attack_6 = "B-Flat : Drops a piano in a random tile, crushing the plant there but being blocked by Umbrella Leaf and doesn't affect Spikeweed and Spikerock.";
+                    //shields
+                        string super_a = "Dance Off : Spawns 2 Backup Dancers in each lane.";
+                        string super_b = "Evaporate : Kills the 2 lowest hp wall plants in the garden. Doens't work if they are on water.";
+                        string super_c = "Electrobolt : Shoots down a lighting strike that deals 6 damage to a plant. If it kills it, creates a crater there.";
 
                 //brain_freeze
-
-                //gw's_football_zombie
+                    string descitpion = "";
+                    string almanac = "Loves ice cream, snowstorms, and brains...not necessarily in that order.";
+                    string origin = "PvZ Heroes";
+                    string zombies = "Yetis are more likely to spawn.";
+                    //attacks
+                        string signature_super = "Frozen Tundra : Adds two levels of frost to the front-most plant of every lane.";
+                        string attack_1 = "Extinction Event : Deals 3 damage to a random plant. All copies of that plant take 2 damage.";
+                        string attack_2 = "Nibble : A plant gets stuned temporarily. Heals the boss for 1 hp.";
+                        string attack_3 = "Locust Swarm : Puts a Locust Swarm in a random 3x3 area. It can be cleared by blover. All plants in the area take 0.5 damage per second.";
+                        string attack_4 = "Frosty Mustache : Freezes a random plant and places an Impostor on that tile.";
+                        string attack_5 = "Barrel of Barrels : Spawns a Supply Barrel Roller and Waste Barrel Imp.";
+                        string attack_6 = "Backyard Bouncy : Launches 2 zombies into the roof.";
+                    //shields
+                        string super_a = "Dolphinado : Triggers a Sandstorm ambush that, if in the backyard, brings Doplhin Rider Zombies to the pool lanes.";
+                        string super_b = "Acid Rain : Gives all plants in a 5x5 area -5 hp and -0.5 damage.";
+                        string super_c = "Galvanise : 4-8 random zombies gain 10 hp and 2 dmg.";
 
                 //water-based
                     //neptuna
@@ -303,6 +413,24 @@ double faster = 5;
                     //huge_giganticus
 
                     //super_brainz
+                        string descitpion = "";
+                        string almanac = "His most heroic quality is his hairstyle.";
+                        string origin = "PvZ GW ; PvZ Heroes";
+                        string zombies = "Roof Climber Zombies, Chimney Sweep Zombies and Foot Soldier Zombies are more likely to spawn.";
+                        //attacks
+                            string signature_super = "Carried Away : Rushes through one of the lanes of the garden. Pushing all zombies forwards 1 tile and launching up to 4 to the roof.";
+                            string attack_1 = "Super Ultra Ball : Shoots a high damage projectile towards a random tile of the garden.";
+                            string attack_2 = "Bad Moon Rising : Only works during nightime. Triggers a Haunting Moon (ignores moon cycle).";
+                            string attack_3 = "Lurch for Lunch : 4-8 random zombies get +1 aps.";
+                            string attack_4 = "Smoke Bomb : Spawns a smoke bomb on a tile and teleports all zombies on it 3 tiles forwards.";
+                            string attack_5 = "Backyard Bouncy : Launches 2 zombies into the roof.";
+                            string attack_6 = "Hail-a-copter : Spawns 2 Copter Comandimps.";
+                        //shields
+                            string super_a = "Telepathy : Instantly does two attacks.";
+                            string super_b = "Cut Down to Size : Temporarily stuns the highest damage plant in the garden.";
+                            string super_c = "Super Stench : Creates 2 Waste Barrel Imps and 5 Smelly Zombies spread across the seven lanes.";
+
+            //gw's_football_zombie
 
         //eminent_domain
             string description = "A Construction Cone Zombie spawns in a random lane. If there are no empty tiles in that lane, remove the front-most plant and don't allow that tile to be placed on until the CCZ reaches it. It then stops zombies spawning naturally in that lane and instead spawns every construction zombie in the following order each wave: a Digger Zombie, an Excavator Zombie, a Supply Barrel Roller Zombie, a Ladder Zombie, a Paint Bucket Zombie, an Electrician Zombie, a Kitchen Sink Zombie, a Waste Barrel Imp, a Landscaper Zombie, a Gardener Zombie. Zombies can then naturally spawn in that lane once again.";

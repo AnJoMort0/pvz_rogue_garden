@@ -1616,6 +1616,30 @@
             string almanac = "'Stand here and guard this gate with your unlife,' she was told. And that's what she's been doing ever since.";
             string origin = "PvZ Heroes (Wormhole Gatekeeper)";
 
+        //impfinity_clone
+            string description = "A small copy of Impfinity, sent to ruin your day.";
+            double hp = 7;
+            double armour = 0;
+            //int cr = n/a;
+            double speed = fast;
+            double dmg = 0.5;
+            double aps = 3;
+            string specials = "Can spawn in the pool. Attacks from 2 tiles away.";
+            string almanac = "An IMPerfect copy, but it'll do.";
+            string origin = "PvZ 2";
+
+        //variant_exploding_imp:cake_bomb_imp
+            string despcription = "Sacrifices himself to break your walls.";
+            double hp = 5;
+            double armour = 0;
+            int cr = 3;
+            double speed = fast;
+            double dmg = 0.5;
+            double aps = 3;
+            string special = "Once he reaches a plant, he deals heavy damage to it and hald damage to the plants around it and dies.";
+            string almanac = "4 eggs. 2 cups flour. 10 sticks TNT.";
+            string origin = "PvZ Heroes and GW";
+
         //dancing_zombies: only spawn in the music event, each event is dedicated to a single zombie.
             
             //jack-in-the-box_zombie

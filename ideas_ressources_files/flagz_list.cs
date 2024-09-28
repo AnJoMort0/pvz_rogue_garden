@@ -87,7 +87,7 @@
     string almanac = "ZCorp developed its flag logo in-house and is very proud of it.";
     string origin = "PvZ 2";
 
-//city_planner_zombie
+//city_planner_flag_zombie
     string event_name = "Eminent Domain";
     string description = "He likes coming to the site before the workers.";
     string appearance = "Wears a hard hat, has a pencil through his head, a jacket and is holding up a blue-print attached to a ruler.";
@@ -208,7 +208,7 @@
     double aps = 2;
     string special = "Flies at roof height. Balloon can't be popped.";
     string almanac = "Flying makes the Balloon Flag Zombie a lot more visible, so other zombies know where to follow him.";
-    string origin = "PvZ 1";
+    string origin = "PvZ 1 ; PvZ 2 (Birthdayz Flag Zombie)";
 
 //pogo_flag_zombie
     string event_name = "Pogo Party";

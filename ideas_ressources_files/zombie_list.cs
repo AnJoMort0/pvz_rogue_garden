@@ -1503,7 +1503,7 @@
             string origin = "PvZ Heroes";
 
                 //zombie_goat
-                    string special = "When another Zombie Goat within a 1x3 tile area reaches half-hp, gains +1 dmg and +2 hp.";
+                    string special = "When another Zombie Goat within a 3x1 tile area reaches half-hp, gains +1 dmg and +2 hp.";
 
         //royal_horn_imp
             string special = "Plays an instrument. Once it reaches the garden, stops and blows his horn, summoning a Zombie King on his tile but being crushed in the process.";
@@ -1629,10 +1629,10 @@
             string origin = "PvZ 2";
 
         //variant_exploding_imp:cake_bomb_imp
-            string despcription = "Sacrifices himself to break your walls.";
+            string despcription = "He's come to celebrate with cake and dynamite.";
             double hp = 5;
             double armour = 0;
-            int cr = 3;
+            //int cr = n/a;
             double speed = fast;
             double dmg = 0.5;
             double aps = 3;

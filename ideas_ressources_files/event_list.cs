@@ -298,13 +298,13 @@ double faster = 5;
                     string origin = "PvZ Heroes";
                     string zombies = "Zombies from the Sportive Category are more likely to spawn.";
                     //attacks
-                        string sîgnature_super = "Slammin' Smackdown : Destroy a random plant with 4 damage or less.";
+                        string signature_super = "Slammin' Smackdown : Destroy a random plant with 4 damage or less.";
                         string attack_1 = "Extinction Event : Deals 3 damage to a random plant. All copies of that plant take 2 damage.";
                         string attack_2 = "Vitamin Z : Turns random basics into Arm Wrestler Zombies.";
                         string attack_3 = "Locust Swarm : Puts a Locust Swarm in a random 3x3 area. It can be cleared by blover. All plants in the area take 0.5 damage per second.";
                         string attack_4 = "Knockout : Stuns all plants with 1 or less damage in a lane.";
                         string attack_5 = "Rolling Stones : Sends a large boulder down one of the lanes dealing 4 damage to all plants and zombies.";
-                        string attack_6 = "Going Viral : 4-8 zombies take loose 2 hp but becomes 'friendzied' - Gains +0.5aps when he kills a plant.";
+                        string attack_6 = "Going Viral : 2-4 zombies take loose 2 hp but becomes 'friendzied' - Gains +0.5aps when he kills a plant.";
                     //shields
                         string super_a = "Heroic Health : Heals himself for 12 hp.";
                         string super_b = "Possessed : 4-8 random zombies gain 4 armor if they already have any and becomes 'frienzied' - Gains +0.5aps when he kills a plant.";
@@ -317,7 +317,7 @@ double faster = 5;
                     string zombies = "Zombies from the Construction category are more likely to spawn.";
                     //attacks
                         string signature_super = "Shrink Ray : Shrinks a random plant. Halfing all its stats.";
-                        string attack_1 = "Going Viral : 4-8 zombies take loose 2 hp but becomes 'friendzied' - Gains +0.5aps when he kills a plant.";
+                        string attack_1 = "Going Viral : 2-4 zombies take loose 2 hp but becomes 'friendzied' - Gains +0.5aps when he kills a plant.";
                         string attack_2 = "Escape Through Time : Replaces the lowest hp zombie with a random zombie from the Museum category.";
                         string attack_3 = "Terrify : Switches the places of 8 plants in a random 2x7 area.";
                         string attack_4 = "Cryo-brain : Increases the CR pool by 1 until the end of the boss battle.";
@@ -418,7 +418,7 @@ double faster = 5;
                         string origin = "PvZ GW ; PvZ Heroes";
                         string zombies = "Roof Climber Zombies, Chimney Sweep Zombies and Foot Soldier Zombies are more likely to spawn.";
                         //attacks
-                            string signature_super = "Carried Away : Rushes through one of the lanes of the garden. Pushing all zombies forwards 1 tile and launching up to 4 to the roof.";
+                            string signature_super = "Carried Away : Rushes through one of the lanes of the garden. Pushing all zombies forwards 1 tile and launching up to 2 to the roof.";
                             string attack_1 = "Super Ultra Ball : Shoots a high damage projectile towards a random tile of the garden.";
                             string attack_2 = "Bad Moon Rising : Only works during nightime. Triggers a Haunting Moon (ignores moon cycle).";
                             string attack_3 = "Lurch for Lunch : 4-8 random zombies get +1 aps.";

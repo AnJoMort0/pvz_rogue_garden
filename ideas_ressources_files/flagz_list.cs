@@ -6,7 +6,7 @@
 //Whenever a Flag Zombie dies, he drops his flag (or whatever he's holding) and it flies to the bottom of the screen as a little pop-up icon to make sure players don't miss the flag zombies amidst the masses.
 
         //flag_zombie_template
-            string event_name = "Everyone Explode Now";                                             //name of the event announced by the flag, add :____ if there are precisions like day, night, frontyard, backyard, etc...
+            string event_name = "Everyone Explode Now";                                             //name of the event announced by the flag, add : ____ if there are precisions like day, night, frontyard, backyard, etc...
             string description = "A flag zombie.";                                                  //basic description of the zombie and reference to the fact he is leading a wave or event (you can be just discreet as you can be very obvious about what it is)
             string appearance = "Has a tie and a flag.";                                            //detailed description of the appearance. If based on an existing design, mentioning it will suffice
             double hp = 10;                                                                         //hit points (hp) is counted in peas
@@ -60,7 +60,7 @@
     double aps = 3;
     string special = "Bucket can be removed by Magnetshroom.";
     string almanac = "Buckethead Rally Zombie splurged on the all-leather flag because, heck, he's worth it.";
-    string origin = "PvZ 2 (New World and Far Future Rally Zombies) ; PvZ GW2 (Flag Zombie)";
+    string origin = "PvZ 2 (New World Rally Zombies) ; PvZ GW2 (Flag Zombie)";
 
 //drum_major
     string event_name = "Zombie Concert";

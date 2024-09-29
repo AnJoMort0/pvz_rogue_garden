@@ -7,7 +7,6 @@ Ducky Tube	: dt
 Balloon		: bl
 ZCorp		: zc
 
-Basic		: ba
 Conehead	: ch
 Screendoor	: sd
 Buckethead	: bh

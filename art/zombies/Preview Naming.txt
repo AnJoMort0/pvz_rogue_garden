@@ -1,0 +1,16 @@
+Basics 		: b
+Flagz		: f
+
+Browncoat	: bc
+Brownparka	: bp
+Ducky Tube	: dt
+Balloon		: bl
+ZCorp		: zc
+
+Basic		: ba
+Conehead	: ch
+Screendoor	: sd
+Buckethead	: bh
+Brickhead	: kh
+
+Degradation	: dmg

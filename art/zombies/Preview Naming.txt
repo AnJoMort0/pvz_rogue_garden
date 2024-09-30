@@ -1,5 +1,6 @@
 Basics 		: b
 Flagz		: f
+ZCorp		: z
 
 Browncoat	: bc
 Brownparka	: bp

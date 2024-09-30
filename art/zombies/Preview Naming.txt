@@ -1,6 +1,7 @@
 Basics 		: b
 Flagz		: f
 ZCorp		: z
+Cosmic		: c
 
 Browncoat	: bc
 Brownparka	: bp

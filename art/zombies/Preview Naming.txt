@@ -1,3 +1,11 @@
+1200x1200 Preview.clip is used to export 1200x1200 images of the Zombies for the previews (as to have them the same size as the others) if the original clip file had to be upscaled to fit the whole zombie (i.e.: Buckethead Rally Zombie because of the bigger flag)
+Preview images will also lickely be used for the almanac in the final game so having all the preview images in the same size makes sense.
+
+All names follow a naming convention of based on their category and Always end with their version.
+Basics have a extra namings explained down here (i.e.: Ducky Tube Brickhead (basic category) >> b_dt_kh_v#).
+Other categories have their category letter followed by a name that is up 6 letters long (i.e.: ZCorp Monitor Head (zcorp category) >> z_mohead_v#).
+Previews for various objects' degradation is the name of the zombie followed by "dmg" for damage (i.e.: Newspaper Zombie's Newspaper (miscellaneous category) >> m_newspr_dmg_v#).
+
 Basics 		: b
 Flagz		: f
 Cosmic		: c

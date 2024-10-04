@@ -1435,14 +1435,14 @@
         //zcorp_chair_racer
 
         //zcorp_customer_service
-            string description = "When he spawns, ZCorp Customer Service creates one ZCorp basic on every lane.";
+            string description = "Once he reaches the garden, ZCorp Customer Service creates one ZCorp basic on every lane.";
             double hp = 10;
             double armour = 0;
             int cr = 8;
             double speed = normal;
             double dmg = 1;
             double aps = 2;
-            string special = "Creates one random ZCorp variant basic (only up to screendoor) or imp in every lane.";
+            string special = "Creates one random ZCorp variant basic (except Brickhead) or imp in every lane.";
             string almanac = "Hang on - he's got to take this.";
             string origin = "PvZ Heroes (Cell Phone Zombie)";
 

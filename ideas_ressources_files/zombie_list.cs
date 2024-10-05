@@ -528,7 +528,7 @@
             double speed = normal;
             double dmg = 1;
             double aps = 2;
-            string special = "Gets +1 hp for every other zombie on screen.";
+            string special = "Gets +1 hp for every other zombie on his and neighboughring lanes.";
             string almanac = "His archenemy is the Wall-Flower. Oh yeah, he likes to party.";
             string origin = "PvZ Heroes";
 

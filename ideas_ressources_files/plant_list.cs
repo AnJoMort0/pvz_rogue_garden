@@ -145,6 +145,18 @@
         string  almanac         = "People wonder how I feel about getting constantly chewed on by zombies, What they don't realize is that with my limited senses all I can feel is a kind of tingling, like a relaxing back rub.";
         string  origin          = "PvZ 1";
 
+        //tall_wall-nut
+            string  despcription    = "Tall-nuts are heavy-duty wall plants that can't be vaulted or jumped over.";
+            double  cost            = 100;
+            int     rech_time       = ;
+            double  hp              = 160;
+            string  projectile      = "";
+            int     ai              = ;
+            double  range           = ;
+            string  special         = "";
+            string  almanac         = "People wonder if there's a rivalry between Wall-nut and Tall-nut. Tall-nut laughs a rich baritone laugh. 'How could there be anything between us? We are brothers. If you knew what Wall-nut has done for me...' Tall-nut's voice trails off and he smiles knowingly.";
+            string  origin          = "PvZ 1";
+
 
 
 

@@ -157,6 +157,18 @@
             string  almanac         = "People wonder if there's a rivalry between Wall-nut and Tall-nut. Tall-nut laughs a rich baritone laugh. 'How could there be anything between us? We are brothers. If you knew what Wall-nut has done for me...' Tall-nut's voice trails off and he smiles knowingly.";
             string  origin          = "PvZ 1";
 
+        //sweet_potato
+            string  despcription    = "Sweet Potatoes attract zombies from other lanes when they are close by.";
+            double  cost            = 100;
+            int     rech_time       = ;
+            double  hp              = 80;
+            string  projectile      = "";
+            int     ai              = ;
+            double  range           = ;
+            string  special         = "";
+            string  almanac         = "Sweet Potato really is as sweet as she looks. Her favorite animal is the unicorn. Her favorite color is (and this is a direct quote) 'all the colors in the rainbow.' When she writes the letter 'i', she draws a little heart where the dot belongs. Frankly, if it were anyone else, this amount of syrup would be sickening. But on her, well, it just seems right.";
+            string  origin          = "PvZ 2";
+
 
 
 

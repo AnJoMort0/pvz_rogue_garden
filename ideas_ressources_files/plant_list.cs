@@ -120,6 +120,18 @@
             string  almanac         = "Threepeater likes reading, backgammon and long periods of immobility in the park. Threepeater enjoys going to shows, particularly modern jazz. 'I'm just looking for that special someone,' he says. Threepeater's favorite number is 5";
             string  origin          = "PvZ 1";
 
+        //gatling_pea
+            string  despcription    = "Gatling Peas shoot four peas at a time.";
+            double  cost            = 250;
+            int     rech_time       = ;
+            double  hp              = 6;
+            string  projectile      = "pea";
+            int     ai              = burst(4, 1.5);
+            double  range           = line
+            string  special         = "";
+            string  almanac         = "Gatling Pea's parents were concerned when he announced his intention to join the military. "But honey, it's so dangerous!" they said in unison. Gatling Pea refused to budge. "Life is dangerous," he replied, eyes glinting with steely conviction.";
+            string  origin          = "PvZ 1";
+
 
 
 

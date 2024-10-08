@@ -114,7 +114,7 @@
             string  projectile      = "pea";
             int     ai              = 1.5;
             double  range           = line;
-            string  special         = "Shoots 3 peas, one in its line; and one in each adjacent line;";
+            string  special         = "Shoots 3 peas, one in its line; and one in each adjacent line";
             string  almanac         = "Threepeater likes reading, backgammon and long periods of immobility in the park. Threepeater enjoys going to shows, particularly modern jazz. 'I'm just looking for that special someone,' he says. Threepeater's favorite number is 5";
             string  origin          = "PvZ 1";
 

@@ -10,7 +10,6 @@
     double  pierce      = 1;
     double  lifespan    = inf;
 
-
 //normal_sun
     int     dmg         = 25;
     double  pierce      = 0;

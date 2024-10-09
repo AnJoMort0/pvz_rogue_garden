@@ -39,12 +39,12 @@ double faster = 5;
     double  range       = line;                                     
     string  special     = "";                      
     string  almanac     = "";
-    string  origin      = "";  
+    string  origin      = "Rogue Garden";  
 
 //sunflower_zombie
     string  phead       = "Sunflower";                                
     string  zbody       = "Flag Zombie";                                
-    string  description = "She might look nice but remember : zombie sun-production just means more zombies.";                      
+    string  description = "She might look nice but remember: zombie sun-production just means more zombies.";                      
     double  hp          = 6;                                           
     double  armour      = 0;                                       
     //int     cr        = n/a;                                               
@@ -61,7 +61,7 @@ double faster = 5;
 //twin_sunflower_zombie
     string  phead       = "Twin Sunflower";                                
     string  zbody       = "Browncoat Basic";                                
-    string  description = "";                      
+    string  description = "Twin Sunflower has come to heal the Zombotany Army.";                      
     double  hp          = 6;                                           
     double  armour      = 0;                                       
     int     cr          = 6;                                               
@@ -72,11 +72,25 @@ double faster = 5;
     int     ai          = ;                 
     double  range       = ;                                     
     string  special     = "Every few seconds, heals all zombies in an 'plus' formation centered on herself for 2hp.";                      
-    string  almanac     = "Okay, now you must really be wondering what justifies the healing from sunflowers.s Well, Garden Warfare does.";
-    string  origin      = ""; 
+    string  almanac     = "Okay, now you must really be wondering what justifies the healing from sunflowers. Well, Garden Warfare does.";
+    string  origin      = "Rogue Garden"; 
 
 //metal_petal_zombie
-    
+    string  phead       = "Metal Petal";                                
+    string  zbody       = "Browncoat Basic";                               
+    string  description = "Though her healing might not be the best, be warry of her health.";                      
+    double  hp          = 80;                                           
+    double  armour      = 0;                                       
+    int     cr          = 7;                                               
+    double  speed       = slow;                                    
+    double  dmg         = 1;                                           
+    double  aps         = 2;                                              
+    string  projectile  = ""; 
+    int     ai          = ;                 
+    double  range       = ;                                     
+    string  special     = "Heals zombies that pass by her by 2hp.";                      
+    string  almanac     = "Unlike Medic Zombie, Metal Petal actually has a medical degree.";
+    string  origin      = "Rogue Garden";   
 
 //peashooter_zombie                                                                             
     string  phead       = "Peashooter";                                
@@ -108,7 +122,7 @@ double faster = 5;
     int     ai          = burst(n, 1.5);                 
     double  range       = line;                                     
     string  special     = "After every 2 rows grows an extra head (n + 1) up to 5.";                      
-    string  almanac     = "";
+    string  almanac     = "The Mad Chemist Zombie is at fault for the late arrival of most of Peapod Zombie's heads. 'Who would've known plant food wouldn't have worked on a zombie hybrid?', he said.";
     string  origin      = "Rogue Garden";
 
 //skyshooter_zombie
@@ -125,7 +139,7 @@ double faster = 5;
     int     ai          = 1.5;                 
     double  range       = line;                                     
     string  special     = "Flies towards your roof.";                      
-    string  almanac     = "";
+    string  almanac     = "Though he still has a rotor leaf, Skyshooter Zombie still can't fly without his balloon, he tied the rope too hard and now he can't unknot it.";
     string  origin      = "Rogue Garden";  
 
 //repeater_zombie
@@ -158,13 +172,13 @@ double faster = 5;
     int     ai          = 1.5;                 
     double  range       = line;                                     
     string  special     = "Shoots 3 peas, one in its line; and one in each adjacent line";                      
-    string  almanac     = "Threepeater Zombie's heads are much less in synch than their plant counterparts. No wonder they've never eaten a full brain.";
+    string  almanac     = "Threepeater Zombie's heads are much less in synch than their plant counterparts. No wonder they've never fully eaten brain.";
     string  origin      = "Rogue Garden"; 
 
 //gatling_pea_zombie    
     string  phead       = "Galting Pea";                                
     string  zbody       = "Foot Soldier Zombie";                                
-    string  description = "";                      
+    string  description = "Be warry: he's a fast attacker with tough armor.";                      
     double  hp          = 6;                                           
     double  armour      = 6;                                       
     int     cr          = 5;                                               
@@ -174,7 +188,7 @@ double faster = 5;
     string  projectile  = "pea"; 
     int     ai          = burst(4, 1.5);                 
     double  range       = line;                                                           
-    string  almanac     = "";
+    string  almanac     = "Even though he litteraly took it from a Gatling Pea, Galting Pea Zombie's helmet is actually useful.";
     string  origin      = "PvZ 1"; 
 
 //wallnut_zombie
@@ -194,25 +208,25 @@ double faster = 5;
     string  origin      = "PvZ 1"; 
 
 //tall-nut_zombie
-    string  phead       = "Tallnut";                                
+    string  phead       = "Tall-nut";                                
     string  zbody       = "Browncoat Basic";                                
-    string  description = "";                      
+    string  description = "Tall-nut Zombie's height is his biggest strenght.";                      
     double  hp          = 160;                                           
     double  armour      = 0;                                       
-    int     cr          = 14;                                               
+    int     cr          = 13;                                               
     double  speed       = slow;                                    
     double  dmg         = 1;                                           
     double  aps         = 2;                                              
     string  projectile  = ""; 
     int     ai          = ;                 
     double  range       = ;                                                          
-    string  almanac     = "";
+    string  almanac     = "Tall-nut Zombie really likes being tall. It insures he gets the best view at concerts and flesh buffets.";
     string  origin      = "PvZ 1"; 
 
 //sweet_potato_zombie
     string  phead       = "Sweet Potato";                                
     string  zbody       = "Browncoat Zombie";                                
-    string  description = "";                      
+    string  description = "Sweet as a Sweet Potato, deadly as a zombie.";                      
     double  hp          = 80;                                           
     double  armour      = 0;                                       
     int     cr          = 7;                                               
@@ -223,5 +237,5 @@ double faster = 5;
     int     ai          = ;                 
     double  range       = ;                                     
     string  special     = "Moves zombies behind her from neighbouring lanes into her own.";                      
-    string  almanac     = "";
-    string  origin      = "Rogue Garden";                         
+    string  almanac     = "Sweet Potato Zombie really looked up to Brain Vendor Zombie before the fusion, then he became his biggest competitor. But Sweet Potato Zombie never stopped looking up to it.";
+    string  origin      = "Rogue Garden";                        

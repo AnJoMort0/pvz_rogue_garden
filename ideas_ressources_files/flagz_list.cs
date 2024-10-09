@@ -264,16 +264,16 @@ double faster = 5;
 
 //sunflower_zombie
     string  event_name  = "Zombotany : Day";
-    string  description = "He might look nice but remember : zombie sun-production just means more zombies.";                      
+    string  description = "She might look nice but remember: zombie sun-production just means more zombies.";                      
     double  hp          = 6;                                           
     double  armour      = 0;                                                                                     
-    double  speed       = normal;                                    
+    double  speed       = slow;                                    
     double  dmg         = 1;                                           
     double  aps         = 2;                                              
     string  projectile  = ""; 
     int     ai          = ;                 
     double  range       = ;                                     
-    string  special     = "Heals zombies that pass by him by 2hp.";                      
+    string  special     = "Heals zombies that pass by her by 2hp.";                      
     string  almanac     = "How does sun production translate to healing, you ask ? It doesn't : announcing Huge Waves does. The healing comes from the flag. It's a family heirloom.";
     string  origin      = "Rogue Garden";  
 

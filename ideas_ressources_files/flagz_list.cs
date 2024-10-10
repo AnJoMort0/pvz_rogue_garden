@@ -24,6 +24,19 @@ double normal = 3;
 double fast = 4;
 double faster = 5;
 
+//copy-paste
+    string  event_name  = "";
+    string  description = "";
+    string  appearance  = "";
+    double  hp          = 10;
+    double  armor       = 0;
+    int     cr          = ;
+    double  speed       = normal;
+    double  dmg         = 1;
+    double  aps         = 2;
+    string  almanac     = "";
+    string  origin      = "";
+
 
 //flag_zombie
     string event_name = "Huge Wave : Front Garden";

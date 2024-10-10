@@ -8,36 +8,36 @@ double faster = 5;
 
 //template_category
     //template_event
-        string description = "";
-        string origin = "";
+        string  description = "";
+        string  origin      = "";
 
     //template_zombot
-        string description = "";
-        string almanac = "";
-        string origin = "";
-        string summon = "";
+        string  description = "";
+        string  almanac     = "";
+        string  origin      = "";
+        string  summon      = "";
         //phase_1
-            string attack_1 = "";
+            string  attack_1    = "";
         //phase_2
         //phase_3
 
     //template_heroe_boss
-        string descitpion = "";
-        string almanac = "";
-        string origin = "";
-        string zombies = "";
+        string  descitpion  = "";
+        string  almanac     = "";
+        string  origin      = "";
+        string  zombies     = "";
         //attacks
-            string signature_super = "";
-            string attack_1 = "";
-            string attack_2 = "";
-            string attack_3 = "";
-            string attack_4 = "";
-            string attack_5 = "";
-            string attack_6 = "";
+            string  signature_super = "";
+            string  attack_1        = "";
+            string  attack_2        = "";
+            string  attack_3        = "";
+            string  attack_4        = "";
+            string  attack_5        = "";
+            string  attack_6        = "";
         //shields
-            string super_a = "";
-            string super_b = "";
-            string super_c = "";
+            string  super_a         = "";
+            string  super_b         = "";
+            string  super_c         = "";
 
 //shallow_water
         string description = "Shallow water that covers a grass tile in the lawn. Both land and water plants can be placed on it and both land and water zombies can traverse it. Moist Moss can prevent it from disappearing after the event that spawned it ends. If a full lane is covered with shallow water tiles, both land and water zombies can spawn in said lane. If ran over by a Zomboni, it behaves the same except water plants cannot be placed and bobsleds can spawn.";

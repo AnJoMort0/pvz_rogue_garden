@@ -39,6 +39,18 @@ double faster = 5;
 //                       > niche but strong ability/ mid-game challenge = 5-7 CR base
 //                       > strong ability / late-game challenge         = 8+  CR base
 
+    //copy-paste
+        string  description = "";
+        double  hp          = 10;
+        double  armor       = 0;
+        int     cr          = ;
+        double  speed       = normal;
+        double  dmg         = 1;
+        double  aps         = 2;
+        string  almanac     = "";
+        string  origin      = "";
+
+
 //basics
         
     //browncoat_zombie

@@ -1,9 +1,9 @@
 //See the reference for the dmg in here: https://plantsvszombies.fandom.com/wiki/Damage#Plants_vs._Zombies
 
 //Template:
-    int dmg = 1;                 //damage (dmg) is counted in peas
-    double pierce = 1;           //mesured in zombies, projectile pierce
-    double lifespan = inf;       //mesured in tiles or inf, projectile lifespan
+    int     dmg         = 1;    //damage (dmg) is counted in peas
+    double  pierce      = 1;    //mesured in zombies, projectile pierce
+    double  lifespan    = inf;  //mesured in tiles or inf, projectile lifespan
 
 //copy-paste
     int     dmg         = 1;

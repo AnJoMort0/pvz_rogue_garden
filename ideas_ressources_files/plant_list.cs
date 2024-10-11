@@ -3,16 +3,16 @@
 //See a reference to HP in here: https://plantsvszombies.fandom.com/wiki/Damage#Plants_vs._Zombies
 
     //template_plant
-        string despcription = "";   //basic description of the plant (if available, you can easily take it straight from its game of origin)
-        double cost = 25;           //sun cost of the plant. The game works on a 25 sun basis
-        int rech_time = ;           //mesured in seconds - time needed for the plant to be available again
-        double hp = 6;              //hit points (hp) are counted in peas. Yes, even the plants'. Note: A regular plant has 6 hp
-        string projectile = "pea";  //from the projectiles_list
-        int ai = 1;                 //mesured in seconds - ai stands for attack interval, aka time between each attack, aka how fast the plant attacks
-        double range = line;        //measured in tiles or 'line;' or 'garden', range of sight of the plant
-        string special = "";        //if relevant, add a precise description of the ability/ies (this won't show up in the actual almanac, it is instead used as guidance for coding), if not remove this line;.
-        string almanac = "";        //almanac entry, be it copied from one of the original games or entirely/partially new
-        string origin = "";         //game(s) or mod(s) of origin/main reference
+        string  despcription    = "";       //basic description of the plant (if available, you can easily take it straight from its game of origin)
+        double  cost            = 25;       //sun cost of the plant. The game works on a 25 sun basis
+        int     rech_time       = ;         //mesured in seconds - time needed for the plant to be available again
+        double  hp              = 6;        //hit points (hp) are counted in peas. Yes, even the plants'. Note: A regular plant has 6 hp
+        string  projectile      = "pea";    //from the projectiles_list
+        int     ai              = 1;        //mesured in seconds - ai stands for attack interval, aka time between each attack, aka how fast the plant attacks
+        double  range           = line;     //measured in tiles or 'line;' or 'garden', range of sight of the plant
+        string  special         = "";       //if relevant, add a precise description of the ability/ies (this won't show up in the actual almanac, it is instead used as guidance for coding), if not remove this line;.
+        string  almanac         = "";       //almanac entry, be it copied from one of the original games or entirely/partially new
+        string  origin          = "";       //game(s) or mod(s) of origin/main reference
 
     //copy_paste
         string  despcription    = "";

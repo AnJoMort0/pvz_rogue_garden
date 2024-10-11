@@ -18,11 +18,11 @@
     string  almanac     = "Let's double the plant's almanac entries !";
     string  origin      = "Rogue Garden";                                //game(s) or mod(s) of origin - Add the game of origin of the plant, taken from the list and the game of origin of the zombotany if taken from one.
 
-double slower = 1;
-double slow = 2;
-double normal = 3;
-double fast = 4;
-double faster = 5;
+double  slower   = 1;
+double  slow     = 2;
+double  normal   = 3;
+double  fast     = 4;
+double  faster   = 5;
     
 //copy-paste
     string  phead       = "";                                
@@ -213,7 +213,7 @@ double faster = 5;
     string  description = "Tall-nut Zombie's height is his biggest strenght.";                      
     double  hp          = 160;                                           
     double  armour      = 0;                                       
-    int     cr          = 13;                                               
+    int     cr          = 10;                                               
     double  speed       = slow;                                    
     double  dmg         = 1;                                           
     double  aps         = 2;                                              

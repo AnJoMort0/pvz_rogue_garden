@@ -1,8 +1,8 @@
-double slower = 1;
-double slow = 2;
-double normal = 3;
-double fast = 4;
-double faster = 5;
+double  slower   = 1;
+double  slow     = 2;
+double  normal   = 3;
+double  fast     = 4;
+double  faster   = 5;
 
 //This is the full list of events, which will have an almanac in the game. Things such as the day-night cycle, seasons, random events, ambushes and even bosses. There will be adjustements with play-testing and many of these will take a long to actually join the game. Any ideas are welcome as long as you follow the guidelines according to the comented template. You are welcome to propose changes and give feedback. Shallow water is a nice mechanic that is also included at the top of this list because we did not know where to put it.
 

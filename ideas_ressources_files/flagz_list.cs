@@ -6,23 +6,23 @@
 //Whenever a Flag Zombie dies, he drops his flag (or whatever he's holding) and it flies to the bottom of the screen as a little pop-up icon to make sure players don't miss the flag zombies amidst the masses.
 
 //flag_zombie_template
-    string event_name = "Everyone Explode Now";                                             //name of the event announced by the flag, add : ____ if there are precisions like day, night, frontyard, backyard, etc...
-    string description = "A flag zombie.";                                                  //basic description of the zombie and reference to the fact he is leading a wave or event (you can be just discreet as you can be very obvious about what it is)
-    string appearance = "Has a tie and a flag.";                                            //detailed description of the appearance. If based on an existing design, mentioning it will suffice
-    double hp = 10;                                                                         //hit points (hp) is counted in peas
-    double armour = 0;                                                                      //if relevant, add the hp of potential armour (i.e. Cone), if not "double armour = 0"
-    double speed = fast;                                                                    //speeds written after template
-    double dmg = 1;
-    double aps = 2;
-    string special = "Suddenly combusts, but only if it feels like it.";                    //if relevant, add a precise description of the ability/ies (this won't   show up in the actual almanac, it is instead used for coding), if not remove this line. This is also where you include Magnet-shroom weakness. Note : by default, zombies can't spawn on water or on air at all, so add precisions such as "Can spawn" or "only spawns in water" for the pool and "Flies towards the roof" (Flying zombies fly at "roof height", so if a peashooter is placed on the roof it'll be able to shoot the flying zombies) when necessary.
-    string almanac = "Because why wouldn't we add 5000 more almanac entries to the game ?"; //almanac entry, be it copied from one of the original games or entirely/partially new
-    string origin = "Rogue Garden";                                                         //game(s) or mod(s) of origin - add the original name of the zombie if the name changes for this (i.e. Monitor Head: string origin = "PvZ Battle for Neighbourville (TV Head)") as well as the origing of its gimmicks (i.e. Mad Chemist Zombie: string origin = "PvZ Heroes ; PvZ 2 (Dark Ages Potions)")
+    string  event_name  = "Everyone Explode Now";                                                   //name of the event announced by the flag, add : ____ if there are precisions like day, night, frontyard, backyard, etc...
+    string  description = "A flag zombie.";                                                         //basic description of the zombie and reference to the fact he is leading a wave or event (you can be just discreet as you can be very obvious about what it is)
+    string  appearance  = "Has a tie and a flag.";                                                  //detailed description of the appearance. If based on an existing design, mentioning it will suffice
+    double  hp          = 10;                                                                       //hit points (hp) is counted in peas
+    double  armour      = 0;                                                                        //if relevant, add the hp of potential armour (i.e. Cone), if not "double armour = 0"
+    double  speed       = fast;                                                                     //speeds written after template
+    double  dmg         = 1;                                                                        //damage (dmg) is counted in peas - yes, even the zombies'.
+    double  aps         = 2;                                                                        //aps stands for attacks per second, aka how fast the zombie attacks
+    string  special     = "Suddenly combusts, but only if it feels like it.";                       //if relevant, add a precise description of the ability/ies (this won't   show up in the actual almanac, it is instead used for coding), if not remove this line. This is also where you include Magnet-shroom weakness. Note : by default, zombies can't spawn on water or on air at all, so add precisions such as "Can spawn" or "only spawns in water" for the pool and "Flies towards the roof" (Flying zombies fly at "roof height", so if a peashooter is placed on the roof it'll be able to shoot the flying zombies) when necessary.
+    string  almanac     = "Because why wouldn't we add 5000 more almanac entries to the game ?";    //almanac entry, be it copied from one of the original games or entirely/partially new
+    string  origin      = "Rogue Garden";                                                           //game(s) or mod(s) of origin - add the original name of the zombie if the name changes for this (i.e. Monitor Head: string origin = "PvZ Battle for Neighbourville (TV Head)") as well as the origing of its gimmicks (i.e. Mad Chemist Zombie: string origin = "PvZ Heroes ; PvZ 2 (Dark Ages Potions)")
 
-double slower = 1;
-double slow = 2;
-double normal = 3;
-double fast = 4;
-double faster = 5;
+double  slower   = 1;
+double  slow     = 2;
+double  normal   = 3;
+double  fast     = 4;
+double  faster   = 5;
 
 //copy-paste
     string  event_name  = "";

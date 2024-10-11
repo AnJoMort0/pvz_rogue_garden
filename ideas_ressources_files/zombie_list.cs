@@ -2,35 +2,35 @@
 //This is the full list of zombies, which will have an almanac in the game. There will be adjustements with play-testing and many of these will take a long to actually join the game. Any ideas are welcome as long as you follow the guidelines according to the comented template. You are welcome to propose changes and give feedback.
 
 //template_category
-    //template_zombie                                //think of including the words "Imp", "Zombie" or "Gargantuar" to the zombie's name if it doesn't already include a reference to its zombie status (i.e. Abracadaver, ZCorp). You can also include "variant_X:---" for special variants of zombies, and "elite_X:---" for elite versions of the zombies for ultra late-game.
-        string description = "blablabla";            //basic description of the zombie and its abilities (if available, you can easily take it straight from its game of origin)
-        double hp = 10;                              //hit points (hp) is counted in peas
-        double armour = 0;                           //if relevant, add the hp of potential armour (i.e. Cone), if not "double armour = 0"
-        int cr = 1;                                  //CR stands for Challenge Rating, being the amount of "points" needed to spawn (Higher CR means the zombie spawns later/less often) and therefore should be based on how threatening the zombie is. Check the guide under this template for how to calculate it.
-        double speed = normal;                       //speeds written after template
-        double dmg = 1;                              //damage (dmg) is counted in peas - yes, even the zombies'. FYI, the average non-wall plant will have 6 HP.
-        double aps = 2;                              //aps stands for attacks per second, aka how fast the zombie attacks
-        string special = "";                         //if relevant, add a precise description of the ability/ies (this won't   show up in the actual almanac, it is instead used for coding), if not remove this line. This is also where you include Magnet-shroom, Umbrella Leaf and other plant based weaknesses. Note : by default, zombies can't spawn on water or on air at all, so add precisions such as "Can spawn" or "only spawns in water" for the pool and "Flies towards the roof" (Flying zombies fly at "roof height", so if a peashooter is placed on the roof it'll be able to shoot the flying zombies) when necessary.
-        string almanac = "ladders on sale";          //almanac entry, be it copied from one of the original games or entirely/partially new
-        string origin = "Rogue Garden";              //game(s) or mod(s) of origin - add the original name of the zombie if the name changes for this (i.e. Monitor Head: string origin = "PvZ Battle for Neighbourville (TV Head)") as well as the origing of its gimmicks (i.e. Mad Chemist Zombie: string origin = "PvZ Heroes ; PvZ 2 (Dark Ages Potions)")
+    //template_zombie                               //think of including the words "Imp", "Zombie" or "Gargantuar" to the zombie's name if it doesn't already include a reference to its zombie status (i.e. Abracadaver, ZCorp). You can also include "variant_X:---" for special variants of zombies, and "elite_X:---" for elite versions of the zombies for ultra late-game.
+        string  description = "blablabla";          //basic description of the zombie and its abilities (if available, you can easily take it straight from its game of origin)
+        double  hp          = 10;                   //hit points (hp) is counted in peas
+        double  armour      = 0;                    //if relevant, add the hp of potential armour (i.e. Cone), if not "double armour = 0"
+        int     cr          = 1;                    //CR stands for Challenge Rating, being the amount of "points" needed to spawn (Higher CR means the zombie spawns later/less often) and therefore should be based on how threatening the zombie is. Check the guide under this template for how to calculate it.
+        double  speed       = normal;               //speeds written after template
+        double  dmg         = 1;                    //damage (dmg) is counted in peas - yes, even the zombies'. Note: the average non-wall plant will have 6 HP.
+        double  aps         = 2;                    //aps stands for attacks per second, aka how fast the zombie attacks
+        string  special     = "";                   //if relevant, add a precise description of the ability/ies (this won't   show up in the actual almanac, it is instead used for coding), if not remove this line. This is also where you include Magnet-shroom, Umbrella Leaf and other plant based weaknesses. Note: by default, zombies can't spawn on water or on air at all, so add precisions such as "Can spawn" or "only spawns in water" for the pool and "Flies towards the roof" (Flying zombies fly at "roof height", so if a peashooter is placed on the roof it'll be able to shoot the flying zombies) when necessary.
+        string  almanac     = "ladders on sale";    //almanac entry, be it copied from one of the original games or entirely/partially new
+        string  origin      = "Rogue Garden";       //game(s) or mod(s) of origin - add the original name of the zombie if the name changes for this (i.e. Monitor Head: string origin = "PvZ Battle for Neighbourville (TV Head)") as well as the origing of its gimmicks (i.e. Mad Chemist Zombie: string origin = "PvZ Heroes ; PvZ 2 (Dark Ages Potions)")
 
-double slower = 1;
-double slow = 2;
-double normal = 3;
-double fast = 4;
-double faster = 5;
+double  slower   = 1;
+double  slow     = 2;
+double  normal   = 3;
+double  fast     = 4;
+double  faster   = 5;
 
 //How to calculate CR
-//  Note : CR is an arbitrary value that will likely change with play-testing
+//  Note: CR is an arbitrary value that will likely change with play-testing
 //Start at the conehead's CR of 2 -> The conehead is special because it is 3x as tough as a browncoat but only 2x less likely to spawn.
-//  Note : If making an imp or a gargantuar, start with the normal's CR and stats but apply the same rules.
+//  Note: If making an imp or a gargantuar, start with the normal's CR and stats but apply the same rules.
 //Starting from its stats :
 //          - Add or remove 1 or 2 CR depending on the speed difference (compared to the Conehead's "normal" speed)
 //                  i.e. : "faster" = 2 speeds higher = +2 CR
-//                  Note : Sometimes, a zombie benefits from being slower (i.e. Teleportation Zombie being protected from hits until reaching front line.), when that is the case, increase CR for the slower speed.
+//                  Note: Sometimes, a zombie benefits from being slower (i.e. Teleportation Zombie being protected from hits until reaching front line.), when that is the case, increase CR for the slower speed.
 //          - Add or remove CR depending on the total hp + Armor difference (compared to the Conehead's 10 hp) divided by 10
 //                  i.e. : 20 hp + 10 Armor = 20 hp difference = +2 CR
-//                  Note : Since armor cannot be healed and can sometimes be removed or ignored (i.e. Magnet vs Buckethead, Fumeshroom vs Screendoor) a high hp zombie is more challenging than a high Armor one, so adapt if necessary
+//                  Note: Since armor cannot be healed and can sometimes be removed or ignored (i.e. Magnet vs Buckethead, Fumeshroom vs Screendoor) a high hp zombie is more challenging than a high Armor one, so adapt if necessary
 //          - Add or remove CR depending on the difference in dmg and aps (compared to the Conehead's 1 dmg and 2 aps)
 //                  i.e. : 2 dmg + 1 aps = more dmg + less aps = +CR -CR = No change
 //                       : 2 dmg + 2 aps = more dmg + same aps = +CR
@@ -54,326 +54,326 @@ double faster = 5;
 //basics
         
     //browncoat_zombie
-        string description = "Regular Garden-variety Zombie";
-        double hp = 10;
-        double armour = 0;
-        int cr = 1;
-        double speed = normal;
-        double dmg = 1;
-        double aps = 2;
-        string almanac = "This zombie loves brains. Can't get enough. Brains, brains, brains day in and night out. Old and stinky brains? Rotten brains? Brains clearly past their prime? Doesn't matter: Browncoat Zombie wants'em.";
-        string origin = "PvZ 1";
+        string  description = "Regular Garden-variety Zombie";
+        double  hp          = 10;
+        double  armour      = 0;
+        int     cr          = 1;
+        double  speed       = normal;
+        double  dmg         = 1;
+        double  aps         = 2;
+        string  almanac     = "This zombie loves brains. Can't get enough. Brains, brains, brains day in and night out. Old and stinky brains? Rotten brains? Brains clearly past their prime? Doesn't matter: Browncoat Zombie wants'em.";
+        string  origin      = "PvZ 1";
 
     //flag_zombie
-        string description = "Flag Zombie announces the arrival of many things, notably Huge Waves of zombies.";
-        double hp = 10;
-        double armour = 0;
-        //int cr = N/A;
-        double speed = fast;
-        double dmg = 1;
-        double aps = 2;
-        string almanac = "Make no mistake, Flag Zombie loves brains. But somewhere down the line he also picked up a fascination with flags. Maybe it's because the flags always have brains on them. Hard to say.";
-        string origin = "PvZ 1";
+        string  description = "Flag Zombie announces the arrival of many things, notably Huge Waves of zombies.";
+        double  hp          = 10;
+        double  armour      = 0;
+        //int   cr          = N/A;
+        double  speed       = fast;
+        double  dmg         = 1;
+        double  aps         = 2;
+        string  almanac     = "Make no mistake, Flag Zombie loves brains. But somewhere down the line he also picked up a fascination with flags. Maybe it's because the flags always have brains on them. Hard to say.";
+        string  origin      = "PvZ 1";
         //for every respective event variant, please reffer to "flagz_list.cs"
 
     //conehead_zombie
-        string description = "His traffic cone headpiece makes him twice as though as normal zombies.";
-        double hp = 10;
-        double armour = 18;
-        int cr = 2;
-        double speed = normal;
-        double dmg = 1;
-        double aps = 2;
-        string almanac = "Conehead Zombie shuffled mindlessly forward like every other zombie. But something made him stop, made him pick up a traffic cone and put it on his head.";
-        string origin = "PvZ 1";
+        string  description = "His traffic cone headpiece makes him twice as though as normal zombies.";
+        double  hp          = 10;
+        double  armour      = 18;
+        int     cr          = 2;
+        double  speed       = normal;
+        double  dmg         = 1;
+        double  aps         = 2;
+        string  almanac     = "Conehead Zombie shuffled mindlessly forward like every other zombie. But something made him stop, made him pick up a traffic cone and put it on his head.";
+        string  origin      = "PvZ 1";
 
     //screen_door_zombie
-        string description = "His screen door is an effective shield.";
-        double hp = 10;
-        double armour = 58;
-        int cr = 4;
-        double speed = normal;
-        double dmg = 1;
-        double aps = 2;
-        string special = "Screendoor blocks incoming, non-piercing attacks from the front and can be removed by magnet-shroom."
-        string almanac = "He got his screen door from the last inexpertly defended home he visited, after he ate the homeowner's brains.";
-        string origin = "PvZ 1";
+        string  description = "His screen door is an effective shield.";
+        double  hp          = 10;
+        double  armour      = 58;
+        int     cr          = 4;
+        double  speed       = normal;
+        double  dmg         = 1;
+        double  aps         = 2;
+        string  special     = "Screendoor blocks incoming, non-piercing attacks from the front and can be removed by magnet-shroom."
+        string  almanac     = "He got his screen door from the last inexpertly defended home he visited, after he ate the homeowner's brains.";
+        string  origin      = "PvZ 1";
 
     //buckethead_zombie
-        string description = "His bucket hat makes him extremely resistant to damage.";
-        double hp = 10;
-        double armour = 55;
-        int cr = 6;
-        double speed = normal;
-        double dmg = 1;
-        double aps = 2;
-        string special = "Bucket can be removed by Magnetshroom";
-        string almanac = "Buckethead Zombie always wore a bucket. Part of it was to assert uniqueness in an uncaring world. Mostly he just forgot it was there in the first place.";
-        string origin = "PvZ 1";
+        string  description = "His bucket hat makes him extremely resistant to damage.";
+        double  hp          = 10;
+        double  armour      = 55;
+        int     cr          = 6;
+        double  speed       = normal;
+        double  dmg         = 1;
+        double  aps         = 2;
+        string  special     = "Bucket can be removed by Magnetshroom";
+        string  almanac     = "Buckethead Zombie always wore a bucket. Part of it was to assert uniqueness in an uncaring world. Mostly he just forgot it was there in the first place.";
+        string  origin      = "PvZ 1";
     
     //brickhead_zombie
-        string description = "Brickhead Zombie's brick head provides thorough brickheaded brickheadness.";
-        double hp = 10;
-        double armour = 95;
-        int cr = 8;
-        double speed = normal;
-        double dmg = 1;
-        double aps = 2;
-        string almanac = "After consultation with various storybook wolves, it was determined that straw helmets and wood helmets were not up to snuff, and that brick helmets had to be seriously considered.";
-        string origin = "PvZ 2";
+        string  description = "Brickhead Zombie's brick head provides thorough brickheaded brickheadness.";
+        double  hp          = 10;
+        double  armour      = 95;
+        int     cr          = 8;
+        double  speed       = normal;
+        double  dmg         = 1;
+        double  aps         = 2;
+        string  almanac     = "After consultation with various storybook wolves, it was determined that straw helmets and wood helmets were not up to snuff, and that brick helmets had to be seriously considered.";
+        string  origin      = "PvZ 2";
     
         //variant_basic:ducky_tube_zombie
-            string description = "The ducky tube allows this zombie to float on water.";
+            string  description = "The ducky tube allows this zombie to float on water.";
             //stats_of_relevent_basics
-            string special = "Only spawns in the pool.";
-            string almanac = "It takes a certain kind of zombie to be a Ducky Tuber. Not every zombie can handle it. Some crack. They can't take it. They walk away and give up on brains forever.";
-            string origin = "PvZ 1";
+            string  special     = "Only spawns in the pool.";
+            string  almanac     = "It takes a certain kind of zombie to be a Ducky Tuber. Not every zombie can handle it. Some crack. They can't take it. They walk away and give up on brains forever.";
+            string  origin      = "PvZ 1";
 
         //variant_basic:balloon_zombie
-            string description = "A regular airborn zombie.";
+            string description  = "A regular airborn zombie.";
             //stats_of_relevent_basics
-            string special = "Flies towards your roof. When the balloon pops, the zombie drops down onto the garden. He takes 3 dmg on landing.";
-            string almanac = "The original Balloon Zombie was quite disappointed to see that the basics picked up on his technique.";
-            string origin = "PvZ 1";
+            string special      = "Flies towards your roof. When the balloon pops, the zombie drops down onto the garden. He takes 3 dmg on landing.";
+            string almanac      = "The original Balloon Zombie was quite disappointed to see that the basics picked up on his technique.";
+            string origin       = "PvZ 1";
 
         //variant_basic:brown_parka_zombie
-            string description = "The zombie's brown parka protects him from the cold.";
+            string description  = "The zombie's brown parka protects him from the cold.";
             //stats_of_relevent_basics
-            string special = "Only spawns in winter. Immune to chilling and reduces the freezing effect to chilling.";
-            string almanac = "Though many see the use of thicker clothing as a simple survival instinct, Brown Parka Zombie disapproves of this theory. For him, it's all about fashion.";
-            string origin = "PvZ 2 (Frostbite Caves basic)";
+            string special      = "Only spawns in winter. Immune to chilling and reduces the freezing effect to chilling.";
+            string almanac      = "Though many see the use of thicker clothing as a simple survival instinct, Brown Parka Zombie disapproves of this theory. For him, it's all about fashion.";
+            string origin       = "PvZ 2 (Frostbite Caves basic)";
 
         //variant_basic:zcorp_zombie
-            string description = "A typical ZCorp Incorporated employee.";
+            string description  = "A typical ZCorp Incorporated employee.";
             //stats_of_relevent_basics
-            string special = "Only spawns during the 'Rush Hour' ambush or when spawned by the ZCorp Costumer Service and Conga Leader Zombie.";
-            string almanac = "He was issued the standard ZCorp coffee mug at orientation.";
-            string origin = "PvZ 2";
+            string special      = "Only spawns during the 'Rush Hour' ambush or when spawned by the ZCorp Costumer Service and Conga Leader Zombie.";
+            string almanac      = "He was issued the standard ZCorp coffee mug at orientation.";
+            string origin       = "PvZ 2";
 
 //default_zombies
     
     //imp
-        string description = "A small zombie that shuffles through your defenses. Often thrown into it.";
-        double hp = 5;
-        double armour = 0;
-        int cr = 1;
-        double speed = fast;
-        double dmg = 0.5;
-        double aps = 3;
-        string almanac = "What he lacks in reach he more than makes up for with his bad attitude, or Zombattitude as he likes to call it. Don't encourage him.";
-        string origin = "PvZ 2";
+        string  description = "A small zombie that shuffles through your defenses. Often thrown into it.";
+        double  hp          = 5;
+        double  armour      = 0;
+        int     cr          = 1;
+        double  speed       = fast;
+        double  dmg         = 0.5;
+        double  aps         = 3;
+        string  almanac     = "What he lacks in reach he more than makes up for with his bad attitude, or Zombattitude as he likes to call it. Don't encourage him.";
+        string  origin      = "PvZ 2";
 
         //variant_imp:fishy_imp
-            string description = "It's just an imp, but with a fin.";
+            string  description = "It's just an imp, but with a fin.";
             //stats_of_imp
-            string special = "Only spawns in the pool.";
-            string almanac = "Throws the *best* pool parties.";
-            string origin = "PvZ Heroes";
+            string  special     = "Only spawns in the pool.";
+            string  almanac     = "Throws the *best* pool parties.";
+            string  origin      = "PvZ Heroes";
 
         //variant_imp:paper_plane_imp
-            string description = "It's just an imp, but on a paper plane.";
+            string  description = "It's just an imp, but on a paper plane.";
             //stats_of_imp
-            string special = "Flies towards your roof.";
-            string almanac = "Paper Plane Imp realized the cons of the old balloon and made a new spike-proof mode of aerial movement.";
-            string origin = "Rogue Garden";
+            string  special     = "Flies towards your roof.";
+            string  almanac     = "Paper Plane Imp realized the cons of the old balloon and made a new spike-proof mode of aerial movement.";
+            string  origin      = "Rogue Garden";
 
         //variant_imp:brownparka_imp
-            string description = "It's just an imp, but with a winter jacket.";
+            string  description = "It's just an imp, but with a winter jacket.";
             //stats_of_imp
-            string spceial = "Only spawns in winter. Immune to chilling and reduces the freezing effect to chilling.";
-            string almanac = "Brownparka Imp recently took up knitting. He started with a scarf, moved to mittens and eventually knitted an entire parka out of cloth he ripped off of Brownparka Gargantuar's brownparka.";
-            string origin = "PvZ 2 (Yeti Imp)";
+            string  spceial     = "Only spawns in winter. Immune to chilling and reduces the freezing effect to chilling.";
+            string  almanac     = "Brownparka Imp recently took up knitting. He started with a scarf, moved to mittens and eventually knitted an entire parka out of cloth he ripped off of Brownparka Gargantuar's brownparka.";
+            string  origin      = "PvZ 2 (Yeti Imp)";
 
         //variant_imp:head_office_imp
-            string description = "Even imps have to work in this economy.";
+            string  description = "Even imps have to work in this economy.";
             //stats_of_imp
-            string special = "Only spawns during the 'Rush Hour' ambush or when spawned by the ZCorp Costumer Service.";
-            string almanac = "Head Office Imp's door is always open. It is, however, highly inadvisable to take him up on that offer.";
-            string origin = "PvZ 2 (Head Office Impgantuar)";
+            string  special     = "Only spawns during the 'Rush Hour' ambush or when spawned by the ZCorp Costumer Service.";
+            string  almanac     = "Head Office Imp's door is always open. It is, however, highly inadvisable to take him up on that offer.";
+            string  origin      = "PvZ 2 (Head Office Impgantuar)";
 
     //gargantuar
-        string description = "Gargantuar is a gigantic zombie. He lobs an Imp at your garden after taking some damage.";
-        double hp = 190;
-        double armour = 0;
-        int cr = 20;
-        double speed = fast;
-        double dmg = 9999999999;
-        double aps = 0.5;
-        string special = "Throws an Imp upon reaching half hp.";
-        string almanac = "When Gargantuar walks, the Earth trembles. When he moans, other zombies fall silent. He is the zombie other zombies dream they could be. But he still can't find a girlfriend.";
-        string origin = "PvZ 2";
+        string  description = "Gargantuar is a gigantic zombie. He lobs an Imp at your garden after taking some damage.";
+        double  hp          = 190;
+        double  armour      = 0;
+        int     cr          = 20;
+        double  speed       = fast;
+        double  dmg         = 9999999999;
+        double  aps         = 0.5;
+        string  special     = "Throws an Imp upon reaching half hp.";
+        string  almanac     = "When Gargantuar walks, the Earth trembles. When he moans, other zombies fall silent. He is the zombie other zombies dream they could be. But he still can't find a girlfriend.";
+        string  origin      = "PvZ 2";
 
         //variant_gargantuar:deep_sea_gargantuar
-            string description = "From the deep sea, straight to your pool.";
+            string  description = "From the deep sea, straight to your pool.";
             //stats_of_gargantuar
-            string special = "Only spawns in the pool. Throws a Fishy Imp upon reaching half hp.";
-            string almanac = "Has every single issue of Deep Sea Quarterly, but rarely has time to read them.";
-            string origin = "PvZ 2 ; PvZ Heroes";
+            string  special     = "Only spawns in the pool. Throws a Fishy Imp upon reaching half hp.";
+            string  almanac     = "Has every single issue of Deep Sea Quarterly, but rarely has time to read them.";
+            string  origin      = "PvZ 2 ; PvZ Heroes";
         
         //variant_gargantuar:brownparka_gargantuar
-            string description = "Other than a jacket, it also has three imps instead of one.";
+            string  description = "Other than a jacket, it also has three imps instead of one.";
             //stats_of_gargantuar
-            string spceial = "Only spawns in winter. Immune to chilling and reduces the freezing effect of chilling. Throws 3 Brownparka Imps, at 75%, 50% and 25% hp.";
-            string almanac = "He very much hates those Imps on his back. The darn things are itchy. They're always stealing parts of his parka. But at this point, he'd probably miss them if they ever cleared up.";
-            string origin = "PvZ 2 (Sloth Gargantuar)";
+            string  spceial     = "Only spawns in winter. Immune to chilling and reduces the freezing effect of chilling. Throws 3 Brownparka Imps, at 75%, 50% and 25% hp.";
+            string  almanac     = "He very much hates those Imps on his back. The darn things are itchy. They're always stealing parts of his parka. But at this point, he'd probably miss them if they ever cleared up.";
+            string  origin      = "PvZ 2 (Sloth Gargantuar)";
 
         //variant_gargantuar:gargantuar_legal
-            string description = "Only the best and the beast in the business.";
+            string  description = "Only the best and the beast in the business.";
             //stats_of_gargantuar
-            string special = "Only spawns during the 'Rush Hour' ambush. Throws a Head Office Imp upon reachinh half hp.";
-            string almanac = "Gargantuar Legal delivers cease-and-desists the old-fashioned way: with a baseball bat.";
-            string origin = "PvZ 2 (Gargimp Legal)";
+            string  special     = "Only spawns during the 'Rush Hour' ambush. Throws a Head Office Imp upon reachinh half hp.";
+            string  almanac     = "Gargantuar Legal delivers cease-and-desists the old-fashioned way: with a baseball bat.";
+            string  origin      = "PvZ 2 (Gargimp Legal)";
 
 //miscellaneous_zombies
     
     //cosmic_browncoat_zombie
-        string special = "Spawns a browncoat or browncoat variant on the neighbourghing lanes once he reaches the garden.";
+        string  special     = "Spawns a browncoat or browncoat variant on the neighbourghing lanes once he reaches the garden.";
     
     //zombie_yeti
-        string special = "Once it walkes past 4 columns or once 2 waves have passed (whichever one comes first) he walks backwards and out of the garden. If he gets killed, drops a yeti lunch box."; //rewards from yeti lunch box to be defined
+        string  special     = "Once it walkes past 4 columns or once 2 waves have passed (whichever one comes first) he walks backwards and out of the garden. If he gets killed, drops a yeti lunch box."; //rewards from yeti lunch box to be defined
 
     //comsic_yeti
-        string special = "Once it walkes past 4 columns or once 2 waves have passed (whichever one comes first) he walks backwards and out of the garden. If he gets killed, spawns 2 Yeti zombies.";
+        string  special     = "Once it walkes past 4 columns or once 2 waves have passed (whichever one comes first) he walks backwards and out of the garden. If he gets killed, spawns 2 Yeti zombies.";
 
     //newspaper_zombie
-        string description = "His newspaper provides limited defence, but great entertainment.";
-        double hp = 12;
-        double armour = 12;
-        int cr = 3;
-        double speed = normal;
-        double dmg = 1;
-        double aps = 2;
-        string special = "Becomes angry if the newspaper breaks, which increases his stats.";
-        string almanac = "Newspaper Zombie was *this* close to finishing his sudoku puzzle. No wonder he's freaking out.";
-        string origin = "PvZ 1";
+        string  description = "His newspaper provides limited defence, but great entertainment.";
+        double  hp          = 12;
+        double  armour      = 12;
+        int     cr          = 3;
+        double  speed       = normal;
+        double  dmg         = 1;
+        double  aps         = 2;
+        string  special     = "Becomes angry if the newspaper breaks, which increases his stats.";
+        string  almanac     = "Newspaper Zombie was *this* close to finishing his sudoku puzzle. No wonder he's freaking out.";
+        string  origin      = "PvZ 1";
 
         //newspaper_zombie_angry
-            double hp = 12;
-            double armour = 0;
-            double speed = fast;
-            double dmg = 1;
-            double aps = 4;
+            double  hp      = 12;
+            double  armour  = 0;
+            double  speed   = fast;
+            double  dmg     = 1;
+            double  aps     = 4;
 
     //elite_newspaper_zombie:sunday_edition_zombie
 
     //pogo_zombie
-        string description = "Pogo Zombie hops to bypass your defenses.";
-        double hp = 20;
-        double armour = 0;
-        int cr = 5;
-        double speed = normal;
-        double dmg = 1;
-        double aps = 2;
-        string special = "Pogo stick can be removed by magnet-shroom. Jumps at 'fast' speed. Jumps over all plants instead of eating them, except Tall-nut which makes him loose his pogo stick if he jumps into it.";
-        string almanac = "Sproing ! Sproing ! Sproing !That's the sound of a powerful and effective zombie doing what he does best.";
-        string origin = "PvZ 1";
+        string  description = "Pogo Zombie hops to bypass your defenses.";
+        double  hp          = 20;
+        double  armour      = 0;
+        int     cr          = 5;
+        double  speed       = normal;
+        double  dmg         = 1;
+        double  aps         = 2;
+        string  special     = "Pogo stick can be removed by magnet-shroom. Jumps at 'fast' speed. Jumps over all plants instead of eating them, except Tall-nut which makes him loose his pogo stick if he jumps into it.";
+        string  almanac     = "Sproing ! Sproing ! Sproing !That's the sound of a powerful and effective zombie doing what he does best.";
+        string  origin      = "PvZ 1";
 
     //king_of_the_grill_gargantuar
-        string description = "There's never enough hot dogs for this King of the Grill.";
-        double hp = 190;
-        double armour = 0;
-        int cr = 25;
-        double speed = fast;
-        double dmg = 9999999999;
-        double aps = 0.5;
-        string spcial = "Only spawns in the summer. A Hot Dog Imp spawns in his garden every time he kills a plant.";
-        string almanac = "Chillin' beside the ol' backyard grill, cookin' up some brains, hangin' with his zombies... that's the good unlife.";
-        string origin = "PvZ Heroes";
+        string  description = "There's never enough hot dogs for this King of the Grill.";
+        double  hp          = 190;
+        double  armour      = 0;
+        int     cr          = 25;
+        double  speed       = fast;
+        double  dmg         = 9999999999;
+        double  aps         = 0.5;
+        string  spcial      = "Only spawns in the summer. A Hot Dog Imp spawns in his garden every time he kills a plant.";
+        string  almanac     = "Chillin' beside the ol' backyard grill, cookin' up some brains, hangin' with his zombies... that's the good unlife.";
+        string  origin      = "PvZ Heroes";
 
     //hot_dog_imp
-        string description = "Much like hot dogs, Hot Dog Imp will slide trough your defenses.";
-        double hp = 7;
-        double armour = 0;
-        int cr = 2;
-        double speed = fast;
-        double dmg = 0.5;
-        double aps = 3;
-        string special = "Only spawns during summer. When he eats, he dashes forward, skipping ahead one tile and damaging the plant in the process."; 
-        string almanac = "He was THIS close to wearing the chicken costume, but darn it, Team Mascot Imp called it first.";
-        string origin = "PvZ 2"; 
+        string  description = "Much like hot dogs, Hot Dog Imp will slide trough your defenses.";
+        double  hp = 7;
+        double  armour = 0;
+        int     cr = 2;
+        double  speed = fast;
+        double  dmg = 0.5;
+        double  aps = 3;
+        string  special = "Only spawns during summer. When he eats, he dashes forward, skipping ahead one tile and damaging the plant in the process."; 
+        string  almanac = "He was THIS close to wearing the chicken costume, but darn it, Team Mascot Imp called it first.";
+        string  origin = "PvZ 2"; 
 
     //smashing_gargantuar
-        string description = "Attacks faster than a regular gargantuar but doesn't throw an Imp.";
-        double hp = 190;
-        double armour = 0;
-        int cr = 24;
-        double speed = fast;
-        double dmg = 9999999999;
-        double aps = 1;
-        string almanac = "When he phones home, it means something completely different.";
-        string origin = "PvZ Heroes";
+        string  description = "Attacks faster than a regular gargantuar but doesn't throw an Imp.";
+        double  hp          = 190;
+        double  armour      = 0;
+        int     cr          = 24;
+        double  speed       = fast;
+        double  dmg         = 9999999999;
+        double  aps         = 1;
+        string  almanac     = "When he phones home, it means something completely different.";
+        string  origin      = "PvZ Heroes";
 
     //elite_smashing_gargantuar:giga_gargantuar
 
     //hippity_hop_gargantuar
-        string description = "Throws mystery eggs instead of imps, so be careful.";
-        double hp = 190;
-        double armour = 0;
-        int cr = 25;
-        double speed = fast;
-        double dmg = 9999999999;
-        double aps = 0.5;
-        string special = "Only spawns during spring. Throws a Mystery Egg upon reaching half hp.";
-        string almanac = "Sometimes, what has been seen... can't be unseen. This is one of those times.";
-        string origin = "PvZ Heroes";
+        string  description = "Throws mystery eggs instead of imps, so be careful.";
+        double  hp          = 190;
+        double  armour      = 0;
+        int     cr          = 25;
+        double  speed       = fast;
+        double  dmg         = 9999999999;
+        double  aps         = 0.5;
+        string  special     = "Only spawns during spring. Throws a Mystery Egg upon reaching half hp.";
+        string  almanac     = "Sometimes, what has been seen... can't be unseen. This is one of those times.";
+        string  origin      = "PvZ Heroes";
         
             //mystery_egg
-                string descitpion = "Turns into a zombie after landing.";
+                string  descitpion  = "Turns into a zombie after landing.";
                 //stats are irrelevent
-                string special = "Doesn't spawn naturaly, only thrown by Hippity Hop Gargantuar. Turns into a random CR 3 or less zombie or imp when he lands.";
-                string almanac = "'Mommy, where do little Zombies come from?' Asked and answered.";
-                string origin = "PvZ Heroes";
+                string  special     = "Doesn't spawn naturaly, only thrown by Hippity Hop Gargantuar. Turns into a random CR 3 or less zombie or imp when he lands.";
+                string  almanac     = "'Mommy, where do little Zombies come from?' Asked and answered.";
+                string  origin      = "PvZ Heroes";
 
     //surprise_gargantuar
-        string description = "You might be annoyed that he looks the same, but it wouldn't be a surprise that way.";
-        double hp = 190;
-        double armour = 0;
-        int cr = 23;
-        double speed = fast;
-        double dmg = 9999999999;
-        double aps = 0.5;
-        string special = "Moves to a random lane upon reaching half hp. Throws a random imp, except Gargantuar-throwing Imps, in the lane he leaves and another in the lane he lands on."
-        string almanac = "Surprise! It's a brains-eating monster at your party!";
-        string origin = "PvZ Heroes";
+        string  description = "You might be annoyed that he looks the same, but it wouldn't be a surprise that way.";
+        double  hp          = 190;
+        double  armour      = 0;
+        int     cr          = 23;
+        double  speed       = fast;
+        double  dmg         = 9999999999;
+        double  aps         = 0.5;
+        string  special     = "Moves to a random lane upon reaching half hp. Throws a random imp, except Gargantuar-throwing Imps, in the lane he leaves and another in the lane he lands on."
+        string  almanac     = "Surprise! It's a brains-eating monster at your party!";
+        string  origin      = "PvZ Heroes";
 
     //cosmic_imp
-        string special = "When killed, disapates into 5 random imps in a cross formation centered on himself. Can't create Gargantuar-throwing Imps.";
+        string  special     = "When killed, disapates into 5 random imps in a cross formation centered on himself. Can't create Gargantuar-throwing Imps.";
 
     //imp-throwing_imp
-        string special = "Creates a random imp on another random lane when hit. Doesn't create Gargantuar-throwing Imps.";
+        string  special     = "Creates a random imp on another random lane when hit. Doesn't create Gargantuar-throwing Imps.";
 
     //gargantuar-throwing_imp
-        string special = "Creates a random gargantuar on another random lane upon death. Doesn't create Gargantuar-throwing Gargantuars.";
+        string  special     = "Creates a random gargantuar on another random lane upon death. Doesn't create Gargantuar-throwing Gargantuars.";
 
     //gargantuar-throwing_gargantuar
-        string special = "Creates a random gargantuar on another random lane upon reaching half hp and upon death. Doesn't create Gargantuar-throwing Gargantuars.";
+        string  special     = "Creates a random gargantuar on another random lane upon reaching half hp and upon death. Doesn't create Gargantuar-throwing Gargantuars.";
 
     //snowball_thrower_imp
-        string description = "An imp that can throw snow balls at range to cool down plants until they freeze into blocks.";
-        double hp = 10;
-        double armour = 0;
-        int cr = 4;
-        double speed = fast;
-        double dmg = 0;
-        double aps = 1;
-        string special = "Only spawns during winter. Attacks from 4 tiles away. Projectiles hits plants until freezing instead of damaging.";
-        string almanac = "Snow is wonderful, it can create snow statues, bobsled trails, and even fast velosity snow balls. Take that Snow Pea.";
-        string origin = "PvZ 2 (Hunter Zombie)";
+        string  description = "An imp that can throw snow balls at range to cool down plants until they freeze into blocks.";
+        double  hp          = 10;
+        double  armour      = 0;
+        int     cr          = 4;
+        double  speed       = fast;
+        double  dmg         = 0;
+        double  aps         = 1;
+        string  special     = "Only spawns during winter. Attacks from 4 tiles away. Projectiles hits plants until freezing instead of damaging.";
+        string  almanac     = "Snow is wonderful, it can create snow statues, bobsled trails, and even fast velosity snow balls. Take that Snow Pea.";
+        string  origin      = "PvZ 2 (Hunter Zombie)";
 
     //ice_pirate_zombie
-        string descitpion = "Freezes the front-most plant on her lane.";
-        double hp = 10;
-        double armour = 0;
-        int cr = 6;
-        double speed = normal;
-        double dmg = 2;
-        double aps = 2;
-        string special = "When she spawns, she adds two levels of freeze to the first plant in her lane. If spawing on an ice trail created by a Zomboni, freezes the first the plant in her lane and adds two levels of freeze to the first plant on the neighbouring lanes as well.";
-        string almanac = "You wouldn't believe how many brains a chunk of space ice goes for on a black market. Let's just say, she's rolling in gray matter.";
-        string origin = "PvZ Heroes";
+        string  descritpion = "Freezes the front-most plant on her lane.";
+        double  hp          = 10;
+        double  armour      = 0;
+        int     cr          = 6;
+        double  speed       = normal;
+        double  dmg         = 2;
+        double  aps         = 2;
+        string  special     = "When she spawns, she adds two levels of freeze to the first plant in her lane. If spawing on an ice trail created by a Zomboni, freezes the first the plant in her lane and adds two levels of freeze to the first plant on the neighbouring lanes as well.";
+        string  almanac     = "You wouldn't believe how many brains a chunk of space ice goes for on a black market. Let's just say, she's rolling in gray matter.";
+        string  origin      = "PvZ Heroes";
 
     //chicken_wrangler_zombie
-        string special = "Upon reaching a plant, being hit for a certain amount of damage or dieing, releases up to three Zombie Chickens on his lane and on each neighbourghing lane.";
+        string  special     = "Upon reaching a plant, being hit for a certain amount of damage or dieing, releases up to three Zombie Chickens on his lane and on each neighbourghing lane.";
 
         //zombie_chicken
 
@@ -1114,8 +1114,6 @@ double faster = 5;
             //variant:8-bit_zombie
                 //animated in less fps
 
-        //shield_zombie
-
         //bug_bot_imp
 
         //robo-cone_zombie
@@ -1420,8 +1418,8 @@ double faster = 5;
     
     //zcopr_monitor_head
         string description = "ZCorp Monitor Heads are zombies with Cone-grade protection that can attack your plants from a distance.";
-        double hp = 10;
-        double armour = 19;
+        double hp = 29;
+        double armour = 0;
         int cr = 4;
         double speed = normal;
         double dmg = 1;
@@ -1480,8 +1478,11 @@ double faster = 5;
                 string almanac = "The pencil on his helmet is completely useless, but the ZCorp engineer liked the aesthetics of it.";
                 string origin = "PvZ Heroes (Zombot Drone Engineer)";
 
+    //zcorp_robo-shield
+        string  origin      = "PvZ 2 (Shield Zombie)";
+
     //zcorp_middle_manager
-        string description = "Gets faster and more resilient with the death of ZCorp zombies.";
+        string  description = "Gets faster and more resilient with the death of ZCorp zombies.";
         double hp = 10;
         double armour = 0;
         int cr = 8;

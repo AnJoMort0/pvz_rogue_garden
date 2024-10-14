@@ -441,11 +441,6 @@ double  faster   = 5;
         string  special     = "Doesn't spawn during winter. On death, spawns a tent on the tile behind him.";
         string  almanac     = "Imp Porter is stronger than he looks. He's also more charming, smarter and has a better education.";
         string  origin      = "PvZ 2 (Imp Porter)";
-
-            //camping_tent
-                string  description = "A tent filled with more zombies than it can fit.";
-                double  hp          = 50;
-                string  special     = "Continuously spawns basics. Can't be healed.";
     
     //dog_walker_zombie
         string  description     = "His dog can smell newly placed plants, and chases after them."
@@ -662,7 +657,7 @@ double  faster   = 5;
         double  speed       = normal;
         double  dmg         = 1;
         double  aps         = 2;
-        string  special     = "Stops by gravestones he passes and turns them into engraved gravestones. They are uneffected by plant attacks, only defeatable by gravebuster and zombies that rise from them have 125% hp.";
+        string  special     = "Stops by gravestones he passes and turns them into engraved gravestones.";
         string  almanac     = "His epitaphs have been published on headstones around the world.";
         string  origin      = "PvZ Heroes ; PvZ 1 (Tombstones)";
 
@@ -1288,29 +1283,23 @@ double  faster   = 5;
     //zombie_medusa
         string  special     = "Turns basics in front of it into zombie statues that she then pushes, crushing plants as she does so but being heavily slowed down. Can only have one zombie statue per tile.";
 
-            //zombie_statue
-                string  special     = "Works essentially like a gravestone, also being affected by gravebuster. Cannot be pushed past gravestones and other alike things. If it reaches 0hp it'll turn into a Sculpted Zombie, unless killed by a gravebuster.";
-
-                    //variant_kinght:bust_head_zombie
-                        string  description = "A bust head means this sculpted zombie can take a serious beating.";
-                        double  hp          = 10;
-                        double  armour      = 75;
-                        //int   cr          = n/a;
-                        double  speed       = normal;
-                        double  dmg         = 1;
-                        double  aps         = 2;
-                        string  special     = "Imune to Zombie Medusa's effect even after loosing all armor.";
-                        string  almanac     = "Bust Head Zombie belongs in the Neighbourghville Museum with a big sign that says, 'WARNING: THIS IS A ZOMBIE!'";
-                        string  origin      = "PvZ 2";
+        //variant_kinght:bust_head_zombie
+            string  description = "A bust head means this sculpted zombie can take a serious beating.";
+            double  hp          = 10;
+            double  armour      = 75;
+            //int   cr          = n/a;
+            double  speed       = normal;
+            double  dmg         = 1;
+            double  aps         = 2;
+            string  special     = "Imune to Zombie Medusa's effect even after loosing all armor.";
+            string  almanac     = "Bust Head Zombie belongs in the Neighbourghville Museum with a big sign that says, 'WARNING: THIS IS A ZOMBIE!'";
+            string  origin      = "PvZ 2";
 
     //primeval_yeti
         string  special     = "Gives all zombies in his lane +2 hp and +1 dmg when he dies.";
 
     //cursed_gargolith
         string  special     = "Only spawns from engraved gravestones, but has high chances to spawn. Throws an Impstone upon reaching half hp.";
-
-            //impstone
-                string  special     = "A gravestone that spawns a CR 2 or less imp on every Huge and Final Wave.";
 
     //archeology_guide_zombie
         string  special     = "After a few seconds on the garden, opens a whole on the garden, digs forwards 3 tiles, then comes back up, creating a 5 tile long tunnel for non-gargantuar zombies to evade attacks and pass into your defenses. Diggers that dig into it come out the end of the tunnel. Each tile of the tunnel only lasts 10 seconds before disapearing. If he creates the tunnel on a shallow water tile, the tunnel collapses and the zombies inside die.";
@@ -1334,7 +1323,7 @@ double  faster   = 5;
         string  special     = "Only spawns in the pool. Releases toxic chemicals that slowly move along his lane, lightly damaging all plants.";
         string  origin      = "PvZ 2 China";
     
-        //zombie_drop-off_rocket
+    //zombie_drop-off_rocket
         string  special     = "Flies towards your roof. Drops a Bug Bot Imp upon reaching 75%, 50% and 25% hp. Once it reaches the roof, stops and drops off a Moonwalker.";
         string  origin      = "PvZ 2 China (Transport Ship) ; PvZ 2 (Far Future imp rain)";
 

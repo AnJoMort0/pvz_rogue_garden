@@ -384,26 +384,26 @@ double  faster   = 5;
         string  special     = "When a plant is placed on this lane, moves to a neighboring lane then shoots a fireball before continuing forwards.";
 
     //mixed-up_gravedigger_zombie
-        string  description = "The Mixed-Up Gravedigger creates tombstones all over the map.";
+        string  description = "The Mixed-Up Gravedigger creates gravestones all over the map.";
         double  hp          = 20;
         double  armour      = 0;
         int     cr          = 6;
         double  speed       = normal;
         double  dmg         = 1;
         double  aps         = 2;
-        string  special     = "Creates tombstones on random tiles of the lawn. If the tile is occupied, no tombstone is created. Shovel can be removed by magnet-shroom.";
+        string  special     = "Creates gravestones on random tiles of the lawn. If the tile is occupied, no gravestone is created. Shovel can be removed by magnet-shroom.";
         string  almanac     = "Digging graves is hard work, but seeing customers rise out of them makes it all worth it.";
         string  origin      = "PvZ Heroes ; PvZ 2 (Tomb Raiser Zombie)";
 
     //grave_robber_zombie
-        string  description = "Robs tombstones to become stronger.";
+        string  description = "Robs gravestones to become stronger.";
         double  hp          = 10;
         double  armour      = 0;
         int     cr          = 4;
         double  speed       = normal;
         double  dmg         = 1;
         double  aps         = 2;
-        string  special     = "Stops at every tombstone he passes by and gets +3 hp and +1 dmg but damages them stlightly. Buffs are doubled on engraved tombstones and they take double damage.";
+        string  special     = "Stops at every gravestone he passes by and gets +3 hp and +1 dmg but damages them stlightly. Buffs are doubled on engraved gravestones and they take double damage.";
         string  almanac     = "Why not rob graves? They're not going to miss it. It's not like the dead are rising up or anything.";
         string  origin      = "PvZ Heroes";
 
@@ -650,7 +650,7 @@ double  faster   = 5;
         string  origin      = "PvZ Heroes";
 
     //headstone_carver
-        string  description = "Engraves tombstones he passes by.";
+        string  description = "Engraves gravestones he passes by.";
         double  hp          = 10;
         double  armour      = 0;
         int     cr          = 4;
@@ -659,7 +659,7 @@ double  faster   = 5;
         double  aps         = 2;
         string  special     = "Stops by gravestones he passes and turns them into engraved gravestones.";
         string  almanac     = "His epitaphs have been published on headstones around the world.";
-        string  origin      = "PvZ Heroes ; PvZ 1 (Tombstones)";
+        string  origin      = "PvZ Heroes ; PvZ 1 (gravestones)";
 
     //mini-ninja
         string  description = "A small zombie that sneaks past your defences."

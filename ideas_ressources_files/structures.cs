@@ -1,10 +1,10 @@
 
 //template_structure
-    string  description = "A fallen log.";       //simple description of the structure and its abilities
-    double  hp          = ;         //hit points (hp) is counted in peas. These cannot be healed
-    string  special     = "Launches rockets at ZCorp Consultants specifically.";         //if relevant, add a precise description of the ability/ies (this won't   show up in the actual almanac, it is instead used for coding), if not remove this line.
-    bool    gravebuster = false;    //can it be destroyed by grave buster ?
-    bool    hot_potato  = false;    //can it be destroyed by hot potato ?
+    string  description = "A fallen log.";                                          //simple description of the structure and its abilities
+    double  hp          = ;                                                         //hit points (hp) is counted in peas. These cannot be healed
+    string  special     = "Launches rockets at ZCorp Consultants specifically.";    //if relevant, add a precise description of the ability/ies (this won't   show up in the actual almanac, it is instead used for coding), if not remove this line.
+    bool    gravebuster = false;                                                    //can it be destroyed by grave buster ?
+    bool    hot_potato  = false;                                                    //can it be destroyed by hot potato ?
 
 //copy-paste
     string  description = "";

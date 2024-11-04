@@ -1,5 +1,6 @@
-- Finish tutorial at https://www.youtube.com/watch?v=xK2N7dKZqkw to have the base game (and a bit of knowledge) to then build upon
-- Make the designs for the basic plants
-- Make the animation sprites for the designed plants
-- Make Browncoat design
-- Make logo design (to use in Thumbnails of future live streams when the base game is finished)
+- Finish tutorial at https://www.youtube.com/watch?v=xK2N7dKZqkw to have the base game (and a bit of knowledge) to then build upon (AnJoMorto)
+- Make the designs for the basic plants (AnJoMorto)
+- Make the designs for the basic zombies (L_PT)
+- Make the animation sprites for the designed plants and Zombies (L_PT)
+- Make logo design (to use in Thumbnails of future live streams when the base game is finished) (AnJoMOrto)
+- Design the lawn

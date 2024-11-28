@@ -256,6 +256,10 @@ double  faster   = 5;
 
     //elite_newspaper_zombie:sunday_edition_zombie
 
+    //elite_newspaper_zombie:newspaper_plane_zombie
+        string special = "Occasionally throws Paper Plane Imps.";
+        string origin  = "PvZ Heroes (Newspaper Zombie)";
+
     //pogo_zombie
         string  description = "Pogo Zombie hops to bypass your defenses.";
         double  hp          = 20;

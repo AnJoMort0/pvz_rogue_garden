@@ -19,3 +19,13 @@
     int     dmg         = 1;
     double  pierce      = 1;
     double  lifespan    = inf;
+
+//potato_explosion
+    int     dmg         = //half a gargantuar
+    double  pierce      = inf;
+    double  lifespan    = 0;
+
+//hothead_explosion
+    int     dmg         = 3 * potato_head.dmg;
+    double  pierce      = inf;
+    double  lifespan    = 0;

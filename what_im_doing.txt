@@ -2,5 +2,5 @@
 - Make the designs for the basic plants (AnJoMorto)
 - Make the designs for the basic zombies (L_PT)
 - Make the animation sprites for the designed plants and Zombies (L_PT)
-- Make logo design (to use in Thumbnails of future live streams when the base game is finished) (AnJoMOrto)
+- Make logo design (to use in Thumbnails of future live streams when the base game is finished) (AnJoMorto)
 - Design the lawn

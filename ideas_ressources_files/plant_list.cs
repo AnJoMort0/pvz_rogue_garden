@@ -1,18 +1,32 @@
 
-//This is the full list of plants, which will have an almanac in the game. There will be adjustements with play-testing and many of these will take a long to actually join the game. Any ideas are welcome as long as you follow the guideline;s according to the comented template. You are welcome to propose changes and give feedback.
+//This is the full list of plants, which will have an almanac in the game. There will be adjustements with play-testing and many of these will take a long time to actually join the game. Any ideas are welcome as long as you follow the guidelines according to the comented template. You are welcome to propose changes and give feedback.
 //See a reference to HP in here: https://plantsvszombies.fandom.com/wiki/Damage#Plants_vs._Zombies
 
     //template_plant
         string  description = "";       //basic description of the plant (if available, you can easily take it straight from its game of origin)
         double  cost        = 25;       //sun cost of the plant. The game works on a 25 sun basis
-        int     rech_time   = ;         //mesured in seconds - time needed for the plant to be available again
+        int     rech_time   = ;         //recharge time: mesured in seconds - time needed for the plant to be available again
         double  hp          = 6;        //hit points (hp) are counted in peas. Yes, even the plants'. Note: A regular plant has 6 hp
         string  projectile  = "pea";    //from the projectiles_list
-        int     aims        = 1;        //mesured in seconds - ai stands for attack interval, aka time between each attack, aka how fast the plant attacks
-        double  ranged      = line;     //measured in tiles or 'line;' or 'garden', range of sight of the plant
-        string  specials    = "";       //if relevant, add a precise description of the ability/ies (this won't show up in the actual almanac, it is instead used as guidance for coding), if not remove this line;.
+        int     ai          = 1;        //mesured in seconds - ai stands for attack interval, aka time between each attack, aka how fast the plant attacks
+        double  range       = lane;     //measured in tiles or 'line' or 'garden', range of sight of the plant
+        string  special     = "";       //if relevant, add a precise description of the ability/ies (this won't show up in the actual almanac, it is instead used as guidance for coding), if not remove this line.
         string  almanac     = "";       //almanac entry, be it copied from one of the original games or entirely/partially new
         string  origin      = "";       //game(s) or mod(s) of origin/main reference
+
+        //range
+        var lane        = "A lane of the map.";
+        var row         = "A row of the map.";
+        var cross       = "Lane and rows of the map.";
+        var garden      = "The whole garden";
+        var adjFront    = "Adjacent tile in front.";
+        var adjBack     = "Adjacent tile behind.";
+        var adjX        = "Adjacent tiles in the same lane.";
+        var adjY        = "Adjacent tiles in the same row.";
+        var adjCross    = "Adjacent tiles in the same lane and row.";
+        var adj3        = "Tiles in a 3x3 area centred around itself.";
+        var eaten       = "Attacks the zombie that ate it.";
+        var tile        = "Attacks on its own tile.";
 
     //copy_paste
         string  description = "";
@@ -21,7 +35,7 @@
         double  hp          = 6;
         string  projectile  = "";
         int     ai          = ;
-        double  range       = line;
+        double  range       = lane;
         string  special     = "";
         string  almanac     = "";
         string  origin      = "";
@@ -61,13 +75,13 @@
             string  origin      = "PvZ GW, PvZ Heroes";
 
     //peashooter
-        string  description = "Peashooters are your first line; of defense. They shoot peas at attacking zombies.";
+        string  description = "Peashooters are your first lane; of defense. They shoot peas at attacking zombies.";
         double  cost        = 100;
         int     rech_time   = ;
         double  hp          = 6;
         string  projectile  = "pea";
         int     ai          = 1.5;
-        double  range       = line;
+        double  range       = lane;
         string  almanac     = "How can a single plant grow and shoot so many peas so quickly? Peashooter says, 'Hard work, commitment, and a healthy, well-balanced breakfast of sunlight and high-fiber carbon dioxide make it all possible.'";
         string  origin      = "PvZ 1";
 
@@ -78,20 +92,20 @@
             double  hp          = 6;
             string  projectile  = "pea";
             int     ai          = burst(n, 1.5);
-            double  range       = line;
+            double  range       = lane;
             string  special     = "Can be progressively upgraded to add more shooters";
             string  almanac     = "Pea Pod studied spacial quantum mechanics and graduated from Professional Clown Academy. As a barrel of laughs in the family, everyone loves him.";
             string  origin      = "PvZ 2";
 
         //skyshooter
-            string  description = "Skyshooters are your second line; of defense. They shoot more efficiently when on the roof. Targets flying zombies first";
+            string  description = "Skyshooters are your second lane; of defense. They shoot more efficiently when on the roof. Targets flying zombies first";
             double  cost        = 75;
             int     rech_time   = ;
             double  hp          = 6;
             string  projectile  = "pea";
             int     ai          = 1.5; //halves when on the roof
-            double  range       = line;
-            string  special     = "Doubles the attack speed when on the roof. Targets first flying zombies on its line;";
+            double  range       = lane;
+            string  special     = "Doubles the attack speed when on the roof. Targets first flying zombies on its lane;";
             string  almanac     = "The youngest Peashooter ever to earn a pilot's license. Also the only Peashooter ever to earn a pilot's license.";
             string  origin      = "PvZ Heroes";
 
@@ -102,7 +116,7 @@
         double  hp              = 6;
         string  projectile      = "pea";
         int     ai              = burst(2, 1.5);
-        double  range           = line;
+        double  range           = lane;
         string  almanac         = "Repeater is fierce. He's from the streets. He doesn't take attitude from anybody, plant or zombie, and he shoots peas to keep people at a distance. Secretly, though, Repeater yearns for love.";
         string  origin          = "PvZ 1";
 
@@ -113,8 +127,8 @@
             double  hp              = 6;
             string  projectile      = "pea";
             int     ai              = 1.5;
-            double  range           = line;
-            string  special         = "Shoots 3 peas, one in its line; and one in each adjacent line";
+            double  range           = lane;
+            string  special         = "Shoots 3 peas, one in its lane; and one in each adjacent line";
             string  almanac         = "Threepeater likes reading, backgammon and long periods of immobility in the park. Threepeater enjoys going to shows, particularly modern jazz. 'I'm just looking for that special someone,' he says. Threepeater's favorite number is 5";
             string  origin          = "PvZ 1";
 
@@ -125,7 +139,7 @@
             double  hp              = 6;
             string  projectile      = "pea";
             int     ai              = burst(4, 1.5);
-            double  range           = line;
+            double  range           = lane;
             string  almanac         = "Gatling Pea's parents were concerned when he announced his intention to join the military. "But honey, it's so dangerous!" they said in unison. Gatling Pea refused to budge. "Life is dangerous," he replied, eyes glinting with steely conviction.";
             string  origin          = "PvZ 1";
 

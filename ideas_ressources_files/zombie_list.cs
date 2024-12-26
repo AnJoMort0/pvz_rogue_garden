@@ -1,5 +1,5 @@
 
-//This is the full list of zombies, which will have an almanac in the game. There will be adjustements with play-testing and many of these will take a long to actually join the game. Any ideas are welcome as long as you follow the guidelines according to the comented template. You are welcome to propose changes and give feedback.
+//This is the full list of zombies, which will have an almanac in the game. There will be adjustements with play-testing and many of these will take a long to time actually join the game. Any ideas are welcome as long as you follow the guidelines according to the comented template. You are welcome to propose changes and give feedback.
 
 //template_category
     //template_zombie                               //think of including the words "Imp", "Zombie" or "Gargantuar" to the zombie's name if it doesn't already include a reference to its zombie status (i.e. Abracadaver, ZCorp). You can also include "variant_X:---" for special variants of zombies, and "elite_X:---" for elite versions of the zombies for ultra late-game.

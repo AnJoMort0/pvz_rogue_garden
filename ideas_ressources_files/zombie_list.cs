@@ -1407,7 +1407,7 @@ double  faster   = 5;
 
 //zcorp_zombies
     
-    //zcopr_monitor_head
+    //zcorp_monitor_head
         string  description = "ZCorp Monitor Heads are zombies with Cone-grade protection that can attack your plants from a distance.";
         double  hp          = 29;
         double  armour      = 0;

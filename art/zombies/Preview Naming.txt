@@ -4,7 +4,7 @@ Preview images will also lickely be used for the almanac in the final game so ha
 All names follow a naming convention based on their category and always end with their version.
 Basics have an extra namings explained down here (i.e.: Ducky Tube Brickhead (basic category) >> b_dt_kh_v#).
 
-Other categories have their category letter followed by a name that is up 6 letters long (i.e.: ZCorp Monitor Head (zcorp category) >> z_mohead_v#).
+Other categories have their category letter followed by a name that is up to 6 letters long (i.e.: ZCorp Monitor Head (zcorp category) >> z_mohead_v#).
 Previews for various objects' degradation is the name of the zombie followed by "dmg" for damage (i.e.: Newspaper Zombie's Newspaper (miscellaneous category) >> m_newspr_dmg_v#).
 
 Basics 		: b

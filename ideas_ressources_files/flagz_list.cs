@@ -37,7 +37,6 @@ double  faster   = 5;
     string  almanac     = "";
     string  origin      = "";
 
-
 //flag_zombie
     string event_name = "Huge Wave : Front Garden";
     string description = "Flag Zombie announces the arrival of many things, notably Huge Waves of zombies.";

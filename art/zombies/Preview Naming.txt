@@ -8,20 +8,21 @@ Other categories have their category letter followed by a name that is up to 6 l
 Previews for various objects' degradation is the name of the zombie followed by "dmg" for damage (i.e.: Newspaper Zombie's Newspaper (miscellaneous category) >> m_newspr_dmg_v#).
 
 Basics 		: b
-Flagz		: f
 Cosmic		: c
+Flagz		: f
 Miscellaneous	: m
+Museum		: h
 ZCorp		: z
 
+Balloon		: bl
 Browncoat	: bc
 Brownparka	: bp
 Ducky Tube	: dt
-Balloon		: bl
 ZCorp		: zc
 
+Brickhead	: kh
+Buckethead	: bh
 Conehead	: ch
 Screendoor	: sd
-Buckethead	: bh
-Brickhead	: kh
 
 Degradation	: dmg

@@ -1,6 +1,3 @@
-1200x1200 Preview.clip is used to export 1200x1200 images of the Zombies for the previews (as to have them the same size as the others) if the original clip file had to be upscaled to fit the whole zombie (i.e.: Buckethead Rally Zombie because of the bigger flag)
-Preview images will also lickely be used for the almanac in the final game so having all the preview images in the same size makes sense.
-
 All names follow a naming convention based on their category and always end with their version.
 Basics have an extra namings explained down here (i.e.: Ducky Tube Brickhead (basic category) >> b_dt_kh_v#).
 

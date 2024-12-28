@@ -859,7 +859,7 @@ double  faster   = 5;
         string  almanac     = "No flames, just Flameface.";
         string  origin      = "PvZ Garden Warfare ; PvZ Heroes";
             
-            //captain_flameface
+            //elite_captain_deadbeard:captain_flameface
                 string  description = "Sends out his firey companion while he attacks with his fire gun.";
                 double  hp          = 45;
                 double  armor       = 0;

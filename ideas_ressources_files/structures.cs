@@ -16,13 +16,14 @@
 //gravestone
     string  description = "Gravestones are the classical PvZ structure.";
     double  hp          = ;
+    double  special     = "Can spawn zombies during Final Waves.";
     bool    gravebuster = true;
     bool    hot_potato  = false; 
 
 //engraved_gravestone
     string  description = "A gravestone engraved with great skill makes great zombies.";
     //double  hp        = n/a;
-    string  special     = "Uneffected by plant attacks. Zombies that rise from them have 125% hp.";
+    string  special     = "Uneffected by plant attacks. Zombies that rise from them have 125% hp. Can spawn non-Imp and non-Gargantuar, except Cursed Gargolith, zombies during Final Waves.";
     bool    gravebuster = true;
     bool    hot_potato  = false; 
 
@@ -32,6 +33,13 @@
     string  special     = "Spawns a CR 2 or less imp on every Huge and Final Wave.";
     bool    gravebuster = true;
     bool    hot_potato  = false;
+
+//surfboard
+    string  description = "Surfer Zombie's Surf Board";
+    double  hp          = ;
+    string  special     = "Weak to fire projectiles.";
+    bool    gravebuster = false;
+    bool    hot_potato  = false; 
 
 //camping_tent
     string  description = "A tent filled with more zombies than it can fit.";
@@ -49,14 +57,15 @@
 
 //sheep
     string  description = "Plants metamorphed into sheep by Wizard Zombie.";
-    double  hp          = ;
+    //double  hp        = n/a;
     string  special     = "Uneffected by plant attacks. Disappears once the Wizard Zombie that spawned them dies.";
     bool    gravebuster = false;
     bool    hot_potato  = false; 
 
 //zombie_octopus
     string  description = "Zombie Octopus are lobbed by Octopus Zombie and entangle plants.";
-    //double  hp        = n/a;
+    double  hp          = ;
+    string  special     = "When destroyed reveals the plant that it was entangling.";
     bool    gravebuster = false;
     bool    hot_potato  = true; 
 

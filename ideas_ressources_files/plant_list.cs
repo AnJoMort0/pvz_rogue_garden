@@ -8,7 +8,7 @@
         int     rech_time   = ;             //recharge time: mesured in seconds - time needed for the plant to be available again
         double  hp          = 6;            //hit points (hp) are counted in peas. Yes, even the plants'. Note: A regular plant has 6 hp
         string  projectile  = "pea";        //from the projectiles_list
-        string  attack_type = straight;   //see below, aims dependant on the range
+        string  attack_type = straight;     //see below, aims dependant on the range
         double  ai          = 1;            //mesured in seconds - ai stands for attack interval, aka time between each attack, aka how fast the plant attacks
         double  range       = lane;         //measured in [see bellow];
         string  special     = "";           //if relevant, add a precise description of the ability/ies (this won't show up in the actual almanac, it is instead used as guidance for coding), if not remove this line.

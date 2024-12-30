@@ -48,13 +48,13 @@ double  faster   = 5;
     string origin = "PvZ 1";
 
     //huge_wave
-        string description = "Huge Waves of zombies are just like regular waves of zombies but they have more CR than the wave they replace would usually have. They happen between 1 and 5 times per day and night.";
+        string description = "Huge Waves of zombies are just like regular waves of zombies but huge. They happen between 1 and 5 times per day and night.";
 
     //final_wave
-        string descritpion = "Final Waves end days and nights. They are similar to Huge Waves but happens in both gardens and has even more CR. The next wave only spawns once the Final Wave has been fully cleared.";
+        string descritpion = "Final Waves end days and nights. They are similar to Huge Waves but happen in both gardens and are even bigger. The next wave only spawns once the Final Wave has been fully cleared.";
 
         //grave_ambush
-            string description = "Zombies or Imps emerge from random gravestones on the gardens and non-Imp and non-Gargantuar Zombies, including Cursed Gargoliths, spawn from engraved gravestones on the gardens during Final Waves.";
+            string description = "Zombies or Imps emerge from random gravestones on the gardens and non-Imp and non-Gargantuar, except Cursed Gargoliths, zombies spawn from engraved gravestones on the gardens during Final Waves.";
 
         //pool_ambush
             string description = "Aquatic Zombies or Imps covered in Kelp emerge from random tiles of the pool during Final Waves.";
@@ -63,11 +63,11 @@ double  faster   = 5;
         string descritpion = "During the day : Sun fall from the sky.";
 
         //total_eclipse
-            string description = "For all intents and porpuses, behaves the same as a New Moon but triggers during the day.";
+            string description = "For all intents and porpuses, behaves the same way as a New Moon but triggers during the day.";
             string origin = "PvZ Heroes";
 
         //radiation_wave
-            string description = "Sun falling from the sky glow a radioactive purple. If clicked before they land, they explode dealing massive damage to zombies and plants in a 3x3 area. Zom-blobs and Genetic Experiments are more likely to spawn.";
+            string description = "Sun falling from the sky glow a radioactive purple. If clicked before they land, they explode dealing massive damage to zombie in a 3x3 area. Zom-blobs and Genetic Experiments are more likely to spawn.";
             string origin = "PvZ 2 (Far Future - Sun Bombs)";
 
     //night
@@ -81,7 +81,7 @@ double  faster   = 5;
                 string description = "During full moon, no plants fall asleep.";
 
                 //haunting_moon
-                    string description = "For its duration, upgrades all zombies on screen. May trigger during full moons.";
+                    string description = "For its duration, all zombies spawn as their elite variants if they have one. May trigger during full moons.";
                     string origin = "PvZ Heroes (Bad Moon Rising)";
 
             //new_moon
@@ -92,10 +92,10 @@ double  faster   = 5;
     string origin = "Rogue Garden";
 
     //summer
-        string description = "Druing summer, sun are more likely to fall from the sky.";
+        string description = "During summer, sun are more likely to fall from the sky.";
 
         //sandstorm
-            string description = "Basics and low CR zombies can appear in small sand hurricanes, moving them fast past your defenses.";
+            string description = "Weak zombies can appear in small sand hurricanes, moving them fast past your defenses.";
             string origin = "PvZ 2 (Ancient Egypt - Sandstorm)";
 
         //pool_party
@@ -117,7 +117,7 @@ double  faster   = 5;
             string origin = "PvZ 1";
 
         //rain_storm
-            string descritpion = "A large rain cloud covers the yard. Grass tiles are randomly covered in 'Shallow Water' and only go away a few seconds after the event ends.";
+            string descritpion = "A large rain cloud covers the yard. Grass tiles are randomly covered in Shallow Water and only go away a few seconds after the event ends. Umbrella Zombies are more likely to spawn.";
                 
             //pool_flood
                 string description = "The lanes next to the pool are covered in shallow water. After a few seconds the next lanes get flooded too. The reverse effect happens after the event ends. May trigger during rain storms.";
@@ -140,7 +140,7 @@ double  faster   = 5;
             string description = "This event affects only one garden at a time and never the air. When triggered, any of the 'concerts' below will happen. Paparazzi zombies are more likely to spawn.";
 
                 //asylum_escape
-                    string description = "For the duration, zombies don't spawn normally. Spawns various Jack-in-the-box Zombies, Cuckoo Zombies and Trickster Zombies spread over the 7 lanes of a garden.";
+                    string description = "For the duration, zombies don't spawn normally, instead various Jack-in-the-box Zombies, Cuckoo Zombies and Trickster Zombies appear across the 7 lanes of a garden.";
                     string origin = "PvZ 1";
 
                 //orchestral_jam
@@ -164,7 +164,7 @@ double  faster   = 5;
                     string origin = "PvZ Heroes";
 
                 //punk_jam
-                    string description = "For the duration, zombies don't spawn normally. Spawns various Punk Zombies spread over the 7 lanes of a garden each wave.";
+                    string description = "For the duration, zombies don't spawn normally, instead various Punk Zombies appear across the 7 lanes of a garden each wave.";
                     string origin = "PvZ 2";
 
                 //pop_jam
@@ -172,11 +172,11 @@ double  faster   = 5;
                     string origin = "PvZ 2";
 
                 //rap_jam
-                    string description = "For the duration, zombies don't spawn normally. Spawns various Mc-ZomBs and Breakdancer Zombies spread over the 7 lanes of a garden each wave.";
+                    string description = "For the duration, zombies don't spawn normally, instead various Mc-ZomBs and Breakdancer Zombies appear across the 7 lanes of a garden each wave.";
                     string origin = "PvZ 2";
 
                 //metal_jam
-                    string description = "For the duration, zombies don't spawn normally. Spawns 1 to 3 Hair Metal Gargantuars and 30 to 10 Hair Metal Imps respectivelly each wave.";
+                    string description = "For the duration, zombies don't spawn normally, instead 1 to 3 Hair Metal Gargantuars  and 30 to 10 Hair Metal Imps respectivelly appear each wave.";
                     string origin = "PvZ 2";
 
                 //boombox_jam
@@ -198,23 +198,23 @@ double  faster   = 5;
             
             //mark_iii
                 string description = "The Zombot Mark III is a colossal robot reminicent of its original apearance and its Mark II edition in the time-travel adventure. Its hulking height leaves it standing even higher than the roof. It can only be damage when hit at the head.";
-                string almanac = "He may have exploded once and even twice, but he always believes that third time's the charm.";
+                string almanac = "He may have exploded once and even twice, but Dr. Edgar Zomboss always believes that third time's the charm.";
                 string origin = "PvZ 1 ; PvZ 2 China (Mark II) ; PvZ Heroes (Zom-Blob and Gargantuar's Feast)";
                 string summon = "He summons zombies near himself, by placing them with his giant mechanical hand. He prefers placing few tougher zombies and mostly creates zombies originating from PvZ 1. Can place bobsled teams.";
                 //phase_1
-                    string attack_1 = "Fire Ball : The Zombot lowers its head to the gardens level, making Zomboss vulnerable, in order to release a giant ball of fire that slides down the lane, buring plants and even the mowers. Can be countered with Ice-shroom and damaged by ice projectiles. Disappears if aimed at the pool.";
-                    string attack_2 = "Ice Ball : The Zombot lowers its head to the gardens level, making Zomboss vulnerable, in order to release a giant ball of ice that slides down the lane, freezing plants and even the mowers and leaving a trail of ice for bobsleds behind. Can be countered with Jalapeño and damaged by fire projectiles. Freezes the pool's surface if aimed at it, making it behave like frozen shallow water.";
+                    string attack_1 = "Fire Ball : The Zombot lowers its head to the garden's level, making Zomboss vulnerable, in order to release a giant ball of fire that slides down the lane, buring plants and even the mowers. Can be countered with Ice-shroom and damaged by ice projectiles. Disappears if aimed at the pool.";
+                    string attack_2 = "Ice Ball : The Zombot lowers its head to the garden's level, making Zomboss vulnerable, in order to release a giant ball of ice that slides down the lane, freezing plants and even the mowers and leaving a trail of ice for bobsleds behind. Can be countered with Jalapeño and damaged by fire projectiles. Freezes the pool's surface if aimed at it, making it behave like frozen shallow water.";
                 //phase_2
                     string attack_3 = "Bungee Release : The Zombot holds its hand out over the garden, or the roof, and releases five bungee jumpers or bungee plumbers, whose ropes are attached to its fingers.";
                     string attack_4 = "Zombot Stomp : The Zombot stomps a 2x3 to 3x3 area near him with its foot.";
-                    string attack_5 = "Ball of Blob : The Zombot lowers its head to the gardens level, making Zomboss vulnerable, in order to release a giant ball similar to the Zom-Blob that slides down the lane, crushing plants and leaving a trail of blob behind, and cannot be countered. Gives Disinfection zombie's effect, if aimed at the pool.";
+                    string attack_5 = "Ball of Blob : The Zombot lowers its head to the garden's level, making Zomboss vulnerable, in order to release a giant ball similar to the Zom-Blob that slides down the lane, crushing plants and leaving a trail of blob behind, and cannot be countered. Gives Disinfection zombie's effect, if aimed at the pool.";
                 //phase_3
                     string attack_6 = "Camper Throw : The Zombot throws a camping van at the garden or the roof, crushing plants in a 2x4 area and occasionally spawing a Campimp Porter, unless aimed at the pool.";
-                    string attack_7 = "Gargantuar's Feast : The Zombot lowers its head, making Zomboss, who rings a small golden bell, vulnerable. 3 gargantuars of any type spawn in its garden, spread acroos the 7 lanes."
+                    string attack_7 = "Gargantuar's Feast : The Zombot lowers its head, making Zomboss, who rings a small golden bell, vulnerable. 3 gargantuars of any type spawn in its garden, spread across the 7 lanes."
             
             //dug-up_sphinx-inator
-                string description = "The Zombot Sphinx-inator is a large ancient robot, that was stolen from the Neighbourghville Museum and, until now, impossible to find. It occupies only a small area on the map but can move around with its spider-like legs.";
-                string almanac = "Finding his precious old creation in the Neighbourghville Museum was, to be sure, a suprise for Dr. Edgar Zomboss, but a more than welcome one.";
+                string description = "The Zombot Sphinx-inator is a large ancient robot, that was stolen from the Neighbourghville Museum and, until now, was impossible to find. It occupies only a small area on the map but can move around with its spider-like legs.";
+                string almanac = "Finding his precious old creation in the Neighbourghville Museum was, to be sure, a suprise for Dr. Edgar Zomboss, but more than a welcome one.";
                 string origin = "PvZ 2";
                 string summon = "Opens its mouth to release zombies. Prefers spawning groups of basics and zombies from the Museum category, as well as Headstone Carver Zombie and Mixed-up Gravedigger Zombies.";
                 //phase_1
@@ -229,25 +229,25 @@ double  faster   = 5;
 
             //catastro-liope
                 string description = "The mystery-filled circus-wagon of terrors and delights. It occupies only a small area on the map but can move around with its wagon wheel legs.";
-                string almanac = "'Despite the decline of circuses in recent years, I refuse to give up on a form of entertainment with so much history and plant-destroying potential,' cackles Dr. Zomboss, all while tapping out a jaunty little tune on his keyboard.";
+                string almanac = "'Despite the decline of circuses in recent years, I refuse to give up on a form of entertainment with so much history and plant-destroying potential,' cackles Dr. Edgar Zomboss, all while tapping out a jaunty little tune on his keyboard.";
                 string origin = "PvZ 2";
-                string summon = "Opens its mouth to release zombies. Prefers spawning zombies from the Carnival category.";
+                string summon = "Opens its mouth to release zombies. Prefers spawning Animal Herder type zombies and zombies from the Carnival category.";
                 //phase_1
                     string attack_1 = "Imp Lauch : The Zombot's eye opens to reveal a cannon that shoots 1 to 3 Carnie Imps, multiplied by the phase it's in, at random tiles on the lawn.";
                     string attack_2 = "Swing : The Zombot swings its metalic claws at the plants, destroying plants in a 1x3 area in front of itself.";
                     string attack_3 = "Jump : The Zombot jumps to a different place instead of walking, avoiding land attacks while in movement.";
                 //phase_2
-                    string attack_3 = "Animal Release : The Zombot opens its side-cage, releasing Zombie Doves, Rabits and Rats down the three lanes in occupies.";
+                    string attack_3 = "Animal Release : The Zombot opens its side-cage, releasing up to 5 zombie animals down each lane it occupies.";
                 //phase_3
                     string attack_4 = "Dash : The Zombot rears back, charges up and then dashes down the garden, crushing plants it touches.";
 
             //desk-a-tron
                 string description = "Dr. Zomboss's corporate desk, but on legs. It occupies only a small area on the map but can move around with its office adequate legs.";
-                string almanac = "After consultation, Dr. Edgar Zomboss finally decided to show who the Boss really is. He put on his coat, sat at his desk and told his managers to the rest.";
-                string origin = "Rogue Garden ; PvZ Heroes (Maniacal Laught)";
+                string almanac = "After consultation, Dr. Edgar Zomboss finally decided to show who the Boss really is. He put on his coat, sat at his desk and told his managers to do the rest.";
+                string origin = "Rogue Garden ; PvZ Heroes (Maniacal Laugh)";
                 string summon = "Zomboss rings the bell on his shelf to call zombies in. Prefers spawning zombies from the ZCorp category and only spawns ZCorp variant basics.";
                 //phase_1
-                    string attack_1 = "Costumer Service Please : Zomboss calls costumer service, summoning up to 5 ZCorp Costumer Sevice accros the garden.";
+                    string attack_1 = "Costumer Service Please : Zomboss calls costumer service, summoning up to 5 ZCorp Costumer Sevice zombies across the garden.";
                     string attack_2 = "Swing : The Zombot swings its metalic claws at the plants, destroying plants in a 1x3 area in front of itself.";
                     string attack_3 = "Jump : The Zombot jumps to a different place instead of walking, avoiding land attacks while in movement.";
                 //phase_2
@@ -258,16 +258,16 @@ double  faster   = 5;
                     string attack_6 = "Promotion : Turns all non-armored ZCorp basics into ZCorp Middle Managers";
 
             //multi-stage_masher
-                string description = "The Multi-Stage Masher is a huge concert stage that covers the whole road, leaving it vulnerable from every wave.";
+                string description = "The Multi-Stage Masher is a huge concert stage that covers the whole road, leaving it vulnerable from every lane.";
                 string almanac = "In another world, in another time, Dr. Zomboss would receive the bounty of enthusiastic applause that is his due. Not here and now, though. Nope.":
                 string origin = "PvZ 2 ; PvZ Heroes (Monster Mash)";
-                string summon = "Beats him speakers to summon zombies from the ground in front of the stage. He prefers spawning many low-health zombies spread across the 7 lanes. Likes spawning Disco Zombies, Cosmic Dancing Zombies, and instrument playing zombies.";
+                string summon = "Beats his speakers to summon zombies from the ground in front of the stage. He prefers spawning many low-health zombies spread across the 7 lanes. Likes spawning Disco Zombies, Cosmic Disco Zombies, and instrument playing zombies.";
                     //phase_1
                         string attack_1 = "Medley : Zomboss switches into a costume reminiscent of either an Orchestra Conductor Zombie, a Pianist Zombie, an Aerobics Instructor Zombie, the Binary Stars, or a Boom Box Zombie and gives their effect to the garden until he uses this attack again.";
-                        string attack_2 = "Monster Mash : Creates 4 Disco Zombies, one lane away from each-other.";
+                        string attack_2 = "Monster Mash : Creates 3 or 4 Disco Zombies, one lane away from each-other.";
                         string attack_3 = "Speaker Launch : A target appears on a random tile in the three last rows of the garden. A speaker lands on that tile after a few seconds, destroying whatever plant was on that tile. Behaves exactly like a gravestone, except they passively damage plants up to 3 tiles in front of it, except ground plants and Phat Beets.";
                     //phase_2
-                        string attack_4 = "Booming Tunes : Make the speakers on launch a heavy wave of music forwards. they deal 6 damage to the first plant they reach.";
+                        string attack_4 = "Booming Tunes : Make the speakers launch a heavy wave of music forwards. they deal 6 damage to the first plant they reach.";
                         string attack_5 = "Asylum Keys : Zomboss switches into a costume reminiscent of the Jack-in-the-box Zombie and triggers an Asylum Escape Event.";
                         string attack_6 = "Rap Battle : Zomboss switches into his rappper outfit and triggers a Rap Jam event.";
                         string attack_7 = "Punk! : Zomboss switches into his Punk outfit and triggers a Punk Jam event.";
@@ -303,10 +303,10 @@ double  faster   = 5;
                     string attack_3 = "Locust Swarm : Puts a Locust Swarm in a random 3x3 area. It can be cleared by blover. All plants in the area take 0.5 damage per second.";
                     string attack_4 = "Knockout : Stuns all plants with 1 or less damage in a lane.";
                     string attack_5 = "Rolling Stones : Sends a large boulder down one of the lanes dealing 4 damage to all plants and zombies.";
-                    string attack_6 = "Going Viral : 2-4 zombies take loose 2 hp but becomes 'friendzied' - Gains +0.5aps when he kills a plant.";
+                    string attack_6 = "Going Viral : 2-4 zombies lose 2 hp but become 'frienzied' - Gains +0.5aps when it kills a plant.";
                 //shields
                     string super_a = "Heroic Health : Heals himself for 12 hp.";
-                    string super_b = "Possessed : 4-8 random zombies gain 4 armor if they already have any and becomes 'frienzied' - Gains +0.5aps when he kills a plant.";
+                    string super_b = "Possessed : 4-8 random zombies gain 4 armor if they already have any and become 'frienzied' - Gains +0.5aps when he kills a plant.";
                     string super_c = "Galvanise : 4-8 random zombies gain 10 hp and 2 dmg.";
 
             //rustbolt
@@ -316,7 +316,7 @@ double  faster   = 5;
                 string zombies = "Zombies from the Construction category are more likely to spawn.";
                 //attacks
                     string signature_super = "Shrink Ray : Shrinks a random plant. Halfing all its stats.";
-                    string attack_1 = "Going Viral : 2-4 zombies take loose 2 hp but becomes 'friendzied' - Gains +0.5aps when he kills a plant.";
+                    string attack_1 = "Going Viral : 2-4 zombies lose 2 hp but becomes 'frienzied' - Gains +0.5aps when he kills a plant.";
                     string attack_2 = "Escape Through Time : Replaces the lowest hp zombie with a random zombie from the Museum category.";
                     string attack_3 = "Terrify : Switches the places of 8 plants in a random 2x7 area.";
                     string attack_4 = "Cryo-brain : Increases the CR pool by 1 until the end of the boss battle.";
@@ -324,7 +324,7 @@ double  faster   = 5;
                     string attack_6 = "Hail-a-copter : Spawns 2 Copter Comandimps.";
                 //shields
                     string super_a = "Heroic Health : Heals himself for 12 hp.";
-                    string super_b = "Cut Down to Size : Temporarily stuns the highest damage plant in the garden.";
+                    string super_b = "Cut Down to Size : Kills the highest damage plant in the garden.";
                     string super_c = "Rock Wall : Creates a 1x3 line of Tombstones in front of the highest CR zombie in the garden.";
 
             //professor_brainstorm
@@ -343,7 +343,7 @@ double  faster   = 5;
                 //shields
                     string super_a = "Summoning : Spawns a random 5 CR zombie";
                     string super_b = "Telepathy : Instantly does two attacks.";
-                    string super_c = "Dance Off : Spawns 2 Backup Dancers in each lane.";
+                    string super_c = "Dance Off : Spawns 1 Backup Dancer, 1 Disco Backup Dancer and 1 Flamenco Backup Dancer in each lane.";
             
             //z-mech
                 //Mechanized Zombies
@@ -362,7 +362,7 @@ double  faster   = 5;
                     string attack_2 = "Final Mission : Sacrifices a 6 CR or more zombie to shoot a rocket into the roof, dealing heavy damage in a plus shaped area.";
                     string attack_3 = "The Chickening : Triggers a Chicken Run ambush.";
                     string attack_4 = "Smoke Bomb : Spawns a smoke bomb on a tile and teleports all zombies on it 3 tiles forwards.";
-                    string attack_5 = "Barrel of Barrels : Spawns a Supply Barrel Roller and Waste Barrel Imp.";
+                    string attack_5 = "Barrel of Barrels : Spawns a Supply Barrel Roller, a Waster Barrel Imp, a Carnie Imp Cannon, a Barrel of Deadbeard or a Barrel of Flameface.";
                     string attack_6 = "Frosty Mustache : Freezes a random plant and places an Impostor on that tile.";
                 //shields
                     string super_a = "In-Crypted : Replaces 2 zombies with Engraved Gravestones and 1 imp with an Impstone.";
@@ -398,7 +398,7 @@ double  faster   = 5;
                     string attack_2 = "Nibble : A plant gets stuned temporarily. Heals the boss for 1 hp.";
                     string attack_3 = "Locust Swarm : Puts a Locust Swarm in a random 3x3 area. It can be cleared by blover. All plants in the area take 0.5 damage per second.";
                     string attack_4 = "Frosty Mustache : Freezes a random plant and places an Impostor on that tile.";
-                    string attack_5 = "Barrel of Barrels : Spawns a Supply Barrel Roller and Waste Barrel Imp.";
+                    string attack_5 = "Barrel of Barrels : Spawns a Supply Barrel Roller, a Waster Barrel Imp, a Carnie Imp Cannon, a Barrel of Deadbeard or a Barrel of Flameface.";
                     string attack_6 = "Backyard Bouncy : Launches 2 zombies into the roof.";
                 //shields
                     string super_a = "Dolphinado : Triggers a Sandstorm ambush that, if in the backyard, brings Doplhin Rider Zombies to the pool lanes.";
@@ -426,33 +426,33 @@ double  faster   = 5;
                         string attack_6 = "Hail-a-copter : Spawns 2 Copter Comandimps.";
                     //shields
                         string super_a = "Telepathy : Instantly does two attacks.";
-                        string super_b = "Cut Down to Size : Temporarily stuns the highest damage plant in the garden.";
+                        string super_b = "Cut Down to Size : Kills the highest damage plant in the garden.";
                         string super_c = "Super Stench : Creates 2 Waste Barrel Imps and 5 Smelly Zombies spread across the seven lanes.";
 
         //gw's_football_zombie
 
     //eminent_domain
-        string description = "A Construction Cone Zombie spawns in a random lane. If there are no empty tiles in that lane, remove the front-most plant and don't allow that tile to be placed on until the CCZ reaches it. It then stops zombies spawning naturally in that lane and instead spawns every construction zombie in the following order each wave: a Digger Zombie, an Excavator Zombie, a Supply Barrel Roller Zombie, a Ladder Zombie, a Paint Bucket Zombie, an Electrician Zombie, a Kitchen Sink Zombie, a Waste Barrel Imp, a Landscaper Zombie, a Gardener Zombie. Zombies can then naturally spawn in that lane once again.";
+        string description = "A Construction Cone Zombie spawns in a random lane. If there are no empty tiles in that lane, remove the front-most plant and don't allow that tile to be placed on until the CCZ reaches it. It then stops zombies spawning naturally in that lane and instead spawns every construction zombie in the following order each wave: a Digger Zombie, an Excavator Zombie, a Supply Barrel Roller Zombie, a Ladder Zombie, an Electrician Zombie, a Kitchen Sink Zombie, a Paint Bucket Zombie, a Waste Barrel Imp, a Landscaper Zombie, a Gardener Zombie. Zombies can then naturally spawn in that lane once again.";
         string origin = "Rogue Garden";
 
     //football_game
-        string description = "For the duration, all CR goes into Football Zombies, Giga-Football Zombies, Quarterback Zombies, All-Star Zombies, Football Catapult Zombies, Defensive End Gargantuar, Mecha Football Zombie, Zombie Coaches, Team-Mascot Imps, and Brain Vendor Zombies, ";
+        string description = "For the duration, only Football Zombies, Giga-Football Zombies, Quarterback Zombies, All-Star Zombies, Football Catapult Zombies, Defensive End Gargantuars, Mecha Football Zombies, Zombie Coaches, Team-Mascot Imps, and Brain Vendor Zombies may appear.";
         string origin = "Rogue Garden";
 
     //street_carnival
-        string description = "For the duration, all CR goes into zombies from the Carnival category.";
+        string description = "For the duration, only zombies from the Carnival category may appear.";
         string origin = "PvZ 2 (Carnie Thymed Events)";
     
     //airstrike
-        string description = "For the duration, all CR goes into Parachutist Zombies and Roof-Climber Zombies";
+        string description = "For the duration only Parachutist Zombies and Roof-Climber Zombies may appear.";
         string origin = "PvZ 2 (Lost City lost pilot ambush)";
 
     //air_raid
-        string description = "For the duration, all CR goes into Balloon Zombies";
+        string description = "For the duration only Balloon Zombies may appear.";
         string origin = "PvZ 1 Minigame";
 
     //imp_rain
-        string description = "Two Transport Fighters spawn in each garden.";
+        string description = "Two Zombie Drop-off Rockets spawn in each garden.";
         string origin = "PvZ 2 (Far Future neutron imp ambush)";
 
     //bungee_ambush
@@ -471,7 +471,7 @@ double  faster   = 5;
         string origin = "PvZ Heroes ; Rogue Garden";
 
     //bobsled_bonanza
-        string description = "All CR goes into Zombonis and Bobsleds.";
+        string description = "For the duration, only Zombonis and Bobsled Teams may appear.";
         string origin = "PvZ 1 Minigame";
 
     //portal_combat
@@ -487,7 +487,7 @@ double  faster   = 5;
         string origin = "PvZ 1 Minigame";
 
     //pogo_party
-        string description = "For the duration, all CR goes into Pogo Zombies and Seahorse Rider Zombies.";
+        string description = "For the duration, only Pogo Zombies and Seahorse Rider Zombies may appear.";
         string origin = "PvZ 1 Minigame";
 
     //zen_garden

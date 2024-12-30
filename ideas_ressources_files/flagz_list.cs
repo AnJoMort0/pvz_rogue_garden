@@ -52,7 +52,7 @@ double  faster   = 5;
 //duckytube_flag_zombie
     string event_name = "Huge Wave : Back Garden";
     string description = "Ducky Tube Flag Zombie announces the arrival of many things, but they are all watery.";
-    string appearance = "The classic Flag Zombie desig but Ducky Tube. The flag has a blue backdrop.";
+    string appearance = "The classic Flag Zombie desig but Ducky Tube. The brain on the flag has a ducky tube.";
     double hp = 10;
     double armour = 0;
     double speed = fast;
@@ -275,7 +275,7 @@ double  faster   = 5;
     string origin = "Rogue Garden";
 
 //sunflower_zombie
-    string  event_name  = "Zombotany : Day";
+    string  event_name  = "Zombotany";
     string  description = "She might look nice but remember: zombie sun-production just means more zombies.";                      
     double  hp          = 6;                                           
     double  armour      = 0;                                                                                     
@@ -335,8 +335,8 @@ double  faster   = 5;
     double speed = normal;
     double dmg = 1;
     double aps = 2;
-    string special = "Takes passive fire damage during the day. Gains a movement speed and aps buff upon eating a plant. Dies if he bites garlic.";
-    string almanac = "He's still can't understand how Vimpire can survive during full moons, and much less when in direct sunlight!";
+    string special = "Takes passive fire damage. Gains a movement speed and aps buff upon eating a plant. Dies if he bites garlic.";
+    string almanac = "He still can't understand how Vimpire can survive during full moons, and much less when in direct sunlight!";
     string origin = "Rogue Garden";
 
 //flag_mummy_zombie

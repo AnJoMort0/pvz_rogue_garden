@@ -50,6 +50,15 @@ double  faster   = 5;
         string  almanac     = "";
         string  origin      = "";
 
+//special_lists
+    //zombie_animals
+string list     = "Zombie Chicken, Zombie Fire Rooster, Fraidy Cat, Zombie Monkey, Zombie Parrot, Zombie Pigeon, Hover-Goat 3000, Zombie Dove, Zombie Rabbit, Zombie Rat";
+    
+    //animal_herders
+string list     = "Beast Zombie Handler, Chicken Wrangler Zombie, Fire Rooster Wrangler Zombie, Dog Walker Zombie, Cat Lady Zombie, Squirrel Herder Zombie, Turkey Rider Imp, Monkey Smuggler Zombie, Captain Deadbeard, Captain Flameface, Pigeon Feeder Zombie, Dolphin Rider Zombie, Seahorse Rider Zombie, Abracadaver, Pied Piper Zombie, Dodo Fossil Rider Imp, Smelly Zombie, Trapper Zombie";
+
+    //instrument playing zombies
+string list     = "Tuba Zombie, Keytar Zombie, Undead Flamenco Dancers, Jack-in-the-box Zombie, Conga Drummer, Royal Horn Imp";
 
 //basics
         
@@ -227,7 +236,7 @@ double  faster   = 5;
 //miscellaneous_zombies
     
     //cosmic_browncoat_zombie
-        string  special     = "Spawns a browncoat or browncoat variant on the neighbourghing lanes once he reaches the garden.";
+        string  special     = "Spawns a browncoat or browncoat variant on the neighbourghing lanes once he dies.";
     
     //zombie_yeti
         string  special     = "Once it walkes past 4 columns or once 2 waves have passed (whichever one comes first) he walks backwards and out of the garden. If he gets killed, drops a yeti lunch box."; //rewards from yeti lunch box to be defined
@@ -382,9 +391,9 @@ double  faster   = 5;
             //zombie_chicken
 
     //elite_chicken_wrangler_zombie:fire_rooster_wrangler_zombie
-        string  special     = "Upon reaching a plant, being hit for a certain amount of damage or dieing, releases a Fire Rooster Zombie on his lane and on each neighbourghing lane.";
+        string  special     = "Upon reaching a plant, being hit for a certain amount of damage or dieing, releases a Zombie Fire Rooster on his lane and on each neighbourghing lane.";
 
-    //fire_rooster_zombie
+    //zombie_fire_rooster
         string  special     = "When a plant is placed on this lane, moves to a neighboring lane then shoots a fireball before continuing forwards.";
 
     //mixed-up_gravedigger_zombie
@@ -431,7 +440,8 @@ double  faster   = 5;
         double  speed       = normal;
         double  dmg         = 1;
         double  aps         = 2;
-        string  special     = "Only spawns during fall and winter. Spawns with the umbrela closed, then opens it to jump over the first plant he encounters and keeps it open. While open, blocks attacks from above, removes splash damage and stops A.K.E.E's bouncing but doens't block effects.";
+        string  special     = "Only spawns during fall and winter. More likely to spawn during Rain Storm events. Spawns with the umbrela closed, then opens it to jump over the first plant he encounters and keeps it open. While open, blocks attacks from above, removes splash damage and stops A.K.E.E's bouncing but doens't block status effects.";
+        string  almanac     = "Life comes and goes, but proper manners are forever.";
         string  origin      = "PvZ 2 (Parasol Zombie) ; PvZ Heroes and PvZ China (Gentleman Zombie)";
 
     //campimp_porter
@@ -443,7 +453,7 @@ double  faster   = 5;
         double  dmg         = 1;
         double  aps         = 2;
         string  special     = "Doesn't spawn during winter. On death, spawns a tent on the tile behind him.";
-        string  almanac     = "Imp Porter is stronger than he looks. He's also more charming, smarter and has a better education.";
+        string  almanac     = "Campimp Porter is stronger than he looks. He's also more charming, smarter and has a better education.";
         string  origin      = "PvZ 2 (Imp Porter)";
     
     //dog_walker_zombie
@@ -492,6 +502,7 @@ double  faster   = 5;
         double  aps         = 1;
         string  special     = "Upon eating a plant, he restores his health (up to full if over half and up to half if under half -> dropped arm)";
         string  almanac     = "His cholesterol level is off the charts, and yet he seems to be in remarkably good health.";
+        string  origin      = "PvZ Heroes";
 
     //energy_drink_zombie
         string  description = "He moves around your lawn and drinks as he advances.";
@@ -587,7 +598,7 @@ double  faster   = 5;
         double  aps         = 2;
         string  special = "Destroys the first nut or berry in her lane when she spawns";
         string  almanac = "The only thing more difficult than herding cats.";
-        string  origin = "OvZ Heroes";
+        string  origin = "PvZ Heroes";
 
     //hamsterball_imp
         string  description = "A very fast imp hidden under an extra layer of protection.";
@@ -665,7 +676,7 @@ double  faster   = 5;
         string  almanac     = "His epitaphs have been published on headstones around the world.";
         string  origin      = "PvZ Heroes ; PvZ 1 (gravestones)";
 
-    //mini-ninja
+    //minimp-ninja
         string  description = "A small zombie that sneaks past your defences."
         double  hp          = 5;
         double  armour      = 0;
@@ -675,7 +686,7 @@ double  faster   = 5;
         double  aps         = 3;
         string  special     = "After taking damage for the first time, he turns invisible for 4 tiles before reapearing.";
         string  almanac     = "His motto: Walk softly and carry a big nunchuck.";
-        string  origin      = "PvZ Heroes ; PvZ 2 China (Bandit Zombie)";
+        string  origin      = "PvZ Heroes (mini-ninja) ; PvZ 2 China (Bandit Zombie)";
 
     //stealth_imp
         string  description = "A small zombie that wanders through your defences, untraceable.";
@@ -686,7 +697,7 @@ double  faster   = 5;
         double  dmg         = 0.5;
         double  aps         = 3;
         string  special     = "Only spawns at night. Remains invisible and sneaks past plants for as long as he has his night-vision goggles on. He takes out his night-vision goggles when in range of light producers and fire plants and they can be removed by magnet-shroom.";
-        string  almanac     = "Gadget Scientist Zombie is behind the mysterious technology that allows these night-vision goggles to make Stealth imp invisible.";
+        string  almanac     = "Gadget Scientist Zombie is behind the mysterious technology that allows these night-vision goggles to make Stealth Imp invisible.";
         string  origin      = "PvZ 3";
 
     //monkey_smuggler_zombie
@@ -760,7 +771,7 @@ double  faster   = 5;
         double  dmg         = 1;
         double  aps         = 0.5;
         string  special     = "Throws perfume bottles at plants that release poisonous perfume that stuns and damages them.";
-        string  almanac     = "Perfume Zombie's perfume is popular among the aristocrats.Smells, hmm... tasty !";
+        string  almanac     = "Perfume Zombie's perfume is popular among the aristocrats. Smells, hmm... tasty !";
         string  origin      = "PvZ 2 China";
 
     //ballerina_zombie
@@ -808,7 +819,7 @@ double  faster   = 5;
         double  dmg         = 1;
         double  aps         = 2;
         string  special     = "Once the ice block is broken, all plants in a 3x3 radius are frozen. Flaming projectiles instantly destroy the ice block. Immune to chilling and freezing.";
-        string  almanac     = "The story how he was frozen along with a fish is completely bogus. Lies from beginning to end.";
+        string  almanac     = "The story of how he was frozen along with a fish is completely bogus. Lies from beginning to end.";
         string  origin      = "PvZ Adventure";
 
     //barrel_of_deadbeard
@@ -843,7 +854,7 @@ double  faster   = 5;
                         double  speed       = fast;
                         double  dmg         = 0;
                         double  aps         = 0;
-                        string  special     = "Flies towards the front-most plant of a random lane. Once it reaches it, it grabs onto it and stands for a few seconds before flying off with it. Once it flies off or is blown away by a plant, it reappears on the back of its Abracadaver's lane and goes back into the hat. It is instantly killed by butter and if it tries to grab onto a Spring Bean, it will activate and headbutt the Zombie Parrot, killing it.";
+                        string  special     = "Flies towards the front-most plant of a random lane. Once it reaches it, it grabs onto it and stands for a few seconds before flying off with it. Once it flies off or is blown away by a plant, it reappears on the back of its Cpatain Deadbeard's lane and goes back into the hat. It is instantly killed by butter and if it tries to grab onto a Spring Bean, it will activate and headbutt the Zombie Parrot, killing it.";
                         string  almanac     = "He's a third generation aviation revolutionary. He wants to serve his pirate brethren like his father and his grandmother, Salty Anne, before him.";
                         string  origing     = "PvZ Garden Warfare ; PvZ 2 (Pirate Captain Zombie)";
 
@@ -868,14 +879,14 @@ double  faster   = 5;
                 double  dmg         = 2;
                 double  aps         = 2;
                 string  special     = "Shoots from a 1 tiles away, attack pierces through the first plant and also damages the next one. Spawns a Fire Rooster Zombie, and respawns at the back of his lane when it dies.";
-                string  almanac     = "Yo ho ho! It's a pirate's unlife for him!";
+                string  almanac     = "He also comes from a barrel, just a differen... barell.";
                 string  origin      = "PvZ Garden Warfare ; PvZ 2 (Pirate Captain Zombie)";
         
     //pigeon_feeder_zombie
-        string  special     = "While alive, spawns and respawns pigeons on a 3x3 area around him similiarily to the disco zombie.";
+        string  special     = "While alive, spawns and respawns Zombie Pigeons on a 3x3 area around him similiarily to the disco zombie.";
         string  origin      = "PvZ 3";
 
-            //pigeon_zombie
+            //zombie_pigeon
                 string  special     = "Flies at roof height, clogging up your skies but land to eat.";
 
     //disco_zombie
@@ -1067,7 +1078,7 @@ double  faster   = 5;
             string  special     = "Flies towards your roof. Moves to a neighbouring lane when he eats a plant.";
             string  origin      = "PvZ Heroes (Space Cowboy)";
 
-        //hover_goat-3000
+        //hover-goat_3000
             string  special     = "Flies towards your roof. Gives zombies directly under itself +1 dmg and heals them over time.";
 
         //interdimensional_zombie
@@ -1123,6 +1134,10 @@ double  faster   = 5;
     //nutcracker_zombie
         string  special     = "Deals gargantuar damage to nuts."
 
+    //beast_handler
+        string  special     = "When an Animal Herder type zombie spawns, that zombie gets +1 dmg and +0,25 aps.";
+        string  origin      = "PvZ Heroes (Zookeeper)";
+
     //abracadaver
         string  special     = "Lifts his hat to reveal a Zombie Dove who'll try to fly off with your plants. If the dove dies, the hat falls off, which releases a Zombie Rabbit.";
         string  origin      = "PvZ Heroes ; PvZ 2 (Magician Zombie)";
@@ -1142,11 +1157,11 @@ double  faster   = 5;
         double  speed       = slow;
         double  dmg         = 1;
         double  aps         = 2;
-        string  special     = "Plays an instrument. Sends Rat Zombies down his lane.";
+        string  special     = "Plays an instrument. Sends Zombie Rats down his lane.";
         string  almanac     = "He was told that playing the pipe would summon raccoons. But whatevs.";
         string  origin      = "PvZ Heroes";
 
-            //rat_zombie
+            //zombie_rat
                 string  special     = "Cannot be hit by plants. Stuns the first plant they encounter until it dies, then goes on to the next plant. Dies if their Pied Piper dies.";
 
     //stiltwalker_zombie
@@ -1328,7 +1343,7 @@ double  faster   = 5;
         string  origin      = "PvZ 2 China";
     
     //zombie_drop-off_rocket
-        string  special     = "Flies towards your roof. Drops a Bug Bot Imp upon reaching 75%, 50% and 25% hp. Once it reaches the roof, stops and drops off a Moonwalker.";
+        string  special     = "Flies towards your roof. Drops a Bug Bot Imp upon reaching 75%, 50% and 25% hp. If it reaches the roof, it stops and drops off a Moonwalker.";
         string  origin      = "PvZ 2 China (Transport Ship) ; PvZ 2 (Far Future imp rain)";
 
             //moonwalker
@@ -1526,7 +1541,7 @@ double  faster   = 5;
                         string  almanac     = "Knight Zombie was just as surprised as anyone when Zombie King promoted him. He'd never say this out loud, but he's not sure he deserves the position. He's not sure he has what it takes to wear the armor. But like they say, 'Fake it 'til you make it.'";
                         string  origin      = "PvZ 2";
 
-    //knight_of_the_living_dead
+    //elite_zombie_knight:knight_of_the_living_dead
         string  description = "The Knight of the Living Dead is more living than dead due to his armor.";
         double  hp          = 10;
         double  armour      = 75;
@@ -1675,7 +1690,7 @@ double  faster   = 5;
 
             //backup_dancer_zombie
 
-        //pianist_zombie
+        //piano_zombie
             string  event_name  = "Swing jam";
             string  special     = "Plays a song that makes all basics change between tiles. Crushes plants it touches and dies to spikeweed.";
 
@@ -1707,11 +1722,11 @@ double  faster   = 5;
 
         //punk_zombie
             string  event_name  = "Punk jam";
-            string  special     = "Head can be reomved by Magnet-shroom and is disappears faster than other objects. Pushes plants it hits backwards. Doesn't affect Infi-nut with its push-back and therefore cannot damage or traverse it.";
+            string  special     = "Head can be reomved by Magnet-shroom and disappears faster than other objects. Pushes plants it hits backwards. Doesn't affect Infi-nut with its push-back and therefore cannot damage or traverse it.";
 
         //glitter_zombie
             string  event_name  = "Pop jam";
-            string  special     = "Makes zombies behind itself imune to damage and status effects. Crushs ground plants it passes through.";
+            string  special     = "Makes zombies behind itself imune to damage and status effects. Crushes ground plants it passes through.";
 
         //mc_zom-b
             string  event_name  = "Rap jam";
@@ -1720,12 +1735,12 @@ double  faster   = 5;
 
         //breakdancer_zombie
             string  event_name  = "Rap jam";
-            string  event_name  = "Pushes other zombies forwards 1 or 2 tiles when it reaches them it plays its music, stunning all plants in its garden. Plants planted after the song has started aren't immediately stunned.";
+            string  event_name  = "Pushes other zombies forwards 1 or 2 tiles.";
 
         //hair_metal_gargantuar
             string  event_name  = "Metal jam";
             string  description = "Attacks shoot sound waves to damage plants from affar.";
-            string  special     = "Throws a Hair Metal Imp upon reaching half hp.";
+            string  special     = "Throws a Hair Metal Imp upon reaching half hp. Attacks shoot sound waves to damage plants from affar.";
 
                 //hair_metal_imp
                     string  event_name  = "Metal jam";
@@ -1733,7 +1748,7 @@ double  faster   = 5;
 
         //boombox_zombie
             string  event_name  = "Boombox jam";
-            string  special     = "Once it walks past a few rows, it makes ";
+            string  special     = "Once it walks past a few rows, it plays its music, stunning all plants in its garden. Plants planted after the song has started aren't immediately stunned.;
 
         //conga_leader_zombie
             string  event_name  = "Conga line";

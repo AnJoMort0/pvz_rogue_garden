@@ -60,6 +60,9 @@ string list     = "Beast Zombie Handler, Chicken Wrangler Zombie, Fire Rooster W
     //instrument playing zombies
 string list     = "Tuba Zombie, Keytar Zombie, Undead Flamenco Dancers, Jack-in-the-box Zombie, Conga Drummer, Royal Horn Imp";
 
+    //zombies_with_mustache     list will expand as images are made
+string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
+
 //basics
         
     //browncoat_zombie

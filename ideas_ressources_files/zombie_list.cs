@@ -774,7 +774,7 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
         double  dmg         = 1;
         double  aps         = 0.5;
         string  special     = "Throws perfume bottles at plants that release poisonous perfume that stuns and damages them.";
-        string  almanac     = "Perfume Zombie's perfume is popular among the aristocrats. Smells, hmm... tasty !";
+        string  almanac     = "Perfume Zombie's perfume is popular among the aristocrats. Smells, hmm... tasty!";
         string  origin      = "PvZ 2 China";
 
     //ballerina_zombie
@@ -1558,6 +1558,7 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
 
     //vimpire
         string  special     = "Gains a movement speed and aps buff upon eating a plant. Dies if he bites garlic.";
+        string  almanac     = "Did you know moonlight is just reflected sunlight? Vimpire certainly does, he ALWAYS wears sunscreen.";
         string  origin      = "PvZ Heroes";
 
     //haunting_zombie

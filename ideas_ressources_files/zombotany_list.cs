@@ -37,7 +37,7 @@ double  faster   = 5;
     string  zbody       = "Flag Zombie";                                
     string  description = "She might look nice but remember: zombie sun-production just means more zombies.";                                                          
     string  special     = "Heals zombies that pass by her by 2hp.";                      
-    string  almanac     = "How does sun production translate to healing, you ask ? It doesn't : announcing Huge Waves does. The healing comes from the flag. It's a family heirloom.";
+    string  almanac     = "How does sun production translate to healing, you ask ? It doesn't : it translates to announcing Huge Waves. The healing comes from the flag. It's a family heirloom.";
     string  origin      = "Rogue Garden"; 
 
 //twin_sunflower_zombie
@@ -68,7 +68,7 @@ double  faster   = 5;
     string  zbody       = "Browncoat Basic";                                
     string  description = "Peapod Zombie grows in power as he advances.";                                                          
     string  special     = "After every 2 rows grows an extra head (n + 1) up to 5.";                      
-    string  almanac     = "The Mad Chemist Zombie is at fault for the late arrival of most of Peapod Zombie's heads. 'Who would've known plant food wouldn't have worked on a zombie hybrid?', he said.";
+    string  almanac     = "The Mad Chemist Zombie is at fault for the late arrival of most of Peapod Zombie's heads. 'Who would've known plant food wouldn't work on a zombie hybrid?', he said.";
     string  origin      = "Rogue Garden";
 
 //skyshooter_zombie
@@ -128,7 +128,7 @@ double  faster   = 5;
     string  zbody       = "Exploding Imp";
     string  description = "Fast, small and ready to explode.";
     string  special     = "Once he reaches a plant, he deals heavy damage to it and dies. Arms up after traversing 3 columns.";
-    string  almanac     = "This Exploding Imp was so decidated to his job he even went through potato surgery.";
+    string  almanac     = "This Exploding Imp was so decidated to his job he even went through potato-head surgery.";
     string  origin      = "Rogue Garden";
 
 //hot_head_zombie

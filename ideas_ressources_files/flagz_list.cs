@@ -108,7 +108,7 @@ double  faster   = 5;
     double speed = fast;
     double dmg = 1;
     double aps = 2;
-    string almanac = "Why does he hold the blueprint so high up ? Why does he go into the garden at all when the plans are already made ? Why can't he just give directions to the workers ? These questions are still left unanswered...";
+    string almanac = "Why does he hold the blueprint so high up ? Why does he go into the garden at all when the plans are already made ? Why can't he just give directions to his workers ? These questions are still left unanswered...";
     string origin = "Rogue Garden";
 
 //carnie_flag_zombie
@@ -145,7 +145,7 @@ double  faster   = 5;
     double speed = fast;
     double dmg = 1;
     double aps = 2;
-    string almanac = "With the upcoming football game, he now has three obsessions. He might give up brains for football flags...";
+    string almanac = "With the upcoming football game, he now has three obsessions. Super Fan Flag Zombie might give up brains for football flags...";
     string origin = "PvZ 2 (All-star Super Fan Imp)";
 
 //neon_flag_zombie
@@ -206,7 +206,7 @@ double  faster   = 5;
     double dmg = 0.5;
     double aps = 4;
     string special = "Flies at roof height. Affected by E.M.Peach. Uses a flamethrower to attack from one tile away.";
-    string almanac = "In Flag Pilot Zombie's opinion, if you want to walk in the forefront of fashion, the bright side of the banner is very important. However, other zombies are only concerned about his ability to lead them to find fresh brains.";
+    string almanac = "In Flag Pilot Zombie's opinion, if you want to be in the forefront of a zombie army, you must also be in the forefront of fashion. Other zombies don't share that sentiment though, they just want the brains Flag Pilot Zombie is leading them to.";
     string origin = "PvZ 2 China";
 
 //balloon_flag_zombie
@@ -245,7 +245,7 @@ double  faster   = 5;
     double dmg = 0.5;
     double aps = 4;
     string special = "Is tiny.";
-    string almanac = "'I don't mind being small' says Tiny Flag Zombie 'But when people call me little guy, I bite 'en.'";
+    string almanac = "'I don't mind being small' says Tiny Flag Zombie 'But when people call me little guy, I bite 'em.'";
     string origin = "PvZ 1 Minigame";
 
 //inivisi-flag_zombie
@@ -286,7 +286,7 @@ double  faster   = 5;
     int     ai          = ;                 
     double  range       = ;                                     
     string  special     = "Heals zombies that pass by her by 2hp.";                      
-    string  almanac     = "How does sun production translate to healing, you ask ? It doesn't : announcing Huge Waves does. The healing comes from the flag. It's a family heirloom.";
+    string  almanac     = "How does sun production translate to healing, you ask ? It doesn't : it translates to announcing Huge Waves. The healing comes from the flag. It's a family heirloom.";
     string  origin      = "Rogue Garden";  
 
 //eclipse_glasses_vendor

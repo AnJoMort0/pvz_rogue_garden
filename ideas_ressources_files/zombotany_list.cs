@@ -24,6 +24,14 @@ double  normal   = 3;
 double  fast     = 4;
 double  faster   = 5;
 
+//copy-paste
+    string  phead       = "";
+    string  zbody       = "";
+    string  description = "";
+    string  special     = "";
+    string  almanac     = "";
+    string  origin      = "";
+
 //sunflower_zombie
     string  phead       = "Sunflower";                                
     string  zbody       = "Flag Zombie";                                
@@ -42,7 +50,7 @@ double  faster   = 5;
 
 //metal_petal_zombie
     string  phead       = "Metal Petal";                                
-    string  zbody       = "Browncoat Basic";                               
+    string  zbody       = "Medic Zombie";                               
     string  description = "Though her healing might not be the best, be warry of her health.";                                                         
     string  special     = "Heals zombies that pass by her by 2hp.";                      
     string  almanac     = "Unlike Medic Zombie, Metal Petal Zombie actually has a medical degree.";
@@ -113,4 +121,16 @@ double  faster   = 5;
     string  description = "Sweet as a Sweet Potato, deadly as a zombie.";                                                       
     string  special     = "Moves zombies behind her from neighbouring lanes into her own.";                      
     string  almanac     = "Sweet Potato Zombie really looked up to Brain Vendor Zombie before the fusion, then he became his biggest competitor. But Sweet Potato Zombie never stopped looking up to him.";
-    string  origin      = "Rogue Garden";                        
+    string  origin      = "Rogue Garden";      
+
+//potato_mine_zombie
+    string  phead       = "Potato Mine";
+    string  zbody       = "Exploding Imp";
+    string  description = "Fast, small and ready to explode.";
+    string  special     = "Once he reaches a plant, he deals heavy damage to it and dies. Arms up after traversing 3 columns.";
+    string  almanac     = "This Exploding Imp was so decidated to his job he even went through potato surgery.";
+    string  origin      = "Rogue Garden";
+
+//hot_head_zombie
+
+//levitater_zombie

@@ -21,6 +21,7 @@
             var aim         = "From the coords of the plant to the coords of the aimed zombie defined by range.";
             var explosion   = "Explosion based on the projectile's lifespan as a square range";
             var lob         = "Lobbed attacks.";
+            var random      = "Random zombie in range.";
 
             //range
             var lane        = "A lane of the map.";
@@ -221,7 +222,7 @@
             string  projectile  = "hothead_explosion";
             string  attack_type = explosion;
             double  ai          = ;
-            double  range       = lane;
+            double  range       = tile;
             string  special     = "";
             string  almanac     = "Sure, he has an explosive temper. But for the most part, he's pretty even peeled.";
             string  origin      = "PvZ Heroes";

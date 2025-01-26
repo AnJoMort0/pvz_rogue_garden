@@ -55,9 +55,9 @@ double  faster   = 5;
 string list     = "Zombie Chicken, Zombie Fire Rooster, Fraidy Cat, Zombie Monkey, Zombie Parrot, Zombie Pigeon, Hover-Goat 3000, Zombie Dove, Zombie Rabbit, Zombie Rat";
     
     //animal_herders
-string list     = "Beast Zombie Handler, Chicken Wrangler Zombie, Fire Rooster Wrangler Zombie, Dog Walker Zombie, Cat Lady Zombie, Squirrel Herder Zombie, Turkey Rider Imp, Monkey Smuggler Zombie, Captain Deadbeard, Captain Flameface, Pigeon Feeder Zombie, Dolphin Rider Zombie, Seahorse Rider Zombie, Abracadaver, Pied Piper Zombie, Dodo Fossil Rider Imp, Smelly Zombie, Trapper Zombie";
+string list     = "Beast Zombie Handler, Chicken Wrangler Zombie, Fire Rooster Wrangler Zombie, Dog Walker Zombie, Cat Lady Zombie, Squirrel Herder Zombie, Turkey Rider Imp, Monkey Smuggler Zombie, Captain Deadbeard, Captain Flameface, Pigeon Feeder Zombie, Dolphin Rider Zombie, Seahorse Rider Zombie, Abracadaver, Pied Piper Zombie, Dodo Fossil Rider Imp, Smelly Zombie, Trapper Zombie, Octopus Zombie";
 
-    //instrument playing zombies
+    //instrument_playing_zombies
 string list     = "Tuba Zombie, Keytar Zombie, Undead Flamenco Dancers, Jack-in-the-box Zombie, Conga Drummer, Royal Horn Imp";
 
     //zombies_with_mustache     list will expand as images are made
@@ -400,26 +400,26 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
         string  special     = "When a plant is placed on this lane, moves to a neighboring lane then shoots a fireball before continuing forwards.";
 
     //mixed-up_gravedigger_zombie
-        string  description = "The Mixed-Up Gravedigger creates gravestones all over the map.";
+        string  description = "The Mixed-Up Gravedigger creates Gravestones all over the map.";
         double  hp          = 20;
         double  armour      = 0;
         int     cr          = 6;
         double  speed       = normal;
         double  dmg         = 1;
         double  aps         = 2;
-        string  special     = "Creates gravestones on random tiles of the lawn. If the tile is occupied, no gravestone is created. Shovel can be removed by magnet-shroom.";
+        string  special     = "Creates Gravestones on random tiles of the lawn. If the tile is occupied, no Gravestone is created. Shovel can be removed by magnet-shroom.";
         string  almanac     = "Digging graves is hard work, but seeing customers rise out of them makes it all worth it.";
         string  origin      = "PvZ Heroes ; PvZ 2 (Tomb Raiser Zombie)";
 
     //grave_robber_zombie
-        string  description = "Robs gravestones to become stronger.";
+        string  description = "Robs Gravestones to become stronger.";
         double  hp          = 10;
         double  armour      = 0;
         int     cr          = 4;
         double  speed       = normal;
         double  dmg         = 1;
         double  aps         = 2;
-        string  special     = "Stops at every gravestone he passes by and gets +3 hp and +1 dmg but damages them stlightly. Buffs are doubled on engraved gravestones and they take double damage.";
+        string  special     = "Stops at every Gravestone he passes by and gets +3 hp and +1 dmg but damages them stlightly. Buffs are doubled on Engraved Gravestones and they take double damage.";
         string  almanac     = "Why not rob graves? They're not going to miss it. It's not like the dead are rising up or anything.";
         string  origin      = "PvZ Heroes";
 
@@ -668,16 +668,16 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
         string  origin      = "PvZ Heroes";
 
     //headstone_carver
-        string  description = "Engraves gravestones he passes by.";
+        string  description = "Engraves Gravestones he passes by.";
         double  hp          = 10;
         double  armour      = 0;
         int     cr          = 4;
         double  speed       = normal;
         double  dmg         = 1;
         double  aps         = 2;
-        string  special     = "Stops by gravestones he passes and turns them into engraved gravestones.";
+        string  special     = "Stops by Gravestones he passes and turns them into Engraved Gravestones.";
         string  almanac     = "His epitaphs have been published on headstones around the world.";
-        string  origin      = "PvZ Heroes ; PvZ 1 (gravestones)";
+        string  origin      = "PvZ Heroes ; PvZ 1 (Gravestones)";
 
     //minimp-ninja
         string  description = "A small zombie that sneaks past your defences."
@@ -910,6 +910,14 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
         string  special     = "Upon reaching the 4th column, he lauches himself upwards to the second to last lane of the roof, dealing heavy damage to the plant he lands on in the process.";
         string  origin      = "PvZ Garden Warfare"
 
+        //var_foot_soldier_zombie:scuba_soldier_zombie
+            string  special     = "Only appears in the pool. Dives into the water and stays there until the 4th column. Upon reaching it, he lauches himself upwards to the second to last lane of the roof, knocking over any plant on a lily on that tile and dealing heavy damage to the plant he lands on in the process.";
+            string  origin      = "PvZ Garden Warfare"
+
+        //elite_foot_soldier_zombie:arctic_trooper_zombie
+            string  special     = "Resistant to chilling, freezing and cold projectiles. Upon reaching the 4th column, he lauches himself upwards to the second to last lane of the roof, freezing plants in a cross formation from where he jumps and dealing heavy damage to the plant he lands on in the process.";
+            string  origin      = "PvZ Garden Warfare"
+
     //riot_police_bomber_zombie
         string  special     = "Throws smoke bombs forwards to stun plants. Hits plants with his stick instead of eating.";
         string  origin      = "PvZ 2 China (Riot Police Zombie)";
@@ -965,6 +973,68 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
         string  origin      = "PvZ Heroes (Flamenco Zombie); Rogue Garden";
         
         //flamenco_backup_dancers
+
+    //zomboni
+        string  special     = "Affected by EMPeach. Creates an ice trail behind him that plants, except plant pots, cannot be planted on and Bobsleds can spawn on. Overrides Paint Bucket Zombie's Paint Trail.";
+
+    //celestial_custodian_zombie
+        string  special     = "Affected by EMPeach. Flies towards the roof. Inflicts double damage to plants with 0 aps, inlcuding stunned plants.";
+
+    //space_cowimp
+        string  special     = "Affected by EMPeach. Flies towards your roof. Moves to a neighbouring lane when he eats a plant.";
+        string  origin      = "PvZ Heroes (Space Cowboy)";
+
+    //hover-goat_3000
+        string  special     = "Affected by EMPeach. Flies towards your roof. Gives zombies directly under itself +1 dmg and heals them over time.";
+
+    //interdimensional_zombie
+        string  description = "The Interdimensional Zombie occasionally avoids attacks by glitching forward.";
+        double  hp          = 20;
+        double  armour      = 0;
+        int     cr          = 4;
+        double  speed       = normal;
+        double  dmg         = 1;
+        double  aps         = 2;
+        string  special     = "Affected by EMPeach. Every third attack that hits him doesn't inflict damage and causes him to glitch forwards one tile.";
+        string  almanac     = "In a parallel dimension, this Zombie is a Space Pirate. In another, he's a Trash Can Zombie. Turns out, little choices in life can make a big difference.";
+        string  origin      = "PvZ Heroes ; PvZ It's Versus Time (Glitched Zombie)";
+
+    //cyborg_zombie
+        string  description = "The Cyborg Zombie summons a stronger version of himself upon death.";
+        double  hp          = 30;
+        double  armour      = 0;
+        int     cr          = 7;
+        double  speed       = normal;
+        double  dmg         = 1;
+        double  aps         = 2;
+        string  special     = "Affected by EMPeach. Once dead, a Vengeful Cyborg Zombie spawns in his lane.";
+        string  almanac     = "He'll be back.";
+        string  origin      = "PvZ Heroes";
+
+            //vengeful_cyborg_zombie
+                string  description = "He is stronger than his summoner in every way.";
+                double  hp          = 60;
+                double  armour      = 0;
+                //int   cr          = n/a;
+                double  speed       = very fast;
+                double  dmg         = 2;
+                double  aps         = 4;
+                string  special     = "Affected by EMPeach. ";
+                string  almanac     = "He's back";
+                string  origin      = "PvZ Heroes";
+
+    //arcade_zombie
+        string  special     = "Affected by EMPeach. Pushes an arcade machine that slows itself down but takes hits from the front and spawns 8-Bit Zombies. Can't push the arcade machine past Gravestones.";
+
+            //variant_basic:8-bit_zombie
+                //animated in less fps
+
+    //bug_bot_imp
+
+    //robo-cone_zombie
+
+    //gargantuar_prime
+        string  special     = "Affected by EMPeach. Shoots his laser at plants in the back of the garden. Attacks twice per attack. Throws Bug Bot Imp upon reaching half hp.";
 
     //airborn_zombies
 
@@ -1051,7 +1121,7 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
                     string  origin      = "PvZ 2 (Fisherman Zombie) ; PvZ Heroes (Buckethead Zombie)";
 
         //octo_zombie
-            string  special     = "Throws octopus at plants in the garden, prioritizing his lane. The octopus acts as a thombstone but is weak to Hot Potato instead of Grave Buster.";
+            string  special     = "Throws Zombie Octopus at plants in the garden, prioritizing his lane.";
 
         //synchronized_swimmer_zombie
             string  special     = "Only spawns in the pool. More likely to spawn during Aerobics Class concert event. Always spawns in groups of three, covering all three pool lanes.";
@@ -1068,69 +1138,6 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
         //walrus_rider_imp
             string  special     = "Only spawns in the pool, during winter. Slides over the water, propelling the imp forward on the first plant it hits.";
             string  origin      = "PvZ Heroes";
-
-    //mechanized_zombies: affected by EMPeach - flying zombies affected by EMPeach fall to the ground
-    
-        //zomboni
-            string  special     = "Creates an ice trail behind him that plants, except plant pots, cannot be planted on and Bobsleds can spawn on. Overrides Paint Bucket Zombie's Paint Trail.";
-
-        //celestial_custodian_zombie
-            string  special     = "Flies towards the roof. Inflicts double damage to plants with 0 aps, inlcuding stunned plants.";
-
-        //space_cowimp
-            string  special     = "Flies towards your roof. Moves to a neighbouring lane when he eats a plant.";
-            string  origin      = "PvZ Heroes (Space Cowboy)";
-
-        //hover-goat_3000
-            string  special     = "Flies towards your roof. Gives zombies directly under itself +1 dmg and heals them over time.";
-
-        //interdimensional_zombie
-            string  description = "The Interdimensional Zombie occasionally avoids attacks by glitching forward.";
-            double  hp          = 20;
-            double  armour      = 0;
-            int     cr          = 4;
-            double  speed       = normal;
-            double  dmg         = 1;
-            double  aps         = 2;
-            string  special     = "Every third attack that hits him doesn't inflict damage and causes him to glitch forwards one tile.";
-            string  almanac     = "In a parallel dimension, this Zombie is a Space Pirate. In another, he's a Trash Can Zombie. Turns out, little choices in life can make a big difference.";
-            string  origin      = "PvZ Heroes ; PvZ It's Versus Time (Glitched Zombie)";
-
-        //cyborg_zombie
-            string  description = "The Cyborg Zombie summons a stronger version of himself upon death.";
-            double  hp          = 30;
-            double  armour      = 0;
-            int     cr          = 7;
-            double  speed       = normal;
-            double  dmg         = 1;
-            double  aps         = 2;
-            string  special     = "Once dead, a Vengeful Cyborg Zombie spawns in his lane.";
-            string  almanac     = "He'll be back.";
-            string  origin      = "PvZ Heroes";
-
-                //vengeful_cyborg_zombie
-                    string  description = "He is stronger than his summoner in every way.";
-                    double  hp          = 60;
-                    double  armour      = 0;
-                    //int   cr          = n/a;
-                    double  speed       = very fast;
-                    double  dmg         = 2;
-                    double  aps         = 4;
-                    string  almanac     = "He's back";
-                    string  origin      = "PvZ Heroes";
-
-        //arcade_zombie
-            string  special     = "Pushes an arcade machine that slows itself down but takes hits from the front and spawns 8-Bit Zombies. Can't push the arcade machine past gravestones.";
-
-                //variant_basic:8-bit_zombie
-                    //animated in less fps
-
-        //bug_bot_imp
-
-        //robo-cone_zombie
-
-        //gargantuar_prime
-            string  special     = "Shoots his laser at plants in the back of the garden. Attacks twice per attack. Throws Bug Bot Imp upon reaching half hp.";
 
 //carnival_zombies
     
@@ -1178,21 +1185,24 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
         string  special     = "Stays at the back of the garden and occasionnaly shoots out Carnie Imps. If not defeated after a certain time, explodes, shooting 4 to 6 Carnie Imps much further into the garden than it normally would.";
         string  origin      = "PvZ 2";
 
-            //carnie_imp
-                string  description = "Often launched from carnie cannons.";
-                double  hp          = 5;
-                double  armour      = 10;
-                //int   cr          = n/a;
-                double  speed       = fast;
-                double  dmg         = 0.5;
-                double  aps         = 3;
-                string  special     = "Helmet can be removed by Magnetshroom.";
-                string  almanac     = "At the same time, though, you wouldn't want to bet your life on these guys only coming out of cannons.";
-                string  origin      = "PvZ 2";
+        //carnie_imp
+            string  description = "Often launched from carnie cannons.";
+            double  hp          = 5;
+            double  armour      = 10;
+            //int   cr          = n/a;
+            double  speed       = fast;
+            double  dmg         = 0.5;
+            double  aps         = 3;
+            string  special     = "Helmet can be removed by Magnetshroom.";
+            string  almanac     = "At the same time, though, you wouldn't want to bet your life on these guys only coming out of cannons.";
+            string  origin      = "PvZ 2";
 
     //imposter
-        string  special     = "Splits into two Imps on adjacent lanes on death, one of which has a moustache. While wearing the coat, it deals more damage when eating plants.";
+        string  special     = "Splits into two imps on adjacent lanes on death, one of which is a Moustache Imp and the other is a random CR 3 or less Imp. While wearing the coat, it deals more damage when eating plants.";
         string  origin      = "PvZ Heroes and PvZ Adventure ; PvZ 2 (Carnie Imp Twins)";
+
+        //moustache_imp
+            string  special     = "After passing 4 columns turns into a random CR 4 or less zombie with a moustache.";
 
 //sportive_zombies
     
@@ -1253,8 +1263,12 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
 //construction_zombies
     
     //construction_cone_zombie
-        string  special     = "Once it reaches an empty tile, if it still has its cone, places it down turning the tile into a construction site that cannot be planted on. The construction finishes once 10 zombies have walked past it. Construction Zombies count twice.";
+        string  special     = "Once it reaches an empty tile, if it still has its cone, places it down turning the tile into a Construction Site";
         string  origin      = "PvZ 1 (Conehead Beta Design)";
+
+    //pylon_imp
+        string  special     = "On death, spawns a Loudmouth Bot.";
+        string  origin      = "PvZ Garden Warfare";
 
     //paint_bucket_zombie
         string  special     = "Doesn't spawn during winter. Once he reaches the garden, drops his bucket and drags it creating a trail of red paint the boosts the speed of zombies on it. It overrides Zomboni Ice Trails.";
@@ -1273,6 +1287,10 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
     
     //electrician_zombie
         string  special     = "Zombies behind him on his lane are faster.";
+
+    //ac_perry
+        string  special     = "Attacks at a two tile range, shooting ice balls to slowly freeze plants. If it passes by a Construction Site, it replaces it with a Mr. Freezy bot.";
+        string  origin      = "PvZ Garden Warfare";
 
     //kitchen_sink_zombie
         string  description = "This zombie has essentially got the power of a gargantuar, though he prefers eating over smashing.";
@@ -1295,6 +1313,10 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
 
     //awakened_cleopatra_zombie
         string  origin      = "PvZ 2 China";
+
+    //elite_mixed-up_gravedigger:awakened_tomb_raiser_zombie
+        string  origin      = "Creates Engraved Gravestones on random tiles of the lawn. If the tile is occupied, no Gravestone is created.";
+        string  origin      = "PvZ 2";
 
     //dodo_fossil_rider_imp
 
@@ -1321,7 +1343,7 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
         string  special     = "Gives all zombies in his lane +2 hp and +1 dmg when he dies.";
 
     //cursed_gargolith
-        string  special     = "Only spawns from engraved gravestones, but has high chances to spawn. Throws an Impstone upon reaching half hp.";
+        string  special     = "Only spawns from Engraved Gravestones, but has high chances to spawn. Throws an Impstone upon reaching half hp.";
 
     //archeology_guide_zombie
         string  special     = "After a few seconds on the garden, opens a whole on the garden, digs forwards 3 tiles, then comes back up, creating a 5 tile long tunnel for non-gargantuar zombies to evade attacks and pass into your defenses. Diggers that dig into it come out the end of the tunnel. Each tile of the tunnel only lasts 10 seconds before disapearing. If he creates the tunnel on a shallow water tile, the tunnel collapses and the zombies inside die.";
@@ -1340,6 +1362,11 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
         double  dmg         = 1;
         double  aps         = 2;
         string  special     = "Attacks from 1 tiles away.";
+
+    //elite_medic_zombie:necrologist
+        string  special     = "Spawns a Dr. Heals after passing 3 columns.";
+        string  almanac     = "He was a biologist in life.";
+        string  origin      = "Rogue Garden";
 
     //disinfection_zombie
         string  special     = "Only spawns in the pool. Releases toxic chemicals that slowly move along his lane, lightly damaging all plants.";
@@ -1516,7 +1543,7 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
         string  special     = "Reflects projectiles forwards in front of itself. While spinning, moves at 'fast' speed.";
 
     //wizard_zombie
-        string  special     = "Turns plants into sheep that zombies can pass through. Plants stay in that form until the Zombie Wizard that turned them dies.";
+        string  special     = "Turns plants into Sheep that zombies can pass through. Plants stay in that form until the Zombie Wizard that turned them dies.";
 
     //wizard_gargantuar
         string  special     = "Turns plants he smashes into Zombie Goats. Throws an Imp Dragon upon reaching half hp.";

@@ -265,7 +265,7 @@ double  faster   = 5;
                     //phase_1
                         string attack_1 = "Medley : Zomboss switches into a costume reminiscent of either an Orchestra Conductor Zombie, a Pianist Zombie, an Aerobics Instructor Zombie, the Binary Stars, or a Boom Box Zombie and gives their effect to the garden until he uses this attack again.";
                         string attack_2 = "Monster Mash : Creates 3 or 4 Disco Zombies, one lane away from each-other.";
-                        string attack_3 = "Speaker Launch : A target appears on a random tile in the three last rows of the garden. A speaker lands on that tile after a few seconds, destroying whatever plant was on that tile. Behaves exactly like a gravestone, except they passively damage plants up to 3 tiles in front of it, except ground plants and Phat Beets.";
+                        string attack_3 = "Speaker Launch : A target appears on a random tile in the three last rows of the garden. A Speaker lands on that tile after a few seconds, destroying whatever plant was on that tile.";
                     //phase_2
                         string attack_4 = "Booming Tunes : Make the speakers launch a heavy wave of music forwards. they deal 6 damage to the first plant they reach.";
                         string attack_5 = "Asylum Keys : Zomboss switches into a costume reminiscent of the Jack-in-the-box Zombie and triggers an Asylum Escape Event.";
@@ -432,7 +432,7 @@ double  faster   = 5;
         //gw's_football_zombie
 
     //eminent_domain
-        string description = "A Construction Cone Zombie spawns in a random lane. If there are no empty tiles in that lane, remove the front-most plant and don't allow that tile to be placed on until the CCZ reaches it. It then stops zombies spawning naturally in that lane and instead spawns every construction zombie in the following order each wave: a Digger Zombie, an Excavator Zombie, a Supply Barrel Roller Zombie, a Ladder Zombie, an Electrician Zombie, a Kitchen Sink Zombie, a Paint Bucket Zombie, a Waste Barrel Imp, a Landscaper Zombie, a Gardener Zombie. Zombies can then naturally spawn in that lane once again.";
+        string description = "A Construction Cone Zombie and a Pylon Imp spawn in a random lane. If there are no empty tiles in that lane, remove the front-most plant and don't allow that tile to be placed on until the Construction Cone Zombie reaches it. It then stops zombies spawning naturally in that lane and instead spawns every construction zombie in the following order each wave: a Digger Zombie and an Excavator Zombie, a Supply Barrel Roller Zombie, a Ladder Zombie, an Electrician Zombie, an AC perry, a Kitchen Sink Zombie, a Paint Bucket Zombie, a Waste Barrel Imp, a Landscaper Zombie, a Gardener Zombie. Zombies can then naturally spawn in that lane once again.";
         string origin = "Rogue Garden";
 
     //football_game

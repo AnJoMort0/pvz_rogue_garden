@@ -26,6 +26,6 @@
     double  lifespan    = 0;
 
 //hothead_explosion
-    int     dmg         = 3 * potato_head.dmg;
+    int     dmg         = 3 * potato_explosion.dmg;
     double  pierce      = inf;
     double  lifespan    = 0;

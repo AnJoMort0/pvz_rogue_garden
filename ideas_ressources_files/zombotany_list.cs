@@ -16,7 +16,7 @@
     double  range       = line;                                          //measured in tiles or 'line;' or 'garden', range of sight of the plant. This refers to the zombie's plant attack                                     
     string  special     = "Is very good at dying.";                      //if relevant, add a precise description of the ability/ies (this won't   show up in the actual almanac, it is instead used for coding), if not remove this line. This is also where you include Magnet-shroom weakness. Note : by default, zombies can't spawn on water or on air at all, so add precisions such as "Can spawn" or "only spawns in water" for the pool and "Flies towards the roof" (Flying zombies fly at "roof height", so if a peashooter is placed on the roof it'll be able to shoot the flying zombies) when necessary.
     string  almanac     = "Let's double the plant's almanac entries !";
-    string  origin      = "Rogue Garden";                                //game(s) or mod(s) of origin - Add the game of origin of the plant, taken from the list and the game of origin of the zombotany if taken from one.
+    string  origin      = "Rogue Garden";                                //game(s) or mod(s) of origin.
 
 double  slower   = 1;
 double  slow     = 2;

@@ -52,10 +52,10 @@ double  faster   = 5;
 
 //special_lists
     //zombie_animals
-string list     = "Zombie Chicken, Zombie Fire Rooster, Fraidy Cat, Zombie Monkey, Zombie Parrot, Zombie Pigeon, Hover-Goat 3000, Zombie Dove, Zombie Rabbit, Zombie Rat";
+string list     = "Zombie Chicken, Zombie Fire Rooster, Fraidy Cat, Zombie Monkey, Zombie Parrot, Zombie Pigeon, Hover-Goat 3000, Zombie Dove, Zombie Rabbit, Zombie Rat,  Zombie Walrus, Zombie Bull";
     
     //animal_herders
-string list     = "Beast Zombie Handler, Chicken Wrangler Zombie, Fire Rooster Wrangler Zombie, Dog Walker Zombie, Cat Lady Zombie, Squirrel Herder Zombie, Turkey Rider Imp, Monkey Smuggler Zombie, Captain Deadbeard, Captain Flameface, Pigeon Feeder Zombie, Dolphin Rider Zombie, Seahorse Rider Zombie, Abracadaver, Pied Piper Zombie, Dodo Fossil Rider Imp, Smelly Zombie, Trapper Zombie, Octopus Zombie";
+string list     = "Beast Zombie Handler, Chicken Wrangler Zombie, Fire Rooster Wrangler Zombie, Dog Walker Zombie, Cat Lady Zombie, Squirrel Herder Zombie, Turkey Rider Imp, Monkey Smuggler Zombie, Captain Deadbeard, Captain Flameface, Pigeon Feeder Zombie, Dolphin Rider Zombie, Seahorse Rider Zombie, Abracadaver, Pied Piper Zombie, Dodo Fossil Rider Imp, Smelly Zombie, Trapper Zombie, Octopus Zombie, Bull Rider Imp, Walrus Rider Imp";
 
     //instrument_playing_zombies
 string list     = "Tuba Zombie, Keytar Zombie, Undead Flamenco Dancers, Jack-in-the-box Zombie, Conga Drummer, Royal Horn Imp";
@@ -266,23 +266,43 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
                 double  dmg     = 1;
                 double  aps     = 4;
 
-    //elite_newspaper_zombie:sunday_edition_zombie
+        //elite_newspaper_zombie:sunday_edition_zombie
 
-    //elite_newspaper_zombie:newspaper_plane_zombie
-        string special = "Occasionally throws Paper Plane Imps.";
-        string origin  = "PvZ Heroes (Newspaper Zombie)";
+        //elite_newspaper_zombie:newspaper_plane_zombie
+            string special = "Occasionally throws Paper Plane Imps.";
+            string origin  = "PvZ Heroes (Newspaper Zombie)";
 
     //pogo_zombie
         string  description = "Pogo Zombie hops to bypass your defenses.";
         double  hp          = 20;
         double  armour      = 0;
-        int     cr          = 5;
+        int     cr          = 6;
         double  speed       = normal;
         double  dmg         = 1;
         double  aps         = 2;
-        string  special     = "Pogo stick can be removed by magnet-shroom. Jumps at 'fast' speed. Jumps over all plants instead of eating them, except Tall-nut which makes him loose his pogo stick if he jumps into it.";
+        string  special     = "Pogo stick can be removed by magnet-shroom. Jumps at 'fast' speed. Jumps over all plants instead of eating them, except tall-nut which makes him loose his pogo stick if he jumps into it.";
         string  almanac     = "Sproing ! Sproing ! Sproing !That's the sound of a powerful and effective zombie doing what he does best.";
         string  origin      = "PvZ 1";
+
+        //elite_pogo_zombie:shifting_zombie
+            string  special     = "Shifting Pogo can be removed by magnet-shroom. Jumps at 'fast' speed. Jumps over all plants instead of eating them, except tall-nut which makes him loose his pogo stick if he jumps into it. Every 2-3 plants he teleports forwards one tile and up or down a lane, shifting positions and avoiding attacks.";
+            string  origin      = "Rogue Garden";
+
+        //variant_pogo_zombie:seahorse_rider_zombie
+            string  description = "Rides a seahorse to jump over your defenses.";
+            double  hp          = 20;
+            double  armour      = 0;
+            int     cr          = 6;
+            double  speed       = normal;
+            double  dmg         = 1;
+            double  aps         = 2;
+            string  special     = "Only spawns in the pool. Jumps over all plants instead of eating them, except tall-nut which makes him loose his seahorse and drown.";
+            string  almanac     = "His small skirt risks making him exposed, which gives him headaches.";
+            string  origin      = "PvZ Endless Edition";
+
+            //elite_seahorse_rider_zombie:tidal_rider_zombie
+                string  special     = "Only spawns in the pool. Jumps over every two plant instead of eating them, except tall-nut which makes him loose his seahorse and drown, and dives under every other plant avoiding attacks while underwater.";
+                string  origin      = "Rogue Garden";
 
     //king_of_the_grill_gargantuar
         string  description = "There's never enough hot dogs for this King of the Grill.";
@@ -319,7 +339,7 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
         string  almanac     = "When he phones home, it means something completely different.";
         string  origin      = "PvZ Heroes";
 
-    //elite_smashing_gargantuar:giga_gargantuar
+        //elite_smashing_gargantuar:giga_gargantuar
 
     //hippity_hop_gargantuar
         string  description = "Throws mystery eggs instead of imps, so be careful.";
@@ -393,8 +413,8 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
 
             //zombie_chicken
 
-    //elite_chicken_wrangler_zombie:fire_rooster_wrangler_zombie
-        string  special     = "Upon reaching a plant, being hit for a certain amount of damage or dieing, releases a Zombie Fire Rooster on his lane and on each neighbourghing lane.";
+        //elite_chicken_wrangler_zombie:fire_rooster_wrangler_zombie
+            string  special     = "Upon reaching a plant, being hit for a certain amount of damage or dieing, releases a Zombie Fire Rooster on his lane and on each neighbourghing lane.";
 
     //zombie_fire_rooster
         string  special     = "When a plant is placed on this lane, moves to a neighboring lane then shoots a fireball before continuing forwards.";
@@ -861,29 +881,29 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
                         string  almanac     = "He's a third generation aviation revolutionary. He wants to serve his pirate brethren like his father and his grandmother, Salty Anne, before him.";
                         string  origing     = "PvZ Garden Warfare ; PvZ 2 (Pirate Captain Zombie)";
 
-    //elite_barrel_of_deadbeard:barrel_of_flameface
-        string  description = "A barrel that explodes into a fiery pirate captain.";
-        double  hp          = 25;
-        double  armor       = 0;
-        int     cr          = 19;
-        double  speed       = slow;
-        double  dmg         = 0;
-        double  aps         = 0;
-        string  special     = "On destruction, damages all plants in a 3x3 radius and spawns a Captain Flameface in its place.";
-        string  almanac     = "No flames, just Flameface.";
-        string  origin      = "PvZ Garden Warfare ; PvZ Heroes";
-            
-            //elite_captain_deadbeard:captain_flameface
-                string  description = "Sends out his firey companion while he attacks with his fire gun.";
-                double  hp          = 45;
-                double  armor       = 0;
-                //int   cr          = n/a;
-                double  speed       = normal;
-                double  dmg         = 2;
-                double  aps         = 2;
-                string  special     = "Shoots from a 1 tiles away, attack pierces through the first plant and also damages the next one. Spawns a Fire Rooster Zombie, and respawns at the back of his lane when it dies.";
-                string  almanac     = "He also comes from a barrel, just a differen... barell.";
-                string  origin      = "PvZ Garden Warfare ; PvZ 2 (Pirate Captain Zombie)";
+        //elite_barrel_of_deadbeard:barrel_of_flameface
+            string  description = "A barrel that explodes into a fiery pirate captain.";
+            double  hp          = 25;
+            double  armor       = 0;
+            int     cr          = 19;
+            double  speed       = slow;
+            double  dmg         = 0;
+            double  aps         = 0;
+            string  special     = "On destruction, damages all plants in a 3x3 radius and spawns a Captain Flameface in its place.";
+            string  almanac     = "No flames, just Flameface.";
+            string  origin      = "PvZ Garden Warfare ; PvZ Heroes";
+                
+                //elite_captain_deadbeard:captain_flameface
+                    string  description = "Sends out his firey companion while he attacks with his fire gun.";
+                    double  hp          = 45;
+                    double  armor       = 0;
+                    //int   cr          = n/a;
+                    double  speed       = normal;
+                    double  dmg         = 2;
+                    double  aps         = 2;
+                    string  special     = "Shoots from a 1 tiles away, attack pierces through the first plant and also damages the next one. Spawns a Fire Rooster Zombie, and respawns at the back of his lane when it dies.";
+                    string  almanac     = "He also comes from a barrel, just a differen... barell.";
+                    string  origin      = "PvZ Garden Warfare ; PvZ 2 (Pirate Captain Zombie)";
         
     //pigeon_feeder_zombie
         string  special     = "While alive, spawns and respawns Zombie Pigeons on a 3x3 area around him similiarily to the disco zombie.";
@@ -897,8 +917,8 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
 
             //backup_disco_zombie
 
-    //elite_disco_zombie:cosmic_dancing_zombie
-        string  special     = "While alive, creates random instrument playing zombies above, below and besides him.";
+        //elite_disco_zombie:cosmic_dancing_zombie
+            string  special     = "While alive, creates random instrument playing zombies above, below and besides him.";
 
     //line_dancer_zombie
         string  description = "Line Dancer Zombie sings down your lanes to damage all plants.";
@@ -910,7 +930,7 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
         string  special     = "Upon reaching the 4th column, he lauches himself upwards to the second to last lane of the roof, dealing heavy damage to the plant he lands on in the process.";
         string  origin      = "PvZ Garden Warfare"
 
-        //var_foot_soldier_zombie:scuba_soldier_zombie
+        //variant_foot_soldier_zombie:scuba_soldier_zombie
             string  special     = "Only appears in the pool. Dives into the water and stays there until the 4th column. Upon reaching it, he lauches himself upwards to the second to last lane of the roof, knocking over any plant on a lily on that tile and dealing heavy damage to the plant he lands on in the process.";
             string  origin      = "PvZ Garden Warfare"
 
@@ -1023,6 +1043,31 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
                 string  almanac     = "He's back";
                 string  origin      = "PvZ Heroes";
 
+    //bull_rider_imp
+        string  special     = "Takes a couple of seconds to charge up before dashing forwards, propelling the imp forward on the first plant it hits and leaving behind the Zombie Bull.";
+
+        //zombie_bull
+
+        //elite_bull_rider_imp:rodeo_stunt_imp
+            string  special     = "Takes a couple of seconds to charge up before dashing forwards, propelling the imp forward on the first plant it hits, damaging the hit plant and leaving behind the Rodeo-Bot. Once the imp lands, the Rodeo-Bot explodes.";
+            string  origin      = "Rogue Garden ; PvZ 2 (Rodeo Legend Zombie)";
+
+            //rodeo-bot
+
+        //variant_bull_rider_imp:walrus_rider_imp
+            string  special     = "Only spawns in the pool, during winter. Slides over the water, propelling the imp forward on the first plant it hits and leaving behind the Zombie Walrus.";
+            string  origin      = "PvZ Heroes";
+
+            //zombie_walrus
+
+            //elite_walrus_rider_imp:frost-walrus_rider_imp
+                string  special     = "Only spawns in the pool, during winter. Slides over the water, freezing it behind himself (turning it into frozen shallow water for the next 3 waves) and propelling the imp forward on the first plant it hits and leaving behind the Zombie Frost-Walrus.";
+                string  origin      = "Rogue Garden";
+
+                //zombie_frost-walrus
+                    string  special     = "Frezes water where it slides, turning it into frozen shallow water for the next 3 waves.";
+                    string  origin      = "Rogue Garden";
+
     //arcade_zombie
         string  special     = "Affected by EMPeach. Pushes an arcade machine that slows itself down but takes hits from the front and spawns 8-Bit Zombies. Can't push the arcade machine past Gravestones.";
 
@@ -1094,21 +1139,6 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
                 //elite_snorkel_zombie:zombie_deep_diver
                     string  special     = "Only spawns in the pool. Dives underwater and only comes out to eat. Skips the first 1 to 3 plants he encounters and instead swims under them. He can't be targeted and hit by lobbers while underwater.";
 
-        //dolphin_rider_zombie
-            string  special     = "Only spawns in the pool. Swims on 'faster' speed while riding his dolphin. Jumps over the first plant he encounters and loses his dolphin. Can't jump over a tall-nut.";
-
-        //seahorse_rider_zombie
-            string  description = "Rides a seahorse to jump over your defenses.";
-            double  hp          = 20;
-            double  armour      = 0;
-            int     cr          = 6;
-            double  speed       = fast;
-            double  dmg         = 1;
-            double  aps         = 2;
-            string  special     = "Only spawns in the pool. Jumps over all plants instead of eating them, except Tall-nut which makes him loose his seahorse and drown.";
-            string  almanac     = "His small skirt risks making him exposed, which gives him headaches.";
-            string  origin      = "PvZ Endless Edition";
-
         //surfer_zombie
             string  special     = "Only spawns during summer and spring. May spawn in the pool. If on land, carries a surfboard over his head that he smashes into the first plant he encounters and drops upon death. If in the pool, surfs rapidly, ignoring your plants except for tall-nut. Behaves like it would do in the pool when on shallow water lanes.";
 
@@ -1133,10 +1163,6 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
 
         //zombie_high_diver
             string  special     = "Spawns in the roof like the chimney swipper. Dives into one of the pool lanes, stays submerged for 1 to 3 tiles and advances away from the house.";
-            string  origin      = "PvZ Heroes";
-
-        //walrus_rider_imp
-            string  special     = "Only spawns in the pool, during winter. Slides over the water, propelling the imp forward on the first plant it hits.";
             string  origin      = "PvZ Heroes";
 
 //carnival_zombies
@@ -1211,22 +1237,25 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
     
     //pole_vaulting_zombie
 
+        //variant_pole_vaulting_zombie:dolphin_rider_zombie
+            string  special     = "Only spawns in the pool. Swims on 'faster' speed while riding his dolphin. Jumps over the first plant he encounters and loses his dolphin. Can't jump over a tall-nut.";
+
     //catapult_zombie
         string  special     = "Affected by E.M.Peach.";
 
-    //elite_catapult_zombie:football_catapult_zombie
-        string  special     = "Affected by E.M.Peach.";
+        //elite_catapult_zombie:football_catapult_zombie
+            string  special     = "Affected by E.M.Peach.";
 
     //football_zombie
 
-    //elite_football_zombie:giga_football_zombie
+        //elite_football_zombie:giga_football_zombie
 
     //quarterback_zombie
         string  special     = "Helmet does not provide extra HP but instead reduces damage taken by all attacks by 1 and can be removed by Magnetshroom. Upon spawning, throws a football that bounces twice before disappearing then rushes at 'faster' speed until he reaches a plant.";
         string  origin      = "PvZ Heroes (All-Star Zombie)";
     
-    //elite_quarterback_zombie:all-star_zombie
-        string  special     = "Helmet does not provide extra HP but instead reduces damage taken by all attacks by 2 and can be removed by Magnetshroom. Upon spawning, summons an All-star Super Fan Imp on his lane. Once it reaches the garden, rushes forwards at 'faster' speed, throws it forwards and deals gargantuar damage to the first plant it encounters.";
+        //elite_quarterback_zombie:all-star_zombie
+            string  special     = "Helmet does not provide extra HP but instead reduces damage taken by all attacks by 2 and can be removed by Magnetshroom. Upon spawning, summons an All-star Super Fan Imp on his lane. Once it reaches the garden, rushes forwards at 'faster' speed, throws it forwards and deals gargantuar damage to the first plant it encounters.";
 
             //all-star_super_fan_imp
 
@@ -1571,17 +1600,17 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
                         string  almanac     = "Knight Zombie was just as surprised as anyone when Zombie King promoted him. He'd never say this out loud, but he's not sure he deserves the position. He's not sure he has what it takes to wear the armor. But like they say, 'Fake it 'til you make it.'";
                         string  origin      = "PvZ 2";
 
-    //elite_zombie_knight:knight_of_the_living_dead
-        string  description = "The Knight of the Living Dead is more living than dead due to his armor.";
-        double  hp          = 10;
-        double  armour      = 75;
-        int     cr          = 10;
-        double  speed       = normal;
-        double  dmg         = 1;
-        double  aps         = 2;
-        string  special     = "Shield blocks straight shooting attacks from the front. As long as he has his helmet, takes 2 less damage from non-fire damage but takes double fire damage. Helmet can be removed by Magnet-Shroom.";
-        string  almanac     = "He's both secretary and treasurer for the Zombie Knights of the Square Table.";
-        string  origin      = "PvZ Heroes";
+                        //elite_zombie_knight:knight_of_the_living_dead
+                            string  description = "The Knight of the Living Dead is more living than dead due to his armor.";
+                            double  hp          = 10;
+                            double  armour      = 75;
+                            int     cr          = 10;
+                            double  speed       = normal;
+                            double  dmg         = 1;
+                            double  aps         = 2;
+                            string  special     = "Shield blocks straight shooting attacks from the front. As long as he has his helmet, takes 2 less damage from non-fire damage but takes double fire damage. Helmet can be removed by Magnet-Shroom.";
+                            string  almanac     = "He's both secretary and treasurer for the Zombie Knights of the Square Table.";
+                            string  origin      = "PvZ Heroes";
 
     //vimpire
         string  special     = "Gains a movement speed and aps buff upon eating a plant. Dies if he bites garlic.";
@@ -1794,7 +1823,7 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
             string  almanac     = "Conga Line Leader's pretty sure he took a wrong turn a few miles back, but ain't no way he's going to admit it. That's the key to leadership.";
             string  origin      = "PvZ Adventure";
 
-                //variant:ducky_conga_leader_zombie
+                //variant:ducky_conga_leader_zombieF
                     string  event_name  = "Conga line";
                     //stats of Conga Leader Zombie
                     string  special     = "Only spawns in the pool. While alive, ducky browncoats will continuously spawn on his lane.";

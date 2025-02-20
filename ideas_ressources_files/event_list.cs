@@ -453,7 +453,7 @@ double  faster   = 5;
 
     //imp_rain
         string description = "Two Zombie Drop-off Rockets spawn in each garden.";
-        string origin = "PvZ 2 (Far Future neutron imp ambush)";
+        string origin = "PvZ 2 (Far Future bug bot imp ambush)";
 
     //bungee_ambush
         string description = "A half a dozen Bungee Zombies and Bungee Plumbers appear in each graden and in the roof.";

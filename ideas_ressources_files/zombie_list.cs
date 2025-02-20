@@ -151,7 +151,7 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
             //variant_basic:brown_parka_zombie
                 string description  = "The zombie's brown parka protects him from the cold.";
                 //stats_of_relevent_basics
-                string special      = "Only spawns in winter. Immune to chilling and reduces the freezing effect to chilling.";
+                string special      = "Only spawns during winter. Immune to chilling and reduces the freezing effect to chilling.";
                 string almanac      = "Though many see the use of thicker clothing as a simple survival instinct, Brown Parka Zombie disapproves of this theory. For him, it's all about fashion.";
                 string origin       = "PvZ 2 (Frostbite Caves basic)";
 
@@ -192,7 +192,7 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
             //variant_imp:brownparka_imp
                 string  description = "It's just an imp, but with a winter jacket.";
                 //stats_of_imp
-                string  spceial     = "Only spawns in winter. Immune to chilling and reduces the freezing effect to chilling.";
+                string  spceial     = "Only spawns during winter. Immune to chilling and reduces the freezing effect to chilling.";
                 string  almanac     = "Brownparka Imp recently took up knitting. He started with a scarf, moved to mittens and eventually knitted an entire parka out of cloth he ripped off of Brownparka Gargantuar's brownparka.";
                 string  origin      = "PvZ 2 (Yeti Imp)";
 
@@ -225,7 +225,7 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
             //variant_gargantuar:brownparka_gargantuar
                 string  description = "Other than a jacket, it also has three imps instead of one.";
                 //stats_of_gargantuar
-                string  spceial     = "Only spawns in winter. Immune to chilling and reduces the freezing effect of chilling. Throws 3 Brownparka Imps, at 75%, 50% and 25% hp.";
+                string  spceial     = "Only spawns during winter. Immune to chilling and reduces the freezing effect of chilling. Throws 3 Brownparka Imps, at 75%, 50% and 25% hp.";
                 string  almanac     = "He very much hates those Imps on his back. The darn things are itchy. They're always stealing parts of his parka. But at this point, he'd probably miss them if they ever cleared up.";
                 string  origin      = "PvZ 2 (Sloth Gargantuar)";
 
@@ -242,7 +242,7 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
         string  special     = "Spawns a browncoat or browncoat variant on the neighbourghing lanes once he dies.";
     
     //zombie_yeti
-        string  special     = "Once it walkes past 4 columns or once 2 waves have passed (whichever one comes first) he walks backwards and out of the garden. If he gets killed, drops a yeti lunch box."; //rewards from yeti lunch box to be defined
+        string  special     = "Once it walkes past 4 columns or once 2 waves have passed (whichever one comes first) he walks backwards and out of the garden. If he gets killed, drops a Yeti Lunch Box."; //rewards from yeti lunch box to be defined
 
     //comsic_yeti
         string  special     = "Once it walkes past 4 columns or once 2 waves have passed (whichever one comes first) he walks backwards and out of the garden. If he gets killed, spawns 2 Yeti zombies.";
@@ -451,7 +451,7 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
         double  speed       = normal;
         double  dmg         = 1;
         double  aps         = 2;
-        string  special     = "Only spawns in spring and summer daytime. Blocks the effects and damage of attacks from above on the tile(s) she's on but not the tiles around";
+        string  special     = "Only spawns during spring and summer daytime. Blocks the effects and damage of attacks from above on the tile(s) she's on but not the tiles around";
         string  almanac     = "Wealthy beyond reason, the Parasol Zombie lived a life of luxury - when what she craved was a life of adventure, never forgetting to bring her trusty parasol. 'In case it rains,' she explained - but it only came out sounding like 'Brains'.";
         string  origin      = "PvZ 2";
 
@@ -935,8 +935,20 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
             string  origin      = "PvZ Garden Warfare"
 
         //elite_foot_soldier_zombie:arctic_trooper_zombie
-            string  special     = "Resistant to chilling, freezing and cold projectiles. Upon reaching the 4th column, he lauches himself upwards to the second to last lane of the roof, freezing plants in a cross formation from where he jumps and dealing heavy damage to the plant he lands on in the process.";
+            string  special     = "Only spawns during winter. Resistant to chilling, freezing and cold projectiles. Upon reaching the 4th column, he lauches himself upwards to the second to last lane of the roof, freezing plants in a cross formation from where he jumps and dealing heavy damage to the plant he lands on in the process.";
             string  origin      = "PvZ Garden Warfare"
+
+        //elite_foot_solider_zombie:centurion_zombie
+            string  special     = "Only spawns during summer. Appers in a gust of sand wind. Takes half damage from fire attacks. Upon reaching it, he lauches himself upwards to the second to last lane of the roof, bruing the plant he lands on and leaving a crater behind on the tile he launched himself from.";
+            string  origin      = "PvZ Garden Warfare";
+
+        //elite_foot_solider_zombie:camo_ranger_zombie
+            string  special     = "Only spawns during fall. Upon taking damage for the first time, he camouflages, going invisible, unless lit up, until he reaches the 4th column. Upon doing so,  he lauches himself upwards to the second to last lane of the roof, dealing heavy damage to the plant he lands on in the process.";
+            string  origin      = "PvZ Garden Warfare";
+
+        //elite_foot_solider_zombie:park_ranger_zombie
+            string  special     = "Only spawns during spring. Using his propeller springs, he jumps over all plants instead of eating them, except tall-nut, which causes him to walk normally. Upon reaching the 4th column, he lauches himself upwards to the second to last lane of the roof, reactivating his springs and allowing him to keep jumping over plants and releasing a toxic fume where he jumps from, dealing passive damage to plants there for a few waves.;
+            string  origin      = "PvZ Garden Warfare";
 
     //riot_police_bomber_zombie
         string  special     = "Throws smoke bombs forwards to stun plants. Hits plants with his stick instead of eating.";
@@ -948,13 +960,6 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
 
     //detonator_zombie
         string  origin      = "PvZ 2 (Prospector Zombie)";
-
-    //medic_zombie
-        string  special     = "Every few seconds, heals all zombies in an 'plus' formation centered on himself for 2hp. Heals Riot Police Zombies and Foot Soldier Zombies for double hp.";
-        string  origin      = "PvZ Heroes ; PvZ 2 (Healer Zombie)";
-
-    //nurse_gargantuar
-        string  special     = "Heals himself 10 hp when he smashes a plant. Throws an Imp upon reaching half hp. If a boss event is ongoing, heals the boss instead.";
 
     //gilet_jaune_zombie
         string  description = "The Gilet Jaune Zombie joins the undead protest with a megaphone in hand. His passionate shouts can rally other zombies to his cause.";
@@ -1278,7 +1283,7 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
         string  special     = "Gives all zombies in his lane +2 hp for every plant that dies in his lane whilst he's alive.";
 
     //bobsled_team
-        string  special     = "Only spawns in winter or in Zomboni ice trail.";
+        string  special     = "Only spawns during winter or in Zomboni ice trail.";
 
     //mecha-football_zombie
         string  special     = "Affected by E.M.Peach. Pushes plants back for as long as there is space behind it.";
@@ -1392,10 +1397,17 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
         double  aps         = 2;
         string  special     = "Attacks from 1 tiles away.";
 
-    //elite_medic_zombie:necrologist
-        string  special     = "Spawns a Dr. Heals after passing 3 columns.";
-        string  almanac     = "He was a biologist in life.";
-        string  origin      = "Rogue Garden";
+    //medic_zombie
+        string  special     = "Every few seconds, heals all zombies in an 'plus' formation centered on himself for 2hp. Heals Riot Police Zombies and Foot Soldier Zombies for double hp.";
+        string  origin      = "PvZ Heroes ; PvZ 2 (Healer Zombie)";
+
+        //elite_medic_zombie:necrologist
+            string  special     = "Spawns a Dr. Heals after passing 3 columns.";
+            string  almanac     = "He was a biologist in life.";
+            string  origin      = "Rogue Garden";
+
+    //nurse_gargantuar
+        string  special     = "Heals himself 10 hp when he smashes a plant. Throws an Imp upon reaching half hp. If a boss event is ongoing, heals the boss instead.";
 
     //disinfection_zombie
         string  special     = "Only spawns in the pool. Releases toxic chemicals that slowly move along his lane, lightly damaging all plants.";
@@ -1679,7 +1691,19 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
         //please refer to the zombotany_list.cs
 
     //neutron_imp
-        string  special     = "Flies towards your roof. Affected by E.M.Peach. Attacks from 1 tile away.";
+        string  special     = "Affected by E.M.Peach. Flies towards your roof. Attacks from 1 tile away.";
+
+        //elite_neutron_imp:cryotron_imp
+            string  special     = "Only spawns during winter. Affected by E.M.Peach. Flies towards your roof. Attacks from 2 tiles away. Attacks slowly freeze target plants.";
+
+        //elite_neutron_imp:photon_imp
+            string  special     = "Only spawns during summer. Affected by E.M.Peach. Flies towards your roof. Upon reaching half way through the garden, stops and charges up a large beam. The beam stuns the first couple of plants in the lane. He then keeps going as normal.";
+
+        //elite_neutron_imp:proton_imp
+            string  special     = "Only spawns during fall. Affected by E.M.Peach. Flies towards your roof. Attacks from 1 tile away. Drains energy from the plants under itself, dealing passive damage and healing itself.";
+
+        //elite_neutron_imp:electron_imp
+            string  special     = "Only spawns during spring. Affected by E.M.Peach. Flies towards your roof. Attacks from 1 tile away. Attacks from 2 tile away. Bio-electrical attack jumps to neighbouring plants dealing small damage to them.";
 
     //portal_gatekeeper_zombie
         string  description = "While alive, the Portal Gatekeeper Zombie creates portals in the garden that disappear on her death.";

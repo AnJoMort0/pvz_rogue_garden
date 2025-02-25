@@ -58,7 +58,7 @@ string list     = "Zombie Chicken, Zombie Fire Rooster, Fraidy Cat, Zombie Monke
 string list     = "Beast Zombie Handler, Chicken Wrangler Zombie, Fire Rooster Wrangler Zombie, Dog Walker Zombie, Cat Lady Zombie, Squirrel Herder Zombie, Turkey Rider Imp, Monkey Smuggler Zombie, Captain Deadbeard, Captain Flameface, Pigeon Feeder Zombie, Dolphin Rider Zombie, Seahorse Rider Zombie, Abracadaver, Pied Piper Zombie, Dodo Fossil Rider Imp, Smelly Zombie, Trapper Zombie, Octopus Zombie, Bull Rider Imp, Walrus Rider Imp";
 
     //instrument_playing_zombies
-string list     = "Tuba Zombie, Keytar Zombie, Undead Flamenco Dancers, Jack-in-the-box Zombie, Conga Drummer, Royal Horn Imp";
+string list     = "Tuba Zombie, Keytar Zombie, Undead Flamenco Dancers, Jack-in-the-box Zombie, Conga Drummer, Royal Horn Imp, Fanfare Trumpet Zombie, Fanfare Cymbals Zombie, Fanfare Snare Drum Zombie, Fanfare French Horn Zombie";
 
     //zombies_with_mustache     list will expand as images are made
 string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
@@ -998,6 +998,32 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
         string  origin      = "PvZ Heroes (Flamenco Zombie); Rogue Garden";
         
         //flamenco_backup_dancers
+
+    //drum_major
+        double hp = 10;
+        double armour = 55;
+        double speed = fast;
+        double dmg = 1;
+        double aps = 2;
+        string  special     = "Helmet can be removed by Magnet-Shroom. Summons three Fanfare Zombies on the tiles behind him (1x3). When a Zombie Boss is summoned, causes all Fanfare Zombies in garden to play an arrival tune that will give temporary immunity to the newly spawned boss (time based on amount of fanfare zombies).";
+        string almanac = "Recently promoted from Drum Minor";
+        string origin = "PvZ Heroes";
+
+        //fanfare_trumpet_zombie
+            string  special = "Attacks from one tile away.";
+            string  origin  = "Rogue Garden";
+        
+        //fanfare_cymbals_zombie
+            string  special = "Stuns plants in the diagonals.";
+            string  origin  = "Rogue Garden";
+        
+        //fanfare_snare_drum_zombie
+            string  special = "Increases aps of Fanfare Zombies.";
+            string  origin  = "Rogue Garden";
+        
+        //fanfare_french_horn_zombie
+            string  special = "Passively heals Fanfare Zombies.";
+            string  origin  = "Rogue Garden";
 
     //zomboni
         string  special     = "Affected by EMPeach. Creates an ice trail behind him that plants, except plant pots, cannot be planted on and Bobsleds can spawn on. Overrides Paint Bucket Zombie's Paint Trail.";

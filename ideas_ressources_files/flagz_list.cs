@@ -74,18 +74,18 @@ double  faster   = 5;
     string almanac = "Buckethead Rally Zombie splurged on the all-leather flag because, heck, he's worth it.";
     string origin = "PvZ 2 (New World Rally Zombies) ; PvZ GW2 (Flag Zombie)";
 
-//drum_major
+//drum_minor
     string event_name = "Zombie Concert";
-    string description = "He leads a band, or something... bigger.";
-    string appearance = "PvZ Heroe's Drum Major. Holds his stick instead of a flag. Buckethead.";
+    string description = "He leads a band, and something... bigger.";
+    string appearance = "PvZ Heroe's Drum Major. Holds a large music note flag that changes based on front or backyard.";
     double hp = 10;
-    double armour = 55;
+    double armour = 0;
     double speed = fast;
     double dmg = 1;
     double aps = 2;
-    string special = "Helmet can be removed by Magnetshroom.";
-    string almanac = "Recently promoted from Drum Minor.";
-    string origin = "PvZ Heroes";
+    string special = "Spawns two Fanfare Zombies on the diagonals behind him.";
+    string almanac = "'One day,' says Drum Minor, 'I'll be announcing the arrival of great heroes.'";
+    string  origin  = "PvZ Heroes (Drum Major); Rogue Garden";
 
 //zcorp_flag_zombie
     string event_name = "Rush Hour";

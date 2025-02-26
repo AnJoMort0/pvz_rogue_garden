@@ -74,7 +74,7 @@ double  faster   = 5;
     string almanac = "Buckethead Rally Zombie splurged on the all-leather flag because, heck, he's worth it.";
     string origin = "PvZ 2 (New World Rally Zombies) ; PvZ GW2 (Flag Zombie)";
 
-//drum_minor
+//drum_minor_zombie
     string event_name = "Zombie Concert";
     string description = "He leads a band, and something... bigger.";
     string appearance = "PvZ Heroe's Drum Major. Holds a large music note flag that changes based on front or backyard.";

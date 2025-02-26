@@ -52,13 +52,13 @@ double  faster   = 5;
 
 //special_lists
     //zombie_animals
-string list     = "Zombie Chicken, Zombie Fire Rooster, Fraidy Cat, Zombie Monkey, Zombie Parrot, Zombie Pigeon, Hover-Goat 3000, Zombie Dove, Zombie Rabbit, Zombie Rat,  Zombie Walrus, Zombie Bull";
+string list     = "Zombie Chicken, Zombie Fire Rooster, Fraidy Cat, Zombie Monkey, Zombie Parrot, Zombie Pigeon, Hover-Goat 3000, Zombie Dove, Zombie Rabbit, Zombie Rat,  Zombie Walrus, Zombie Bull, Zombie Dog";
     
     //animal_herders
-string list     = "Beast Zombie Handler, Chicken Wrangler Zombie, Fire Rooster Wrangler Zombie, Dog Walker Zombie, Cat Lady Zombie, Squirrel Herder Zombie, Turkey Rider Imp, Monkey Smuggler Zombie, Captain Deadbeard, Captain Flameface, Pigeon Feeder Zombie, Dolphin Rider Zombie, Seahorse Rider Zombie, Abracadaver, Pied Piper Zombie, Dodo Fossil Rider Imp, Smelly Zombie, Trapper Zombie, Octopus Zombie, Bull Rider Imp, Walrus Rider Imp";
+string list     = "Beast Zombie Handler, Chicken Wrangler Zombie, Fire Rooster Wrangler Zombie, Dog Walker Zombie, Loose Leash Zombie, Pack Leader Zombie, Cat Lady Zombie, Squirrel Herder Zombie, Turkey Rider Imp, Monkey Smuggler Zombie, Captain Deadbeard, Captain Flameface, Pigeon Feeder Zombie, Dolphin Rider Zombie, Seahorse Rider Zombie, Abracadaver, Pied Piper Zombie, Dodo Fossil Rider Imp, Smelly Zombie, Trapper Zombie, Octopus Zombie, Bull Rider Imp, Walrus Rider Imp";
 
     //instrument_playing_zombies
-string list     = "Tuba Zombie, Keytar Zombie, Undead Flamenco Dancers, Jack-in-the-box Zombie, Conga Drummer, Royal Horn Imp, Fanfare Trumpet Zombie, Fanfare Cymbals Zombie, Fanfare Snare Drum Zombie, Fanfare French Horn Zombie";
+string list     = "Tuba Zombie, Keytar Zombie, Undead Flamenco Dancers, Jack-in-the-box Zombie, Conga Drummer, Royal Horn Imp, Fanfare Trumpet Zombie, Fanfare Cymbals Zombie, Fanfare Snare Drum Zombie, Fanfare French Horn Zombie, Double Bass Zombie, Phantasmal Violinist";
 
     //zombies_with_mustache     list will expand as images are made
 string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
@@ -490,6 +490,32 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
         string  special         = "Dog walks and eats one tile ahead of the zombie. When a plant is placed on a neighbouring lane, moves to it.";
         string  almanac         = "Is the zombie walking the dog, or is the dog walking the zombie? Hard to say.";
         string  origin          = "PvZ Heroes";
+
+        //variant_dog_walker_zombie:loose_leash_zombie
+            string  description     = "His dog can smell newly placed plants, and *really* chases after them."
+            double  hp              = 20;
+            double  armour          = 0;
+            int     cr              = 4;
+            double  speed           = normal;
+            double  dmg             = 1;
+            double  aps             = 2;
+            string  special         = "Dog walks and eats one tile ahead of the zombie. When a plant is placed on a neighbouring lane, moves to it. Has a 1/4 chance to release the Zombie Dog after switching lanes.";
+            string  almanac         = "Let's just say Loose Leash Zombie isn't very good at tieing knots.";
+            string  origin          = "PvZ Heroes (Dog Walker)";
+
+        //elite_dog_walker_zombie:pack_leader_zombie
+            string  description     = "Be careful, he's got a wolf and many, many dogs."
+            double  hp              = 40;
+            double  armour          = 0;
+            int     cr              = 9;
+            double  speed           = normal;
+            double  dmg             = 1.5;
+            double  aps             = 2;
+            string  special         = "Wolf walks and eats one tile ahead of the zombie. When a plant is placed on a neighbouring lane, moves to it. Spawns a Zombie Dog behind him when he switches lanes.";
+            string  almanac         = "He still hasn't answered on who his dog supplier is.";
+            string  origin          = "PvZ Heroes (Dog Walker)";
+
+            //zombie_dog
 
     //cat_lady_zombie
         string  despcription = "Releases hers cats when she dies."
@@ -999,31 +1025,40 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
         
         //flamenco_backup_dancers
 
-    //drum_major
-        double hp = 10;
-        double armour = 55;
-        double speed = fast;
-        double dmg = 1;
-        double aps = 2;
-        string  special     = "Helmet can be removed by Magnet-Shroom. Summons three Fanfare Zombies on the tiles behind him (1x3). When a Zombie Boss is summoned, causes all Fanfare Zombies in garden to play an arrival tune that will give temporary immunity to the newly spawned boss (time based on amount of fanfare zombies).";
+    //drum_major_zombie
+        double  hp      = 10;
+        double  armour  = 55;
+        double  speed   = normal;
+        double  dmg     = 1;
+        double  aps     = 2;
+        string  special = "Helmet can be removed by Magnet-Shroom. Summons three Fanfare Zombies on the tiles behind him (1x3). When a Zombie Boss is summoned, causes all Fanfare Zombies in garden to play an arrival tune that will give temporary immunity to the newly spawned boss (time based on amount of fanfare zombies).";
         string almanac = "Recently promoted from Drum Minor";
         string origin = "PvZ Heroes";
 
         //fanfare_trumpet_zombie
-            string  special = "Attacks from one tile away.";
+            string  special = "Plays an instrument. Attacks from one tile away.";
             string  origin  = "Rogue Garden";
         
         //fanfare_cymbals_zombie
-            string  special = "Stuns plants in the diagonals.";
+            string  special = "Plays an instrument. Stuns plants in the diagonals.";
             string  origin  = "Rogue Garden";
         
         //fanfare_snare_drum_zombie
-            string  special = "Increases aps of Fanfare Zombies.";
+            string  special = "Plays an instrument. Increases aps of Fanfare Zombies.";
             string  origin  = "Rogue Garden";
         
         //fanfare_french_horn_zombie
-            string  special = "Passively heals Fanfare Zombies.";
+            string  special = "Plays an instrument. Passively heals Fanfare Zombies.";
             string  origin  = "Rogue Garden";
+
+    //double_bass_zombie
+        double  speed   = slower;
+        string  special = "Plays an instrument. Bass protects zombie from attacks from the front. Occasionally flings projectiles back at plants by plucking bass.";
+        string  origin  = "Rogue Garden";
+
+    //phantasmal_violinist
+        string  special = "Plays an instrument. Occasionally stops a plays a tune that summons Haunting Ghosts in his garden.";
+        string  origin  = "Rogue Garden";
 
     //zomboni
         string  special     = "Affected by EMPeach. Creates an ice trail behind him that plants, except plant pots, cannot be planted on and Bobsleds can spawn on. Overrides Paint Bucket Zombie's Paint Trail.";

@@ -63,6 +63,9 @@ string list     = "Tuba Zombie, Keytar Zombie, Undead Flamenco Dancers, Jack-in-
     //zombies_with_mustache     list will expand as images are made
 string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
 
+    //robots_zcorp_maintenance_drone_can_attach_to
+string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Generator, Neutron Imp, Cryoton Imp, Photon Imp, Proton Imp, Electron Imp, Hover-Goat 3000";
+
 //basics
         
     //browncoat_zombie
@@ -1593,14 +1596,14 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
         string  origin      = "PvZ Heroes (Cell Phone Zombie)";
 
     //zcorp_drone_engineer
-        string  description = "The ZCorps Drone Enginner's flying drone attacks plants from a distance for him while he avoids being hit.";
+        string  description = "The ZCorp Drone Enginner's flying drone attacks plants from a distance for him while he avoids being hit.";
         double  hp          = 10;
         double  armour      = 10;
         int     cr          = 6;
         double  speed       = slow;
         double  dmg         = 1;
         double  aps         = 2;
-        string  special     = "Remote can be removed by Magnetshroom. Controls a drone from 2 tiles distance. He only moves if he must do so for the drone to be able to attack. Behaves like a normal zombie if the drone dies.";
+        string  special     = "Remote can be removed by Magnetshroom. Controls a ZCorp Drone from 2 tiles distance. He only moves if he must do so for the drone to be able to attack. Behaves like a normal zombie if the drone dies.";
         string  almanac     = "He's not entirely sure how to fly this thing.";
         string  origin      = "PvZ Heroes (Zombot Drone Engineer)";
 
@@ -1612,9 +1615,81 @@ string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
                 double  speed       = fast;
                 double  dmg         = 1;
                 double  aps         = 1;
-                string  special     = "It can only be targetted by plants that can attack flying zombies. Attacks from a 3-lane distance. If the ZCorp Drone Engineer dies or looses his remote, the drone joins another ZCorp Drone Engineer. If there are none on the field, it dies.";
+                string  special     = "Affected by EMPeach. It can only be targetted by plants that can attack flying zombies. Attacks from a 3-lane distance. If the ZCorp Drone Engineer dies or looses his remote, the drone joins another ZCorp Engineer. If there are none on the field, it dies.";
                 string  almanac     = "The pencil on his helmet is completely useless, but the ZCorp engineer liked the aesthetics of it.";
                 string  origin      = "PvZ Heroes (Zombot Drone Engineer)";
+
+        //variant_zcorp_drone_engineer:zcorp_swarm_engineer
+            string  description = "The ZCorp Swarm Enginner pilotes a couple of small drones from afar.";
+            double  hp          = 10;
+            double  armour      = 10;
+            int     cr          = 7;
+            double  speed       = slow;
+            double  dmg         = 1;
+            double  aps         = 2;
+            string  special     = "Remote can be removed by Magnetshroom. Controls two ZCorp Swarm Drone on neighbourghing lanes from one tile back. He only moves if he must do so for the drone to be able to attack. Behaves like a normal zombie if the drone dies.";
+            string  almanac     = "You know what's harder than flying one drone? Flying two drones.";
+            string  origin      = "PvZ Heroes (Zombot Drone Engineer)";
+
+                //zcorp_drone
+                    string  description = "It is piloted by the ZCorp Swarm Enginner and attacks from a distance.";
+                    double  hp          = 3;
+                    double  armour      = 0;
+                    //int   cr          = n/a;
+                    double  speed       = faster;
+                    double  dmg         = 1;
+                    double  aps         = 0.5;
+                    string  special     = "Affected by EMPeach. It can only be targetted by plants that can attack flying zombies. Attacks from a 1-lane distance. If the ZCorp Swarm Engineer dies or looses his remote, the drone joins another ZCorp Engineer. If there are none on the field, it dies.";
+                    string  almanac     = "These guys have pens on their helmets because it's classier.";
+                    string  origin      = "PvZ Heroes (Zombot Drone Engineer)";
+
+        //elite_zcorp_drone_engineer:zcorp_empd_engineer
+            string  description = "The ZCorp EMPD Enginner controls a powerful, electric drone.";
+            double  hp          = 12;
+            double  armour      = 15;
+            int     cr          = 10;
+            double  speed       = slow;
+            double  dmg         = 1;
+            double  aps         = 2;
+            string  special     = "Controls a ZCorp EMP Drone from 2 tiles away. He only moves if he must do so for the drone to be able to attack. Behaves like a normal zombie if the drone dies.";
+            string  almanac     = "He's not sure he even brought the right remote.";
+            string  origin      = "PvZ Heroes (Zombot Drone Engineer)";
+
+                //zcorp_emp_drone
+                    string  description = "It is piloted by the ZCorp EMPD Enginner and attacks from a distance.";
+                    double  hp          = 8;
+                    double  armour      = 5;
+                    //int   cr          = n/a;
+                    double  speed       = fast;
+                    double  dmg         = 2;
+                    double  aps         = 0.5;
+                    string  special     = "It can only be targetted by plants that can attack flying zombies. Attacks from a 3-lane distance. If the ZCorp EMPD Engineer dies, the drone keeps going on that lane. Attacks occasionaly cause an EMP stun wave in a 3x3 area around target plant.";
+                    string  almanac     = "According to the ZCorp EMPD Engineer, EMPD stands fro 'Eat Your Brains Drone'. Yeah, he's never won a spelling bee.";
+                    string  origin      = "PvZ Heroes (Zombot Drone Engineer)";
+
+    //zcorp_drone_maintenance
+        string  description = "The ZCorp Drone Maintenance can repair other ZCorp Drones from afar.";
+        double  hp          = 10;
+        double  armour      = 10;
+        int     cr          = 6;
+        double  speed       = slow;
+        double  dmg         = 1;
+        double  aps         = 2;
+        string  special     = "Summons a ZCorp Maintenace Drone, then advances as a regular zombie.";
+        string  almanac     = "The ZCorp Drone Maintenance pilots the ZCorp Maintenace Drone. Not at all confusing.";
+        string  origin      = "Rogue Garden";
+
+            //zcorp_maintenance_drone
+                string  description = "It is deployed by the ZCorp Drone Maintenace attaches onto other drones.";
+                double  hp          = 5;
+                double  armour      = 0;
+                //int   cr          = n/a;
+                double  speed       = fast;
+                double  dmg         = 0;
+                double  aps         = 0;
+                string  special     = "Affected by EMPeach. It can only be targetted by plants that can attack flying zombies. It attaches onto certain robots (list above), prioritizing ZCorp Drones when possible. While attached to one, it cannot be targeted directly and slowly heals the receptor robot. Once the receptor dies, it either flies to another robot if the ZCorp Drone Maintenance is still alive or dies if he isn't.";
+                string  almanac     = "It was carefully coded to self destruct if the deployer dies, even though it doesn't really need him.";
+                string  origin      = "Rogue Garden";
 
     //zcorp_robo-shield
         string  origin      = "PvZ 2 (Shield Zombie)";

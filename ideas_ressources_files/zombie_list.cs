@@ -1309,6 +1309,10 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         //variant_pole_vaulting_zombie:dolphin_rider_zombie
             string  special     = "Only spawns in the pool. Swims on 'faster' speed while riding his dolphin. Jumps over the first plant he encounters and loses his dolphin. Can't jump over a tall-nut.";
 
+        //elite_pole_vaulting_zombie:bull_rider_zombie
+            string  special     = "Can jump over Tall-nut";
+            string  origin      = "Clash of Clans";
+
     //catapult_zombie
         string  special     = "Affected by E.M.Peach.";
 

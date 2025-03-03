@@ -9,6 +9,7 @@ Cosmic		: c
 Flagz		: f
 Miscellaneous	: m
 Museum		: h
+Sportive	: s
 ZCorp		: z
 
 Balloon		: bl

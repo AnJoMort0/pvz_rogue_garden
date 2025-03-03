@@ -1309,7 +1309,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         //variant_pole_vaulting_zombie:dolphin_rider_zombie
             string  special     = "Only spawns in the pool. Swims on 'faster' speed while riding his dolphin. Jumps over the first plant he encounters and loses his dolphin. Can't jump over a tall-nut.";
 
-        //elite_pole_vaulting_zombie:bull_rider_zombie
+        //elite_pole_vaulting_zombie:hog_rider_zombie
             string  special     = "Can jump over Tall-nut";
             string  origin      = "Clash of Clans";
 
@@ -1333,7 +1333,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
             //all-star_super_fan_imp
 
     //tennis_champ_zombie
-        string  special     = "Has 5 dmg until eating her first plant.";
+        string  special     = "Attacks by hitting with her racket instead of biting. Has 5 dmg until eating her first plant.";
 
     //arm_wrestler_zombie
         string  special     = "Gains +2 hp and +1 dmg when a plant is planted on his lane.";
@@ -1635,7 +1635,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
             string  almanac     = "You know what's harder than flying one drone? Flying two drones.";
             string  origin      = "PvZ Heroes (Zombot Drone Engineer)";
 
-                //zcorp_drone
+                //zcorp_swarm_drone
                     string  description = "It is piloted by the ZCorp Swarm Enginner and attacks from a distance.";
                     double  hp          = 3;
                     double  armour      = 0;
@@ -1987,7 +1987,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
             string  almanac     = "Conga Line Leader's pretty sure he took a wrong turn a few miles back, but ain't no way he's going to admit it. That's the key to leadership.";
             string  origin      = "PvZ Adventure";
 
-                //variant:ducky_conga_leader_zombieF
+                //variant:ducky_conga_leader_zombie
                     string  event_name  = "Conga line";
                     //stats of Conga Leader Zombie
                     string  special     = "Only spawns in the pool. While alive, ducky browncoats will continuously spawn on his lane.";

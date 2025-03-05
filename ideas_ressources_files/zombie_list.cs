@@ -61,7 +61,7 @@ string list     = "Beast Zombie Handler, Chicken Wrangler Zombie, Fire Rooster W
 string list     = "Tuba Zombie, Keytar Zombie, Undead Flamenco Dancers, Jack-in-the-box Zombie, Conga Drummer, Royal Horn Imp, Fanfare Trumpet Zombie, Fanfare Cymbals Zombie, Fanfare Snare Drum Zombie, Fanfare French Horn Zombie, Double Bass Zombie, Phantasmal Violinist";
 
     //zombies_with_mustache     list will expand as images are made
-string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie";
+string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie, Umbrella Zombie";
 
     //robots_zcorp_maintenance_drone_can_attach_to
 string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Generator, Neutron Imp, Cryoton Imp, Photon Imp, Proton Imp, Electron Imp, Hover-Goat 3000";

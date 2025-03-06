@@ -141,3 +141,12 @@
     bool    hot_potato  = false; 
     bool    EMPeach     = true;
     string  origin      = "PvZ 2";
+
+//supply_barrel
+    string  description = "A supply barrel rolled by a Supply Barrel Roller Zombie.";
+    double  hp          = ;
+    string  special     = "Drops two Imps on the adjacent lanes after destruction.";
+    bool    gravebuster = false;
+    bool    hot_potato  = false; 
+    bool    EMPeach     = false;
+    string  origin      = "PvZ 2";

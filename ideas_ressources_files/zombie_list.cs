@@ -974,6 +974,10 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         string  almanac     = "In her opinion, there's no better song to line dance to than the 'Zombie Shuffle.'";
         string  origin      = "PvZ Heroes";
 
+    //medic_zombie
+        string  special     = "Every few seconds, heals all zombies in an 'plus' formation centered on himself for 2hp. Heals Riot Police Zombies and Foot Soldier Zombies for double hp.";
+        string  origin      = "PvZ Heroes ; PvZ 2 (Healer Zombie)";
+
     //foot_soldier_zombie
         string  special     = "Upon reaching the 4th column, he lauches himself upwards to the second to last lane of the roof, dealing heavy damage to the plant he lands on in the process.";
         string  origin      = "PvZ Garden Warfare"
@@ -1006,7 +1010,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         string  special     = "Spawns in formation from 3 to 5 zombies. The zombies on the front and back hold their shields in front and behind them respectively. The zombies in the middle hold it above their heads. This protects the formation from attacks from all directions except down. They attack with their bastons instead of eating.";
         string  origin      = "PvZ 2 (Camel Zombies) | PvZ 2 China (Riot Police Zombie)";
 
-    //detonator_zombie
+    //riot_police_detonator_zombie
         string  origin      = "PvZ 2 (Prospector Zombie)";
 
     //gilet_jaune_zombie
@@ -1541,14 +1545,10 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         string  almanac     = "He's Rustbolt's biggest fan.";
         string  origin      = "PvZ Heroes";
 
-    //medic_zombie
-        string  special     = "Every few seconds, heals all zombies in an 'plus' formation centered on himself for 2hp. Heals Riot Police Zombies and Foot Soldier Zombies for double hp.";
-        string  origin      = "PvZ Heroes ; PvZ 2 (Healer Zombie)";
-
-        //elite_medic_zombie:necrologist
-            string  special     = "Spawns a Dr. Heals after passing 3 columns.";
-            string  almanac     = "He was a biologist in life.";
-            string  origin      = "Rogue Garden";
+    //elite_medic_zombie:necrologist
+        string  special     = "Spawns a Dr. Heals after passing 3 columns.";
+        string  almanac     = "He was a biologist in life.";
+        string  origin      = "Rogue Garden";
 
     //nurse_gargantuar
         string  special     = "Heals himself 10 hp when he smashes a plant. Throws an Imp upon reaching half hp. If a boss event is ongoing, heals the boss instead.";

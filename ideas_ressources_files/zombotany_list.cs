@@ -123,7 +123,7 @@ double  faster   = 5;
     string  almanac     = "Sweet Potato Zombie really looked up to Brain Vendor Zombie before the fusion, then he became his biggest competitor. But Sweet Potato Zombie never stopped looking up to him.";
     string  origin      = "Rogue Garden";      
 
-//potato_mine_zombie
+//potato_mine_imp
     string  phead       = "Potato Mine";
     string  zbody       = "Exploding Imp";
     string  description = "Fast, small and ready to explode.";

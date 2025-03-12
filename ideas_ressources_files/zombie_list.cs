@@ -6,7 +6,7 @@
         string  description = "blablabla";          //basic description of the zombie and its abilities (if available, you can easily take it straight from its game of origin)
         double  hp          = 10;                   //hit points (hp) is counted in peas
         double  armour      = 0;                    //if relevant, add the hp of potential armour (i.e. Cone), if not "double armour = 0"
-        int     cr          = 1;                    //CR stands for Challenge Rating, being the amount of "points" needed to spawn (Higher CR means the zombie spawns later/less often) and therefore should be based on how threatening the zombie is. Check the guide under this template for how to calculate it.
+        int     cr          = 1;                    //CR stands for Challenge Rating, being the amount of "points" needed to spawn (Higher CR means the zombie spawns later/less often) and therefore should be based on how threatening the zombie is. Check the CR Calculator to see a more in depth description of what CR is and get some help to decide it.
         double  speed       = normal;               //speeds written after template
         double  dmg         = 1;                    //damage (dmg) is counted in peas - yes, even the zombies'. Note: the average non-wall plant will have 6 HP.
         double  aps         = 2;                    //aps stands for attacks per second, aka how fast the zombie attacks
@@ -19,25 +19,6 @@ double  slow     = 2;
 double  normal   = 3;
 double  fast     = 4;
 double  faster   = 5;
-
-//How to calculate CR
-//  Note: CR is an arbitrary value that will likely change with play-testing
-//Start at the conehead's CR of 2 -> The conehead is special because it is 3x as tough as a browncoat but only 2x less likely to spawn.
-//  Note: If making an imp or a gargantuar, start with the normal's CR and stats but apply the same rules.
-//Starting from its stats :
-//          - Add or remove 1 or 2 CR depending on the speed difference (compared to the Conehead's "normal" speed)
-//                  i.e. : "faster" = 2 speeds higher = +2 CR
-//                  Note: Sometimes, a zombie benefits from being slower (i.e. Teleportation Zombie being protected from hits until reaching front line.), when that is the case, increase CR for the slower speed.
-//          - Add or remove CR depending on the total hp + Armor difference (compared to the Conehead's 10 hp) divided by 10
-//                  i.e. : 20 hp + 10 Armor = 20 hp difference = +2 CR
-//                  Note: Since armor cannot be healed and can sometimes be removed or ignored (i.e. Magnet vs Buckethead, Fumeshroom vs Screendoor) a high hp zombie is more challenging than a high Armor one, so adapt if necessary
-//          - Add or remove CR depending on the difference in dmg and aps (compared to the Conehead's 1 dmg and 2 aps)
-//                  i.e. : 2 dmg + 1 aps = more dmg + less aps = +CR -CR = No change
-//                       : 2 dmg + 2 aps = more dmg + same aps = +CR
-//          - If the zombie has special abilities change the staring point (instead of Conehead's 2 CR)
-//                       > weak ability / early-game challenge          = 3-4 CR base
-//                       > niche but strong ability/ mid-game challenge = 5-7 CR base
-//                       > strong ability / late-game challenge         = 8+  CR base
 
     //copy-paste
         string  description = "";

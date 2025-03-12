@@ -1,0 +1,234 @@
+<!--
+What is CR
+CR is short for Challenge Rating. It is the score that decides how likely and how late a zombie may spawn. This stat therefor relates directly to how challenging a zombie is.
+Each wave has a CR Pool and a CR Cap. The former defines the CR of all the wave's zombies added up and the lather defines how much CR a singular zombie in the wave can have. This lets you to control the quantity and quality of the waves, allowing for earlier waves to increase in amount while mostly having Browncoat ajdacent zombies.
+
+How to calculate CR
+                Note:   CR is an arbitrary value that will likely change with play-testing
+Start at the conehead's CR of 2 -> The conehead is special because it is 3x as tough as a browncoat but only 2x less likely to spawn.
+                Note:   If making an imp or a gargantuar, start with the regulars' CR and stats but apply the same rules.
+
+Starting from its stats :
+          - Add or remove 1 or 2 CR depending on the speed difference (compared to the Conehead's "normal" speed)
+                    i.e.    : "faster" = 2 speeds higher = +2 CR
+                Note:   Sometimes, a zombie benefits from being slower (i.e. Teleportation Zombie being protected from hits until reaching front line.), when that is the case, increase CR for the slower speed.
+
+          - Add or remove CR depending on the total hp + Armor difference (compared to the Conehead's 10 hp).
+                    i.e.    : 20 hp + 10 Armor = 20 hp difference = +2 CR
+                Note:   Since armor cannot be healed and can sometimes be removed or ignored (i.e. Magnet vs Buckethead, Fumeshroom vs Screendoor) a high hp zombie is more challenging than a high Armor one, so adapt if necessary
+                
+          - Add or remove CR depending on the difference in dmg and aps (compared to the Conehead's 1 dmg and 2 aps). Multipliyer divided by two becomes modifier
+                    i.e.    : 2 dmg + 1 aps = *2 dmg + /2 aps = +1 CR -1 CR = No change
+                            : 2 dmg + 2 aps = *2 dmg + *2 aps = +1 CR +1 CR = +2 CR
+
+          - Take abilities and other variables into consideration to fluctuate CR as needed, increasing or decreasing based on overall gut feeling. For abilities, you can use:
+                        > weak ability / early-game challenge          = +1 or +2 CR
+                        > niche but strong ability/ mid-game challenge = +3 to +5 CR
+                        > strong ability / late-game challenge         = +6 CR or more
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CR Calculator - Plants vs Zombies: Rogue Garden</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        label, select, input {
+            display: block;
+            margin-top: 5px;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        #armorBonusText {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- What is CR? -->
+        <div class="section">
+            <h1>What is CR?</h1>
+            <p>CR is short for Challenge Rating. It is the score that decides how likely and how late a zombie may spawn. This stat therefore relates directly to how challenging a zombie is. Each wave has a CR Pool and a CR Cap. The former defines the CR of all the wave's zombies added up, and the latter defines how much CR a singular zombie in the wave can have. This lets you control the quantity and quality of the waves, allowing for earlier waves to increase in amount while mostly having Browncoat-adjacent zombies.</p>
+            <p>Remember that CR being an arbitrary value will likely change with play-testing. This tool, the CR Calculator, is here simply to help create some grounds that we can work with during the development of Plants Vs Zombies: Rogue Garden.</p>
+        </div>
+
+        <!-- Zombie Type Selection -->
+        <div class="section">
+            <label for="zombieType">Select Zombie Type:</label>
+            <select id="zombieType">
+                <option value="regular">Regular Zombie</option>
+                <option value="imp">Imp</option>
+                <option value="gargantuar">Gargantuar</option>
+            </select>
+        </div>
+
+        <!-- Zombie Stats Inputs -->
+        <div class="section">
+            <label for="hp">Zombie HP:</label>
+            <input type="number" id="hp" value="10" />
+
+            <label for="armor">Zombie Armor:</label>
+            <input type="number" id="armor" value="0" />
+
+            <label for="speed">Zombie Speed:</label>
+            <select id="speed">
+                <option value="slower">Slower</option>
+                <option value="slow">Slow</option>
+                <option value="normal">Normal</option>
+                <option value="fast">Fast</option>
+                <option value="faster">Faster</option>
+            </select>
+
+            <label for="abilityBenefits">Ability benefits from slower speeds:</label>
+            <input type="checkbox" id="abilityBenefits" />
+        </div>
+
+        <!-- Damage and APS Inputs -->
+        <div class="section">
+            <label for="damage">Zombie Damage:</label>
+            <input type="number" id="damage" value="1" />
+
+            <label for="aps">Zombie APS:</label>
+            <input type="number" id="aps" value="2" step="0.1" />
+        </div>
+
+        <!-- Ability Modifier Section -->
+        <div class="section">
+            <label for="abilityModifier">Ability Modifier:</label>
+            <textarea id="abilityModifier" placeholder="Take abilities and other variables into consideration to fluctuate CR as needed."></textarea>
+            <p>For abilities, you can use:</p>
+            <ul>
+                <li><strong>Weak ability / early-game challenge:</strong> +1 or +2 CR</li>
+                <li><strong>Niche but strong ability / mid-game challenge:</strong> +3 to +5 CR</li>
+                <li><strong>Strong ability / late-game challenge:</strong> +6 CR or more</li>
+            </ul>
+        </div>
+
+        <!-- Armor Bonus Checkbox -->
+        <div class="section">
+            <input type="checkbox" id="armorBonus" disabled />
+            <label for="armorBonus" id="armorBonusText" style="display: none;"></label>
+        </div>
+
+        <!-- Calculate Button -->
+        <button id="calculateCR">Calculate CR</button>
+
+        <!-- Display CR -->
+        <div class="section">
+            <h2>Calculated CR: <span id="calculatedCR">0</span></h2>
+        </div>
+    </div>
+
+    <script>
+        // Function to calculate CR based on the inputs
+        function calculateCR() {
+            let zombieType = document.getElementById("zombieType").value;
+            let hp = parseInt(document.getElementById("hp").value);
+            let armor = parseInt(document.getElementById("armor").value);
+            let speed = document.getElementById("speed").value;
+            let abilityBenefits = document.getElementById("abilityBenefits").checked;
+            let damage = parseFloat(document.getElementById("damage").value);
+            let aps = parseFloat(document.getElementById("aps").value);
+            let abilityModifier = parseInt(document.getElementById("abilityModifier").value) || 0;
+            let armorBonus = document.getElementById("armorBonus").checked;
+
+            let baseCR = 0;
+            let speedModifier = 0;
+            let crAdjustment = 0;
+
+            // Zombie base stats
+            if (zombieType === "regular") {
+                baseCR = 2;
+            } else if (zombieType === "imp") {
+                baseCR = 1;
+            } else if (zombieType === "gargantuar") {
+                baseCR = 20;
+            }
+
+            // Calculate HP CR
+            let totalDurability = hp + armor;
+            let durabilityModifier = Math.floor((totalDurability / 10) - (hp / 10));
+            crAdjustment += durabilityModifier;
+
+            // Armor bonus: Condition for HP >= 2 * Armor
+            if (armor > 0 && hp >= armor * 2) {
+                document.getElementById("armorBonusText").style.display = "block";
+                document.getElementById("armorBonusText").innerText = "While armor can't be healed, HP can. Do you want to add +1 CR for the higher HP?";
+                document.getElementById("armorBonus").disabled = false;  // Enable the checkbox
+            } else {
+                document.getElementById("armorBonusText").style.display = "none";
+                document.getElementById("armorBonus").disabled = true;  // Disable the checkbox
+            }
+
+            // Add the Armor Bonus if checkbox is checked
+            if (armorBonus) {
+                crAdjustment += 1;
+            }
+
+            // Calculate Speed CR
+            const speedAdjustments = {
+                "slower": -2,
+                "slow": -1,
+                "normal": 0,
+                "fast": 1,
+                "faster": 2
+            };
+            speedModifier = speedAdjustments[speed];
+
+            if (abilityBenefits) {
+                speedModifier = -speedModifier; // Reversed if checkbox is checked
+            }
+            crAdjustment += speedModifier;
+
+            // Calculate Damage and APS CR
+            let damageFactor = Math.floor((damage / 1) / 2); // Rounded down
+            let apsFactor = Math.floor((aps / 2) / 2); // Rounded down
+
+            crAdjustment += damageFactor + apsFactor;
+
+            // Add ability modifier
+            crAdjustment += abilityModifier;
+
+            // Ensure CR does not go below 1
+            let finalCR = baseCR + crAdjustment;
+            if (finalCR < 1) {
+                finalCR = 1;
+            }
+
+            // Display the final CR
+            document.getElementById("calculatedCR").innerText = finalCR;
+        }
+
+        // Attach the calculation function to the button click
+        document.getElementById("calculateCR").addEventListener("click", calculateCR);
+    </script>
+</body>
+</html>
+
+
+

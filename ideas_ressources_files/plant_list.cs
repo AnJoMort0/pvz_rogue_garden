@@ -122,7 +122,7 @@
             string  attack_type = aim;
             double  ai          = 1.5; //halves when on the roof
             double  range       = lane;
-            string  special     = "Doubles the attack speed when on the roof. Targets first flying zombies on its lane;";
+            string  special     = "Doubles the attack speed when on the roof. Targets first flying zombies on its lane";
             string  almanac     = "The youngest Peashooter ever to earn a pilot's license. Also the only Peashooter ever to earn a pilot's license.";
             string  origin      = "PvZ Heroes";
 

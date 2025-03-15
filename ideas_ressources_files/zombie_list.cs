@@ -1459,7 +1459,6 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
     //waste_barrel_imp
         string  special     = "Can spawn in the pool. Crushes plants he walks into. Destroyed by spike weed and tangled kelp.";
         string  origin      = "PvZ Heroes";
-
     
 //museum_zombies
     

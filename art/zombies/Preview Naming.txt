@@ -10,6 +10,7 @@ Event Unique	: e
 Flagz		: f
 Miscellaneous	: m
 Museum		: h
+Scientific	: x
 Sportive	: s
 ZCorp		: z
 

@@ -142,7 +142,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
             //variant_basic:zcorp_zombie
                 string description  = "A typical ZCorp Incorporated employee.";
                 //stats_of_relevent_basics
-                string special      = "Only spawns during the 'Rush Hour' ambush or when spawned by the ZCorp Costumer Service and Conga Leader Zombie.";
+                string special      = "Only spawns during the 'Rush Hour' ambush or when spawned by the ZCorp Customer Service and Conga Leader Zombie.";
                 string almanac      = "He was issued the standard ZCorp coffee mug at orientation.";
                 string origin       = "PvZ 2";
 
@@ -183,7 +183,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
             //variant_imp:head_office_imp
                 string  description = "Even imps have to work in this economy.";
                 //stats_of_imp
-                string  special     = "Only spawns during the 'Rush Hour' ambush or when spawned by the ZCorp Costumer Service.";
+                string  special     = "Only spawns during the 'Rush Hour' ambush or when spawned by the ZCorp Customer Service.";
                 string  almanac     = "Head Office Imp's door is always open. It is, however, highly inadvisable to take him up on that offer.";
                 string  origin      = "PvZ 2 (Head Office Impgantuar)";
 

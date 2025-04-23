@@ -150,3 +150,35 @@
     bool    hot_potato  = false; 
     bool    EMPeach     = false;
     string  origin      = "PvZ 2";
+
+//gardener's_flower_pot
+    string  description = "A Plant Pot that can't be shoveled or Planted On, is ignored by zombies and turns into a regular Plant Pot after three waves.";
+    //double  hp          = n/a;
+    bool    gravebuster = false;
+    bool    hot_potato  = false; 
+    bool    EMPeach     = false;
+    string  origin      = "Rogue Garden";
+
+//guard-gantuar_shield
+    string  description = "The Guard-gantuar's honorary shield.";
+    double  hp          = ;
+    bool    gravebuster = false;
+    bool    hot_potato  = false; 
+    bool    EMPeach     = false;
+    string  origin      = "PvZ 2 China";
+
+//shylock's_dagger
+    string  description = "The best tool to acquire your promised pound of flesh.";
+    double  hp          = ;
+    bool    gravebuster = false;
+    bool    hot_potato  = false; 
+    bool    EMPeach     = false;
+    string  origin      = "Rogue Garden";
+
+//shield_decoy
+    string  description = "A paper cut-out of everyone's favourite All-Star.";
+    double  hp          = ;
+    bool    gravebuster = false;
+    bool    hot_potato  = false; 
+    bool    EMPeach     = false;
+    string  origin      = "PvZ GW 2";

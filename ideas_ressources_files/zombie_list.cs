@@ -33,10 +33,10 @@ double  faster   = 5;
 
 //special_lists
     //zombie_animals
-string list     = "Zombie Chicken, Zombie Fire Rooster, Fraidy Cat, Zombie Monkey, Zombie Parrot, Zombie Pigeon, Hover-Goat 3000, Zombie Dove, Zombie Rabbit, Zombie Rat,  Zombie Walrus, Zombie Bull, Zombie Dog";
+string list     = "Zombie Chicken, Zombie Fire Rooster, Fraidy Cat, Zombie Monkey, Zombie Parrot, Zombie Pigeon, Hover-Goat 3000, Zombie Dove, Zombie Rabbit, Zombie Rat,  Zombie Walrus, Zombie Bull, Zombie Dog, Zom-Bats";
     
     //animal_herders
-string list     = "Beast Zombie Handler, Chicken Wrangler Zombie, Fire Rooster Wrangler Zombie, Dog Walker Zombie, Loose Leash Zombie, Pack Leader Zombie, Cat Lady Zombie, Squirrel Herder Zombie, Turkey Rider Imp, Monkey Smuggler Zombie, Captain Deadbeard, Captain Flameface, Pigeon Feeder Zombie, Dolphin Rider Zombie, Seahorse Rider Zombie, Abracadaver, Pied Piper Zombie, Dodo Fossil Rider Imp, Smelly Zombie, Trapper Zombie, Octopus Zombie, Bull Rider Imp, Walrus Rider Imp";
+string list     = "Beast Zombie Handler, Chicken Wrangler Zombie, Fire Rooster Wrangler Zombie, Dog Walker Zombie, Loose Leash Zombie, Pack Leader Zombie, Cat Lady Zombie, Squirrel Herder Zombie, Turkey Rider Imp, Monkey Smuggler Zombie, Captain Deadbeard, Captain Flameface, Pigeon Feeder Zombie, Dolphin Rider Zombie, Seahorse Rider Zombie, Abracadaver, Pied Piper Zombie, Dodo Fossil Rider Imp, Smelly Zombie, Trapper Zombie, Octo Zombie, Bull Rider Imp, Walrus Rider Imp";
 
     //instrument_playing_zombies
 string list     = "Tuba Zombie, Keytar Zombie, Undead Flamenco Dancers, Jack-in-the-box Zombie, Conga Drummer, Royal Horn Imp, Fanfare Trumpet Zombie, Fanfare Cymbals Zombie, Fanfare Snare Drum Zombie, Fanfare French Horn Zombie, Double Bass Zombie, Phantasmal Violinist";
@@ -711,7 +711,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         string  almanac     = "He's been trying to cut back.";
         string  origin      = "PvZ Heroes";
 
-    //headstone_carver
+    //headstone_carver_zombie
         string  description = "Engraves Gravestones he passes by.";
         double  hp          = 10;
         double  armour      = 0;
@@ -723,7 +723,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         string  almanac     = "His epitaphs have been published on headstones around the world.";
         string  origin      = "PvZ Heroes ; PvZ 1 (Gravestones)";
 
-    //minimp-ninja
+    //ninjimp
         string  description = "A small zombie that sneaks past your defences."
         double  hp          = 5;
         double  armour      = 0;
@@ -733,7 +733,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         double  aps         = 3;
         string  special     = "After taking damage for the first time, he turns invisible for 4 tiles before reapearing.";
         string  almanac     = "His motto: Walk softly and carry a big nunchuck.";
-        string  origin      = "PvZ Heroes (mini-ninja) ; PvZ 2 China (Bandit Zombie)";
+        string  origin      = "PvZ Heroes (Mini-Ninja) ; PvZ 2 China (Bandit Zombie)";
 
     //stealth_imp
         string  description = "A small zombie that wanders through your defences, untraceable.";
@@ -818,7 +818,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         double  speed       = normal;
         double  dmg         = 1;
         double  aps         = 0.5;
-        string  special     = "Throws perfume bottles at plants that release poisonous perfume that stuns and damages them.";
+        string  special     = "Throws perfume bottles at plants that release poisonous perfume that stuns and damages them. Perfume can be removed by Aloe.";
         string  almanac     = "Perfume Zombie's perfume is popular among the aristocrats. Smells, hmm... tasty!";
         string  origin      = "PvZ 2 China";
 
@@ -984,7 +984,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
             string  origin      = "PvZ Garden Warfare";
 
     //riot_police_bomber_zombie
-        string  special     = "Throws smoke bombs forwards to stun plants. Hits plants with his stick instead of eating.";
+        string  special     = "Throws smoke bombs forwards, shortly stunning the plant it lands on and causing smoke to appear on a cross area around it. Hits plants with his stick instead of eating.";
         string  origin      = "PvZ 2 China (Riot Police Zombie)";
 
     //riot_police_squadron
@@ -1002,8 +1002,8 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         double  speed       = slow;
         double  dmg         = 1;
         double  aps         = 2;
-        string  special     = "The Gilet Jaune Zombie shouts slogans against the plants. This shout stuns plants in a 3x3 area and turns  basics into 'Rallied Protestor Zombies.'";
-        string  almanac     = "Once a common citizen, now a shuffler of the streets, the Gilet Jaune Zombie marches against anything in his path. To defend against the Gilet Jaune Zombie consider using plants with resistance to public dissatisfaction.";
+        string  special     = "The Gilet Jaune Zombie occasionally stops and shouts slogans. This shout stuns plants in a 3x3 area and turns  basics into 'Rallied Protestor Zombies.'";
+        string  almanac     = "To defend against the Gilet Jaune Zombie consider using plants with resistance to public dissatisfaction.";
         string  origin      = "Rogue Garden";
 
             //rallied_protestor_zombie
@@ -1015,7 +1015,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
                 double  dmg         = 1;
                 double  aps         = 2;
                 string  special     = "Burns any plant he in front of he. Fire is extinguished with the Chill or Freeze effects and becomes a regular zombie. Fire projectiles can reignite the torch.";
-                string  almanac     = "Ah, the Rallied Protestor Zombie, a connoisseur of chaos summoned by the Gilet Jaune Zombie's botanical revolution. With a torch in hand and a fervent spirit, he elegantly waltzes through the garden, turning flora into a spectacle of flames. Mon dieu, the theatrics! Prepare for a fiery soirée.";
+                string  almanac     = "Ah, the Rallied Protestor Zombie, a true connoisseur of chaos. Mon dieu, the theatrics of the rebellion! Prepare for a fiery soirée.";
                 string  origin      = "PvZ 2 (Explorer Zombie)";
 
     //tuba_zombie
@@ -1039,7 +1039,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         double  speed   = normal;
         double  dmg     = 1;
         double  aps     = 2;
-        string  special = "Helmet can be removed by Magnet-Shroom. Summons three Fanfare Zombies on the tiles behind him (1x3). When a Zombie Boss is summoned, causes all Fanfare Zombies in garden to play an arrival tune that will give temporary immunity to the newly spawned boss (time based on amount of fanfare zombies).";
+        string  special = "Helmet can be removed by Magnet-Shroom. Summons three Fanfare Zombies on the tiles behind him (1x3). When a Zombie Boss is summoned and or if it spawns during a Boss Event, causes his Fanfare Zombies to play an arrival tune that will give a weak armor to the Boss.";
         string almanac  = "Recently promoted from Drum Minor";
         string origin   = "PvZ Heroes";
 
@@ -1066,6 +1066,14 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
 
     //phantasmal_violinist
         string  special     = "Plays an instrument. Occasionally stops a plays a tune that summons Haunting Ghosts in his garden.";
+        string  origin      = "Rogue Garden";
+
+    //lullaby_zombie
+        string  special     = "Plays an instrument. Occasionally stops a plays his music box to cause plants in a 3x3 area to fall asleep.";
+        string  origin      = "Rogue Garden";
+
+    //sleepwalking_zombie
+        string  special     = "Ignores sleeping plant. Has a chance to put the plant he is eating to sleep.";
         string  origin      = "Rogue Garden";
 
     //zomboni
@@ -1223,6 +1231,9 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
             string  almanac     = "What's love got to do with it? Honestly, he has no idea.";
             string  origin      = "PvZ Heroes";
 
+        //sandman_zombie
+            string  special     = "Flies towards your roof. Increases odds for plants in his lane falling asleep.";
+
     //aquatic_zombies
         
         //snorkel_zombie
@@ -1296,7 +1307,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
                 string  origin      = "PvZ Heroes (Pied Piper)";
 
     //stiltwalker_zombie
-        string  special     = "Walks over plants on his wooden stilts. The zombie itself walks at roof height and the stilts are weak to fire attacks.";
+        string  special     = "Walks over plants on his wooden stilts. The zombie itself walks between roof and garden height and the stilts are weak to fire attacks.";
         string  origin      = "PvZ 2";
 
     //drinking_zombie
@@ -1430,6 +1441,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         string  origin      = "PvZ 2 (Barrel Roller Zombie)";
     
     //digger_zombie
+        string  special     = "Pickaxe can be stolen by Magnetshroom. He digs into the garden instead of walking, remaining underground as long as he has the pickaxe. While underground he ignores all plants except all the underground potatoes which he will eat and/or trigger. Once reaching the end of the garden or forced out of the ground by Magnetshroom, he will walk backwards. If he digs into an Archeology Guide Zombie's tunnel, he will come out the other end and walk forwards like any zombie.";
         string  origin      = "PvZ 1";
 
     //excavator_zombie
@@ -1453,7 +1465,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         string  origin      = "PvZ Heroes ; PvZ GW";
             
     //gardener_zombie
-        string  special     = "Once it reaches the garden, 'shovels' the front-most attacking plant in his lane (deosn't count as destroying it*) and replaces it with a Plant Pot that cannot be shoveled or be planted on for 3 waves.";  //*relevent for plants like Explodo-nut and Puni-Shroom
+        string  special     = "Once it reaches the garden, 'shovels' the front-most attacking plant in his lane (doesn't count as destroying it*) and replaces it with a Plant Pot that cannot be shoveled or be planted on for 3 waves.";  //*relevent for plants like Explodo-nut and Puni-Shroom
         string  description = "PvZ Heroes (Biodome Botanist Zombie)";
 
     //waste_barrel_imp
@@ -1504,7 +1516,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         string  origin      = "PvZ Heroes";
 
     //archeology_guide_zombie
-        string  special     = "After a few seconds on the garden, opens a whole on the garden, digs forwards 3 tiles, then comes back up, creating a 5 tile long tunnel for non-gargantuar zombies to evade attacks and pass into your defenses. Diggers that dig into it come out the end of the tunnel. Each tile of the tunnel only lasts 10 seconds before disapearing. If he creates the tunnel on a shallow water tile, the tunnel collapses and the zombies inside die.";
+        string  special     = "After a few seconds on the garden, opens a whole on the garden, digs forwards 3 tiles, then comes back up, creating a 5 tile long tunnel for non-gargantuar zombies to evade attacks and pass into your defenses. Diggers that dig into it come out the end of the tunnel. Each tile of the tunnel only lasts 10 seconds before disapearing. If he creates the tunnel through or on a shallow water tile, the tunnel collapses and the zombies inside die.";
         string  origin      = "PvZ 2 China (Lost Guide Zombie)";
 
 //scientific_zombies
@@ -1540,7 +1552,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
     
     //zombie_drop-off_rocket
         string  special     = "Flies towards your roof. Drops a Bug Bot Imp upon reaching 75%, 50% and 25% hp. If it reaches the roof, it stops and drops off a Moonwalker.";
-        string  origin      = "PvZ 2 China (Transport Ship) ; PvZ 2 (Far Future imp rain)";
+        string  origin      = "PvZ 2 China (Transport Boat ambush) ; PvZ 2 (Bot Swarm ambush)";
 
             //moonwalker
                 string  special     = "Dropped off by a Zombie Drop-off Rocket on the roof. Places down a flag at the edge of the roof that lasts 2 to 3 waves and makes all new zombies in that lane spawn with an additional 3 HP.";
@@ -1614,11 +1626,11 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         string  origin      = "PvZ Heroes";
 
     //zom-blob
-        string  special     = "More likely to spawn during Radiation Wave event. Ignores plants and leaves a blob trail behind him that deals dot and disappears after a few seconds.";
+        string  special     = "More likely to spawn during Radiation Wave event. Ignores plants and leaves a blob trail behind him that deals damage over time and disappears after a few seconds.";
         string  origin      = "PvZ Heroes";
 
     //genetic_experiement
-        string  special     = "More likely to spawn during the Radiation Wave event. Upon reaching the garden, incapsulates himself. He does leave not until the capsule is destroyed. Whilst in the capsule, gains +2 hp and +1 dmg for every four zombies that pass him.";
+        string  special     = "More likely to spawn during the Radiation Wave event. Upon reaching the garden, incapsulates himself. He does not leave until the capsule is destroyed. Whilst in the capsule, gains +2 hp and +0.25 dmg for every four zombies that pass him.";
         string  origin      = "PvZ Heroes";
 
 //zcorp_zombies
@@ -1682,7 +1694,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
                 double  speed       = fast;
                 double  dmg         = 1;
                 double  aps         = 1;
-                string  special     = "Affected by EMPeach. It can only be targetted by plants that can attack flying zombies. Attacks from a 3-lane distance. If the ZCorp Drone Engineer dies or looses his remote, the drone joins another ZCorp Engineer. If there are none on the field, it dies.";
+                string  special     = "Affected by EMPeach. Flies between roof and garden height. Attacks from a 3-lane distance. If the ZCorp Drone Engineer dies or looses his remote, the drone joins another ZCorp Engineer. If there are none on the field, it dies.";
                 string  almanac     = "The pencil on his helmet is completely useless, but the ZCorp engineer liked the aesthetics of it.";
                 string  origin      = "PvZ Heroes (Zombot Drone Engineer)";
 
@@ -1706,7 +1718,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
                     double  speed       = faster;
                     double  dmg         = 1;
                     double  aps         = 0.5;
-                    string  special     = "Affected by EMPeach. It can only be targetted by plants that can attack flying zombies. Attacks from a 1-lane distance. If the ZCorp Swarm Engineer dies or looses his remote, the drone joins another ZCorp Engineer. If there are none on the field, it dies.";
+                    string  special     = "Affected by EMPeach. Flies between roof and garden height. Attacks from a 1-lane distance. If the ZCorp Swarm Engineer dies or looses his remote, the drone joins another ZCorp Engineer. If there are none on the field, it dies.";
                     string  almanac     = "These guys have pens on their helmets because it's classier.";
                     string  origin      = "PvZ Heroes (Zombot Drone Engineer)";
 
@@ -1730,7 +1742,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
                     double  speed       = fast;
                     double  dmg         = 2;
                     double  aps         = 0.5;
-                    string  special     = "It can only be targetted by plants that can attack flying zombies. Attacks from a 3-lane distance. If the ZCorp EMPD Engineer dies, the drone keeps going on that lane. Attacks occasionaly cause an EMP stun wave in a 3x3 area around target plant.";
+                    string  special     = "Flies between roof and garden height. Attacks from a 3-lane distance. If the ZCorp EMPD Engineer dies, the drone keeps going on that lane. Attacks occasionaly cause an EMP stun wave in a 3x3 area around target plant.";
                     string  almanac     = "According to the ZCorp EMPD Engineer, EMPD stands fro 'Eat Your Brains Drone'. Yeah, he's never won a spelling bee.";
                     string  origin      = "PvZ Heroes (Zombot Drone Engineer)";
 
@@ -1754,7 +1766,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
                 double  speed       = fast;
                 double  dmg         = 0;
                 double  aps         = 0;
-                string  special     = "Affected by EMPeach. It can only be targetted by plants that can attack flying zombies. It attaches onto certain robots (list above), prioritizing ZCorp Drones when possible. While attached to one, it cannot be targeted directly and slowly heals the receptor robot. Once the receptor dies, it either flies to another robot if the ZCorp Drone Maintenance is still alive or dies if he isn't.";
+                string  special     = "Affected by EMPeach. Flies between roof and garden height. It attaches onto certain robots (list above), prioritizing ZCorp Drones when possible. While attached to one, it cannot be targeted directly and slowly heals the receptor robot. Once the receptor dies, it either flies to another robot if the ZCorp Drone Maintenance is still alive or dies if he isn't.";
                 string  almanac     = "It was carefully coded to self destruct if the deployer dies, even though it doesn't really need him.";
                 string  origin      = "Rogue Garden";
 
@@ -1820,17 +1832,17 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
                         string  almanac     = "Knight Zombie was just as surprised as anyone when Zombie King promoted him. He'd never say this out loud, but he's not sure he deserves the position. He's not sure he has what it takes to wear the armor. But like they say, 'Fake it 'til you make it.'";
                         string  origin      = "PvZ 2";
 
-                        //elite_zombie_knight:knight_of_the_living_dead
-                            string  description = "The Knight of the Living Dead is more living than dead due to his armor.";
-                            double  hp          = 10;
-                            double  armour      = 75;
-                            int     cr          = 10;
-                            double  speed       = normal;
-                            double  dmg         = 1;
-                            double  aps         = 2;
-                            string  special     = "Shield blocks straight shooting attacks from the front. As long as he has his helmet, takes 2 less damage from non-fire damage but takes double fire damage. Helmet can be removed by Magnet-Shroom.";
-                            string  almanac     = "He's both secretary and treasurer for the Zombie Knights of the Square Table.";
-                            string  origin      = "PvZ Heroes";
+    //elite_zombie_knight:knight_of_the_living_dead
+        string  description = "The Knight of the Living Dead is more living than dead due to his armor.";
+        double  hp          = 10;
+        double  armour      = 75;
+        int     cr          = 10;
+        double  speed       = normal;
+        double  dmg         = 1;
+        double  aps         = 2;
+        string  special     = "Shield blocks straight shooting attacks from the front. As long as he has his helmet, takes 2 less damage from non-fire damage but takes double fire damage. Helmet can be removed by Magnet-Shroom.";
+        string  almanac     = "He's both secretary and treasurer for the Zombie Knights of the Square Table.";
+        string  origin      = "PvZ Heroes";
 
     //vimpire
         string  special     = "Gains a movement speed and aps buff upon eating a plant. Dies if he bites garlic.";
@@ -1860,6 +1872,11 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
                 string  special     = "Doesn't die but is affected by chilling. Walks through plants dealing damage to them. Ascends on the first lane.";
                 string  almanac     = "Is he a Zombie? Is he a ghost? He refuses to be pigeonholded.";
                 string  origin      = "PvZ Heroes";
+
+    //elite_haunting_ghost:nightmare_ghost
+        string  description = "Nightmare Ghost ghosts even more ghostly than ghosts usually ghost";
+        string  special     = "Only spawns on lanes with 4 or more sleeping plants. Doesn't die but is affected by chilling. Walks through plants heavily damaging and stunning to them. Ascends on the first lane or if there are no more sleeping plants on his lane.";
+        string  origin      = "Rogue Garden";
         
     //valkyrie_zombie
         string  description = "Valkyrie Zombie gets stronger the more zombies die.";
@@ -1893,6 +1910,10 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         string  special     = "Gains +1 hp for every zombie that dies in his lane while he's alive. Throws a Vimpire upon reaching half hp.";
         string  origin      = "PvZ Heroes";
 
+    //guard-gantuar
+        string  special     = "Drops his shield on death, that acts as a though gravestone, destroying the plant on that tile.";
+        string  origin      = "PvZ 2 China";
+
 //event_dependent_zombies
     
     //zombotany_zombies
@@ -1918,6 +1939,9 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
             string  special     = "Only spawns during spring. Affected by E.M.Peach. Flies towards your roof. Attacks from 1 tile away. Attacks from 2 tile away. Bio-electrical attack jumps to neighbouring plants dealing small damage to them.";
             string  origin      = "PvZ Heroes (Neutron Imp)";
 
+    //iron_boarder_imp
+        string  special = "Flies towards your roof. Gains +5 HP and +1 dmg when the season changes.";
+
     //portal_gatekeeper_zombie
         string  description = "While alive, the Portal Gatekeeper Zombie creates portals in the garden that disappear on her death.";
         double  hp          = 30;
@@ -1941,6 +1965,12 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         string  specials    = "Can spawn in the pool. Attacks from 2 tiles away.";
         string  almanac     = "An IMPerfect copy, but it'll do.";
         string  origin      = "PvZ Heroes";
+
+    //zom-bats
+        string  special     = "Flies towards your roof. Heals the zombie Boss as it damages plants.";
+
+    //octo-pet
+        string  special     = "Doesn't move. Attacks plants around him with an anchor. Plant's cannot be placed on his tile.";
 
     //variant_exploding_imp:cake_bomb_imp
         string  description = "He's come to celebrate with cake and dynamite.";

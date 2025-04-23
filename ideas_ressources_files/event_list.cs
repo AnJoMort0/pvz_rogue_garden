@@ -195,7 +195,7 @@ double  faster   = 5;
     string description = "These events can happen at any time during the gameplay.";
 
     //boss_events
-        string descritpion = "A boss appears on the outer edge of one of the gardens, outside of the plantable grid.";
+        string descritpion = "A boss appears on the outer edge of one of the gardens, on the road or in the sky, outside or above of the plantable grid.";
 
         //zombots
             string description = "Giant robots built and controlled by Dr. Edgar Zomboss. They all have three phases at 3/3, 2/3 and 1/3 of their health, that get progressively more difficult before being defeated. Zombies in the garden he appears in stop spawning normally and instead get summoned by the boss.";

@@ -289,7 +289,7 @@ double  faster   = 5;
     string  almanac     = "How does sun production translate to healing, you ask ? It doesn't : it translates to announcing Huge Waves. The healing comes from the flag. It's a family heirloom.";
     string  origin      = "Rogue Garden";  
 
-//eclipse_glasses_vendor
+//eclipse_glasses_vendor_zombie
     string event_name = "Total Eclipse";
     string description = "Eclipse glasses can only mean one thing... Profit for Eclipse Glasses Vendor.";
     string appearance = "Resembles Brain Vendor Zombie in model but dark palette and sells eclipse glasses.";

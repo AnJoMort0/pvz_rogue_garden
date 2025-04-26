@@ -106,7 +106,7 @@ double  faster   = 5;
             string description = "For its duration, zombies are more likely to spawn in the backyard than the front yard. Zombies that spawn in the backyard have a higher chance of spawning in the pool lanes.";
 
         //heat_wave
-            string description = "Only triggers during the day. For its duration, all plants have a higher chance of falling asleep and night plants are weaker.";
+            string description = "Only triggers during the day. For its duration, all plants have a higher chance of falling asleep and night plants are weaker. Awakened Zombies from the Museum category are slightly more likely to spawn.";
             string origin = "PvZ 1 DS Version";
 
             //drought
@@ -242,9 +242,11 @@ double  faster   = 5;
                     string  attack_3    = "Jump : The Zombot jumps to a different place instead of walking, avoiding land attacks while in movement.";
                 //phase_2
                     string  attack_3    = "Animal Release : The Zombot opens its side-cage, releasing up to 5 zombie animals down each lane it occupies.";
+                    string  attack_4    = "Fire Show : The Zombot summons up to 5 Firebreather Zombies and Firework Zombies.";
                 //phase_3
-                    string  attack_4    = "Dash : The Zombot rears back, charges up and then dashes down the garden, crushing plants it touches.";
-                    string  attack_5    = "Fire Show : The Zombot summons up to 5 Rocket Zombies and Firework Zombies.";
+                    string  attack_5    = "Dash : The Zombot rears back, charges up and then dashes down the garden, crushing plants it touches.";
+                    string  attack_6    = "The Show Must Go On : Spawns 3 Ringmaster Zombies.";
+
 
             //desk-a-tron
                 string  description = "Dr. Zomboss's corporate desk, but on legs. It occupies only a small area on the map but can move around with its office adequate legs.";
@@ -352,7 +354,7 @@ double  faster   = 5;
                         string  attack_4    = "Sports Advertising : The Blimp's screen turns on to reveal an add for the next Football Event. Super-fan Imps, Brain Vendor Zombies and Paparazzi Zombies can naturally appear in the garden until the screen changes.";
                         string  attack_5    = "Bot Swarm : The Zombot opens a latch to release up to 7 Bug Bot Imps into the garden.";
                     //phase_3
-                        string  attack_6    = "News Advertising : The Blimp's screen turns on to reveal breaking news of a protest. Gilet Jaune Zombies, Riot Police Squadrons and Bomber Zombies, and Medic Zombies can naturally appear in the garden until the screen changes.";
+                        string  attack_6    = "News Advertising : The Blimp's screen turns on to reveal breaking news of a protest. Gilet Jaune Zombies, Riot Police Zombies and Medic Zombies can naturally appear in the garden until the screen changes.";
                         string  attack_7    = "Fanfare Advertising : The Blimp's screen turns on to reveal news for the upcoming Fanfare Parade. Drum Major Zombies can naturally appear in the garden until the screen changes.";
                         string  attack_8    = "Assistance Required : The Zombot sounds an alarm, summoning up to three Copter Comandimps";
 

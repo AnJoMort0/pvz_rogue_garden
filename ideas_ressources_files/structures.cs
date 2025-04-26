@@ -159,6 +159,15 @@
     bool    EMPeach     = false;
     string  origin      = "Rogue Garden";
 
+//undying_staff
+    string  description = "An undying staff that raises undying armies.";
+    //double  hp          = n/a;
+    string  special     = "Upgrades basics that pass through it into Conehead Mummies.";
+    bool    gravebuster = true;
+    bool    hot_potato  = false; 
+    bool    EMPeach     = false;
+    string  origin      = "Rogue Garden";
+
 //guard-gantuar_shield
     string  description = "The Guard-gantuar's honorary shield.";
     double  hp          = ;

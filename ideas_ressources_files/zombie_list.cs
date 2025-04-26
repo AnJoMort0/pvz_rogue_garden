@@ -834,18 +834,6 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         string  almanac     = "'Spin, jump, close my eyes'. Ballerina Zombie likes this song the most.";
         string  origin      = "PvZ 2 China";
 
-    //firework_zombie
-        string  description = "Launches fireworks at your plants.";
-        double  hp          = 35;
-        double  armor       = 0;
-        int     cr          = 12;
-        double  speed       = normal;
-        double  dmg         = 1;
-        double  aps         = 2;
-        string  special     = "Launches fireworks at random tiles that burn the plant there and create fire trails on them.";
-        string  almanac     = "Want to clear some mushrooms? Fire works.";
-        string  origin      = "PvZ 2 China ; design PvZ Heroes";
-
     //rocket_zombie
         string  description = "He rockets his way past your defences.";
         double  hp = 35;
@@ -1080,10 +1068,6 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         string  special     = "Affected by EMPeach. Creates an ice trail behind him that plants, except plant pots, cannot be planted on and Bobsleds can spawn on. Overrides Paint Bucket Zombie's Paint Trail.";
         string  origin      = "PvZ 1";
 
-    //celestial_custodian_zombie
-        string  special     = "Affected by EMPeach. Flies towards the roof. Inflicts double damage to plants with 0 aps, inlcuding stunned plants.";
-        string  origin      = "PvZ Heroes";
-
     //space_cowimp
         string  special     = "Affected by EMPeach. Flies towards your roof. Moves to a neighbouring lane when he eats a plant.";
         string  origin      = "PvZ Heroes (Space Cowboy)";
@@ -1279,6 +1263,10 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         string  special     = "When an Animal Herder type zombie spawns, that zombie gets +1 dmg and +0,25 aps.";
         string  origin      = "PvZ Heroes (Zookeeper)";
 
+    //ringmaster_zombie
+        string  special     = "Every few seconds, summons one of four zombies in random lanes of the garden. He may summon an Abracadaver, Firebreather Zombie, Acrobat Imps or Zombie Juggler.";
+        string  origin      = "Rogue Garden";
+
     //abracadaver
         string  special     = "Lifts his hat to reveal a Zombie Dove who'll try to fly off with your plants. If the dove dies, the hat falls off, which releases a Zombie Rabbit.";
         string  origin      = "PvZ Heroes ; PvZ 2 (Magician Zombie)";
@@ -1288,7 +1276,20 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
             string origin = "PvZ 2";
 
         //zombie_rabbit
-            string origin = "PvZ Heroes (Abracadaver); PvZ 2 (Weasel)";
+            string  origin = "PvZ Heroes (Abracadaver); PvZ 2 (Weasel)";
+    
+    //firebreather_zombie
+        string  description = "Firebreather Zombie... wait for it... breathes fire. And plenty of it!";
+        string  special     = "Breathes fire onto plants from two tiles away dealing heavy damage over time. Fire is extinguished with the Chill or Freeze effects and becomes a regular zombie. Fire projectiles can reignite the beard.";
+        string  origin      = "PvZ 2";
+
+    //acrobat_imps
+        string  special     = "Always spawns in a group of three on neighbourghing lanes. May spawn on pool lane and drown on landing. Will swing into the garden.";
+        string  origin      = "PvZ 2 Reflourished (Trapeze Zombie)";
+
+    //zombie_juggler
+        string  special     = "Catches projectiles thrown at him and juggles them, not taking damage. Once he catches 5, he lobs them towards the roof. After that he stops doing it.";
+        string  origin      = "Rogue Garden";
 
     //pied_piper_zombie
         string  description = "The Pied Piper sends out rats to block the front-most plant in his lane.";
@@ -1313,6 +1314,30 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
     //drinking_zombie
         string  special     = "Drinks from his bottle upon reaching half hp. This buffs his speed, dmg and aps.";
         string  origin      = "PvZ 2 China";
+    
+    //variant_hamsterball_imp:ferris_wheel_zombie
+        string  description = "A rather speedy zombie that certainly loves fun.";
+        double  hp          = 10;
+        double  armour      = 40;
+        int     cr          = 7;
+        double  speed       = faster;
+        double  dmg         = 0.5;
+        double  aps         = 3;
+        string  special     = "Releases the Drinking Zombie inside it when it's destroyed.";
+        string  almanac     = "He likes felines a lot more than rodents, but the hamster ball was more useful than a litter box.";
+        string  origin      = "Rogue Garden";
+
+    //firework_zombie
+        string  description = "Launches fireworks at your plants.";
+        double  hp          = 35;
+        double  armor       = 0;
+        int     cr          = 12;
+        double  speed       = normal;
+        double  dmg         = 1;
+        double  aps         = 2;
+        string  special     = "Launches fireworks at random tiles that burn the plant there and create fire trails on them.";
+        string  almanac     = "Want to clear some mushrooms? Fire works.";
+        string  origin      = "PvZ 2 China ; design PvZ Heroes";
 
     //carnie_cannon
         string  special     = "Stays at the back of the garden and occasionnaly shoots out Carnie Imps. If not defeated after a certain time, explodes, shooting 4 to 6 Carnie Imps much further into the garden than it normally would.";
@@ -1337,6 +1362,15 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         //moustache_imp
             string  special     = "After passing 4 columns turns into a random CR 4 or less zombie with a moustache.";
             string  origin      = "Rogue Garden";
+
+    //outhouse_zombie
+        string  special     = "Reveals a Basic (or variant), Newspaper Zombie (or elite), or Imposter upon breaking.";
+        string  origin      = "PvZ GW";
+
+    //balloon_vendor_zombie
+        string  speed       = slower;
+        string  special     = "Turns Basics that pass by him into their Balloon variant, fully healing them in the process.";
+        string  origin      = "Rogue Garden";
 
 //sportive_zombies
     
@@ -1478,11 +1512,18 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         string  origin      = "PvZ 2 (Ra Zombie)";
 
     //awakened_cleopatra_zombie
-        string  origin      = "PvZ 2 China";
+        string  origin      = "PvZ 2 All-Star (Hero Cleopatra Zombie)";
 
     //elite_mixed-up_gravedigger:awakened_tomb_raiser_zombie
-        string  origin      = "Creates Engraved Gravestones on random tiles of the lawn. If the tile is occupied, no Gravestone is created.";
+        string  special     = "Creates Engraved Gravestones on random tiles of the lawn. If the tile is occupied, no Gravestone is created.";
         string  origin      = "PvZ 2 (Tomb Raiser Zombie)";
+
+    //awakened_undying_pharaoh
+        string  special     = "While inside the sarcophagus takes -1 damage from all sources and prevents zombies behind him from going below 1 HP. After leaving the sarcophagus, becomes 'faster' speed, gains +2 aps and a 1 tile ranged attack with his staff. Upon death, drops his staff on the ground.";
+        string  origin      = "PvZ 2 (Pharaoh Zombie) ; PvZ Heroes (Undying Pharaoh)";
+
+        //variant_conehead:conehead_mummy
+            string  origin      = "PvZ 2";
 
     //dodo_fossil_rider_imp
         string  origin      = "PvZ 2 (Dodo Rider)";
@@ -1784,6 +1825,10 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         string  special     = "Gains +1 hp and +0.5 aps for every ZCorp basic that dies in his lane.";
         string  almanac     = "Leike most managers, bringing pain to his employees gives him strngth.";
         string  origin      = "PvZ Heroes (Zombie Middle Manager)";
+    
+    //zcorp_custodian
+        string  special     = "Affected by EMPeach. Flies towards the roof. Hits plants with his broom instead of eating them, dealing extra damage to plant with 0 aps. Occasionnaly drops sanitizer onto the garden, leaving a small puddle that damages plants on that tile and goes away after a few waves.";
+        string  origin      = "PvZ Heroes (Celestial Custodian)";
     
 //fantasy_roleplaying_club
     

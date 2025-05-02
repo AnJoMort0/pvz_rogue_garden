@@ -170,7 +170,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
                 string  description = "It's just an imp, but on a paper plane.";
                 //stats_of_imp
                 string  special     = "Flies towards your roof.";
-                string  almanac     = "Paper Plane Imp realized the cons of the old balloon and made a new spike-proof mode of aerial movement.";
+                string  almanac     = "Paper Plane Imp realized the cons of the old balloon and made a new needle-proof mode of aerial movement.";
                 string  origin      = "Rogue Garden";
 
             //variant_imp:brownparka_imp

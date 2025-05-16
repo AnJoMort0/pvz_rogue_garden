@@ -5,7 +5,8 @@ Other categories have their category letter followed by a name that is 5 to 6 le
 Previews for various objects' degradation is the name of the zombie followed by "dmg" for damage (i.e.: Newspaper Zombie's Newspaper (miscellaneous category) >> m_newspr_dmg_v#).
 
 Basics 		: b
-Cosmic		: c
+Carnival	: c
+Cosmic		: o
 Event Unique	: e
 Flagz		: f
 Miscellaneous	: m

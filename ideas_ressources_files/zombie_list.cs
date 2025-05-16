@@ -687,18 +687,6 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         string  almanac     = "He insists that, as far as modes of transportation go, turkeys outperform dolphins, walruses, and fossils any day.";
         string  origin      = "PvZ Heroes";
 
-    //bonus_track_buckethead
-        string  description = "Prevents your fastest plant from attacking";
-        double  hp          = 10;
-        double  armour      = 55;
-        int     cr          = 11;
-        double  speed       = normal;
-        double  dmg         = 1;
-        double  aps         = 2;
-        string  special     = "While alive, stuns the highest aps plant in his lane.";
-        string  almanac     = "He put all his favorite songs on that mixtape. If only he could find the right Zombie to give it to.";
-        string  origin      = "PvZ Heroes";
-
     //coffee_zombie
         string  description = "Caffeinates his fellow zombies.";
         double  hp          = 25;
@@ -833,6 +821,15 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         string  special     = "More likely to spawn during Aerobics Class concert event. Always spawns in 'back-up dancer formation' and can randomly switch lanes.";
         string  almanac     = "'Spin, jump, close my eyes'. Ballerina Zombie likes this song the most.";
         string  origin      = "PvZ 2 China";
+
+    //target_zombie
+        string  special     = "Summons a Bungee Zombie on his lane on death.";
+        string  origin      = "PvZ Versus Mode"; 
+
+    //mailman_zombie
+        string  speed       = faster;
+        string  special     = "Walks past plants instead of eating them.";
+        string  origin      = "PvZ Brutal Mode EX Plus (Letterhead Zombie)";
 
     //rocket_zombie
         string  description = "He rockets his way past your defences.";
@@ -1117,13 +1114,8 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         string  origin      = "PvZ 2";
 
         //zombie_bull
+            //Note that, for the purposes of counting the Bull Rider Imp in the Animal Herders and the Zombie Bull as an animal, it is no longer a robot in Rogue Garden
             string  origin      = "PvZ 2";
-
-        //elite_bull_rider_imp:rodeo_stunt_imp
-            string  special     = "Takes a couple of seconds to charge up before dashing forwards, propelling the imp forward on the first plant it hits, damaging the hit plant and leaving behind the Rodeo-Bot. Once the imp lands, the Rodeo-Bot explodes.";
-            string  origin      = "Rogue Garden ; PvZ 2 (Rodeo Legend Zombie)";
-
-            //rodeo-bot
 
         //variant_bull_rider_imp:walrus_rider_imp
             string  special     = "Only spawns in the pool, during winter. Slides over the water, propelling the imp forward on the first plant it hits and leaving behind the Zombie Walrus.";
@@ -1259,9 +1251,29 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         string  special     = "Deals gargantuar damage to nuts."
         string  origin      = "PvZ 2";
 
+    //bonus_track_buckethead
+        string  description = "Prevents your fastest plant from attacking";
+        double  hp          = 10;
+        double  armour      = 55;
+        int     cr          = 11;
+        double  speed       = normal;
+        double  dmg         = 1;
+        double  aps         = 2;
+        string  special     = "While alive, stuns the highest aps plant in his lane.";
+        string  almanac     = "He made a second volume of all his favourite songs for his brand new Mp3 player.";
+        string  origin      = "PvZ Heroes";
+
     //beast_handler
         string  special     = "When an Animal Herder type zombie spawns, that zombie gets +1 dmg and +0,25 aps.";
         string  origin      = "PvZ Heroes (Zookeeper)";
+
+    //elite_bull_rider_imp:rodeo_stunt_imp
+            string  special     = "Rodeo Bull is affected by EMPeach. Takes a couple of seconds to charge up before dashing forwards, propelling the imp forward on the first plant it hits, damaging the hit plant and leaving behind the Rodeo-Bot. Once the imp lands, the Rodeo-Bot explodes.";
+            string  origin      = "Rogue Garden ; PvZ 2 (Rodeo Legend Zombie)";
+
+            //rodeo-bot
+                string  special     = "Affected by EMPeach. Upon lauching the Rodeo Stunt Imp, starts a timer that explodes itself as the Imp lands. The explosion is disabled by using EMPeach while the timer is active or by killing the Rodeo-Bot. If the Rodeo Stunt Imp doesn't land, the timer still goes and the Rodeo-Bot still explodes.";
+                string  origin      = "Rogue Garden ; PvZ 2 (Rodeo Legend Zombie)"
 
     //ringmaster_zombie
         string  special     = "Every few seconds, summons one of four zombies in random lanes of the garden. He may summon an Abracadaver, Firebreather Zombie, Acrobat Imps or Zombie Juggler.";
@@ -1315,16 +1327,16 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
         string  special     = "Drinks from his bottle upon reaching half hp. This buffs his speed, dmg and aps.";
         string  origin      = "PvZ 2 China";
     
-    //variant_hamsterball_imp:ferris_wheel_zombie
+    //elite_hamsterball_imp:ferris_wheel_zombie
         string  description = "A rather speedy zombie that certainly loves fun.";
         double  hp          = 10;
         double  armour      = 40;
-        int     cr          = 7;
+        int     cr          = 8;
         double  speed       = faster;
-        double  dmg         = 0.5;
-        double  aps         = 3;
+        double  dmg         = 1;
+        double  aps         = 2;
         string  special     = "Releases the Drinking Zombie inside it when it's destroyed.";
-        string  almanac     = "He likes felines a lot more than rodents, but the hamster ball was more useful than a litter box.";
+        string  almanac     = "It feels like the world is spinnig around Ferris Wheel zombie, but he's actually the one that's spinning this time.";
         string  origin      = "Rogue Garden";
 
     //firework_zombie

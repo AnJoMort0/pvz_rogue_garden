@@ -45,7 +45,9 @@ string list     = "Tuba Zombie, Keytar Zombie, Undead Flamenco Dancers, Jack-in-
 string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie, Umbrella Zombie, Park Ranger Zombie";
 
     //robots_zcorp_maintenance_drone_can_attach_to
-string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Generator, Neutron Imp, Cryoton Imp, Photon Imp, Proton Imp, Electron Imp, Hover-Goat 3000";
+string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Generator, Neutron Imp, Cryoton Imp, Photon Imp, Proton Imp, Electron Imp, Hover-Goat 3000";
+
+//Note: The game presents mutliple zombie body types. These are divided into three main categories; Imp, Zombie and Gargantuar that are tracked seperately for certain abilities. Zombies are also split into three body types, the only difference in these is appearance. These are; Regular - your typical browncoat body type, Bully - the pusher type zombies from PvZ 2, and Grunt - the fat worker type from PvZ1 (in Digger Zombie) or GW (in the Engineer)
 
 //basics
         
@@ -497,7 +499,7 @@ string list     = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield
             double  dmg             = 1;
             double  aps             = 2;
             string  special         = "Dog walks and eats one tile ahead of the zombie. When a plant is placed on a neighbouring lane, moves to it. Has a 1/4 chance to release the Zombie Dog after switching lanes.";
-            string  almanac         = "Let's just say Loose Leash Zombie isn't very good at tieing knots.";
+            string  almanac         = "Let's just say Loose Leash Zombie isn't very good at tying knots.";
             string  origin          = "PvZ Heroes (Dog Walker)";
 
         //elite_dog_walker_zombie:pack_leader_zombie

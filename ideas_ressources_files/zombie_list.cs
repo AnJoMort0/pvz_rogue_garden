@@ -52,7 +52,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
 //basics
         
     //browncoat_zombie
-        string  description = "Regular Garden-variety Zombie";
+        string  description = "Regular Garden-variety Zombie.";
         double  hp          = 10;
         double  armour      = 0;
         int     cr          = 1;
@@ -120,26 +120,29 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         string  almanac     = "After consultation with various storybook wolves, it was determined that straw helmets and wood helmets were not up to snuff, and that brick helmets had to be seriously considered.";
         string  origin      = "PvZ 2";
     
-            //variant_basic:ducky_tube_zombie
+            //variant_basic:ducky_tuber_zombie
                 string  description = "The ducky tube allows this zombie to float on water.";
                 //stats_of_relevent_basics
                 string  special     = "Only spawns in the pool.";
                 string  almanac     = "It takes a certain kind of zombie to be a Ducky Tuber. Not every zombie can handle it. Some crack. They can't take it. They walk away and give up on brains forever.";
                 string  origin      = "PvZ 1";
-
+                //for every respective basic variant, please reffer to "basics_list.cs"
+                
             //variant_basic:balloon_zombie
                 string description  = "A regular airborn zombie.";
                 //stats_of_relevent_basics
                 string special      = "Flies towards your roof. When the balloon pops, the zombie drops down onto the garden. He takes 3 dmg on landing.";
                 string almanac      = "The original Balloon Zombie was quite disappointed to see that the basics picked up on his technique.";
                 string origin       = "PvZ 1";
+                //for every respective basic variant, please reffer to "basics_list.cs"
 
-            //variant_basic:brown_parka_zombie
+            //variant_basic:brownparka_zombie
                 string description  = "The zombie's brown parka protects him from the cold.";
                 //stats_of_relevent_basics
                 string special      = "Only spawns during winter. Immune to chilling and reduces the freezing effect to chilling.";
                 string almanac      = "Though many see the use of thicker clothing as a simple survival instinct, Brown Parka Zombie disapproves of this theory. For him, it's all about fashion.";
                 string origin       = "PvZ 2 (Frostbite Caves basic)";
+                //for every respective basic variant, please reffer to "basics_list.cs"
 
             //variant_basic:zcorp_zombie
                 string description  = "A typical ZCorp Incorporated employee.";
@@ -147,6 +150,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
                 string special      = "Only spawns during the 'Rush Hour' ambush or when spawned by the ZCorp Customer Service and Conga Leader Zombie.";
                 string almanac      = "He was issued the standard ZCorp coffee mug at orientation.";
                 string origin       = "PvZ 2";
+                //for every respective basic variant, please reffer to "basics_list.cs"
 
 //default_zombies
     

@@ -24,7 +24,7 @@ double  faster   = 5;
         string  description = "";
         double  hp          = 10;
         double  armor       = 0;
-        int     cr          = ;
+        int     cr          = 1;
         double  speed       = normal;
         double  dmg         = 1;
         double  aps         = 2;
@@ -42,7 +42,7 @@ string list     = "Beast Zombie Handler, Chicken Wrangler Zombie, Fire Rooster W
 string list     = "Tuba Zombie, Keytar Zombie, Undead Flamenco Dancers, Jack-in-the-box Zombie, Conga Drummer, Royal Horn Imp, Fanfare Trumpet Zombie, Fanfare Cymbals Zombie, Fanfare Snare Drum Zombie, Fanfare French Horn Zombie, Double Bass Zombie, Phantasmal Violinist";
 
     //zombies_with_mustache     list will expand as images are made
-string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie, Umbrella Zombie, Park Ranger Zombie";
+string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie, Umbrella Zombie, Park Ranger Zombie, Bonus Track Buckethead";
 
     //robots_zcorp_maintenance_drone_can_attach_to
 string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Generator, Neutron Imp, Cryoton Imp, Photon Imp, Proton Imp, Electron Imp, Hover-Goat 3000";
@@ -93,7 +93,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         double  speed       = normal;
         double  dmg         = 1;
         double  aps         = 2;
-        string  special     = "Screendoor blocks incoming, non-piercing attacks from the front and can be removed by magnet-shroom."
+        string special      = "Screendoor blocks incoming, non-piercing attacks from the front and can be removed by magnet-shroom.";
         string  almanac     = "He got his screen door from the last inexpertly defended home he visited, after he ate the homeowner's brains.";
         string  origin      = "PvZ 1";
 
@@ -363,7 +363,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         double  speed       = fast;
         double  dmg         = 9999999999;
         double  aps         = 0.5;
-        string  special     = "Moves to a random lane upon reaching half hp. Throws a random imp, except Gargantuar-throwing Imps, in the lane he leaves and another in the lane he lands on."
+        string special      = "Moves to a random lane upon reaching half hp. Throws a random imp, except Gargantuar-throwing Imps, in the lane he leaves and another in the lane he lands on.";
         string  almanac     = "Surprise! It's a brains-eating monster at your party!";
         string  origin      = "PvZ Heroes";
 
@@ -481,9 +481,9 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         string  special     = "Doesn't spawn during winter. On death, spawns a tent on the tile behind him.";
         string  almanac     = "Campimp Porter is stronger than he looks. He's also more charming, smarter and has a better education.";
         string  origin      = "PvZ 2 (Imp Porter)";
-    
+
     //dog_walker_zombie
-        string  description     = "His dog can smell newly placed plants, and chases after them."
+        string description = "His dog can smell newly placed plants, and chases after them.";
         double  hp              = 20;
         double  armour          = 0;
         int     cr              = 4;
@@ -495,7 +495,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         string  origin          = "PvZ Heroes";
 
         //variant_dog_walker_zombie:loose_leash_zombie
-            string  description     = "His dog can smell newly placed plants, and *really* chases after them."
+            string description = "His dog can smell newly placed plants, and *really* chases after them.";
             double  hp              = 20;
             double  armour          = 0;
             int     cr              = 4;
@@ -506,8 +506,8 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
             string  almanac         = "Let's just say Loose Leash Zombie isn't very good at tying knots.";
             string  origin          = "PvZ Heroes (Dog Walker)";
 
-        //elite_dog_walker_zombie:pack_leader_zombie
-            string  description     = "Be careful, he's got a wolf and many, many dogs."
+    //elite_dog_walker_zombie:pack_leader_zombie
+            string description      = "Be careful, he's got a wolf and many, many dogs.";
             double  hp              = 40;
             double  armour          = 0;
             int     cr              = 9;
@@ -522,7 +522,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
                 string  origin      = "PvZ Heroes (Dog Walker)";
 
     //cat_lady_zombie
-        string  despcription = "Releases hers cats when she dies."
+        string despcription = "Releases hers cats when she dies.";
         double  hp          = 30;
         double  armour      = 0;
         int     cr          = 6;
@@ -530,7 +530,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         double  dmg         = 0;
         double  aps         = 0;
         string  special     = "Releases a fraidy cat on her lane and on the two neighbouring lanes upon death.";
-        string  almanac     = "One of her cats is a Z-Tube celebrity."
+        string almanac      = "One of her cats is a Z-Tube celebrity.";
         string  origin      = "PvZ Heroes";
         
             //fraidy_cat_zombie
@@ -718,7 +718,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         string  origin      = "PvZ Heroes ; PvZ 1 (Gravestones)";
 
     //ninjimp
-        string  description = "A small zombie that sneaks past your defences."
+        string description  = "A small zombie that sneaks past your defences.";
         double  hp          = 5;
         double  armour      = 0;
         int     cr          = 3;
@@ -952,26 +952,26 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
 
     //foot_soldier_zombie
         string  special     = "Upon reaching the 4th column, he lauches himself upwards to the second to last lane of the roof, dealing heavy damage to the plant he lands on in the process.";
-        string  origin      = "PvZ Garden Warfare"
+        string origin       = "PvZ Garden Warfare";
 
         //variant_foot_soldier_zombie:scuba_soldier_zombie
             string  special     = "Only appears in the pool. Dives into the water and stays there until the 4th column. Upon reaching it, he lauches himself upwards to the second to last lane of the roof, knocking over any plant on a lily on that tile and dealing heavy damage to the plant he lands on in the process.";
-            string  origin      = "PvZ Garden Warfare"
+            string origin       = "PvZ Garden Warfare";
 
         //elite_foot_soldier_zombie:arctic_trooper_zombie
             string  special     = "Only spawns during winter. Resistant to chilling, freezing and cold projectiles. Upon reaching the 4th column, he lauches himself upwards to the second to last lane of the roof, freezing plants in a cross formation from where he jumps and dealing heavy damage to the plant he lands on in the process.";
-            string  origin      = "PvZ Garden Warfare"
+            string origin       = "PvZ Garden Warfare";
 
         //elite_foot_solider_zombie:centurion_zombie
             string  special     = "Only spawns during summer. Appers in a gust of sand wind. Takes half damage from fire attacks. Upon reaching it, he lauches himself upwards to the second to last lane of the roof, bruing the plant he lands on and leaving a crater behind on the tile he launched himself from.";
-            string  origin      = "PvZ Garden Warfare";
+            string origin       = "PvZ Garden Warfare";
 
         //elite_foot_solider_zombie:camo_ranger_zombie
             string  special     = "Only spawns during fall. Upon taking damage for the first time, he camouflages, going invisible, unless lit up, until he reaches the 4th column. Upon doing so,  he lauches himself upwards to the second to last lane of the roof, dealing heavy damage to the plant he lands on in the process.";
             string  origin      = "PvZ Garden Warfare";
 
         //elite_foot_solider_zombie:park_ranger_zombie
-            string  special     = "Only spawns during spring. Using his propeller springs, he jumps over all plants instead of eating them, except tall-nut, which causes him to walk normally. Upon reaching the 4th column, he lauches himself upwards to the second to last lane of the roof, reactivating his springs and allowing him to keep jumping over plants and releasing a toxic fume where he jumps from, dealing passive damage to plants there for a few waves.;
+            string  special     = "Only spawns during spring. Using his propeller springs, he jumps over all plants instead of eating them, except tall-nut, which causes him to walk normally. Upon reaching the 4th column, he lauches himself upwards to the second to last lane of the roof, reactivating his springs and allowing him to keep jumping over plants and releasing a toxic fume where he jumps from, dealing passive damage to plants there for a few waves.";
             string  origin      = "PvZ Garden Warfare";
 
     //riot_police_bomber_zombie
@@ -1108,7 +1108,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
                 double  hp          = 60;
                 double  armour      = 0;
                 //int   cr          = n/a;
-                double  speed       = very fast;
+                double  speed       = faster;
                 double  dmg         = 2;
                 double  aps         = 4;
                 string  special     = "Affected by EMPeach. ";
@@ -1252,9 +1252,9 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
             string  origin      = "PvZ Heroes";
 
 //carnival_zombies
-    
+
     //nutcracker_zombie
-        string  special     = "Deals gargantuar damage to nuts."
+        string special      = "Deals gargantuar damage to nuts.";
         string  origin      = "PvZ 2";
 
     //bonus_track_buckethead
@@ -1279,7 +1279,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
 
             //rodeo-bot
                 string  special     = "Affected by EMPeach. Upon lauching the Rodeo Stunt Imp, starts a timer that explodes itself as the Imp lands. The explosion is disabled by using EMPeach while the timer is active or by killing the Rodeo-Bot. If the Rodeo Stunt Imp doesn't land, the timer still goes and the Rodeo-Bot still explodes.";
-                string  origin      = "Rogue Garden ; PvZ 2 (Rodeo Legend Zombie)"
+                string origin       = "Rogue Garden ; PvZ 2 (Rodeo Legend Zombie)";
 
     //ringmaster_zombie
         string  special     = "Every few seconds, summons one of four zombies in random lanes of the garden. He may summon an Abracadaver, Firebreather Zombie, Acrobat Imps or Zombie Juggler.";
@@ -1484,7 +1484,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
 
     //paint_bucket_zombie
         string  special     = "Doesn't spawn during winter. Once he reaches the garden, drops his bucket and drags it creating a trail of red paint the boosts the speed of zombies on it. It overrides Zomboni Ice Trails.";
-        string  origin      = "PvZ 1 (Buckethead Beta Design)"
+        string origin       = "PvZ 1 (Buckethead Beta Design)";
 
     //ladder_zombie
         string  origin      = "PvZ 1";

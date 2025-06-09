@@ -23,7 +23,7 @@ double  faster   = 5;
         string  description = "";
         double  hp          = 10;
         double  armor       = 0;
-        int     cr          = ;
+        int     cr          = 1;
         double  speed       = normal;
         double  dmg         = 1;
         double  aps         = 2;
@@ -61,7 +61,7 @@ double  faster   = 5;
         double  speed       = normal;
         double  dmg         = 1;
         double  aps         = 2;
-        string  special     = "Screendoor blocks incoming, non-piercing attacks from the front and can be removed by magnet-shroom."
+        string special      = "Screendoor blocks incoming, non-piercing attacks from the front and can be removed by magnet-shroom.";
         string  almanac     = "He got his screen door from the last inexpertly defended home he visited, after he ate the homeowner's brains.";
         string  origin      = "PvZ 1";
 
@@ -121,7 +121,7 @@ double  faster   = 5;
         double  speed       = normal;
         double  dmg         = 1;
         double  aps         = 2;
-        string  special     = "Only spawns in the pool. Screendoor blocks incoming, non-piercing attacks from the front and can be removed by magnet-shroom."
+        string special = "Only spawns in the pool. Screendoor blocks incoming, non-piercing attacks from the front and can be removed by magnet-shroom.";
         string  almanac     = "The reason the Ducky Tuber Lounge Chair Zombie carries the lounge chair in front of him is because he doesn't know how to lay down.";
         string  origin      = "Rogue Garden";
 
@@ -182,7 +182,7 @@ double  faster   = 5;
         double  speed       = normal;
         double  dmg         = 1;
         double  aps         = 2;
-        string  special     = "Flies towards your roof. When the balloon pops, the zombie drops down onto the garden. He takes 3 dmg on landing. Screendoor blocks incoming, non-piercing attacks from the front and can be removed by magnet-shroom."
+        string special      = "Flies towards your roof. When the balloon pops, the zombie drops down onto the garden. He takes 3 dmg on landing. Screendoor blocks incoming, non-piercing attacks from the front and can be removed by magnet-shroom.";
         string  almanac     = "He couldn't quite get his kite to fly in the wind so he decided to just fly himself instead.";
         string  origin      = "Rogue Garden";
 
@@ -243,7 +243,7 @@ double  faster   = 5;
         double  speed       = normal;
         double  dmg         = 1;
         double  aps         = 2;
-        string  special     = "Only spawns during winter. Immune to chilling and reduces the freezing effect to chilling. Screendoor blocks incoming, non-piercing attacks from the front and can be removed by magnet-shroom."
+        string special      = "Only spawns during winter. Immune to chilling and reduces the freezing effect to chilling. Screendoor blocks incoming, non-piercing attacks from the front and can be removed by magnet-shroom.";
         string  almanac     = "Unfortunately for Sled Zombie, the garden is to flat for snow-sliding.";
         string  origin      = "Rogue Garden";
 
@@ -302,7 +302,7 @@ double  faster   = 5;
         double  speed       = normal;
         double  dmg         = 1;
         double  aps         = 2;
-        string  special     = "Screendoor blocks incoming, non-piercing attacks from the front and can be removed by magnet-shroom."
+        string special      = "Screendoor blocks incoming, non-piercing attacks from the front and can be removed by magnet-shroom.";
         string  almanac     = "So that's where it went.";
         string  origin      = "PvZ 1";
 

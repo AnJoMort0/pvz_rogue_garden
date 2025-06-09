@@ -213,8 +213,8 @@ double  faster   = 5;
                     string  attack_4    = "Zombot Stomp : The Zombot stomps a 2x3 to 3x3 area near him with its foot.";
                     string  attack_5    = "Ball of Blob : The Zombot lowers its head to the garden's level, making Zomboss vulnerable, in order to release a giant ball similar to the Zom-Blob that slides down the lane, crushing plants and leaving a trail of blob behind, and cannot be countered. Gives Disinfection zombie's effect, if aimed at the pool.";
                 //phase_3
-                    string  attack_6 = "Camper Throw : The Zombot throws a camping van at the garden or the roof, crushing plants in a 2x4 area and occasionally spawing a Campimp Porter, which imediately drowns if aimed the pool.";
-                    string  attack_7 = "Gargantuar's Feast : The Zombot lowers its head, making Zomboss, who rings a small golden bell, vulnerable. 3 gargantuars of any type spawn in its garden, spread across the 7 lanes."
+                    string  attack_6    = "Camper Throw : The Zombot throws a camping van at the garden or the roof, crushing plants in a 2x4 area and occasionally spawing a Campimp Porter, which imediately drowns if aimed the pool.";
+                    string attack_7     = "Gargantuar's Feast : The Zombot lowers its head, making Zomboss, who rings a small golden bell, vulnerable. 3 gargantuars of any type spawn in its garden, spread across the 7 lanes.";
             
             //dug-up_sphinx-inator
                 string  description = "The Zombot Sphinx-inator is a large ancient robot, that was stolen from the Neighbourghville Museum and, until now, was impossible to find. It occupies only a small area on the map but can move around with its spider-like legs.";
@@ -223,7 +223,7 @@ double  faster   = 5;
                 string  summon      = "Opens its mouth to release zombies. Prefers spawning groups of basics and zombies from the Museum category, as well as Headstone Carver Zombie and Mixed-up Gravedigger Zombies.";
                 //phase_1
                     string  attack_1    = "Gravestone Lauch : The Zombot suddenly stops. Its pupil dialetes then reveales a missile that shoots towards a targeted tile on the lawn. If it hits a plant, it destroys it and sometimes places a gravestone where it lands.";
-                    string  attack_2 = "Claws : The Zombot swings its metalic claws at the plants, destroying plants in a 1x3 area in front of itself. If it hits a Zombie Statue, brings it to 0 HP.";
+                    string  attack_2    = "Claws : The Zombot swings its metalic claws at the plants, destroying plants in a 1x3 area in front of itself. If it hits a Zombie Statue, brings it to 0 HP.";
                     string attack_3     = "Jump : The Zombot jumps to a different place instead of walking, avoiding land attacks while in movement.";
                 //phase_2
                     string  attack_3    = "Sun Strike : The Zombot suddenly stops. Its eye turns blue as it steals sun from the map. After catching 3 to 5 it releases a beam of fire down its lane, vaporizing all plants. If it fails to gather all required sun, it releases a smaller beam that simply damages the plants.";
@@ -266,7 +266,7 @@ double  faster   = 5;
 
             //multi-stage_masher
                 string  description = "The Multi-Stage Masher is a huge concert stage that covers the whole road, leaving it vulnerable from every lane.";
-                string  almanac     = "In another world, in another time, Dr. Zomboss would receive the bounty of enthusiastic applause that is his due. Not here and now, though. Nope.":
+                string almanac      = "In another world, in another time, Dr. Zomboss would receive the bounty of enthusiastic applause that is his due. Not here and now, though. Nope.";
                 string  origin      = "PvZ 2 ; PvZ Heroes (Monster Mash)";
                 string  summon      = "Beats his speakers to summon zombies from the ground in front of the stage. He prefers spawning many low-health zombies spread across the 7 lanes. Likes spawning Disco Zombies, Cosmic Disco Zombies, and instrument playing zombies.";
                     //phase_1
@@ -284,7 +284,7 @@ double  faster   = 5;
 
             //zombspear_troupe_theatre
                 string  description = "The Zombspear Troupe Theatre is a massive theatre stage that spans the entire garden, leaving it vulnerable from everylane. Be wary of the actors though!";
-                string  almanac     = "The Zombspear Troupe Thearte is Dr. Edgar Zomboss' greatest theatric performance yet! Open the red curtains for a true shakespearean drama, worthy of your eyes and ears... and your brains.":
+                string almanac      = "The Zombspear Troupe Theatre is Dr. Edgar Zomboss' greatest theatric performance yet! Open the red curtains for a true shakespearean drama, worthy of your eyes and ears... and your brains.";
                 string  origin      = "PvZ 2 China (Zombot Troupe Manipulator)";
                 string  summon      = "Zomboss writes a paper then throws it in the air, causing zombies to spawn from the trapdoors in front of the theatre. Only spawns at most one zombie per trapdoor but can spawn in multiple lanes at once. Likes spawning: Theatre Zombies, Ballerina Zombies, Perfume Zombies, Headstone Carver Zombies, Medusa Zombies, Imposters, Parasol Zombies, Umbrella Zombies";
                     //phase_1
@@ -302,7 +302,7 @@ double  faster   = 5;
                         string attack_5     = "Reprise : Zomboss throws Shylock's dagger or Hamlet's skull at a random tile in the garden.";
                         string romeo_1      = "Love's Shield : Romeo moves to a different lane and temporarily takes out his sword, reflecting all straight shooting projectiles on his lane and preventing them from damaging the zombot.";
                         string romeo_2      = "Final Act : Romeo throws a poisonous flask at the garden, dealing damage over time to plants in a cross shaped area where it lands.";
-                        string juliet_1     = "Lover's Guard : Juliet's umbrella stops lobbed projectiles on his lane from damaging the zombot. She moves to a different lane.";
+                        string juliet_1     = "Lover's Guard : Juliet's umbrella stops lobbed projectiles on her lane from damaging the zombot. She moves to a different lane.";
                         string juliet_2     = "Tragic End : Juliet stabs herself with Romeo's dagger, summoning 2 to 4 Haunting Ghosts on the garden.";
 
             //water-based
@@ -335,7 +335,7 @@ double  faster   = 5;
                         string  attack_2    = "Risen Dragon : The Zombot flies up, staying at roof height for a few waves. It can still summon zombies and perform its attacks.";
                         string  attack_3    = "Dark Night : Causes up to 4 Gravestones, Engraved Gravestones or Impstones to appear on empty tiles of the garden.";
                     //phase_2
-                        string  attack_4    = "Dashing Swipe : The Zombot dashes upwards, does a full turn and swooshes down one lane, spewing fire that damages all plants. If there are 4 or more unoccupied Magnetshrooms on the two last column of the garden, his nose ring will be pulled down by them, interrupting the attack and temporarily stunning the zombot.";
+                        string  attack_4    = "Dashing Swipe : The Zombot dashes upwards, does a full turn and swooshes down one lane, spewing fire that damages all plants. If there are 4 or more unoccupied Magnetshrooms on the three last columns of the garden, his nose ring will be pulled down by them, interrupting the attack and temporarily stunning the zombot.";
                         string  attack_5    = "Game Night : Summons a Wizard Zombie, a Knight of the Living Dead, a Shieldcrusher Viking Zombie and a Jester Zombie.";
                     //phase_3
                         string  attack_6    = "Necromancy : Triggers a Grave Ambush event.";
@@ -347,8 +347,8 @@ double  faster   = 5;
                     string  origin      = "PvZ 2 (Zombot Aerostatic Gondola)";
                     string  summon      = "When on ground level, he opens a latch to drop down zombies. While on roof level, he sounds an alarm to summon flying zombies.";
                     //phase_1
-                        string  attack_1    = "Altering Air Pressure : The Zombot flies to rises to roof height or lowers itself to garden height. Either way it never lands.";
-                        string  attack_2    = "Parachute Drop : The Zombot opens a latch to release up to 4 Parachutist underneath him.";
+                        string  attack_1    = "Altering Air Pressure : The Zombot rises to roof height or lowers itself to garden height. Either way it never lands.";
+                        string  attack_2    = "Parachute Drop : The Zombot opens a latch to release up to 4 Parachutists underneath him.";
                     //phase_2
                         string  attack_3    = "Corporate Advertising : The Blimp's screen turns on to reveal an add for ZCorp. ZCorp Consultants and ZCorp Costumer Service can naturally appear in the garden until the screen changes.";
                         string  attack_4    = "Sports Advertising : The Blimp's screen turns on to reveal an add for the next Football Event. Super-fan Imps, Brain Vendor Zombies and Paparazzi Zombies can naturally appear in the garden until the screen changes.";
@@ -371,7 +371,7 @@ double  faster   = 5;
                         string  attack_4    = "Battle Immunity : The Zombot places a shield on the front-most zombie of each lane that is immune to all damage and only disappears after a few seconds.";
                         string  attack_5    = "Cruise Mode : While at roof height, the Zombot grants itself temporary immunity. It cannot perform any of its attacks while immune but it can still spawn zombies.";
                     //phase_3
-                        string  attack_6    = "Alert Signal : The Zombot signals its siren, summoning flying backup in the form of Balloon Basics, Coptar Comandimps or Zombie Drop-Off Rockets on each lane.";
+                        string  attack_6    = "Alert Signal : The Zombot signals its siren, summoning flying backup in the form of Balloon Basics, Copter Comandimps or Zombie Drop-Off Rockets on each lane.";
 
                 //vulture_fighter
                     string  description = "In wind or rain, lightning or thunder, comes the zombie king of the sky!";
@@ -381,17 +381,17 @@ double  faster   = 5;
                     //phase_1
                         string  attack_1    = "Early Bird : The Zombot flies up to roof height.";
                         string  attack_2    = "Gets The Worm : The Zombot dashes into the garden, clawing down two neighbouring plants. This attack can only be performed if the Zombot is flying.";
-                        string  attack_3    = "Beak Attack : The Zombot bites dowwn on a plant near it. This attack can only be performed while in the ground.";
+                        string  attack_3    = "Beak Attack : The Zombot bites down on a plant near it. This attack can only be performed while in the ground.";
                     //phase_2
-                        string  attack_3    = "Lightning Call (Cryotron) : The Zombot summons lightning bolts that freezes the plant hit.";
-                        string  attack_4    = "Lightning Call (Photon) : The Zombot summons lightning bolts that stuns the plant hit and all plants in a cross shaped area.";
-                        string  attack_5    = "Lightning Call (Proton) : The Zombot summons lightning bolts that deals up to 8 damage to the plant and heals the Zombot for the same amount of health.";
-                        string  attack_6    = "Lightning Call (Electron) : The Zombot summons lightning bolts that deals heavy damage to the plant it lands on and jumps to neighbourghing plants dealing less damage to them.";
+                        string  attack_3    = "Lightning Call (Cryotron) : The Zombot summons lightning bolts that freeze the plant hit.";
+                        string  attack_4    = "Lightning Call (Photon) : The Zombot summons lightning bolts that stun the plant hit and all plants in a cross shaped area.";
+                        string  attack_5    = "Lightning Call (Proton) : The Zombot summons lightning bolts that deal up to 8 damage to the plant and heals the Zombot for the same amount of health.";
+                        string  attack_6    = "Lightning Call (Electron) : The Zombot summons lightning bolts that deal heavy damage to the hit plant and jump to neighbourghing plants dealing less damage to them.";
                     //phase_3
                         string  escape_pod  = "As you reach phase three, the fight changes completely. Most of the Vulture Fighter is destroyed and crashes onto the road. It's head drops the beak and becomes a small fighter pod piloted by Zombot. It has a completely new set of attacks, never lands and will use a radar to summon zombies instead of screaching. This phase also has notably less health than the other phases.";
                         string  attack_b1   = "Master of the Seasons : The Zombot summons up to 8 Neutron Imps or his elite variants.";
                         string  attack_b2   = "Ion Barrage : The Zombot shoots a wave of projectiles that spread with distance and deal very low damage to plants.";
-                        string  attack_b3   = "Electric Current : The Zombor releases two electrodes that create an electic current acroos three lanes between them. The electrodes themselves ignore plants entirely while the electric current stuns plants it passes through. They can be damaged by plants. If one of them is destroyed, the other will flip around and start shooting electric bolts down, reminiscent of the four 'Lightning Call' attacks.";
+                        string  attack_b3   = "Electric Current : The Zombot releases two electrodes that create an electic current across the three lanes between them. The electrodes themselves ignore plants entirely while the electric current stuns plants it passes through. They can be damaged by plants. If one of them is destroyed, the other will flip around and start shooting electric bolts down, reminiscent of the four 'Lightning Call' attacks.";
 
         //heroe_bosses
             string descitpion = "Heroe Bosses are incredibly powerful zombies with special abilites. They all have a signature superpower and six powers based on their original categories in PvZ Heroes  for those that can and sometimes their attacks in Garden Warfare or their game of origin. Zombies keep spawning naturally tough they have higher chances of spawning from a specific category. Upon reaching 75%, 50%, and 25% health, the Heroe Bosses create a 30-50 armor shield on themselves and activate one of three superpowers they have.";
@@ -528,10 +528,10 @@ double  faster   = 5;
                 string  origin      = "PvZ 2 China (Foreman Gargantuar)";
                 string  zombies     = "Zombies from the Construction category are more likely to spawn.";
                 //attacks
-                    string  signature_super = "Construction Contractor : Spawns a Construction Cone Zombie and a Pylon Imp on a random lane of the garden.";
-                    string  attack_1        = "Old School : Launches coal burning coal at a random tile of the garden from his coal burner, leaving the tile burned for a few seconds and instantly killing the plant there.";
+                    string  signature_super = "Old School : Launches burning coal at a random tile of the garden from his coal burner, leaving the tile burned for a few seconds and instantly killing the plant there.";
+                    string  attack_1        = "Construction Contractor : Spawns a Construction Cone Zombie and a Pylon Imp on a random lane of the garden.";
                     string  attack_2        = "Call For Supplies : Spawns up to three Supply Barrel Roller Zombies.";
-                    string  attack_3        = "Painting the Roof : Spawns a Ladder Zombie and a Paint Bucket Roller on the roof.";
+                    string  attack_3        = "Painting the Roof : Spawns a Ladder Zombie and a Paint Bucket Zombie on the roof.";
                     string  attack_4        = "Weed Spray : Damages every plant with 0 aps.";
                     string  attack_5        = "Quarterly Bonus : A random zombie gets +1 damage and +1 aps.";
                     string  attack_6        = "Barrel of Barrels : Spawns a Supply Barrel Roller, a Waster Barrel Imp, a Carnie Imp Cannon, a Barrel of Deadbeard or a Barrel of Flameface.";
@@ -541,7 +541,7 @@ double  faster   = 5;
                     string  super_c         = "Super Stench : Creates 2 Waste Barrel Imps and 5 Smelly Zombies spread across the seven lanes.";
 
             //football_superstar
-                string  descitpion  = "";
+                string  descitpion  = "This superstar is more than just a Football star, be prepared for the game of the season.";
                 string  almanac     = "The Football Superstar's game-plan involves suppressing the Plants with a never-ending barrage of footballs, pucks, kicks and punches.";
                 string  origin      = "PvZ GW (All-Star)";
                 string  zombies     = "Zombies that spawn in the Football Game event are very likely to spawn.";
@@ -569,7 +569,7 @@ double  faster   = 5;
                     string  super_c         = "Brute Strenght : 4-8 zombies gain 5 damage.";
 
             //mirror_queen
-                string  descitpion  = "She'll create cavalry, duplicating mirrors, poisoned apples and most of all... she'll look into your future for only 17.82 USD.";
+                string  descitpion  = "She'll create cavalry, duplicating mirrors, poisoned apples and most of all... she'll look into your future for only $17.82 USD.";
                 string  almanac     = "The Mirror Queen has become quite the master of the magical orb. It always shows brains in her future which she is very happy about.";
                 string  origin      = "PvZ 2 China (Mirror Queen Zombie)";
                 string  zombies     = "Zombies stop spawing on the other garden entirely. Mirrors appear on the extremities of each garden, duplicating the zombies that spawn in Mirror Queen's garden into the other. The pool lane is unaffected by this. Zombies from the Carnival category, Royal Horn Imps, Guard-gantaurs and Knights of the Living Dead are more likely to spawn.";
@@ -608,12 +608,12 @@ double  faster   = 5;
             //air-based
                 //immortal_lords
                     string  descitpion  = "The two greatest vampire lords of the land join forces to defeat the plant army. Can you handle the bat storm?";
-                    string  almanac     = "Immorticia and Baron Von Bats might be a surprising duo to you, but they're actually very close friends.";
+                    string  almanac     = "Immorticia and Baron Von Bats might be a unexpected duo to you, but they're actually very close friends.";
                     string  origin      = "PvZ Heroes (Immorticia) ; PvZ GW";
                     string  zombies     = "Less zombies spawn overall. Vimpires and more likely to spawn.";
                     string  special     = "Immorticia flies while Baron Von Bats remains on the ground. They share a health bar and can both perform attacks and the signature super.";
                     //attacks
-                        string  signature_super = "Bat Warp : Teleports to a different spot on the garden, leaving behind a cloud of fog and Zom-Bats on the tile it left.";
+                        string  signature_super = "Bat Warp : Teleports to a different spot on the garden, leaving behind a cloud of fog and Zom-Bats on the tile they left.";
                         string  attack_1        = "Locust Swarm : Puts a Locust Swarm in a random 3x3 area. It can be cleared by blover. All plants in the area take 0.5 damage per second.";
                         string  attack_2        = "Extinction Event : Deals 3 damage to a random plant. All copies of that plant take 2 damage.";
                         string  attack_3        = "Bad Moon Rising : Only works during nightime. Triggers a Haunting Moon (ignores moon cycle).";
@@ -693,7 +693,7 @@ double  faster   = 5;
         string origin = "PvZ 2 Mod - Eclise";
 
     //rush_hour
-        string description = "For the duration, all CR goes into ZCorp Zombies and basics, imps and gargantuars are replaced with their ZCorp variants.";
+        string description = "For the duration, all CR goes into ZCorp Zombies, and basics, imps and gargantuars are replaced with their ZCorp variants.";
         string origin = "Rogue Garden";
 
     //pine_clone_bonanza

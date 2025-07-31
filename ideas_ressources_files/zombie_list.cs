@@ -2013,7 +2013,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         double  speed       = slow;
         double  dmg         = 1;
         double  aps         = 2;
-        string  special     = "Creates pairs of linked portals. Zombies and projectiles that traverse a portal come out the opposite side of whichever portal they are linked to. All portals disappear on her death.";
+        string  special     = "Spawns with the bottom half of its body inside a portal and jumps down to a random lane once the event ends. Creates pairs of linked portals. Zombies and projectiles that traverse a portal come out the opposite side of whichever portal they are linked to. All portals disappear on her death.";
         string  almanac     = "'Stand here and guard this gate with your unlife,' she was told. And that's what she's been doing ever since.";
         string  origin      = "PvZ Heroes (Wormhole Gatekeeper)";
 
@@ -2031,9 +2031,6 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
 
     //zom-bats
         string  special     = "Flies towards your roof. Heals the zombie Boss as it damages plants.";
-
-    //octo-pet
-        string  special     = "Doesn't move. Attacks plants around him with an anchor. Plant's cannot be placed on his tile.";
 
     //variant_exploding_imp:cake_bomb_imp
         string  description = "He's come to celebrate with cake and dynamite.";
@@ -2073,7 +2070,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
             double  speed       = normal;
             double  dmg         = 1;
             double  aps         = 2;
-            string  special     = "While alive, all zombies do +1 dmg.";
+            string  special     = "Spawns in the Zomspear Troupe Theatre and jumps down to a random lane at the end of the event. While alive, all zombies do +1 dmg.";
             string  almanac     = "He isn't in it for the music. He just likes waving sticks.";
             string  origin      = "PvZ Heroes";
 
@@ -2087,7 +2084,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
 
         //piano_zombie
             string  event_name  = "Swing jam";
-            string  special     = "Plays a song that makes all basics change between tiles. Crushes plants it touches and dies to spikeweed.";
+            string  special     = "Spawns in the Zomspear Troupe Theatre and jumps down to a random lane at the end of the event. Plays a song that makes all basics change between tiles. Crushes plants it touches and dies to spikeweed.";
             string  origin      = "PvZ 2";
 
         //aerobics_instructor_zombie
@@ -2099,7 +2096,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
             double  speed       = slow;
             double  dmg         = 1;
             double  aps         = 2;
-            string  special     = "While alive, makes all zombies 'fast.'";
+            string  special     = "Spawns in the Multi-Stage Masher and jumps down to a random lane at the end of the event. While alive, makes all zombies 'fast.'";
             string  almanac     = "Aerobics really bring the dead to life.";
             string  origin      = "PvZ Heroes";
 
@@ -2112,7 +2109,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
             double  speed       = normal;
             double  dmg         = 1;
             double  aps         = 2;
-            string  special     = "Two zombies, share HP but eat separately. While alive, all zombies have double aps.";
+            string  special     = "Spawn in the Multi-Stage Masher and jump down to a random lane at the end of the event. Two zombies, share HP but eat separately. While alive, all zombies have double aps.";
             string  almanac     = "He's a Gemini and so is she. Which explains so much, right?";
             string  origin      = "PvZ Heroes";
 

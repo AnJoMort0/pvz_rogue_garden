@@ -393,8 +393,8 @@ double  faster   = 5;
                         string  attack_b2   = "Ion Barrage : The Zombot shoots a wave of projectiles that spread with distance and deal very low damage to plants.";
                         string  attack_b3   = "Electric Current : The Zombot releases two electrodes that create an electic current across the three lanes between them. The electrodes themselves ignore plants entirely while the electric current stuns plants it passes through. They can be damaged by plants. If one of them is destroyed, the other will flip around and start shooting electric bolts down, reminiscent of the four 'Lightning Call' attacks.";
 
-        //heroe_bosses
-            string descitpion = "Heroe Bosses are incredibly powerful zombies with special abilites. They all have a signature superpower and six powers based on their original categories in PvZ Heroes  for those that can and sometimes their attacks in Garden Warfare or their game of origin. Zombies keep spawning naturally tough they have higher chances of spawning from a specific category. Upon reaching 75%, 50%, and 25% health, the Heroe Bosses create a 30-50 armor shield on themselves and activate one of three superpowers they have.";
+        //hero_bosses
+            string descitpion = "Hero Bosses are incredibly powerful zombies with special abilites. They all have a signature superpower and six powers based on their original categories in PvZ Heroes  for those that can and sometimes their attacks in Garden Warfare or their game of origin. Zombies keep spawning naturally tough they have higher chances of spawning from a specific category. Upon reaching 75%, 50%, and 25% health, the Heroe Bosses create a 30-50 armor shield on themselves and activate one of three superpowers they have.";
 
             //the_smash
                 string  descitpion  = "It's the unrelenting brawler, the undead bruiser, he puts the G in Gargantuar... Stepping into the ring... it's THE SMASH!";
@@ -582,7 +582,7 @@ double  faster   = 5;
                     string  attack_5        = "Cakesplosion : Spawns a Cake Bomb Imp on a random tile.";
                     string  attack_6        = "Locust Swarm : Puts a Locust Swarm in a random 3x3 area. It can be cleared by blover. All plants in the area take 0.5 damage per second.";
                 //shields
-                    string  super_a         = "Portal Queen : Spawns a Portal Gatekeeper Zombie.";
+                    string  super_a         = "Portal Queen : Spawns a Portal Gatekeeper Zombie that remains unkillable until the end of the boss event.";
                     string  super_b         = "Acid Rain : Gives all plants in a 5x5 area -5 hp and -0.5 damage.";
                     string  super_c         = "Possessed : 4-8 random zombies gain 4 armor if they already have any and become 'frienzied' - Gains +0.5aps when he kills a plant.";
 
@@ -593,7 +593,7 @@ double  faster   = 5;
                     string  origin      = "PvZ Heroes";
                     string  zombies     = "Aquatic zombies in the pool and animal herder type zombies are more likely to spawn. Octo Zombies are very likely to spawn.";
                     //attacks
-                        string  signature_super = "Octo-Pult : Throws an Octo-Pet into the garden, creating a Water tile where it lands.";
+                        string  signature_super = "Octo-Pult : Throws an Octo-Pet into the garden.";
                         string  attack_1        = "Tidal Wave : Causes the Shallow Water next to Neptuna to expand by one column.";
                         string  attack_2        = "Going Viral : 2-4 zombies lose 2 hp but become 'frienzied' - Gains +0.5aps when it kills a plant.";
                         string  attack_3        = "Flood : Turns up to three random Shallow Water tiles into Water tiles.";

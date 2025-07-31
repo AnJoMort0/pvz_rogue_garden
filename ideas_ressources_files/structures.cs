@@ -191,3 +191,11 @@
     bool    hot_potato  = false; 
     bool    EMPeach     = false;
     string  origin      = "PvZ GW 2";
+
+//octo-pet
+    string  description = "Attacks plants in a plus area with an anchor. Leaves behind a water tile after being defeated.";
+    double  hp          = ;
+    bool    gravebuster = false;
+    bool    hot_potato  = false; 
+    bool    EMPeach     = false;
+    string  origin      = "PvZ Heroes";

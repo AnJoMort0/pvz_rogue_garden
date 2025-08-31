@@ -45,7 +45,7 @@ double  faster   = 5;
     double speed        = fast;
     double dmg          = 1;
     double aps          = 2;
-    string almanac      = "Make no mistake, Flag Zombie loves brains. But somewhere down the line he also picked up a fascination with flags. Maybe it's because the flags always have brains on them. Hard to say.";
+    string almanac      = "Make no mistake, Flag Zombie loves brains. In fact, he called himself Brain - unfortunately his spelling impairment led to his ID saying 'Brian' instead. However, somewhere down the line he also picked up a fascination with flags. Maybe it's because the flags always have brains on them. Hard to say.";
     string origin       = "PvZ 1";
 
 //duckytube_flag_zombie
@@ -132,7 +132,7 @@ double  faster   = 5;
     double dmg          = 1;
     double aps          = 2;
     string special      = "Only spawns in the pool.";
-    string almanac      = "Talk about a disgruntled zombie. Beach Flag Zombie is fed up. None of the other zombies seem to appreciate just how difficult it is for him to swim while holding a flag. Not once have they thanked him for doing the hard work that needs to be done. So it shouldn't come as a surprise: He's been interviewing for jobs somewhere else.";
+    string almanac      = "Talk about a disgruntled zombie. Beach Flag Zombie is fed up. None of the other zombies seem to appreciate just how difficult it is for him to swim while holding a flag. Not once have they thanked him for doing the hard work that needs to be done. The Flag Con therapy group helps, but it shouldn't come as a surprise: He's been interviewing for jobs somewhere else.";
     string origin = "PvZ 2";
 
 //super_fan_flag_zombie
@@ -270,7 +270,7 @@ double  faster   = 5;
     double dmg          = 2;
     double aps          = 2;
     string special      = "Slides down the garden at 'faster' speed until he reaches his first plant. Attacks with his cane instead of eating.";
-    string almanac      = "Other flag zombies hate Ski Flag Zombie for calling himself that. Flag Zombie himself said it best : 'What he's holding is nowhere near a flag!'";
+    string almanac      = "Other flag zombies hate Ski Flag Zombie for calling himself that. Brian himself said it best : 'What he's holding is nowhere near a flag!'";
     string origin       = "Rogue Garden";
 
 //sunflower_zombie
@@ -331,7 +331,7 @@ double  faster   = 5;
     double speed        = normal;
     double dmg          = 1;
     double aps          = 2;
-    string special      = "Takes passive fire damage. Gains a movement speed and aps buff upon eating a plant. Dies if he bites garlic.";
+    string special      = "Takes constant, passive fire damage. Gains a movement speed and aps buff upon eating a plant. Dies if he bites garlic.";
     string almanac      = "He still can't understand how Vimpire can survive during full moons, and much less when in direct sunlight!";
     string origin       = "Rogue Garden";
 
@@ -357,7 +357,7 @@ double  faster   = 5;
     double dmg          = 1;
     double aps          = 2;
     string special      = "Produces light in its tile and the tile in front of itself.";
-    string almanac      = "'Flashlight Zombie had the decency of not calling himself a flag zombie,' said Flag Zombie, 'That's why he's welcome and to the annual flag convention and Ski Flag Zombie isn't.'";
+    string almanac      = "'Flashlight Zombie had the decency of not calling himself a flag zombie,' said Brian the Flag Zombie, 'That's why he's invited to the annual Flag Convention and Ski Flag Zombie isn't.'";
     string origin       = "Rogue Garden";
 
 //raincoat_flag_zombie

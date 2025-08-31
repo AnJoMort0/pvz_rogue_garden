@@ -70,7 +70,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         double  speed       = fast;
         double  dmg         = 1;
         double  aps         = 2;
-        string  almanac     = "Make no mistake, Flag Zombie loves brains. But somewhere down the line he also picked up a fascination with flags. Maybe it's because the flags always have brains on them. Hard to say.";
+        string  almanac     = "Make no mistake, Flag Zombie loves brains. In fact, he called himself Brain - unfortunately his spelling impairment led to his ID saying 'Brian' instead. However, somewhere down the line he also picked up a fascination with flags. Maybe it's because the flags always have brains on them. Hard to say.";
         string  origin      = "PvZ 1";
         //for every respective event variant, please reffer to "flagz_list.cs"
 
@@ -616,6 +616,12 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         string  special     = "Camera can be removed by Magnetshroom. More likely to appear during concert and boss events. During events : hp = 30, speed = fast, dmg = 2, aps = 2 and gains a 1 tile ranged attack with the camera flash.";
         string  almanac     = "Why is everyone always screaming and running away in his photos?";
         string  origin      = "PvZ Heroes";
+
+    //flag_con_zombie
+        string  description = "The Flag Con Zombie brings dangers forth, but he never knows what it is.";
+        string  special     = "Summons an ambush when killed.";
+        string  almanac     = "Flag Con Zombie just loves flag zombies. Though he struggles to find a job fitting for a flag zombie, his dedication to flagmanship grants him a warm welcome to every annual Flag Convention.";
+        string  origin      = "Rogue Garden";
 
     //trick-or-treater-zombie
         string  description = "The Trick-or-treater Zombie buffs the health or damage of nearby zombies after eating a plant.";

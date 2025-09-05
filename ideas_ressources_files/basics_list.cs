@@ -10,7 +10,7 @@
         double  dmg         = 1;                    //damage (dmg) is counted in peas - yes, even the zombies'. Note: the average non-wall plant will have 6 HP.
         double  aps         = 2;                    //aps stands for attacks per second, aka how fast the zombie attacks
         string  special     = "Ha, as if";                   //if relevant, add a precise description of the ability/ies (this won't   show up in the actual almanac, it is instead used for coding), if not remove this line. This is also where you include Magnet-shroom, Umbrella Leaf and other plant based weaknesses. Note: by default, zombies can't spawn on water or on air at all, so add precisions such as "Can spawn" or "only spawns in water" for the pool and "Flies towards the roof" (Flying zombies fly at "roof height", so if a peashooter is placed on the roof it'll be able to shoot the flying zombies) when necessary.
-        string  almanac     = "How else would Ducky Tube screendoor get an almanac entry?";    //almanac entry, be it copied from one of the original games or entirely/partially new
+        string  almanac     = "How else would the Ducky Tube screendoor variant get an almanac entry?";    //almanac entry, be it copied from one of the original games or entirely/partially new
         string  origin      = "Rogue Garden";       //game(s) or mod(s) of origin - add the original name of the zombie if the name changes for this (i.e. Monitor Head: string origin = "PvZ Battle for Neighbourville (TV Head)") as well as the origing of its gimmicks (i.e. Mad Chemist Zombie: string origin = "PvZ Heroes ; PvZ 2 (Dark Ages Potions)")
 
 double  slower   = 1;
@@ -110,7 +110,7 @@ double  faster   = 5;
         double  dmg         = 1;
         double  aps         = 2;
         string  special     = "Only spawns in the pool.";
-        string  almanac     = "Th starfish on his coned is a plastic toy he bought from Z-Bay.";
+        string  almanac     = "Th starfish on his cone is a plastic toy he bought from Z-Bay.";
         string  origin      = "PvZ 2";
 
     //lounge_chair_zombie
@@ -134,7 +134,7 @@ double  faster   = 5;
         double  dmg         = 1;
         double  aps         = 2;
         string  special     = "Only spawns in the pool. Bucket can be removed by Magnetshroom";
-        string  almanac     = "He tried picking up shell collecting one time, but got tired after the first one. He stils bousts about finding whenever he gets the chance though.";
+        string  almanac     = "He tried picking up shell collecting one time, but got tired after the first one. He stils bousts about finding it whenever he gets the chance, though.";
         string  origin      = "PvZ 2";
     
     //barrelhead_zombie
@@ -146,7 +146,7 @@ double  faster   = 5;
         double  dmg         = 1;
         double  aps         = 2;
         string  special     = "Only spawns in the pool.";
-        string  almanac     = "He dreamed of becoming a pirate when he was younger, the barrel on his head is his way of fulfilling that wish.";
+        string  almanac     = "He dreamed of becoming a pirate when he was younger. The barrel on his head is his way of fulfilling that wish.";
         string  origin      = "PvZ 2 (Barrelhead Zombie)";
 
 //balloon
@@ -195,7 +195,7 @@ double  faster   = 5;
         double  dmg         = 1;
         double  aps         = 2;
         string  special     = "Flies towards your roof. When the balloon pops, the zombie drops down onto the garden. He takes 3 dmg on landing. Bucket can be removed by Magnetshroom";
-        string  almanac     = "No one knows where he got that plane engine from which is incredibly worrying.";
+        string  almanac     = "No one knows where he got that plane engine from, which is incredibly worrying.";
         string  origin      = "PvZ 2 China (Pilot Zombie)";
     
     //birdhousehead_zombie
@@ -244,7 +244,7 @@ double  faster   = 5;
         double  dmg         = 1;
         double  aps         = 2;
         string special      = "Only spawns during winter. Immune to chilling and reduces the freezing effect to chilling. Screendoor blocks incoming, non-piercing attacks from the front and can be removed by magnet-shroom.";
-        string  almanac     = "Unfortunately for Sled Zombie, the garden is to flat for snow-sliding.";
+        string  almanac     = "Unfortunately for Sled Zombie, the garden is too flat for snow-sliding.";
         string  origin      = "Rogue Garden";
 
     //pothead_zombie
@@ -268,7 +268,7 @@ double  faster   = 5;
         double  dmg         = 1;
         double  aps         = 2;
         string special      = "Only spawns during winter. Immune to chilling and reduces the freezing effect to chilling.";
-        string  almanac     = "The blockhead is a huge fan of the Brownparka Flag Zombie, so much so that he froze his head in the just the same pattern as the flag.";
+        string  almanac     = "The blockhead is a huge fan of the Brownparka Flag Zombie, so much so that he froze his head in just the same pattern as the flag.";
         string  origin      = "PvZ 2";
 
 //zcorp
@@ -315,7 +315,7 @@ double  faster   = 5;
         double  dmg         = 1;
         double  aps         = 2;
         string  special     = "Bucket can be removed by Magnetshroom";
-        string  almanac     = "ZCorp Trashcan named himself that before going green and switching for the recycling bin, the just kind of stuck though.";
+        string  almanac     = "ZCorp Trashcan named himself that before going green and switching for the recycling bin, the name just kind of stuck after that.";
         string  origin      = "PvZ 1";
     
     //zcorp_holo-head
@@ -326,5 +326,5 @@ double  faster   = 5;
         double  speed       = normal;
         double  dmg         = 1;
         double  aps         = 2;
-        string  almanac     = "He is SIGNIFICANTLY less productive than his Monitor Head co-worker, but that's fine; HR gives him priviledges for having his head stuck in a futuristic headpiece.";
+        string  almanac     = "He is SIGNIFICANTLY less productive than his Monitor Head co-worker, but that's fine; ZR gives him priviledges for having his head stuck in a futuristic headpiece, that and because he pays for their coffees.";
         string  origin      = "PvZ 2";

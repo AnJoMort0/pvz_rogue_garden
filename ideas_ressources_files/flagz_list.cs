@@ -156,7 +156,7 @@ double  faster   = 5;
     double speed        = fast;
     double dmg          = 1;
     double aps          = 2;
-    string almanac      = "Fluorescent colors and little yellow plastic strips are the marks of a truly hip, groundbreaking new style of zombie wave flag.";
+    string almanac      = "Fluorescent colours and little yellow plastic strips are the marks of a truly hip, groundbreaking new style of zombie wave flag.";
     string origin       = "PvZ 2";
 
 //lawn_of_doom_flag_zombie

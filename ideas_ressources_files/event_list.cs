@@ -582,9 +582,9 @@ double  faster   = 5;
                     string  attack_5        = "Cakesplosion : Spawns a Cake Bomb Imp on a random tile.";
                     string  attack_6        = "Locust Swarm : Puts a Locust Swarm in a random 3x3 area. It can be cleared by blover. All plants in the area take 0.5 damage per second.";
                 //shields
-                    string  super_a         = "Portal Queen : Spawns a Portal Gatekeeper Zombie that remains unkillable until the end of the boss event.";
+                    string  super_a         = "Portal Queen : Opens portals that do not disappear until the end of this event.";
                     string  super_b         = "Acid Rain : Gives all plants in a 5x5 area -5 hp and -0.5 damage.";
-                    string  super_c         = "Possessed : 4-8 random zombies gain 4 armor if they already have any and become 'frienzied' - Gains +0.5aps when he kills a plant.";
+                    string super_c = "Possessed : 4-8 random zombies gain 4 armor if they already have any and become 'frienzied' - Gains +0.5aps when he kills a plant.";
 
             //water-based
                 //neptuna

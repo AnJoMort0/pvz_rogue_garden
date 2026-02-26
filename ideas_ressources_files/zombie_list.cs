@@ -1180,6 +1180,18 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
             string  special     = "Throws his hook at the roof's gutter then swings into the garden. It is blocked by Umbrella Leaf.";
             string  origin      = "PvZ Heroes (Mountain Climber) ; PvZ 2 (Swashbuckler / Relic Hunter)";
 
+        //glider_zombie
+            string  description = "Glider Zombie glides gently over the garden to avoid your defences. If the glide is disturbed, the fall will be miserable.";
+            double  hp          = 20;
+            double  armor       = 0;
+            int     cr          = 5;
+            double  speed       = normal;
+            double  dmg         = 1;
+            double  aps         = 2;
+            string  special     = "Flies over the garden. If struck by wind, it loses stability and crashes into the garden, releasing the zombie and dealing damage to plants in a cross area.";
+            string  almanac     = "Glider Zombie actually built his glide himself, which could explain its tendency to crash. He however, claims its a 'zombie wight' problem.";
+            string  origin      = "PvZ 2 China";
+
         //copter_commandimp
             string  special     = "Flies towards your roof. Attacks from 2 tiles away.";
             string  orgin       = "PvZ Heroes (Copter Commando)";

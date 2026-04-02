@@ -211,10 +211,10 @@ double  faster   = 5;
                 //phase_2
                     string  attack_3    = "Bungee Release : The Zombot holds its hand out over the garden, or the roof, and releases five bungee jumpers or bungee plumbers, whose ropes are attached to its fingers.";
                     string  attack_4    = "Zombot Stomp : The Zombot stomps a 2x3 to 3x3 area near him with its foot.";
-                    string  attack_5    = "Ball of Blob : The Zombot lowers its head to the garden's level, making Zomboss vulnerable, in order to release a giant ball similar to the Zom-Blob that slides down the lane, crushing plants and leaving a trail of blob behind, and cannot be countered. Gives Disinfection zombie's effect, if aimed at the pool.";
+                    string  attack_5    = "Ball of Blob : The Zombot lowers its head to the garden's level, making Zomboss vulnerable, in order to release a giant ball similar to the Zom-Blob that slides down the lane, crushing plants and leaving a trail of blob behind, and cannot be countered. Gives Disinfection Zombie's effect if aimed at the pool.";
                 //phase_3
                     string  attack_6    = "Camper Throw : The Zombot throws a camping van at the garden or the roof, crushing plants in a 2x4 area and occasionally spawing a Campimp Porter, which imediately drowns if aimed the pool.";
-                    string attack_7     = "Gargantuar's Feast : The Zombot lowers its head, making Zomboss, who rings a small golden bell, vulnerable. 3 gargantuars of any type spawn in its garden, spread across the 7 lanes.";
+                    string attack_7     = "Gargantuar's Feast : The Zombot lowers its head, making Zomboss vulnerable as he rings a small golden bell. 3 gargantuars of any type spawn in its garden, spread across the 7 lanes.";
             
             //dug-up_sphinx-inator
                 string  description = "The Zombot Sphinx-inator is a large ancient robot, that was stolen from the Neighbourghville Museum and, until now, was impossible to find. It occupies only a small area on the map but can move around with its spider-like legs.";
@@ -222,11 +222,11 @@ double  faster   = 5;
                 string  origin      = "PvZ 2";
                 string  summon      = "Opens its mouth to release zombies. Prefers spawning groups of basics and zombies from the Museum category, as well as Headstone Carver Zombie and Mixed-up Gravedigger Zombies.";
                 //phase_1
-                    string  attack_1    = "Gravestone Lauch : The Zombot suddenly stops. Its pupil dialetes then reveales a missile that shoots towards a targeted tile on the lawn. If it hits a plant, it destroys it and sometimes places a gravestone where it lands.";
-                    string  attack_2    = "Claws : The Zombot swings its metalic claws at the plants, destroying plants in a 1x3 area in front of itself. If it hits a Zombie Statue, brings it to 0 HP.";
+                    string  attack_1    = "Gravestone Lauch : The Zombot suddenly stops. Its pupil dilates then reveals a missile that shoots towards a targeted tile on the lawn. If it hits a plant, it destroys it and sometimes places a gravestone where it lands.";
+                    string  attack_2    = "Claws : The Zombot swings its metalic claws, destroying plants in a 1x3 area in front of itself. If it hits a Zombie Statue, it brings it to 0 HP.";
                     string attack_3     = "Jump : The Zombot jumps to a different place instead of walking, avoiding land attacks while in movement.";
                 //phase_2
-                    string  attack_3    = "Sun Strike : The Zombot suddenly stops. Its eye turns blue as it steals sun from the map. After catching 3 to 5 it releases a beam of fire down its lane, vaporizing all plants. If it fails to gather all required sun, it releases a smaller beam that simply damages the plants.";
+                    string  attack_3    = "Sun Strike : The Zombot suddenly stops. Its eye turns blue as it steals sun from the map. After catching 5 to 7 it releases a beam of fire down its lane, vaporizing all plants. If it fails to gather all required sun, it releases a smaller beam that simply damages the plants.";
                 //phase_3
                     string  attack_4    = "Dash : The Zombot rears back, charges up and then dashes down the garden, crushing plants it touches. If it hits a Zombie Statue, brings it to 0 HP.";
                     string  attack_5    = "Medusa Stare : The Zombot suddenly stops. Its pupil turns green and dilates until covering its whole eye. Once charged up, it will throw its beam at zombies in a 1x3 area in front of itself, creating a barrier of statues and more zombies for the Zombie Medusas to push.";
@@ -270,7 +270,7 @@ double  faster   = 5;
                 string  origin      = "PvZ 2 ; PvZ Heroes (Monster Mash)";
                 string  summon      = "Beats his speakers to summon zombies from the ground in front of the stage. He prefers spawning many low-health zombies spread across the 7 lanes. Likes spawning Disco Zombies, Cosmic Disco Zombies, and instrument playing zombies.";
                     //phase_1
-                        string  attack_1    = "Medley : Zomboss switches into a costume reminiscent of either an Orchestra Conductor Zombie, a Pianist Zombie, an Aerobics Instructor Zombie, the Binary Stars, or a Boom Box Zombie and gives their effect to the garden until he uses this attack again.";
+                        string  attack_1    = "Medley : Zomboss switches into a costume reminiscent of either an Orchestra Conductor Zombie, a Pianist Zombie, an Aerobics Instructor Zombie, the Binary Stars, or a Boom Box Zombie and gives their effect to the garden until he uses this attack again or switches outfits.";
                         string  attack_2    = "Monster Mash : Creates 3 or 4 Disco Zombies, one lane away from each-other.";
                         string  attack_3    = "Speaker Launch : A target appears on a random tile in the three last rows of the garden. A Speaker lands on that tile after a few seconds, destroying whatever plant was on that tile.";
                     //phase_2
@@ -297,7 +297,7 @@ double  faster   = 5;
                         string attack_3     = "Curtain Call : Zomboss slams the curtains shut on a random lane. It blocks straight-shooting projectiles for 2 waves then spawns one of Zomboss' preferred zombies after opening.";
                         string attack_4     = "The World's A Stage : Large spotlights aim at random tiles within 3 columns of the zombot. Zombies illuminated by it are immune to damage.";
                         string hamlet_1     = "To Eat Or Not To Eat : Hamlet jumps onto a flying balcony above the garden. Until he takes enough damage to return to the stage, he will monologue, throwing down skulls as he does. These deal 6 damage to the plant they land on or become a Theatre Zombie if they land on an empty tile.";
-                        string hamlet_2     = "Mad North-North-West : Hamlet erratically dashes across a random lane, pushing all plants back one tile and ejecting any plant on the last column.";
+                        string hamlet_2     = "Mad North-North-West : Hamlet erratically dashes across a random lane, pushing all plants back one tile and ejecting any plant on the last column."; //under reconsideration
                     //phase_3
                         string attack_5     = "Reprise : Zomboss throws Shylock's dagger or Hamlet's skull at a random tile in the garden.";
                         string romeo_1      = "Love's Shield : Romeo moves to a different lane and temporarily takes out his sword, reflecting all straight shooting projectiles on his lane and preventing them from damaging the zombot.";
@@ -480,7 +480,7 @@ double  faster   = 5;
                     string  attack_3        = "The Chickening : Triggers a Chicken Run ambush.";
                     string  attack_4        = "Smoke Bomb : Spawns a smoke bomb on a tile and teleports all zombies on it 3 tiles forwards.";
                     string  attack_5        = "Barrel of Barrels : Spawns a Supply Barrel Roller, a Waster Barrel Imp, a Carnie Imp Cannon, a Barrel of Deadbeard or a Barrel of Flameface.";
-                    string  attack_6        = "Frosty Mustache : Freezes a random plant and places an Impostor on that tile.";
+                    string  attack_6        = "Frosty Mustache : Freezes a random plant and places an Imposter on that tile.";
                 //shields
                     string super_a = "In-Crypted : Replaces 2 zombies with Engraved Gravestones and 1 imp with an Impstone.";
                     string super_b = "Brute Strenght : 4-8 zombies gain 5 damage.";
@@ -514,7 +514,7 @@ double  faster   = 5;
                     string  attack_1        = "Extinction Event : Deals 3 damage to a random plant. All copies of that plant take 2 damage.";
                     string  attack_2        = "Nibble : A plant gets stuned temporarily. Heals the boss for 3 hp.";
                     string  attack_3        = "Locust Swarm : Puts a Locust Swarm in a random 3x3 area. It can be cleared by blover. All plants in the area take 0.5 damage per second.";
-                    string  attack_4        = "Frosty Mustache : Freezes a random plant and places an Impostor on that tile.";
+                    string  attack_4        = "Frosty Mustache : Freezes a random plant and places an Imposter on that tile.";
                     string  attack_5        = "Barrel of Barrels : Spawns a Supply Barrel Roller, a Waster Barrel Imp, a Carnie Imp Cannon, a Barrel of Deadbeard or a Barrel of Flameface.";
                     string  attack_6        = "Backyard Bouncy : Launches 2 zombies into the roof.";
                 //shields
@@ -531,14 +531,14 @@ double  faster   = 5;
                     string  signature_super = "Old School : Launches burning coal at a random tile of the garden from his coal burner, leaving the tile burned for a few seconds and instantly killing the plant there.";
                     string  attack_1        = "Construction Contractor : Spawns a Construction Cone Zombie and a Pylon Imp on a random lane of the garden.";
                     string  attack_2        = "Call For Supplies : Spawns up to three Supply Barrel Roller Zombies.";
-                    string  attack_3        = "Painting the Roof : Spawns a Ladder Zombie and a Paint Bucket Zombie on the roof.";
+                    string  attack_3        = "Graze the Roof : Spawns a Ladder Zombie and a Paint Bucket Zombie on the roof.";
                     string  attack_4        = "Weed Spray : Damages every plant with 0 aps.";
                     string  attack_5        = "Quarterly Bonus : A random zombie gets +1 damage and +1 aps.";
-                    string  attack_6        = "Barrel of Barrels : Spawns a Supply Barrel Roller, a Waster Barrel Imp, a Carnie Imp Cannon, a Barrel of Deadbeard or a Barrel of Flameface.";
+                    string  attack_6        = "Rolling Stones : Sends a large boulder down one of the lanes dealing 4 damage to all plants and zombies.";
                 //shields
                     string  super_a         = "Site Excavation : Spawns 5 Digger Zombies and Excavator Zombies.";
                     string  super_b         = "Electronics Instalation : Spawns 5 AC Perrys and Electrician Zombies.";
-                    string  super_c         = "Super Stench : Creates 2 Waste Barrel Imps and 5 Smelly Zombies spread across the seven lanes.";
+                    string  super_c         = "Rock Wall : Creates a 1x3 line of Tombstones in front of the highest CR zombie in the garden.";
 
             //football_superstar
                 string  descitpion  = "This superstar is more than just a Football star, be prepared for the game of the season.";
@@ -556,7 +556,7 @@ double  faster   = 5;
                         string  attack_6    = "Lurch for Lunch : 4-8 random zombies get +1 aps.";
                     //hockey_star
                         string  attack_5    = "Ice Stadium : Spawns up to two Zombonis in different lanes of the garden.";
-                        string  attack_6    = "Frosty Mustache : Freezes a random plant and places an Impostor on that tile.";
+                        string  attack_6    = "Frosty Mustache : Freezes a random plant and places an Imposter on that tile.";
                     //olympian_star
                         string  attack_5    = "Lost Colosseum : Spawns up to three Planetary Gladiator's on the garden.";
                         string  attack_6    = "Backyard Bouncy : Launches 2 zombies into the roof.";
@@ -584,7 +584,7 @@ double  faster   = 5;
                 //shields
                     string  super_a         = "Portal Queen : Opens portals that do not disappear until the end of this event.";
                     string  super_b         = "Acid Rain : Gives all plants in a 5x5 area -5 hp and -0.5 damage.";
-                    string super_c = "Possessed : 4-8 random zombies gain 4 armor if they already have any and become 'frienzied' - Gains +0.5aps when he kills a plant.";
+                    string  super_c         = "In-Crypted : Replaces 2 zombies with Engraved Gravestones and 1 imp with an Impstone.";
 
             //water-based
                 //neptuna
@@ -597,7 +597,7 @@ double  faster   = 5;
                         string  attack_1        = "Tidal Wave : Causes the Shallow Water next to Neptuna to expand by one column.";
                         string  attack_2        = "Going Viral : 2-4 zombies lose 2 hp but become 'frienzied' - Gains +0.5aps when it kills a plant.";
                         string  attack_3        = "Flood : Turns up to three random Shallow Water tiles into Water tiles.";
-                        string  attack_4        = "Frosty Mustache : Freezes a random plant and places an Impostor on that tile.";
+                        string  attack_4        = "Frosty Mustache : Freezes a random plant and places an Imposter on that tile.";
                         string  attack_5        = "Weed Spray : Damages every plant with 0 aps.";
                         string  attack_6        = "Terrify : Switches the places of 8 plants across two random columns.";
                     //shields
@@ -609,7 +609,7 @@ double  faster   = 5;
                 //immortal_lords
                     string  descitpion  = "The two greatest vampire lords of the land join forces to defeat the plant army. Can you handle the bat storm?";
                     string  almanac     = "Immorticia and Baron Von Bats might be a unexpected duo to you, but they're actually very close friends.";
-                    string  origin      = "PvZ Heroes (Immorticia) ; PvZ GW";
+                    string  origin      = "PvZ Heroes (Immorticia) ; PvZ GW (Baron von Bats)";
                     string  zombies     = "Less zombies spawn overall. Vimpires and more likely to spawn.";
                     string  special     = "Immorticia flies while Baron Von Bats remains on the ground. They share a health bar and can both perform attacks and the signature super.";
                     //attacks
@@ -637,7 +637,7 @@ double  faster   = 5;
                         string  attack_3        = "Triplication : Replaces a wave with just three zombies, an Imp, a Zombie and a Gargantuar.";
                         string  attack_4        = "Rocket Science : Lauches a rocket at a random attacking plant, burning it as it does so, leaving a crater for just two waves.";
                         string attack_5 = "Barrel of Barrels : Spawns a Supply Barrel Roller, a Waster Barrel Imp, a Carnie Imp Cannon, a Barrel of Deadbeard or a Barrel of Flameface.";
-                        string attack_6 = "Frosty Mustache : Freezes a random plant and places an Impostor on that tile.";
+                        string attack_6 = "Frosty Mustache : Freezes a random plant and places an Imposter on that tile.";
                     //shields
                         string  super_a         = "Iron Boarder : Summons an Iron Boarder Imp on each lane of the garden.";
                         string  super_b         = "Teleportation Station : Triggers the Teleport Attack on a full column.";

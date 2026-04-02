@@ -45,7 +45,7 @@ string list     = "Tuba Zombie, Keytar Zombie, Undead Flamenco Dancers, Jack-in-
 string list     = "Mixed-up Gravedigger Zombie, Backup Disco Zombie, Umbrella Zombie, Park Ranger Zombie, Bonus Track Buckethead";
 
     //robots_zcorp_maintenance_drone_can_attach_to
-string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Generator, Neutron Imp, Cryoton Imp, Photon Imp, Proton Imp, Electron Imp, Hover-Goat 3000";
+string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Generator, Neutron Imp, Cryotron Imp, Photon Imp, Proton Imp, Electron Imp, Hover-Goat 3000";
 
 //Note: The game presents mutliple zombie body types. These are divided into three main categories; Imp, Zombie and Gargantuar that are tracked seperately for certain abilities. Zombies are also split into three body types, the only difference in these is appearance. These are; Regular - your typical browncoat body type, Bully - the pusher type zombies from PvZ 2, and Grunt - the fat worker type from PvZ1 (in Digger Zombie) or GW (in the Engineer)
 
@@ -1470,6 +1470,11 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         string  spceial     = "Gives all zombies in his lane +1 dmg for every plant that dies in his lane whilst he's alive.";
         string  origin      = "PvZ Heroes";
 
+    //loud-mouth_imp
+        double  speed       = slow;
+        string  special     = "Increases the speed of all zombies in a 3x3 area by one level.";
+        string  origin      = "PvZ Heroes";
+
     //zombie_coach
         string  special     = "Gives all zombies in his lane +2 hp for every plant that dies in his lane whilst he's alive.";
         string  origin      = "PvZ Heroes";
@@ -1599,7 +1604,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
 //scientific_zombies
     
     //cosmic_scientist
-        string  special     = "Once it reaches the garden, throws a potion on the lanes above and below him that each spawn a  zombie from the Scientific category.";
+        string  special     = "Once it reaches the garden, throws a potion on the lanes above and below him that each spawn a zombie from the Scientific category.";
         string  origin      = "PvZ Heroes";
 
     //cardboard_robot_zombie
@@ -1771,8 +1776,8 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
                 double  speed       = fast;
                 double  dmg         = 1;
                 double  aps         = 1;
-                string  special     = "Affected by EMPeach. Flies between roof and garden height. Attacks from a 3-lane distance. If the ZCorp Drone Engineer dies or looses his remote, the drone joins another ZCorp Engineer. If there are none on the field, it dies.";
-                string  almanac     = "The pencil on his helmet is completely useless, but the ZCorp engineer liked the aesthetics of it.";
+                string  special     = "Affected by EMPeach. Flies between roof and garden height. Attacks from a 3-lane distance. If the ZCorp Drone Engineer dies or loses his remote, the drone joins another ZCorp Engineer. If there are none on the field, it dies.";
+                string  almanac     = "The pencil on its helmet is completely useless, but the ZCorp engineer liked the aesthetics of it.";
                 string  origin      = "PvZ Heroes (Zombot Drone Engineer)";
 
         //variant_zcorp_drone_engineer:zcorp_swarm_engineer
@@ -1783,7 +1788,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
             double  speed       = slow;
             double  dmg         = 1;
             double  aps         = 2;
-            string  special     = "Remote can be removed by Magnetshroom. Controls two ZCorp Swarm Drone on neighbourghing lanes from one tile back. He only moves if he must do so for the drone to be able to attack. Behaves like a normal zombie if the drone dies.";
+            string  special     = "Remote can be removed by Magnetshroom. Controls two ZCorp Swarm Drones on neighbourghing lanes from one tile back. He only moves if he must do so for the drones to be able to attack. Behaves like a normal zombie if the drones die.";
             string  almanac     = "You know what's harder than flying one drone? Flying two drones.";
             string  origin      = "PvZ Heroes (Zombot Drone Engineer)";
 
@@ -1795,7 +1800,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
                     double  speed       = faster;
                     double  dmg         = 1;
                     double  aps         = 0.5;
-                    string  special     = "Affected by EMPeach. Flies between roof and garden height. Attacks from a 1-lane distance. If the ZCorp Swarm Engineer dies or looses his remote, the drone joins another ZCorp Engineer. If there are none on the field, it dies.";
+                    string  special     = "Affected by EMPeach. Flies between roof and garden height. Attacks from a 1-lane distance. If the ZCorp Swarm Engineer dies or loses his remote, the drone joins another ZCorp Engineer. If there are none on the field, it dies.";
                     string  almanac     = "These guys have pens on their helmets because it's classier.";
                     string  origin      = "PvZ Heroes (Zombot Drone Engineer)";
 
@@ -1836,7 +1841,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         string  origin      = "Rogue Garden";
 
             //zcorp_maintenance_drone
-                string  description = "It is deployed by the ZCorp Drone Maintenace attaches onto other drones.";
+                string  description = "It is deployed by the ZCorp Drone Maintenace and attaches onto other drones.";
                 double  hp          = 5;
                 double  armour      = 0;
                 //int   cr          = n/a;

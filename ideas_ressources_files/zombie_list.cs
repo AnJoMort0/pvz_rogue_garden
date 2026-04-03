@@ -320,7 +320,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         double  aps = 3;
         string  special = "Only spawns during summer. When he eats, he dashes forward, skipping ahead one tile and damaging the plant in the process."; 
         string  almanac = "He was THIS close to wearing the chicken costume, but darn it, Team Mascot Imp called it first.";
-        string  origin = "PvZ 2"; 
+        string  origin = "PvZ 2";
 
     //smashing_gargantuar
         string  description = "Attacks faster than a regular gargantuar but doesn't throw an Imp.";
@@ -366,6 +366,49 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         string special      = "Moves to a random lane upon reaching half hp. Throws a random imp, except Gargantuar-throwing Imps, in the lane he leaves and another in the lane he lands on.";
         string  almanac     = "Surprise! It's a brains-eating monster at your party!";
         string  origin      = "PvZ Heroes";
+    
+    //z-scout_warden_gargantuar
+        string  description = "Big, outdoorsy Gargs who hurl Z-Scout Campers, and crush most plants with one swing of their highly-conductive signposts.";
+        double  hp          = 190;
+        double  armour      = 0;
+        int     cr          = 28;
+        double  speed       = fast;
+        double  dmg         = 9999999999;
+        double  aps         = 0.5;
+        string  special     = "Doesn't spawn during winter. Throws a Z-Scout Leader Imp upon reaching half hp.";
+        string  almanac     = "Dr. Zomboss trusts these Gargantuars to protect the Imps in their charge as if they were their own. That trust was misplaced - these brutes are incredibly irresponsible.";
+        string  origin      = "PvZ 3 (Z-Scout Leader)";
+
+    //z-scout_leader_imp
+        string  description = "This imp has a flag and leads a pack of ankle-biting pests.";
+        double  hp          = 5;
+        double  armour      = 0;
+        int     cr          = 12;
+        double  speed       = fast;
+        double  dmg         = 0.5;
+        double  aps         = 3;
+        string  special     = "Doesn't spawn during winter. Upon spawning or landing, summons 3 Z-Scout Camper Imps and a Z-Scout Imp Porter in a line directly behind him. They do not stop to stay in formation.";
+        string  almanac     = "Swift and resourceful, this imp is probably only the leader because he ";
+        string  origin      = "PvZ 3 (Z-Scout Camper)";
+
+    //variant_imp:z-scout_camper_imp
+        string  description = "A nature-loving little twerp.";
+        //stats_of_imp
+        string  special     = "Doesn't spawn during winter.";
+        string  almanac     = "He's not great at following the leader.";
+        string  origin      = "PvZ Heroes";
+
+    //z-scout_imp_porter
+        string  description = "Drops a tent on death.";
+        double  hp          = 14;
+        double  armour      = 0;
+        int     cr          = 9;
+        double  speed       = slower;
+        double  dmg         = 1;
+        double  aps         = 2;
+        string  special     = "Doesn't spawn during winter. On death, spawns a tent on the tile behind him.";
+        string  almanac     = "Z-Scout Camp Importer is stronger than he looks. He's also more charming, smarter and has the most badges.";
+        string  origin      = "PvZ 2 (Imp Porter)";
 
     //cosmic_imp
         string  special     = "When killed, disapates into 5 random imps in a cross formation centered on himself. Can't create Gargantuar-throwing Imps.";
@@ -469,18 +512,6 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         string  special     = "Only spawns during fall and winter. More likely to spawn during Rain Storm events. Spawns with the umbrela closed, then opens it to jump over the first plant he encounters and keeps it open. While open, blocks attacks from above, removes splash damage and stops A.K.E.E's bouncing but doens't block status effects.";
         string  almanac     = "Life comes and goes, but proper manners are forever.";
         string  origin      = "PvZ 2 (Parasol Zombie) ; PvZ Heroes and PvZ China (Gentleman Zombie)";
-
-    //campimp_porter
-        string  description = "Drops a tent on death.";
-        double  hp          = 14;
-        double  armour      = 0;
-        int     cr          = 9;
-        double  speed       = slower;
-        double  dmg         = 1;
-        double  aps         = 2;
-        string  special     = "Doesn't spawn during winter. On death, spawns a tent on the tile behind him.";
-        string  almanac     = "Campimp Porter is stronger than he looks. He's also more charming, smarter and has a better education.";
-        string  origin      = "PvZ 2 (Imp Porter)";
 
     //dog_walker_zombie
         string description = "His dog can smell newly placed plants, and chases after them.";
@@ -735,7 +766,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         string  almanac     = "His motto: Walk softly and carry a big nunchuck.";
         string  origin      = "PvZ Heroes (Mini-Ninja) ; PvZ 2 China (Bandit Zombie)";
 
-    //stealth_imp
+    //impfiltrator
         string  description = "A small zombie that wanders through your defences, untraceable.";
         double  hp          = 5;
         double  armour      = 0;
@@ -744,7 +775,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         double  dmg         = 0.5;
         double  aps         = 3;
         string  special     = "Only spawns at night. Remains invisible and sneaks past plants for as long as he has his night-vision goggles on. He takes out his night-vision goggles when in range of light producers and fire plants and they can be removed by magnet-shroom.";
-        string  almanac     = "Gadget Scientist Zombie is behind the mysterious technology that allows these night-vision goggles to make Stealth Imp invisible.";
+        string  almanac     = "Gadget Scientist Zombie is behind the mysterious technology that allows these night-vision goggles to make Impfiltrator invisible.";
         string  origin      = "PvZ 3";
 
     //monkey_smuggler_zombie
@@ -830,7 +861,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         double  speed       = fast;
         double  dmg         = 1;
         double  aps         = 2;
-        string  special     = "More likely to spawn during Aerobics Class concert event. Always spawns in 'back-up dancer formation' and can randomly switch lanes.";
+        string  special     = "More likely to spawn during Aerobics Class concert event. Always spawns in 'back-up dancer formation' and can randomly switch lanes. The zombies stay in formation, stopping when one stops.";
         string  almanac     = "'Spin, jump, close my eyes'. Ballerina Zombie likes this song the most.";
         string  origin      = "PvZ 2 China";
 
@@ -936,14 +967,14 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
                 string  origin      = "PvZ 3";
 
     //disco_zombie
-        string  special     = "Unlike Dancer Zombie, he can spawn anywhen. While alive, creates Disco Backup Dancers in the tiles above, below and besides him.";
+        string  special     = "Unlike Dancer Zombie, he can spawn anywhen. While alive, creates Backup Disco Zombies in the tiles above, below and besides him. Him and the Backup Dancers stay in formation, stopping when one stops.";
         string  origin      = "PvZ 1";
 
             //backup_disco_zombie
                 string  origin      = "PvZ 1";
 
         //elite_disco_zombie:cosmic_dancing_zombie
-            string  special     = "While alive, creates random instrument playing zombies above, below and besides him.";
+            string  special     = "While alive, creates random instrument playing zombies above, below and besides him. Him and his summons stay in formation, stopping when one stops.";
             string  origin      = "PvZ Heroes";
 
     //line_dancer_zombie
@@ -1024,10 +1055,10 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         string  origin      = "PvZ 3 ; PvZ Heroes (Disco-naut)";
 
     //undead_flamenco_dancers
-        string  special     = "Plays an instrument. Two zombies, share HP but eat separately. Plays castanets to turn basics in a 3x3 area into Flamenco Backup Dancers that walk along the Undead Flamenco Dancers. Throws hat that deals damage equal to amount of Flamenco Backup Dancers in 3x3 area.";
+        string  special     = "Plays an instrument. Appears to be two zombies but is effectively one. Plays castanets to turn basics in a 3x3 area into Flamenco Backup Zombies that walk along the Undead Flamenco Dancers. Throws hat that deals damage equal to amount of Flamenco Backup Zombies in 3x3 area. Undead Flamenco Dancers and Flamenco Backup Zombies do not stop to stay in formation.";
         string  origin      = "PvZ Heroes (Flamenco Zombie); Rogue Garden";
         
-        //flamenco_backup_dancers
+        //flamenco_backup_zombies
             string  origin      = "Rogue Garden";
 
     //drum_major_zombie
@@ -1258,7 +1289,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
             string  origin      = "PvZ 2";
 
         //synchronized_swimmer_zombie
-            string  special     = "Only spawns in the pool. More likely to spawn during Aerobics Class concert event. Always spawns in groups of three, covering all three pool lanes.";
+            string  special     = "Only spawns in the pool. More likely to spawn during Aerobics Class concert event. Always spawns in groups of three, covering all three pool lanes. They stay in formation, stopping when one stops.";
             string  origin      = "PvZ Heroes";
 
         //imp_commander
@@ -2132,7 +2163,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
             double  speed       = normal;
             double  dmg         = 1;
             double  aps         = 2;
-            string  special     = "Spawn in the Multi-Stage Masher and jump down to a random lane at the end of the event. Two zombies, share HP but eat separately. While alive, all zombies have double aps.";
+            string  special     = "Spawn in the Multi-Stage Masher and jump down to a random lane at the end of the event. Appears to be two zombies but is effectively one. While alive, all zombies have double aps.";
             string  almanac     = "He's a Gemini and so is she. Which explains so much, right?";
             string  origin      = "PvZ Heroes";
 

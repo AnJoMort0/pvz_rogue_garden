@@ -213,7 +213,7 @@ double  faster   = 5;
                     string  attack_4    = "Zombot Stomp : The Zombot stomps a 2x3 to 3x3 area near him with its foot.";
                     string  attack_5    = "Ball of Blob : The Zombot lowers its head to the garden's level, making Zomboss vulnerable, in order to release a giant ball similar to the Zom-Blob that slides down the lane, crushing plants and leaving a trail of blob behind, and cannot be countered. Gives Disinfection Zombie's effect if aimed at the pool.";
                 //phase_3
-                    string  attack_6    = "Camper Throw : The Zombot throws a camping van at the garden or the roof, crushing plants in a 2x4 area and occasionally spawing a Campimp Porter, which imediately drowns if aimed the pool.";
+                    string  attack_6    = "Camper Throw : The Zombot throws a camping van at the garden or the roof, crushing plants in a 2x4 area, and occasionally spawing a Z-Scout Imp Porter, which imediately drowns if aimed the pool.";
                     string attack_7     = "Gargantuar's Feast : The Zombot lowers its head, making Zomboss vulnerable as he rings a small golden bell. 3 gargantuars of any type spawn in its garden, spread across the 7 lanes.";
             
             //dug-up_sphinx-inator

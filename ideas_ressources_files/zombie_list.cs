@@ -396,7 +396,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         //stats_of_imp
         string  special     = "Doesn't spawn during winter.";
         string  almanac     = "He's not great at following the leader.";
-        string  origin      = "PvZ Heroes";
+        string  origin      = "PvZ 3 (Z-Scout Camper)";
 
     //z-scout_imp_porter
         string  description = "Drops a tent on death.";
@@ -464,6 +464,10 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
     //zombie_fire_rooster
         string  special     = "When a plant is placed on this lane, moves to a neighboring lane then shoots a fireball before continuing forwards.";
         string  origin      = "PvZ Heroes";
+
+    //lumberjack_zombie
+        string  special     = "Attacks plants in its lane and neighbouring lanes. Hits plants with his axe instead of eating.";
+        string  origin      = "PvZ 3";
 
     //mixed-up_gravedigger_zombie
         string  description = "The Mixed-Up Gravedigger creates Gravestones all over the map.";

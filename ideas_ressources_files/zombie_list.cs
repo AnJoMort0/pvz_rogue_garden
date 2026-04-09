@@ -934,7 +934,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
                         double  speed       = fast;
                         double  dmg         = 0;
                         double  aps         = 0;
-                        string  special     = "Flies towards the front-most plant of a random lane. Once it reaches it, it grabs onto it and stands for a few seconds before flying off with it. Once it flies off or is blown away by a plant, it reappears on the back of its Cpatain Deadbeard's lane and goes back into the hat. It is instantly killed by butter and if it tries to grab onto a Spring Bean, it will activate and headbutt the Zombie Parrot, killing it.";
+                        string  special     = "Flies towards the last plant placed. Once it reaches it, it grabs onto it and stands for a few seconds before flying off with it. Once it flies off or is blown away by a plant, it reappears on the back of its Cpatain Deadbeard's lane and goes back into the hat. It is instantly killed by butter and if it tries to grab onto a Spring Bean, it will activate and headbutt the Zombie Parrot, killing it.";
                         string  almanac     = "He's a third generation aviation revolutionary. He wants to serve his pirate brethren like his father and his grandmother, Salty Anne, before him.";
                         string  origing     = "PvZ Garden Warfare ; PvZ 2 (Pirate Captain Zombie)";
 
@@ -1322,7 +1322,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         string  almanac     = "He made a second volume of all his favourite songs for his brand new Mp3 player.";
         string  origin      = "PvZ Heroes";
 
-    //beast_handler
+    //beast_handler_zombie
         string  special     = "When an Animal Herder type zombie spawns, that zombie gets +1 dmg and +0,25 aps.";
         string  origin      = "PvZ Heroes (Zookeeper)";
 
@@ -1342,12 +1342,12 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         string  special     = "Lifts his hat to reveal a Zombie Dove who'll try to fly off with your plants. If the dove dies, the hat falls off, which releases a Zombie Rabbit.";
         string  origin      = "PvZ Heroes ; PvZ 2 (Magician Zombie)";
 
-        //zombie_dove
+        //variant_zombie_parrot:zombie_dove
             string special = "Flies towards the front-most plant of a random lane. Once it reaches it, it grabs onto it and stands for a few seconds before flying off with it. Once it flies off or is blown away by a plant, it reappears on the back of its Abracadaver's lane and goes back into the hat. It is instantly killed by butter and if it tries to grab onto a Spring Bean, it will activate and headbutt the Zombie Dove, killing it.";
             string origin = "PvZ 2";
 
         //zombie_rabbit
-            string  origin = "PvZ Heroes (Abracadaver); PvZ 2 (Weasel)";
+            string  origin = "PvZ Heroes (Abracadaver)";
     
     //firebreather_zombie
         string  description = "Firebreather Zombie... wait for it... breathes fire. And plenty of it!";
@@ -1375,7 +1375,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         string  origin      = "PvZ Heroes";
 
             //zombie_rat
-                string  special     = "Cannot be hit by plants. Stuns the first plant they encounter until it dies, then goes on to the next plant. Dies if their Pied Piper dies.";
+                string  special     = "Stuns the first plant they encounter until it dies, then goes on to the next plant.";
                 string  origin      = "PvZ Heroes (Pied Piper)";
 
     //stiltwalker_zombie
@@ -1442,6 +1442,18 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         string  speed       = slower;
         string  special     = "Turns Basics that pass by him into their Balloon variant, fully healing them in the process.";
         string  origin      = "Rogue Garden";
+
+    //strongman_gargantuar
+        string  description = "He bashes plants with a heavy barbell just to prove how strong and manly he is.";
+        double  hp          = 200;
+        double  armour      = 0;
+        int     cr          = 28;
+        double  speed       = slow;
+        double  dmg         = 9999999999;
+        double  aps         = 0.5;
+        string  special     = "Upon reaching half hp, releases a Ferris Wheel Zombie onto the garden.";
+        string  almanac     = "He also has a master's degree in 18th-century French poetry.";
+        string  origin      = "PvZ 2";
 
 //sportive_zombies
     
@@ -1918,7 +1930,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
 
     //jester_zombie
         double  speed       = normal;
-        string  special     = "Reflects projectiles forwards in front of itself. While spinning, moves at 'fast' speed.";
+        string  special     = "Reflects projectiles he can hold, lobbed or shot, forwards in front of itself. While spinning, moves at 'fast' speed.";
         string  origin      = "PvZ 2";
 
     //wizard_zombie

@@ -281,18 +281,18 @@ double  faster   = 5;
         double  dmg         = 1;
         double  aps         = 2;
         string  almanac     = "He was issued the standard ZCorp coffee mug at orientation.";
-        string  origin      = "PvZ 1";
+        string  origin      = "PvZ 2";
 
     //zcorp_conehead
-        string  description = "His pined agenda makes him twice as though as minimum wage employees.";
+        string  description = "The sign doesn't warn of slippery floors, but it should warn you of the extra health.";
         double  hp          = 10;
         double  armour      = 18;
         int     cr          = 2;
         double  speed       = normal;
         double  dmg         = 1;
         double  aps         = 2;
-        string  almanac     = "He thought pinning his agenda to his head would make him less forgetful. Turns out having what's left of your skull pierced by a gigantic pin actually makes it harder to remember things.";
-        string  origin      = "PvZ 1";
+        string  almanac     = "When someone asks why the ZCorp Conehead joined the 'Fashion Roadblock Association', he always says: 'Oh, fashion.'";
+        string  origin      = "PvZ 3E China (Institute Conehead)";
 
     //zcorp_wc_door
         string  description = "His bathroom door is an effective shield.";
@@ -304,7 +304,7 @@ double  faster   = 5;
         double  aps         = 2;
         string special      = "Screendoor blocks incoming, non-piercing attacks from the front and can be removed by magnet-shroom.";
         string  almanac     = "So that's where it went.";
-        string  origin      = "PvZ 1";
+        string  origin      = "Rogue Garden";
 
     //zcorp_trashcan
         string  description = "His recycling bin makes him extremely resistant to damage.";
@@ -316,7 +316,7 @@ double  faster   = 5;
         double  aps         = 2;
         string  special     = "Bucket can be removed by Magnetshroom";
         string  almanac     = "ZCorp Trashcan named himself that before going green and switching for the recycling bin, the name just kind of stuck after that.";
-        string  origin      = "PvZ 1";
+        string  origin      = "PvZ 2 (ZCorp New Hire Buckethead)";
     
     //zcorp_holo-head
         string  description = "Holo-Head's head-mounted holo-field provides hyper-protection.";

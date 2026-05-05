@@ -893,14 +893,26 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
     //ice_block_zombie
         string  description = "He's pretty cold right now, and he'll make your plants cold too.";
         double  hp          = 10;
-        double  armor       = 25;
+        double  armor       = 18;
         int     cr          = 6;
-        double  speed       = nomral;
+        double  speed       = normal;
         double  dmg         = 1;
         double  aps         = 2;
         string  special     = "Once the ice block is broken, all plants in a 3x3 radius are frozen. Flaming projectiles instantly destroy the ice block. Immune to chilling and freezing.";
         string  almanac     = "The story of how he was frozen along with a fish is completely bogus. Lies from beginning to end.";
         string  origin      = "PvZ Adventure";
+
+        //elite_ice_block_zombie:refrigerator_zombie
+            string  description = "He's pretty cold right now, and he'll make your plants cold too.";
+            double  hp          = 10;
+            double  armor       = 55;
+            int     cr          = 9;
+            double  speed       = normal;
+            double  dmg         = 1;
+            double  aps         = 2;
+            string  special     = "Once the refrigerator is broken, all plants in a 3x3 radius are frozen. Immune to chilling and freezing.";
+            string  almanac     = "The story of how he was frozen along with a fish is completely bogus. Lies from beginning to end.";
+            string  origin      = "PvZ Adventure";
 
     //barrel_of_deadbeard
         string  description = "A barrel that explodes into a powerful pirate captain.";
@@ -1497,6 +1509,14 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
             //all-star_super_fan_imp
                 string  origin      = "PvZ 2";
 
+    //basketball_zombie
+        string  special     = "Upon reaching half health, throws an imp down the lane and becomes Faster speed.";
+        string  origin      = "PvZ 3E China";
+
+    //goalie_zombie
+        string  special     = "Occasionally switches lanes to a neighbouring lane with a projectile passing by. It reflects the projectile then proceeds.";
+        string  origin      = "PvZ 3E China";
+
     //tennis_champ_zombie
         string  special     = "Attacks by hitting with her racket instead of biting. Has 5 dmg until eating her first plant.";
         string  origin      = "PvZ Heroes";
@@ -1755,7 +1775,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         string  origin      = "PvZ Heroes";
 
     //zom-blob
-        string  special     = "More likely to spawn during Radiation Wave event. Ignores plants and leaves a blob trail behind him that deals damage over time and disappears after a few seconds.";
+        string  special     = "More likely to spawn during Radiation Wave event. Ignores plants and leaves a blob trail behind him that deals damage over time. As he advances or takes damage he shrinks until disappearing. He does not grow back when healed and always dies before reaching the end of the garden.";
         string  origin      = "PvZ Heroes";
 
     //genetic_experiement
@@ -1775,12 +1795,24 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         string  special     = "Can shoot plants in his lane from 4 tiles away.";
         string  almanac     = "ZCorp Monitor Head is hard-working. So much so that he purposefully fused his head with his monitor to achieve never-before-seen work efficiency.";
         string  origin      = "PvZ Battle for Neighborville (TV Head)";
+
+    //zcorp_contractor
+        string  description = "Her pined agenda makes her twice as though as minimum wage employees, and only half as loyal to the company.";
+        double  hp          = 10;
+        double  armour      = 18;
+        int     cr          = 3;
+        double  speed       = fast;
+        double  dmg         = 1;
+        double  aps         = 3;
+        string  specials    = "Runs away upon reaching half health. If she still has the pin-conehead as she runs away, it falls off, damaging a nearby plant.";
+        string  almanac     = "She was only hired to come, not to stay.";
+        string  origin      = "PvZ 1";
     
     //zcorp_consultant
         string  description = "ZCorp Consultant disrupts your paradigm and table flips your bluesky/redocean.";
         double  hp          = 24;
         double  armour      = 0;
-        int     cr          = 3;
+        int     cr          = 6;
         double  speed       = fast;
         double  dmg         = 1;
         double  aps         = 2;
@@ -1995,16 +2027,16 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         string  origin      = "PvZ Heroes";
 
             //haunting_ghost
-                string  description = "Haunting Ghost ghosts through your plants, damaging them. Can't be killed but can be chilled.";
+                string  description = "Haunting Ghost ghosts through your plants, damaging them.";
                 double  hp          = 9999999999;
                 double  armour      = 0;
                 //int   cr          = n/a;
                 double  speed       = fast;
                 double  dmg         = 2;
                 double  aps         = 2;
-                string  special     = "Doesn't die but is affected by chilling. Walks through plants dealing damage to them. Ascends on the first lane.";
+                string  special     = "Walks through plants, damaging them as he does so. Can't be attacked unless lit up, but can be hit by fire and cold projectiles.";
                 string  almanac     = "Is he a Zombie? Is he a ghost? He refuses to be pigeonholded.";
-                string  origin      = "PvZ Heroes";
+                string  origin      = "PvZ Heroes ; PvZ3E China (Lost Soul Zombie)";
 
     //elite_haunting_ghost:nightmare_ghost
         string  description = "Nightmare Ghost ghosts even more ghostly than ghosts usually ghost";

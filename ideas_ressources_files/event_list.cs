@@ -400,7 +400,7 @@ double  faster   = 5;
                 string  descitpion  = "It's the unrelenting brawler, the undead bruiser, he puts the G in Gargantuar... Stepping into the ring... it's THE SMASH!";
                 string  almanac     = "The Smash enjoys...SMASHING!";
                 string  origin      = "PvZ Heroes";
-                string  zombies     = "Zombies from the Sportive Category are more likely to spawn.";
+                string  zombies     = "High damage zombies, but slower or lesser health zombies are more likely to spawn.";
                 //attacks
                     string  signature_super = "Slammin' Smackdown : Destroy a random plant with 4 damage or less.";
                     string  attack_1        = "Extinction Event : Deals 3 damage to a random plant. All copies of that plant take 2 damage.";
@@ -565,7 +565,7 @@ double  faster   = 5;
                         string  attack_6    = "Flex : Two zombies gain +1 dmg and the first plant on their lane is stunned for two waves.";
                 //shields
                     string  super_a         = "Dummy Shield : Spawns a dummy shield that creates a protective dome, taking damage instead of the Boss and the zombies in the last column. It must be defeated to attack the Boss once more.";
-                    string  super_b         = "Game Time : Instantly spawns Zombie Coaches, Team Mascot Imps and Brain Vendors on every lane.";
+                    string  super_b         = "Half-time : Instantly spawns Zombie Coaches, Team Mascot Imps and Brain Vendors across the lanes.";
                     string  super_c         = "Brute Strenght : 4-8 zombies gain 5 damage.";
 
             //mirror_queen
@@ -585,6 +585,24 @@ double  faster   = 5;
                     string  super_a         = "Portal Queen : Opens portals that do not disappear until the end of this event.";
                     string  super_b         = "Acid Rain : Gives all plants in a 5x5 area -5 hp and -0.5 damage.";
                     string  super_c         = "In-Crypted : Replaces 2 zombies with Engraved Gravestones and 1 imp with an Impstone.";
+
+            //ballpark_frank
+                string  descitpion  = "The ultimate sports fan, Ballpark Frank's number two goal is goals. His number one goal is your brains.";
+                string  almanac     = "Ballpark Frank's #1 sports snack is a footlong brainz hot dog with 'the works': mustard, hot sauce, gravy, chocolate sauce, hot chocolate gravy, spray can cheese, and a little cup of expired ranch for sipping.";
+                string  origin      = "PvZ 3E China";
+                string  zombies     = "Zonbies from the Sportive category are more likely to spawn.";
+                //attacks
+                    string  signature_super = "";
+                    string  attack_1        = "";
+                    string  attack_2        = "";
+                    string  attack_3        = "";
+                    string  attack_4        = "";
+                    string  attack_5        = "";
+                    string  attack_6        = "Vitamin Z : Turns random basics into Arm Wrestler Zombies.";
+                //shields
+                    string  super_a         = "Half-time : Instantly spawns Zombie Coaches, Team Mascot Imps and Brain Vendors across the lanes.";
+                    string  super_b         = "Galvanise : 4-8 random zombies gain 10 hp and 2 dmg.";
+                    string  super_c         = "Evaporate : Kills the 2 lowest hp wall plants in the garden. Doens't work if they are on water.";
 
             //water-based
                 //neptuna

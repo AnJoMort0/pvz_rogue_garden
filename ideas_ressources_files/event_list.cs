@@ -251,7 +251,7 @@ double  faster   = 5;
             //desk-a-tron
                 string  description = "Dr. Zomboss's corporate desk, but on legs. It occupies only a small area on the map but can move around with its office adequate legs.";
                 string  almanac     = "After consultation, Dr. Edgar Zomboss finally decided to show who the Boss really is. He put on his coat, sat at his desk and told his managers to do the rest.";
-                string  origin      = "Rogue Garden ; PvZ Heroes (Maniacal Laugh)";
+                string  origin      = "Rogue Garden";
                 string  summon      = "Zomboss rings the bell on his shelf to call zombies in. Prefers spawning zombies from the ZCorp category and only spawns ZCorp variant basics.";
                 //phase_1
                     string  attack_1    = "Costumer Service Please : Zomboss calls costumer service, summoning up to 3 ZCorp Costumer Sevice zombies across the garden.";
@@ -592,12 +592,12 @@ double  faster   = 5;
                 string  origin      = "PvZ 3E China";
                 string  zombies     = "Zonbies from the Sportive category are more likely to spawn.";
                 //attacks
-                    string  signature_super = "";
-                    string  attack_1        = "";
-                    string  attack_2        = "";
-                    string  attack_3        = "";
-                    string  attack_4        = "";
-                    string  attack_5        = "";
+                    string  signature_super = "Score! : Adds a point to the zombies on the scoreboard. The plants score two points every time they trigger Ballpark Frank's shield.";
+                    string  attack_1        = "Sport Commentator : Spawns [zombie's score - plant's score] Loudmouth Imps.";
+                    string  attack_2        = "Game Changer : Spawns [zombie's score - plant's score] Basketball Zombies, Goalie Zombies or Tennis Champ Zombies.";
+                    string  attack_3        = "Ball! : Shoots  [zombie's score - plant's score] footballs and basketballs onto the lawn.";
+                    string  attack_4        = "Knockout : Stuns all plants with 1 or less damage in a lane.";
+                    string  attack_5        = "Weed Spray : Damages every plant with 0 aps.";
                     string  attack_6        = "Vitamin Z : Turns random basics into Arm Wrestler Zombies.";
                 //shields
                     string  super_a         = "Half-time : Instantly spawns Zombie Coaches, Team Mascot Imps and Brain Vendors across the lanes.";

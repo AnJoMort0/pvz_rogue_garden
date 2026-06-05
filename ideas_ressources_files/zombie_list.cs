@@ -1943,7 +1943,7 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         double  dmg         = 0.5;
         double  aps         = 1;
         string  special     = "Gains +1 hp and +0.5 aps for every ZCorp basic that dies in his lane.";
-        string  almanac     = "Leike most managers, bringing pain to his employees gives him strngth.";
+        string  almanac     = "Like most managers, bringing pain to his employees gives him strngth.";
         string  origin      = "PvZ Heroes (Zombie Middle Manager)";
     
     //zcorp_custodian

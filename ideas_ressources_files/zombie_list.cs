@@ -718,9 +718,13 @@ string list = "ZCorp Drone, ZCorp Swarm Drone, ZCorp EMP Drone, ZCorp Shield Gen
         string  almanac     = "Sadly the Trash Can Zombie isn't here to pick up litter, or offer helpful tips on how to recycle your vegetable peelings or glass. If you've been closely studying this book, you will have realized by now that this zombie wants to eat your brains. He just uses the trash can to protect himself, not tidy up. What a shame. That said Trash Can Zombie is all about recycling waste. In this case he's eager for you to recycle the 'waste' brains sloshing about in your skull into something better: his dinner.";
         string  origin      = "PvZ 1 Console Edition ; PvZ Heroes";
 
-            //elite:trash_can_zombie:theatre_zombie
-                string  special     = "Holds holds a skull in front of him to block incoming projectiles. Once he reaches 0 hp, the skull floats for a few seconds, to perform a shakespearian monolgue, blocking projectiles from all directions and forcing pults in that lane to target it.";
-                string  origin      = "PvZ 3 (Actor Zombie)";
+        //elite_trash_can_zombie:dumpster_imp
+            string  special     = "Rolls a dumpster in front of him to block incoming projectiles. Once he or the dumpster reaches half hp/armor, he jumps into the dumpster. This stops him in place and protects him from all directions. In this state, he can perform ranged attacks in a 5x3 area around that tile. After the dumpster is destroyed he keeps walking at half hp.";
+            string  origin      = "PvZ Heroes (Stealthy Imp)";
+
+    //theatre_zombie
+        string  special     = "Once he reaches 0 hp, drops the skull which floats for a few seconds, to perform a shakespearian monolgue, blocking projectiles from all directions and forcing pults in that lane to target it.";
+        string  origin      = "PvZ 3 (Actor Zombie)";
 
     //turkey_rider_imp
         string  description = "Gives all zombies strenghtening leftovers when he dies.";

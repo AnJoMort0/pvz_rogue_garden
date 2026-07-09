@@ -5,7 +5,7 @@
     //template_plant
         string  description = "";           //basic description of the plant (if available, you can easily take it straight from its game of origin)
         double  cost        = 25;           //sun cost of the plant. The game works on a 25 sun basis
-        int     rech_time   = ;             //recharge time: mesured in seconds - time needed for the plant to be available again
+        int     rech_time   = 15;           //recharge time: mesured in seconds - time needed for the plant to be available again
         double  hp          = 6;            //hit points (hp) are counted in peas. Yes, even the plants'. Note: A regular plant has 6 hp
         string  projectile  = "pea";        //from the projectiles_list
         string  attack_type = straight;     //see below, aims dependant on the range
@@ -40,12 +40,12 @@
 
     //copy_paste
         string  description = "";
-        double  cost        = ;
-        int     rech_time   = ;
+        //double  cost        = ;
+        //int     rech_time   = ;
         double  hp          = 6;
         string  projectile  = "";
         string  attack_type = straight;
-        double  ai          = ;
+        //double  ai          = ;
         double  range       = lane;
         string  special     = "";
         string  almanac     = "";
@@ -55,7 +55,7 @@
     //sunflower
         string  description = "Sunflowers are essential for you to produce extra sun. Try planting as many as you can!";
         double  cost        = 50;
-        int     rech_time   = ;
+        //int     rech_time   = ;
         double  hp          = 6;
         string  projectile  = "sun";
         string  attack_type = sun;
@@ -67,7 +67,7 @@
         //twin_sunflower
             string  description = "Twin Sunflowers give twice as much sun as a normal sunflower.";
             double  cost        = 150;
-            int     rech_time   = ;
+            //int     rech_time   = ;
             double  hp          = 6;
             string  projectile  = "sun";
             string  attack_type = sun;
@@ -79,7 +79,7 @@
         //metal_petal_sunflower
             string  description = "Metal Petal is an armored Sunflower. While the metal weighs her down, making her slower than other Sunflowers, she has the added benefit of higher health.";
             double  cost        = 100;
-            int     rech_time   = ;
+            //int     rech_time   = ;
             double  hp          = 80;
             string  projectile  = "sun";
             string  attack_type = sun;
@@ -91,7 +91,7 @@
     //peashooter
         string  description = "Peashooters are your first lane; of defense. They shoot peas at attacking zombies.";
         double  cost        = 100;
-        int     rech_time   = ;
+        //int     rech_time   = ;
         double  hp          = 6;
         string  projectile  = "pea";
         string  attack_type = straight;
@@ -103,7 +103,7 @@
         //peapods
             string  description = "Stack multiple Peas to quintuple the power!";
             double  cost        = 100 * n; //scalling price by the number of pods
-            int     rech_time   = ;
+            //int     rech_time   = ;
             double  hp          = 6;
             string  projectile  = "pea";
             string  attack_type = straight;
@@ -116,7 +116,7 @@
         //skyshooter
             string  description = "Skyshooters are your second lane; of defense. They shoot more efficiently when on the roof. Targets flying zombies first";
             double  cost        = 75;
-            int     rech_time   = ;
+            //int     rech_time   = ;
             double  hp          = 6;
             string  projectile  = "pea";
             string  attack_type = aim;
@@ -129,7 +129,7 @@
     //repeater
         string  description = "Repeaters fire two peas at a time.";
         double  cost        = 225;
-        int     rech_time   = ;
+        //int     rech_time   = ;
         double  hp          = 6;
         string  projectile  = "pea";
         string  attack_type = straight;
@@ -141,7 +141,7 @@
         //threepeater
             string  description = "Threepeater shoots peas in three lanes.";
             double  cost        = 150;
-            int     rech_time   = ;
+            //int     rech_time   = ;
             double  hp          = 6;
             string  projectile  = "pea";
             string  attack_type = straight;
@@ -154,36 +154,36 @@
         //gatling_pea
             string  description = "Gatling Peas shoot four peas at a time.";
             double  cost        = 250;
-            int     rech_time   = ;
+            //int     rech_time   = ;
             double  hp          = 6;
             string  projectile  = "pea";
             string  attack_type = straight;
             double  ai          = burst(4, 1.5);
             double  range       = lane;
-            string  almanac     = "Gatling Pea's parents were concerned when he announced his intention to join the military. "But honey, it's so dangerous!" they said in unison. Gatling Pea refused to budge. "Life is dangerous," he replied, eyes glinting with steely conviction.";
+            string  almanac     = "Gatling Pea's parents were concerned when he announced his intention to join the military. `But honey, it's so dangerous!` they said in unison. Gatling Pea refused to budge. `Life is dangerous,` he replied, eyes glinting with steely conviction.";
             string  origin      = "PvZ 1";
 
     //wall-nut
         string  description = "Wall-nuts have hard shells which you can use to protect your other plants.";
         double  cost        = 50;
-        int     rech_time   = ;
+        //int     rech_time   = ;
         double  hp          = 80;
         string  projectile  = "";
-        string  attack_type = ;
-        double  ai          = ;
-        double  range       = ;
+        //string  attack_type = ;
+        //double  ai          = ;
+        //double  range       = ;
         string  almanac     = "People wonder how I feel about getting constantly chewed on by zombies, What they don't realize is that with my limited senses all I can feel is a kind of tingling, like a relaxing back rub.";
         string  origin      = "PvZ 1";
 
         //tall-nut
             string  description = "Tall-nuts are heavy-duty wall plants that can't be vaulted or jumped over.";
             double  cost        = 100;
-            int     rech_time   = ;
+            //int     rech_time   = ;
             double  hp          = 160;
             string  projectile  = "";
-            string  attack_type = ;
-            double  ai          = ;
-            double  range       = ;
+            //string  attack_type = ;
+            //double  ai          = ;
+            //double  range       = ;
             string  special     = "Cannot be jumped over.";
             string  almanac     = "People wonder if there's a rivalry between Wall-nut and Tall-nut. Tall-nut laughs a rich baritone laugh. 'How could there be anything between us? We are brothers. If you knew what Wall-nut has done for me...' Tall-nut's voice trails off and he smiles knowingly.";
             string  origin      = "PvZ 1";
@@ -191,24 +191,24 @@
         //sweet_potato
             string  description = "Sweet Potatoes attract zombies from other lanes when they are close by.";
             double  cost        = 100;
-            int     rech_time   = ;
+            //int     rech_time   = ;
             double  hp          = 80;
             string  projectile  = "";
-            string  attack_type = ;
-            double  ai          = ;
-            double  range       = ;
+            //string  attack_type = ;
+            //double  ai          = ;
+            //double  range       = ;
             string  special     = "Attracts zombies in a 3x3 area centered on the tile in front of her into her lane.";
             string  almanac     = "Sweet Potato really is as sweet as she looks. Her favorite animal is the unicorn. Her favorite color is (and this is a direct quote) 'all the colors in the rainbow.' When she writes the letter 'i', she draws a little heart where the dot belongs. Frankly, if it were anyone else, this amount of syrup would be sickening. But on her, well, it just seems right.";
             string  origin      = "PvZ 2";
 
     //potato_mine
-        string description = "Potato Mines pack a powerful punch, but they need a while to arm themselves. You should plant them ahead of zombies. They will explode on contact."
+        string description = "Potato Mines pack a powerful punch, but they need a while to arm themselves. You should plant them ahead of zombies. They will explode on contact.";
         double  cost        = 25;
-        int     rech_time   = ;
+        //int     rech_time   = ;
         double  hp          = 6;
         string  projectile  = "potato_explosion";
         string  attack_type = explosion;
-        double  ai          = ;
+        //double  ai          = ;
         double  range       = tile;
         string  special     = "It needs to arm up. Can be eaten while arming up";
         string  almanac     = "Some folks say Potato Mine is lazy, that he leaves everything to the last minute. Potato Mine says nothing. He's too busy thinking about his investment strategy.";
@@ -217,11 +217,11 @@
         //hot_head
             string  description = "It packs an even more powerful punch. Instantly armed.";
             double  cost        = 50;
-            int     rech_time   = ;
+            //int     rech_time   = ;
             double  hp          = 6;
             string  projectile  = "hothead_explosion";
             string  attack_type = explosion;
-            double  ai          = ;
+            //double  ai          = ;
             double  range       = tile;
             string  special     = "";
             string  almanac     = "Sure, he has an explosive temper. But for the most part, he's pretty even peeled.";
@@ -230,11 +230,11 @@
         //levitater
             string  description = "Levitaters levitate random zombies";
             double  cost        = 150;
-            int     rech_time   = ;
+            //int     rech_time   = ;
             double  hp          = 6;
             string  projectile  = "";
             string  attack_type = random;
-            double  ai          = ;
+            //double  ai          = ;
             double  range       = garden;
             string  special     = "";
             string  almanac     = "'I'm a bit different from my other tater cousins,' explains Levitater. 'Chief among those differences, I'd say, is that I don't explode on contact, or at all. I stick around!'";

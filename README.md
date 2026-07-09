@@ -1,38 +1,39 @@
 # PvZ: Rogue Garden
 
-Welcome to **PvZ: Rogue Garden**, a Plants vs Zombies Unity fan game that ventures into the rogue-like. Drawing inspiration from various games in the Plants vs Zombies franchise, this project is a creative fusion, heavily rooted in the classic PvZ, while embracing elements from PvZ 2, Heroes, GW, GW2, BfN, Adventures, and even contributions from fellow fan games.
+Welcome to **PvZ: Rogue Garden**
 
-## Project Overview
+**PvZ: Rogue Garden** is a Plants vs Zombies fan game aiming to create a Roguelike experience in a PvZ-like tower defense gamepley loop, taking elements of inspiration from all around the PvZ franchise, but incorporating its own unique features.
 
-🌱 **Concept:**
-PvZ: Rogue Garden is a unique blend of the familiar and the new, crafting an exciting rogue-like experience that pays homage to the beloved Plants vs Zombies universe.
-In this innovative take, plants have evolutions, offering strategic choices for players. For instance, a Repeater can evolve into either a Threepeater or a Gatling Pea, allowing for diverse and personalized gameplay. Explore place-on fusions to create new plant variants. For instance, combining an Iceberg Lettuce with a Peashooter results in a chilling Snow Pea. Unleash your creativity and discover synergies between different plant species. Finally, channelling the spirit of the classic Plants vs Zombies, the game features upgrades reminiscent of PvZ1, encouraging players to experiment with combinations. Imagine combining two plants to create a formidable force, akin to the mighty Cob Cannon.
+## General Plans
 
-## Getting Started
+**PvZ: Rogue Garden** is planned to include a multitude of brand new features, most notavly:
 
-🎮 **No Prior Experience:**
-This project is a personal journey into the realms of game design and programming. As a novice with limited experience in Unity and C#, I'll be relying on tutorials and leveraging ChatGPT to bring this idea to life. If you're passionate about game development or just intrigued by the concept, consider joining the project!
+- The **mutations** system which will include evolutions and fusions.
+- A certain element of RNG in the plants available to the player, like many roguelike games.
+- Sudden ambushes and events, alongside a day-night and season cycle.
+- A wide cast of plants and zombies from all around the PvZ franchise, alongside the occasional brand new addition.
+- Multiple gardens to defend at once, with increasing difficulty and boss fights in an endless game loop.
+
 
 ## Disclaimer
 
-⚠️ **Learning Journey:**
-I want to be transparent—this project is a learning adventure for me. I have minimal experience in game design, programming (outside of HTML, Javascript, and Java basics), and art. With your support and collaboration, we'll navigate through the challenges, learn, and grow together.
+We're learning as we go - the Rogue Garden universe is our first major game development project and we have no real prior knowledge of coding, art and game design, animation and everything a video game might need.
 
-¯\\_(ツ)_/¯ **I Don't Know What I'm Doing:**
-All files I've used for the game development are on this page, constantly updated, including the Unity project. I don't even know if anyone can do anything with it. Anyway ⚠️ the PackageCache file under Library is missing because its files are too large for GitHub, so if you copy the whole repository, you may need to generate your own.
+This is a small passion project so don't expect much progress, but feedback and suggestions are greatly appreciated, so stay tuned for new updates. All the files we use will always be available on GitHub, so if you're intersted have a look and tell us what you think.
 
-## Join the Adventure!
+## Collaborations And Shout Outs
 
-🚀 **Calling All Enthusiasts:**
-If the idea of a rogue-like Plants vs Zombies Unity fan game intrigues you, and you're willing to contribute, share ideas, or provide guidance, your presence is more than welcome! Let's embark on this journey, experiment, and turn this passion project into something extraordinary.
+This game is done in collaboration with @L-PT-1463 - co-creator of _PvZ: Rogue Garden_. **PvZ PvZ Rogue Garden** exists as part of the Rogue Garden game universe, which has a unified artstyle and shares its original zombies and plants.
 
-🔧 **Tools Used**
+If you have any experience, interest or motivation, feel free to reach out and give feedback or offer help via the official discord server, GitHub or Youtube, all directly available from [AnJoMorto's linkTree](https://linktr.ee/anjomorto).
 
-- 🎮 **Game Development:** Unity
-- 🖌 **Art:** Clip Studio Paint
-- 🦴 **Animations:** Spriter
+_Our Other PvZ Fan Games_
+- [PvZ: Rogue Garden](https://github.com/AnJoMort0/pvz_rogue_garden) - The classic PvZ gameplay in a Roguelike experience.
+- [PvZ ZPG - The Zombie RPG](https://github.com/L-PT-1463/pvz_zombie_rpg) - A dungeon crawler RPG with turn-based fights where you play as the zombies.
+- [PvZ Clicker](https://github.com/AnJoMort0/pvz_clicker) - An idle clicker game to showcase the Rogue Garden art style.
 
-🌿 **Disclaimer (Again):**
-Remember, this is a hobby project, and perfection is not the goal. If you share the enthusiasm and want to learn and create alongside me, your insights and contributions will be invaluable.
+_Tools Used_
 
-Join in, have fun, and let's cultivate the Rogue Garden together! 🌻☀
+- **Game Development:** Godot
+- **Art:** Clip Studio Paint
+- **Early Development Mindmapping:** Obsidian

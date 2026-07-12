@@ -3,7 +3,7 @@
 Daytime affinity: #Ambivalent 
 Ground affinity: #Ground 
 
-Speciality: When a zombie enters in contact with it, it explodes to freeze it.
+Speciality: When a zombie enters in contact with it, Iceberg Lettuce explodes to freeze it.
 
 Mutations:
 - Evolution 1 - [[Snowdrop]]

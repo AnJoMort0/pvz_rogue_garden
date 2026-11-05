@@ -1,6 +1,6 @@
-- Finish tutorial at https://www.youtube.com/watch?v=xK2N7dKZqkw to have the base game (and a bit of knowledge) to then build upon (AnJoMorto)
-- Make the designs for the basic plants (AnJoMorto)
+- Very slowly learning Godot, trying to [make a simple PvZ clicker](https://github.com/AnJoMort0/pvz_clicker) (AnJoMorto)
+- Make the designs for the basic plants (L_PT)
 - Make the designs for the basic zombies (L_PT)
-- Make the animation sprites for the designed plants and Zombies (L_PT)
+- Make the animation sprites for the designed plants and Zombies (AnJoMorto)
 - Make logo design (to use in Thumbnails of future live streams when the base game is finished) (AnJoMorto)
-- Design the lawn
+- Design the lawn (L_PT)
